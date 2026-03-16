@@ -1,0 +1,470 @@
+[
+  {
+    "id": "dc1_001", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1", "domain": "Recherche & Évaluation de l'information",
+    "text": "Vous recherchez des informations sur un sujet complexe. Quel est l'avantage d'utiliser un moteur de recherche spécialisé plutôt qu'un moteur généraliste ?",
+    "options": ["Il affiche toujours plus de résultats", "Il est plus rapide à charger", "Il indexe des sources spécialisées et offre des filtres adaptés au domaine", "Il ne montre que des résultats récents"],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS1.1.06) : sélectionner des outils de recherche appropriés en fonction des besoins en information. Un moteur spécialisé (ex. PubMed pour la médecine, EUR-Lex pour le droit européen) indexe des sources expertes et permet des filtres pertinents.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_002", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1", "domain": "Recherche & Évaluation de l'information",
+    "text": "Lorsqu'un moteur de recherche propulsé par IA génère une réponse directe à votre question, quelle précaution s'impose avant de l'utiliser ?",
+    "options": ["Aucune, l'IA est toujours fiable", "Vérifier la réponse dans des sources primaires, car l'IA peut produire des informations incorrectes même si elles semblent plausibles", "Chercher la même réponse sur trois moteurs IA différents", "Accepter la réponse uniquement si elle est courte"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.10) : les systèmes d'IA peuvent produire des informations inexactes même si elles semblent plausibles. L'humain reste responsable de vérifier la qualité et la validité des informations générées par l'IA.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_003", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1", "domain": "Recherche & Évaluation de l'information",
+    "text": "Vous obtenez 5 000 résultats pour une recherche sur la politique climatique de l'UE. Quelle technique permet d'affiner efficacement les résultats ?",
+    "options": ["Ouvrir tous les résultats dans des onglets différents", "Utiliser des opérateurs de recherche avancée (guillemets, site:, filetype:) et des filtres de date", "Relancer la recherche avec exactement les mêmes mots-clés", "Utiliser uniquement Wikipedia comme première source"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.1.08) : traduire les besoins en information en requêtes de recherche efficaces et appliquer des stratégies appropriées pour affiner ou filtrer les résultats.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_004", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2", "domain": "Recherche & Évaluation de l'information",
+    "text": "Qu'est-ce qu'une 'bulle de filtre' (filter bubble) dans les environnements numériques ?",
+    "options": ["Un filtre anti-spam pour les emails", "Un phénomène où les algorithmes personnalisent le contenu au point que l'utilisateur n'est exposé qu'à des informations qui confirment ses opinions préexistantes", "Un outil de recherche avancée", "Une technique de chiffrement des données"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.05) : reconnaître les exemples d'influence des médias sociaux et de bulles de filtre. Les algorithmes de recommandation créent des chambres d'écho qui réduisent l'exposition à des points de vue diversifiés.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_005", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2", "domain": "Recherche & Évaluation de l'information",
+    "text": "Un article publié sur un site web ne mentionne aucune date, aucun auteur identifiable et ne cite aucune source. Comment qualifieriez-vous sa fiabilité ?",
+    "options": ["Très fiable, car l'anonymat garantit l'objectivité", "Potentiellement non fiable : l'absence d'auteur, de date et de sources citables rend l'évaluation de la crédibilité impossible", "Fiable si le site a une belle mise en page", "Fiable uniquement pour les sujets non scientifiques"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.06, CS1.2.13) : évaluer la crédibilité des sources numériques. L'identifiabilité de l'auteur, la date de publication et les sources citées sont des critères essentiels de fiabilité.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc1_006", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2", "domain": "Recherche & Évaluation de l'information",
+    "text": "Qu'est-ce que la 'désinformation' par opposition à la 'mésinformation' ?",
+    "options": ["Ce sont deux termes synonymes désignant la même chose", "La mésinformation est fausse mais propagée involontairement ; la désinformation est fausse et propagée délibérément pour tromper", "La désinformation est moins dangereuse car elle est toujours détectable", "La mésinformation concerne uniquement les données numériques"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.04) : reconnaître les exemples de mésinformation (fausse mais involontaire) et de désinformation (fausse et intentionnelle). Cette distinction est fondamentale pour la lutte contre l'infodémie.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_007", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2", "domain": "Recherche & Évaluation de l'information",
+    "text": "Pourquoi les données utilisées pour entraîner un système d'IA peuvent-elles affecter la fiabilité de ses résultats ?",
+    "options": ["Elles n'ont aucune incidence sur les résultats de l'IA", "Des données biaisées, incomplètes ou erronées produiront des résultats biaisés ou incorrects", "Plus les données sont nombreuses, plus l'IA est infaillible", "L'IA corrige automatiquement les biais dans ses données d'entraînement"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.08) : reconnaître que les données utilisées pour entraîner les systèmes d'IA et la manière dont ils sont entraînés affectent la fiabilité des informations qu'ils fournissent. Le principe 'garbage in, garbage out' s'applique.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_008", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2", "domain": "Recherche & Évaluation de l'information",
+    "text": "Qu'est-ce que le 'prebunking' (pré-démystification) dans la lutte contre la désinformation ?",
+    "options": ["Supprimer proactivement les contenus suspects avant leur publication", "Exposer les individus aux techniques de manipulation de l'information avant qu'ils y soient confrontés, afin de renforcer leur résistance", "Vérifier les faits après la publication d'une information fausse", "Bloquer les sources de désinformation connues"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.07) : identifier les services de vérification des faits pour développer des capacités de pre-bunking et de de-bunking. Le prebunking est une approche préventive qui immunise contre la manipulation en expliquant les techniques rhétoriques utilisées.",
+    "difficulty": 3
+  },
+  {
+    "id": "dc1_009", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3", "domain": "Recherche & Évaluation de l'information",
+    "text": "Quelle est la bonne pratique pour organiser des fichiers numériques dans un environnement professionnel ?",
+    "options": ["Sauvegarder tous les fichiers dans un seul dossier pour les retrouver facilement", "Utiliser des conventions de nommage cohérentes, une hiérarchie de dossiers logique et des sauvegardes régulières", "Nommer les fichiers uniquement par la date de création", "Conserver tous les fichiers sur le bureau du système"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.07, CS1.3.08) : appliquer des conventions de nommage aux fichiers numériques et des hiérarchies aux dossiers. Une organisation cohérente améliore la productivité et facilite la collaboration.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc1_010", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3", "domain": "Recherche & Évaluation de l'information",
+    "text": "Qu'est-ce que la 'sauvegarde 3-2-1' en gestion des données numériques ?",
+    "options": ["Sauvegarder 3 fois par semaine, 2 fois par mois et 1 fois par an", "Conserver 3 copies des données, sur 2 supports différents, dont 1 hors site", "Utiliser 3 logiciels de sauvegarde, 2 formats différents et 1 cloud", "Effectuer 3 vérifications, 2 compressions et 1 chiffrement"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.02) : reconnaître les fonctions de suppression, restauration et sauvegarde des données. La règle 3-2-1 est un standard professionnel de sécurité des données : 3 copies, 2 médias différents, 1 copie hors site (résiste aux sinistres).",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_011", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3", "domain": "Recherche & Évaluation de l'information",
+    "text": "Dans un tableur, quelle est la différence entre données 'brutes' et données 'traitées' ?",
+    "options": ["Il n'y a aucune différence pratique", "Les données brutes sont les données originales non modifiées ; les données traitées ont été nettoyées, transformées ou analysées pour en extraire de l'information", "Les données brutes sont toujours plus fiables que les données traitées", "Les données brutes ne peuvent être stockées que localement"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.09, CS1.3.11) : identifier les types communs de données et utiliser des outils de collecte pour le traitement simple des données. La distinction brut/traité est fondamentale dans toute démarche d'analyse.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc1_012", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3", "domain": "Recherche & Évaluation de l'information",
+    "text": "Qu'est-ce que l''open data' (données ouvertes) ?",
+    "options": ["Des données accessibles uniquement aux institutions publiques", "Des données rendues librement accessibles et réutilisables par tous, sans restriction de droits d'auteur ni de brevet", "Des données non protégées parce qu'elles ont été piratées", "Des données confidentielles partagées entre administrations européennes"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.14) : décrire des exemples, applications et limites des données ouvertes. L'open data est un pilier de la transparence gouvernementale et de l'innovation. La Commission européenne gère le portail data.europa.eu.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_001", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1", "domain": "Communication & Collaboration",
+    "text": "Vous utilisez un assistant virtuel IA pour traiter une demande complexe. Quelle approche optimise la qualité de la réponse ?",
+    "options": ["Poser une question très courte sans contexte", "Formuler des instructions précises et progressivement affinées (prompts), en fournissant le contexte nécessaire", "Répéter la même question jusqu'à obtenir une bonne réponse", "Utiliser exclusivement des questions fermées"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.1.10, CS2.1.14) : développer et affiner progressivement des questions, commandes ou énoncés (prompts) pour les systèmes d'IA. L'ingénierie des prompts est une compétence clé de l'ère IA.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_002", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1", "domain": "Communication & Collaboration",
+    "text": "Dans quelle situation est-il préférable d'utiliser un email plutôt qu'une messagerie instantanée pour une communication professionnelle ?",
+    "options": ["Jamais, la messagerie instantanée est toujours plus efficace", "Pour des communications formelles nécessitant une trace écrite, une pièce jointe ou un contenu structuré", "Pour des discussions rapides et informelles en temps réel", "Pour contacter des collègues dans le même bureau"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.1.08) : identifier un moyen de communication approprié pour un contexte ou un objectif donné. L'email convient aux communications formelles, officielles, ou nécessitant archivage. La messagerie instantanée est adaptée aux échanges rapides.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_003", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que le 'continuum réalité-virtualité' (reality-virtuality continuum) dans les technologies numériques ?",
+    "options": ["La différence entre internet haut débit et connexion lente", "Un spectre allant du monde physique entièrement réel à la réalité virtuelle entièrement immersive, avec des formes mixtes (réalité augmentée) entre les deux", "La distinction entre logiciel libre et logiciel propriétaire", "La différence entre stockage local et cloud"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.1.07) : reconnaître qu'il existe un continuum réalité-virtualité dans les environnements numériques. Ce concept englobe la réalité augmentée (AR), la réalité mixte (MR) et la réalité virtuelle (VR).",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_004", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2", "domain": "Communication & Collaboration",
+    "text": "Avant de partager un article sur les réseaux sociaux, quelle vérification est essentielle selon les bonnes pratiques numériques ?",
+    "options": ["Vérifier si l'article a beaucoup de 'likes'", "Vérifier la fiabilité de la source, l'exactitude des informations et les implications éthiques du partage", "Vérifier si l'article est récent, indépendamment de son contenu", "Partager immédiatement car toute information mérite d'être diffusée"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.2.07, CS2.2.08) : reconnaître l'importance d'évaluer la valeur et l'exactitude des informations avant de les partager, et définir les responsabilités associées au partage dans les environnements numériques.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_005", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2", "domain": "Communication & Collaboration",
+    "text": "Que doit faire un utilisateur s'il identifie de la désinformation sur une plateforme numérique ?",
+    "options": ["L'ignorer complètement", "La signaler à la plateforme en utilisant les outils de signalement disponibles", "La partager avec un commentaire critique pour la corriger", "Contacter directement la personne qui l'a publiée via message privé uniquement"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.2.10) : signaler ou marquer la mésinformation et la désinformation partagées dans les environnements numériques. Les plateformes ont l'obligation légale de traiter ces signalements (Digital Services Act).",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_006", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Le Règlement européen sur les marchés numériques (Digital Markets Act) vise principalement à :",
+    "options": ["Supprimer les droits d'auteur numériques dans l'UE", "Réguler les grandes plateformes numériques ('gatekeepers') pour garantir des marchés équitables et contestables", "Taxer toutes les transactions en ligne", "Créer un réseau social européen alternatif"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.08) : reconnaître les droits clés en vertu des lois et réglementations numériques pertinentes. Le DMA (2022) désigne les grandes plateformes comme 'contrôleurs d'accès' (gatekeepers) et leur impose des obligations spécifiques pour assurer la concurrence.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_007", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que la 'platforme économy' (économie de plateforme) et quelle en est une implication sociale majeure ?",
+    "options": ["L'économie de plateforme désigne uniquement le commerce en ligne entre entreprises", "L'économie de plateforme repose sur des plateformes numériques qui mettent en relation offreurs et demandeurs, avec des implications sur les droits des travailleurs et la concurrence", "L'économie de plateforme est régulée exclusivement par les États membres sans intervention de l'UE", "L'économie de plateforme ne génère aucune valeur économique mesurable"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.10) : décrire le concept d'économie de plateforme, incluant opportunités, risques, et implications sociales et éthiques. Les plateformes comme Uber, Amazon ou Airbnb soulèvent des questions sur le statut des travailleurs et la régulation.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_008", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Selon le Règlement européen sur l'IA (AI Act), quelle catégorie d'applications d'IA est totalement interdite dans l'UE ?",
+    "options": ["Les systèmes d'IA utilisés dans les jeux vidéo", "Les systèmes de notation sociale généralisée des citoyens par les autorités publiques, et les manipulations subconscientes", "Les assistants virtuels dans les applications mobiles", "Les outils d'IA générative comme les chatbots"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.16) : distinguer entre les systèmes d'IA à haut risque et interdits. L'AI Act (Règlement UE 2024/1689) interdit notamment les systèmes de scoring social, la manipulation comportementale subliminale, et l'identification biométrique en temps réel dans les espaces publics.",
+    "difficulty": 3
+  },
+  {
+    "id": "dc2_009", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que l'e-gouvernement (e-Government) ?",
+    "options": ["Un gouvernement géré entièrement par des algorithmes d'IA", "L'utilisation des technologies numériques par les administrations publiques pour améliorer les services aux citoyens et entreprises", "Un réseau social réservé aux fonctionnaires européens", "Un système de vote électronique obligatoire dans l'UE"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.11) : décrire les concepts et fonctions de la surveillance civique et de l'e-gouvernement. En 2024, 70% des adultes de l'UE qui utilisent Internet ont interagi numériquement avec des services publics.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_010", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4", "domain": "Communication & Collaboration",
+    "text": "Lors d'une collaboration en ligne, un collègue propose d'utiliser un outil de prise de notes automatique basé sur l'IA. Quelle est la question clé à se poser avant d'y consentir ?",
+    "options": ["Si l'outil est gratuit", "Quelles données seront enregistrées, comment elles seront utilisées, et si cela est proportionné aux besoins de la réunion", "Si l'outil fonctionnera sur tous les systèmes d'exploitation", "Si l'outil peut aussi retranscrire plusieurs langues"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.4.08) : assurer une utilisation proportionnée et éthique des technologies numériques et des processus de collaboration humain-IA. L'usage d'outils d'IA en réunion soulève des enjeux de confidentialité et de consentement des participants.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_011", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4", "domain": "Communication & Collaboration",
+    "text": "Quelle est la distinction entre un outil de collaboration synchrone et asynchrone ?",
+    "options": ["Les outils synchrones stockent les données en cloud ; les asynchrones en local", "Les outils synchrones permettent des échanges en temps réel (visioconférence) ; les outils asynchrones permettent des échanges décalés dans le temps (email, forum)", "Les outils synchrones sont toujours payants ; les asynchrones sont gratuits", "Il n'y a pas de différence fonctionnelle entre les deux types"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.4.05) : identifier les principales caractéristiques et fonctions d'une variété d'outils de collaboration. La distinction synchrone/asynchrone est fondamentale pour choisir le canal adapté au contexte de travail.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_012", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que le cyberharcèlement (cyberbullying) et comment se distingue-t-il du conflit ordinaire en ligne ?",
+    "options": ["Ce sont des termes synonymes désignant tout désaccord en ligne", "Le cyberharcèlement implique des comportements répétés, intentionnellement nuisibles, avec un déséquilibre de pouvoir, contrairement à un simple conflit entre pairs", "Le cyberharcèlement ne concerne que les mineurs", "Le cyberharcèlement est uniquement juridiquement pertinent dans les pays hors UE"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.5.10) : analyser les schémas d'abus envers des groupes spécifiques dans les environnements numériques et leurs impacts potentiels. Le cyberharcèlement se caractérise par la répétition, l'intention de nuire et l'asymétrie de pouvoir.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_013", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5", "domain": "Communication & Collaboration",
+    "text": "Dans un contexte professionnel européen, quel comportement en ligne peut avoir des conséquences juridiques ?",
+    "options": ["Écrire un email en lettres minuscules", "Partager des informations confidentielles d'un collègue sans son consentement, ou diffuser du contenu diffamatoire", "Utiliser des emoji dans une communication informelle", "Répondre à un email le week-end"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.5.03, CS2.5.09) : reconnaître que certains comportements dans les environnements numériques peuvent avoir des conséquences juridiques. La violation de la confidentialité, la diffamation et le harcèlement sont répréhensibles sous le droit européen.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_014", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que la 'netiquette' ?",
+    "options": ["Un protocole technique pour les connexions internet sécurisées", "L'ensemble des règles de bon comportement et de courtoisie dans les environnements numériques", "Un système de notation de la qualité des contenus en ligne", "Un logiciel de filtrage du contenu web"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.5.01, CS2.5.04) : reconnaître les différences de comportement verbal et non verbal dans les environnements numériques et non numériques. La netiquette couvre l'usage approprié du ton, des majuscules, des emoji, et le respect des règles de chaque communauté.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_015", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce qu'une 'empreinte numérique' (digital footprint) ?",
+    "options": ["Une signature électronique utilisée pour authentifier les documents", "L'ensemble des données laissées par un individu lors de ses activités en ligne, de manière active (publications) ou passive (cookies, historique)", "Le nombre de connexions effectuées depuis un appareil", "Un indicateur de la vitesse de connexion d'un utilisateur"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.5.04, CS2.6.08) : reconnaître le concept et les composantes d'une empreinte numérique, et identifier des exemples d'informations générées activement et passivement en relation avec l'identité numérique.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_016", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Communication & Collaboration",
+    "text": "Selon le RGPD, quel droit permet à un individu de demander la suppression de ses données personnelles ?",
+    "options": ["Le droit à la portabilité des données", "Le droit à l'effacement, également appelé 'droit à l'oubli'", "Le droit à la rectification", "Le droit d'opposition"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.6.12, CS4.2.10) : décrire les moyens d'exercer ses droits légaux sur les questions d'identité numérique. Le RGPD (Règlement UE 2016/679) garantit le droit à l'effacement (art. 17) qui permet de demander la suppression de données personnelles dans certaines conditions.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_017", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Communication & Collaboration",
+    "text": "Vous souhaitez gérer votre identité numérique professionnelle. Quelle action est la plus appropriée ?",
+    "options": ["Créer autant de profils professionnels que possible sur toutes les plateformes sans les mettre à jour", "Créer des profils cohérents et actualisés sur les plateformes pertinentes, contrôler les paramètres de confidentialité et surveiller régulièrement ses informations en ligne", "Ne jamais publier d'informations professionnelles en ligne pour protéger sa vie privée", "Utiliser un pseudonyme différent sur chaque plateforme"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.6.11, CS2.6.13) : gérer une ou plusieurs identités numériques en utilisant diverses fonctionnalités sur les plateformes et services numériques. La cohérence, la mise à jour et la maîtrise des paramètres de confidentialité sont des pratiques essentielles.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_018", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que l'authentification multi-facteurs (MFA/2FA) et pourquoi est-elle recommandée ?",
+    "options": ["Un système de sauvegarde de données sur plusieurs serveurs", "Un mécanisme de sécurité exigeant deux éléments de vérification distincts (ex. mot de passe + code SMS) pour confirmer l'identité d'un utilisateur, réduisant le risque de compromission de compte", "Un protocole de chiffrement des emails", "Un outil de gestion des mots de passe"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.6.06, CS4.1.04) : mettre en œuvre des mesures simples pour gérer l'identité numérique et appliquer des mesures de protection de base des appareils. La MFA réduit significativement le risque de piratage même si le mot de passe est compromis.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_019", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Le Règlement sur les Services Numériques (Digital Services Act, DSA) impose aux grandes plateformes une obligation principale qui est de :",
+    "options": ["Vendre leurs données d'utilisateurs à des chercheurs académiques", "Agir contre les contenus illicites et transparence accrue sur leurs algorithmes et publicités ciblées, sous peine de sanctions", "Partager leurs revenus publicitaires avec les États membres de l'UE", "Proposer une version sans algorithme de recommandation"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.08) : reconnaître les droits clés en vertu des lois et réglementations numériques. Le DSA (2022) oblige les grandes plateformes à lutter contre les contenus illicites, à être transparentes sur leurs algorithmes et à permettre aux chercheurs d'accéder à leurs données.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_020", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1", "domain": "Communication & Collaboration",
+    "text": "Quelle est la différence essentielle entre un robot physique et un agent logiciel (bot) ?",
+    "options": ["Les robots physiques sont toujours plus intelligents que les agents logiciels", "Un robot physique est une machine incarnée dans le monde réel qui interagit physiquement avec son environnement ; un bot est un programme logiciel qui automatise des tâches dans des environnements numériques", "Les agents logiciels ne peuvent pas utiliser l'IA", "Les robots physiques n'ont pas besoin de connexion internet"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.1.05, CS2.1.11) : reconnaître ce qu'est un robot, sa nature non humaine, et comment les humains interagissent avec les robots pour accomplir des tâches. La distinction robot physique/bot logiciel est fondamentale pour comprendre les différentes formes d'automatisation.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_021", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Comment les plateformes de médias sociaux peuvent-elles influencer les processus démocratiques ?",
+    "options": ["Elles n'ont aucune incidence sur la démocratie car elles sont des espaces privés", "En amplifiant la désinformation, en créant des chambres d'écho, en permettant la manipulation ciblée d'électeurs et en concentrant le pouvoir de modération chez quelques acteurs privés", "En garantissant une information toujours équilibrée grâce à leurs algorithmes", "En empêchant les partis politiques de communiquer directement avec les citoyens"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.09) : décrire comment les technologies numériques telles que les plateformes de médias sociaux peuvent influencer certains aspects de la démocratie. Ce sujet est central dans la régulation européenne (DSA, Code de bonnes pratiques contre la désinformation).",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_022", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2", "domain": "Communication & Collaboration",
+    "text": "Lorsque vous utilisez un système d'IA pour créer du contenu (texte, image), quelle obligation éthique vous incombe selon DigComp 3.0 et les réglementations en vigueur ?",
+    "options": ["Aucune obligation particulière, le contenu IA est libre de tout marquage", "Indiquer que le contenu a été généré par IA pour aider les autres à comprendre son origine et ses possibilités d'utilisation ultérieure", "Supprimer toute trace de l'utilisation de l'IA pour préserver l'image professionnelle", "Déposer une demande de brevet pour tout contenu IA créé"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.3.03) : reconnaître que le contenu généré par l'IA devrait être étiqueté comme tel pour aider les autres à comprendre son origine. Cette obligation de transparence est également présente dans l'AI Act européen.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_023", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que la 'co-création' dans les environnements numériques collaboratifs ?",
+    "options": ["La création d'un compte partagé entre plusieurs utilisateurs", "Un processus dans lequel plusieurs participants contribuent conjointement à la production de contenu, de ressources ou de connaissances via des outils numériques", "La duplication automatique d'un document sur plusieurs serveurs", "Un système de validation obligatoire avant publication"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.4.01, CS2.4.04) : participer à des groupes collaboratifs via des outils de collaboration numérique et créer, gérer et contribuer efficacement à des tâches collaboratives simples dans des environnements numériques.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_024", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5", "domain": "Communication & Collaboration",
+    "text": "Qu'entend-on par 'réputation numérique' (digital reputation) ?",
+    "options": ["La vitesse de chargement d'un site web personnel", "La perception que les autres ont d'un individu ou d'une organisation basée sur leur présence et leurs activités en ligne", "Le nombre de followers sur les réseaux sociaux", "La quantité de données personnelles stockées en ligne"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.5.05) : décrire la relation entre le comportement numérique et la réputation numérique. La réputation numérique est construite par les publications, commentaires, mentions et l'ensemble des traces laissées en ligne, et peut avoir des conséquences professionnelles.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc2_025", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "La Charte européenne des droits et principes numériques (2023) est organisée autour de six thèmes. Lequel des éléments suivants en fait partie ?",
+    "options": ["La tarification des services numériques", "La solidarité et l'inclusion numérique comme droit fondamental", "L'obligation pour tous les citoyens d'utiliser des services numériques publics", "La standardisation technique des appareils connectés"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (valeurs fondatrices, p.13) : les six thèmes de la Déclaration européenne sur les droits et principes numériques (2023) sont : les personnes au centre, solidarité et inclusion, liberté de choix, participation, sécurité et sûreté, durabilité. La solidarité numérique implique que tout le monde doit avoir accès à internet et aux compétences numériques.",
+    "difficulty": 3
+  },
+  {
+    "id": "dc2_026", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que l'usurpation d'identité numérique et comment peut-on s'en protéger ?",
+    "options": ["L'usurpation d'identité numérique n'est possible que sur les réseaux sociaux", "C'est l'acte de se faire passer pour quelqu'un d'autre en ligne en utilisant ses informations personnelles. On s'en protège par des mots de passe forts, l'authentification multi-facteurs et une surveillance de ses comptes", "C'est uniquement un problème pour les entreprises, pas les particuliers", "La meilleure protection est de ne créer aucun compte en ligne"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.6.03, CS4.2.08) : reconnaître l'identité numérique comme moyen d'authentification, et reconnaître et répondre de manière appropriée aux signes de vol d'identité. La protection passe par des mesures techniques et comportementales.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_027", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Selon le RGPD, qu'est-ce qu'une 'donnée personnelle' ?",
+    "options": ["Uniquement les informations identifiantes directes comme le nom et le prénom", "Toute information se rapportant à une personne physique identifiée ou identifiable, directement ou indirectement (incluant IP, cookies, identifiants en ligne)", "Uniquement les données sensibles comme la santé ou les opinions politiques", "Uniquement les données stockées sur des serveurs européens"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.10) : reconnaître les concepts clés liés à la protection des données et à la législation sur la vie privée. Selon le RGPD (art. 4), une donnée personnelle est toute information permettant d'identifier directement ou indirectement une personne, incluant les identifiants en ligne comme l'adresse IP.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_028", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Dans quel cas une organisation peut-elle traiter légalement des données personnelles sans le consentement explicite de la personne ?",
+    "options": ["Dans aucun cas, le consentement est toujours obligatoire", "Quand elle peut s'appuyer sur une autre base légale du RGPD : exécution d'un contrat, obligation légale, intérêts vitaux, mission d'intérêt public, ou intérêt légitime", "Quand les données sont anonymisées", "Quand les données sont stockées sur des serveurs sécurisés"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.10, CS4.2.12) : définir les concepts clés de la protection des données. Le RGPD prévoit 6 bases légales pour le traitement (art. 6) : consentement, contrat, obligation légale, intérêts vitaux, mission publique, intérêt légitime. Le consentement n'est qu'une option parmi six.",
+    "difficulty": 3
+  },
+  {
+    "id": "dc2_029", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2", "domain": "Communication & Collaboration",
+    "text": "Qu'implique le concept de 'propriété des données' dans l'économie numérique ?",
+    "options": ["Les données appartiennent toujours à celui qui les génère techniquement", "La question de qui contrôle, accède à et peut commercialiser les données est complexe et fait l'objet de débats juridiques, économiques et éthiques", "Les données en ligne n'appartiennent à personne car elles sont dans le cloud", "La propriété des données est définie uniformément dans toute l'UE par un règlement unique"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.2.08, CS4.2.13) : décrire les implications de confidentialité associées à l'utilisation de contenus partagés en ligne. La propriété des données est un enjeu central de l'économie numérique, abordé par le Data Act et le RGPD, mais toujours controversé.",
+    "difficulty": 3
+  },
+  {
+    "id": "dc2_030", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce qu'un 'deepfake' et pourquoi représente-t-il un défi pour la confiance numérique ?",
+    "options": ["Un type de logiciel malveillant qui vole les données bancaires", "Un contenu audiovisuel synthétique généré par IA qui imite de manière convaincante une personne réelle, pouvant servir à la désinformation, la manipulation ou l'atteinte à la réputation", "Un protocole de sécurité réseau avancé", "Une technique de compression d'images haute résolution"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.03, CS3.1.04) : reconnaître qu'il peut être difficile de distinguer entre le contenu généré par des humains et par des systèmes d'IA. Les deepfakes exploitent des modèles d'IA générative et posent des défis majeurs pour l'évaluation de la crédibilité des preuves visuelles.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_031", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que la 'portabilité des données' garantie par le RGPD ?",
+    "options": ["Le droit de stocker des données sur n'importe quel serveur dans le monde", "Le droit de recevoir ses données personnelles dans un format structuré et réutilisable, et de les transmettre à un autre responsable de traitement", "Le droit de copier n'importe quelle donnée présente sur internet", "L'obligation pour les entreprises de sauvegarder les données dans plusieurs pays"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.6.12, CS4.2.10) : décrire les moyens d'exercer ses droits légaux sur l'identité numérique. La portabilité des données (art. 20 RGPD) permet aux utilisateurs de récupérer leurs données dans un format lisible par machine et de les transférer à un concurrent, favorisant la concurrence.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_032", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Quelle est la définition d'un système d'IA 'à haut risque' selon l'AI Act européen ?",
+    "options": ["Tout système d'IA utilisé dans le secteur de la santé", "Un système d'IA utilisé dans des domaines critiques (recrutement, crédit, justice pénale, infrastructure critique, etc.) qui présente des risques significatifs pour la santé, la sécurité ou les droits fondamentaux", "Tout système d'IA connecté à internet", "Un système d'IA dont le coût de développement dépasse un million d'euros"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.16) : distinguer entre les systèmes d'IA à haut risque et interdits. L'AI Act classe les systèmes en fonction de leur risque. Les systèmes à haut risque (Annexe III) incluent les IA en biométrie, infrastructures critiques, éducation, emploi, services essentiels, justice.",
+    "difficulty": 3
+  },
+  {
+    "id": "dc2_033", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que le 'design persuasif' (deceptive design / dark patterns) dans les interfaces numériques ?",
+    "options": ["Une technique de design pour rendre les interfaces plus intuitives", "Des pratiques de conception qui manipulent les utilisateurs pour les amener à des actions qu'ils n'auraient pas choisies consciemment, comme s'abonner involontairement ou partager des données", "Un protocole de test d'interface utilisateur", "Un standard de design pour les applications mobiles"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.3.08, CS4.3.12) : identifier les impacts des designs trompeurs dans les environnements numériques et mettre en œuvre des stratégies pour se protéger contre eux. Les dark patterns sont maintenant visés par le DSA et le Règlement sur la protection des consommateurs.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_034", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que le 'droit à la déconnexion' dans le contexte numérique professionnel ?",
+    "options": ["Le droit de se déconnecter d'internet quand les factures ne sont pas payées", "Le droit des travailleurs de ne pas être joignables en dehors de leurs heures de travail via les outils numériques professionnels", "L'obligation pour les employeurs de fournir des appareils sans connexion internet", "Le droit de supprimer ses comptes sur toutes les plateformes"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.3.07) : reconnaître l'importance du droit de déconnexion de soi-même et des autres. Ce droit est reconnu dans plusieurs États membres et fait l'objet d'une directive européenne en discussion. Il protège l'équilibre travail-vie personnelle à l'ère numérique.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_035", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2", "domain": "Communication & Collaboration",
+    "text": "Quelle est l'approche la plus efficace pour vérifier si une image circulant en ligne est authentique ou manipulée ?",
+    "options": ["Faire confiance à la source qui l'a partagée si elle a beaucoup d'abonnés", "Utiliser la recherche d'image inversée (Google Images, TinEye), vérifier les métadonnées EXIF, et recouper avec des sources indépendantes", "Vérifier uniquement si l'image a été partagée par un compte vérifié", "Analyser la qualité de résolution de l'image"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.06, CS1.2.07) : évaluer la crédibilité et la fiabilité des sources et du contenu dans les environnements numériques. La recherche d'image inversée et la vérification des métadonnées sont des outils de fact-checking efficaces.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_036", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1", "domain": "Communication & Collaboration",
+    "text": "Dans quel cadre réglementaire européen l'accessibilité numérique est-elle désormais une obligation légale pour un large éventail de produits et services ?",
+    "options": ["Le Règlement général sur la protection des données (RGPD)", "La Loi européenne sur l'accessibilité (European Accessibility Act), applicable depuis 2025", "Le Digital Markets Act (DMA)", "La directive sur le droit d'auteur dans le marché unique numérique"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (p.12) : la Loi européenne sur l'accessibilité (2025) vise à améliorer le fonctionnement du marché intérieur pour les produits et services accessibles, y compris les ordinateurs, smartphones, services bancaires et e-commerce. Elle oblige à l'accessibilité pour les personnes handicapées.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_037", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que la 'surveillance civique' (civic monitoring) grâce aux outils numériques ?",
+    "options": ["Un système gouvernemental de surveillance des citoyens", "L'utilisation par les citoyens d'outils numériques pour surveiller, documenter et signaler des manquements dans les services publics ou pour suivre l'action des institutions", "Un réseau social réservé aux élus", "Un système de vote électronique sécurisé"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.11) : décrire les concepts et fonctions de la surveillance civique et de l'e-gouvernement. La surveillance civique numérique est un outil de participation démocratique, par exemple pour signaler des dégradations d'infrastructure ou suivre les votes parlementaires.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_038", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce qu'un 'cookie' et comment le RGPD encadre-t-il leur utilisation ?",
+    "options": ["Un fichier permettant de stocker des mots de passe de façon permanente, sans contrainte réglementaire", "Un fichier texte stocké sur l'appareil de l'utilisateur qui suit ses activités. Le RGPD et la directive ePrivacy exigent le consentement éclairé de l'utilisateur pour les cookies non essentiels", "Un virus informatique déguisé en fichier de configuration", "Un outil de compression de fichiers web"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.02, CS4.2.10) : reconnaître que des données personnelles sont collectées et générées via une large variété de sources. La directive ePrivacy et le RGPD encadrent strictement l'usage des cookies : seuls les cookies techniques strictement nécessaires peuvent être posés sans consentement.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_039", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4", "domain": "Communication & Collaboration",
+    "text": "Dans un projet collaboratif numérique, une IA est utilisée pour synthétiser les contributions de l'équipe. Quelle précaution s'impose ?",
+    "options": ["Faire entièrement confiance à la synthèse IA, qui est plus objective que les humains", "Vérifier la synthèse IA pour s'assurer qu'elle représente fidèlement toutes les contributions, sans distorsion ni omission importante", "Interdire l'usage de l'IA dans les projets collaboratifs", "Laisser l'IA décider quelle contribution garder"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.4.06, CS2.4.08) : identifier des exemples de collaboration humain-IA éthique et responsable. La supervision humaine est indispensable pour garantir que les synthèses IA sont fidèles, équitables et ne reproduisent pas de biais.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc2_040", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5", "domain": "Communication & Collaboration",
+    "text": "Qu'est-ce que le 'clickbait' et comment l'identifier ?",
+    "options": ["Un type d'attaque informatique par ingénierie sociale", "Du contenu conçu pour inciter au clic via des titres sensationnels ou trompeurs qui ne reflètent pas fidèlement le contenu réel de l'article", "Une technique de référencement naturel (SEO) légitime", "Un format de publicité en ligne réglementé par l'UE"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.12) : reconnaître et répondre efficacement aux stratégies orientant l'utilisateur dans les environnements numériques, telles que le clickbait, le nudging et la gamification. Le clickbait exploite la curiosité ou l'émotion pour générer des clics.",
+    "difficulty": 1
+  }
+]

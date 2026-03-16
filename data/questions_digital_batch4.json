@@ -1,0 +1,362 @@
+[
+  {
+    "id": "dca_001", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2", "domain": "RGPD - Approfondissement",
+    "text": "Qu'est-ce qu'un 'délégué à la protection des données' (DPO - Data Protection Officer) et quand sa désignation est-elle obligatoire ?",
+    "options": ["Un consultant externe que toute organisation peut choisir librement", "Un responsable dont la désignation est obligatoire pour les organismes publics, les organisations traitant à grande échelle des données sensibles ou effectuant un suivi systématique à grande échelle des individus", "Un avocat spécialisé en droit numérique requis pour toutes les PME", "Un représentant des salariés nommé lors de tout projet impliquant des données"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.10) : la désignation d'un DPO est obligatoire (art. 37 RGPD) pour : les organismes publics, les entreprises traitant à grande échelle des données sensibles, et celles effectuant un suivi systématique et à grande échelle des personnes. Le DPO est le point de contact avec les autorités de contrôle.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_002", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2", "domain": "RGPD - Approfondissement",
+    "text": "Qu'est-ce qu'une 'analyse d'impact relative à la protection des données' (AIPD / DPIA) et dans quel cas est-elle obligatoire ?",
+    "options": ["Un audit financier annuel pour les entreprises du secteur numérique", "Une évaluation préalable obligatoire des risques pour les droits des personnes lorsqu'un traitement est susceptible d'engendrer un risque élevé (profilage, données sensibles à grande échelle, surveillance systématique)", "Un rapport annuel à soumettre à la CNIL pour toute organisation", "Une étude de marché sur l'utilisation des données personnelles"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.15, CS4.2.16) : l'art. 35 RGPD impose une DPIA avant tout traitement susceptible d'engendrer un risque élevé pour les droits des personnes. Les cas typiques : profilage systématique, traitements à grande échelle de données sensibles, surveillance d'espaces publics.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_003", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2", "domain": "RGPD - Approfondissement",
+    "text": "Qu'est-ce que le 'consentement éclairé' selon le RGPD et quelles sont ses conditions de validité ?",
+    "options": ["Une case pré-cochée sur un formulaire d'inscription en ligne", "Un accord libre, spécifique, éclairé et univoque, donné par un acte positif clair (pas de case pré-cochée), révocable à tout moment et distinct des autres conditions générales", "Un accord verbal suffisant pour tout traitement de données personnelles", "Un consentement valable une fois pour toutes les utilisations futures des données"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.10) : le consentement RGPD (art. 4(11) et 7) doit être LIBRE (sans contrainte), SPÉCIFIQUE (pour chaque finalité), ÉCLAIRÉ (information complète), et UNIVOQUE (acte positif clair). Il doit pouvoir être retiré aussi facilement qu'il a été donné.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_004", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2", "domain": "RGPD - Approfondissement",
+    "text": "Qu'est-ce que le transfert de données personnelles vers des pays tiers et quelles conditions s'appliquent selon le RGPD ?",
+    "options": ["Il est toujours interdit de transférer des données hors de l'UE", "Les transferts vers des pays tiers sont autorisés uniquement si des garanties appropriées existent : décision d'adéquation de la Commission, clauses contractuelles types, ou règles d'entreprise contraignantes", "Le transfert est autorisé pour tout pays ayant signé un accord commercial avec l'UE", "Les données peuvent être librement transférées si elles sont chiffrées"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.15) : le chapitre V RGPD encadre strictement les transferts internationaux. La Commission européenne a émis des décisions d'adéquation pour certains pays (ex. Japon, Royaume-Uni). Pour les États-Unis, le EU-US Data Privacy Framework (2023) est la base actuelle.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_005", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1", "domain": "Cybersécurité avancée",
+    "text": "Qu'est-ce qu'une attaque par 'déni de service distribué' (DDoS) et comment les organisations s'en protègent-elles ?",
+    "options": ["Une attaque qui vole des données en les distribuant sur plusieurs serveurs", "Une attaque qui submerge un serveur ou réseau cible avec un flux massif de trafic provenant de nombreuses sources (botnet) pour le rendre indisponible. Protection : filtrage du trafic, CDN, plans de continuité d'activité", "Un type d'attaque interne par des employés malveillants", "Une technique de cryptominage non autorisé sur les serveurs d'une organisation"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.06, CS4.1.10) : identifier des exemples d'utilisation des technologies récentes dans les cyberattaques. Les DDoS peuvent paralyser des infrastructures critiques. La directive NIS2 (2022) impose des mesures de résilience aux opérateurs d'infrastructures critiques européens.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_006", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1", "domain": "Cybersécurité avancée",
+    "text": "Qu'est-ce que la directive NIS2 (Network and Information Security) et qui concerne-t-elle ?",
+    "options": ["Une directive sur la neutralité des réseaux internet dans l'UE", "Une directive européenne qui impose des obligations de cybersécurité renforcées aux entités essentielles et importantes (énergie, transport, santé, eau, infrastructure numérique, administrations publiques) et leurs fournisseurs", "Une norme technique pour les protocoles réseau", "Un accord de coopération entre les polices nationales européennes"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.09) : décrire les droits clés des individus dans la législation sur la cybersécurité. La directive NIS2 (2022, transposée en 2024) élargit significativement le champ d'application par rapport à NIS1, avec des obligations de gestion des risques, notification des incidents et responsabilité des dirigeants.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_007", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1", "domain": "Technologies avancées - Cloud & IoT",
+    "text": "Quels sont les trois modèles principaux de services cloud et leurs caractéristiques ?",
+    "options": ["Public, privé et hybride", "IaaS (Infrastructure as a Service), PaaS (Platform as a Service) et SaaS (Software as a Service), chacun offrant différents niveaux de contrôle et de responsabilité au client", "Local, national et international", "Gratuit, payant et entreprise"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.08, CS5.1.02) : les trois modèles cloud diffèrent par le niveau de gestion délégué au fournisseur : IaaS (infrastructure virtualisée), PaaS (plateforme de développement), SaaS (application en ligne). La responsabilité partagée ('shared responsibility model') définit les obligations de chaque partie.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_008", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2", "domain": "Technologies avancées - Cloud & IoT",
+    "text": "Quels risques spécifiques en matière de protection des données pose l'utilisation d'appareils connectés (IoT) dans un cadre professionnel ?",
+    "options": ["Aucun risque particulier si les appareils sont de marque reconnue", "Collecte massive de données souvent non transparente, sécurité intrinsèque souvent faible, surface d'attaque élargie, difficulté à mettre à jour les firmwares, et questions sur la localisation des données stockées", "Uniquement des risques liés à la consommation d'énergie", "Des risques uniquement si les appareils sont connectés à internet"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.02, CS4.2.04) : identifier les risques liés au partage de données personnelles dans les environnements numériques. L'IoT pose des défis spécifiques de sécurité et de vie privée, adressés par le Cyber Resilience Act et le RGPD.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_009", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4", "domain": "Technologies avancées - IA spécialisée",
+    "text": "Qu'est-ce que le 'deep learning' et en quoi se distingue-t-il du machine learning classique ?",
+    "options": ["Le deep learning est identique au machine learning", "Le deep learning est un sous-ensemble du machine learning qui utilise des réseaux de neurones artificiels avec de nombreuses couches ('deep') pour apprendre automatiquement des représentations de données complexes", "Le deep learning ne peut fonctionner que sur des données textuelles", "Le deep learning est une technique de sécurité pour les mots de passe"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.4.09, CS3.4.15) : les réseaux de neurones profonds (deep learning) sont à la base des applications d'IA générative (LLMs, Stable Diffusion). Ils se distinguent par leur capacité à apprendre automatiquement des représentations hiérarchiques complexes à partir de grandes quantités de données.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_010", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4", "domain": "Technologies avancées - IA spécialisée",
+    "text": "Qu'est-ce qu'un 'modèle de fondation' (foundation model) en IA et pourquoi est-il important ?",
+    "options": ["Un algorithme mathématique de base utilisé dans toutes les IA", "Un grand modèle d'IA entraîné sur de vastes quantités de données qui peut être adapté à de nombreuses tâches spécifiques (comme GPT, Gemini, Claude, Llama), réduisant le coût de développement d'applications IA", "Le premier modèle d'IA historiquement créé", "Un modèle d'IA utilisé uniquement pour les applications financières"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.6, CS3.4.15) : les modèles de fondation représentent un changement de paradigme dans le développement IA. L'AI Act contient des dispositions spécifiques pour les fournisseurs de modèles à usage général (GPAI models), imposant des obligations de transparence.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_011", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Technologies avancées - IA spécialisée",
+    "text": "Qu'est-ce que la 'hallucination' d'un système d'IA générative et quelles en sont les implications pratiques ?",
+    "options": ["Des erreurs de calcul mathématique dans les modèles d'IA", "La tendance des modèles d'IA générative à produire des informations factuellement incorrectes mais formulées avec confiance, ce qui impose une vérification humaine systématique avant tout usage", "Un problème de mémoire des serveurs qui hébergent les modèles d'IA", "Un effet visuel indésirable dans les images générées par IA"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.10) : les systèmes d'IA peuvent produire des sorties inexactes même si elles semblent plausibles. Les hallucinations sont particulièrement dangereuses dans des contextes professionnels (informations juridiques, médicales, scientifiques) où la précision est critique.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_012", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.4", "domain": "Impact environnemental du numérique",
+    "text": "Quel est l'impact environnemental estimé de l'entraînement d'un grand modèle d'IA générative ?",
+    "options": ["L'entraînement d'IA ne consomme pas d'énergie significative", "L'entraînement de grands modèles peut générer des centaines de tonnes équivalent CO₂, consommant autant d'électricité que des milliers de foyers pendant un an, en plus de nécessiter de l'eau pour refroidir les serveurs", "L'impact est compensé automatiquement par les certifications environnementales des datacenter", "L'impact est uniquement lié aux déplacements des ingénieurs qui développent l'IA"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.4.02, CS4.4.07) : reconnaître que certaines technologies numériques comme les systèmes d'IA ont d'importants impacts environnementaux. L'entraînement d'un LLM comme GPT-4 consomme des centaines de MWh et génère des centaines de tonnes de CO₂. C'est un enjeu croissant de durabilité du numérique.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_013", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6", "domain": "Identité numérique - avancé",
+    "text": "Qu'est-ce que l'identité numérique européenne (European Digital Identity - eID) proposée par la Commission et quels sont ses objectifs ?",
+    "options": ["Un réseau social européen remplaçant Facebook et LinkedIn", "Un portefeuille d'identité numérique européen permettant aux citoyens de s'identifier en ligne et d'accéder à des services publics et privés dans toute l'UE de manière sécurisée, sans avoir à s'identifier via des plateformes privées", "Un système de carte d'identité électronique remplaçant les documents physiques", "Un programme d'authentification réservé aux fonctionnaires européens"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.6.03, CS2.6.12) : le règlement eIDAS révisé (2024) crée le cadre pour le portefeuille européen d'identité numérique (EUDIW). Il permettra à tout citoyen de l'UE de s'identifier en ligne, de partager des attributs vérifiés (diplômes, permis de conduire) et de signer des documents électroniques.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_014", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4", "domain": "Pensée computationnelle - avancé",
+    "text": "Qu'est-ce que la 'décomposition' en développement logiciel et comment se manifeste-t-elle dans les architectures modernes ?",
+    "options": ["La décomposition est une erreur à éviter dans le développement logiciel", "La décomposition consiste à diviser un système complexe en modules plus petits et gérables, visible dans l'architecture microservices où chaque fonction est un service indépendant", "Un processus de compression du code source", "La séparation des données et des algorithmes dans les bases de données"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.4.07) : la décomposition est un principe fondamental de la pensée computationnelle. L'architecture microservices est une application directe de ce principe : chaque service est indépendant, déployable séparément, facilitant la maintenance et l'évolutivité.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_015", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2", "domain": "Évaluation de l'information - avancé",
+    "text": "Qu'est-ce que le 'lateral reading' (lecture latérale) comme technique de vérification d'une source ?",
+    "options": ["Lire un article de gauche à droite plutôt que de haut en bas", "Ouvrir d'autres onglets pour rechercher ce que d'autres sources disent sur la source que l'on évalue, plutôt que de rester sur le site lui-même", "Lire l'article dans sa langue originale avant la traduction", "Comparer deux articles du même auteur publiés à différentes dates"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.07, CS1.2.13) : identifier et évaluer les sources de manière critique. Le lateral reading est la technique utilisée par les fact-checkers professionnels : quitter immédiatement le site suspect pour chercher ce que d'autres disent de cette source, plutôt que se laisser convaincre par son propre contenu.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_016", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Droit numérique - avancé",
+    "text": "Qu'est-ce que le Règlement sur les données (Data Act) européen entré en vigueur en 2024 ?",
+    "options": ["Le règlement qui a créé le RGPD", "Un règlement qui établit des règles harmonisées sur l'accès et l'utilisation des données générées par les objets connectés et les services connexes, et qui renforce les droits des utilisateurs sur leurs données IoT", "Un règlement sur la protection des données personnelles dans le secteur bancaire", "Un accord bilatéral sur le partage de données entre l'UE et les États-Unis"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.08) : le Data Act (2024) complète le RGPD en s'appliquant aux données non personnelles générées par les objets connectés. Il donne aux utilisateurs le droit d'accéder aux données générées par leurs appareils IoT et de les partager avec des tiers.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_017", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1", "domain": "Cybersécurité avancée",
+    "text": "Qu'est-ce que le 'Zero Trust' en architecture de sécurité informatique ?",
+    "options": ["Un modèle qui fait confiance à tous les utilisateurs internes à l'organisation", "Un modèle de sécurité qui suppose qu'aucun utilisateur, appareil ou réseau ne doit être considéré comme fiable par défaut, même à l'intérieur du périmètre d'entreprise, et exige une vérification continue", "Un protocole réseau pour les connexions non authentifiées", "Un standard de chiffrement des communications sans confiance"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.08) : priorité à la vérification et mise à jour régulière des mesures de cybersécurité. Le Zero Trust est devenu le standard de facto après la multiplication des attaques internes et la généralisation du télétravail. Il repose sur le principe 'ne jamais faire confiance, toujours vérifier'.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_018", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.2", "domain": "Création de contenu - avancé",
+    "text": "Qu'est-ce que les métadonnées d'un fichier numérique et pourquoi leur gestion est-elle importante pour la vie privée ?",
+    "options": ["Les métadonnées sont le contenu principal du fichier", "Des données sur les données : informations sur la création, modification, auteur, localisation GPS d'une photo, etc. Une image peut révéler des informations sensibles (localisation, appareil) même si son contenu semble anodin", "Le mot de passe qui protège un fichier", "Les informations de copyright intégrées dans un fichier"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.02, CS4.2.02) : les métadonnées (EXIF pour les photos, propriétés pour les documents Word) peuvent révéler des informations non intentionnelles. Des journalistes ont été identifiés et mis en danger par les métadonnées GPS de leurs photos. Supprimer les métadonnées sensibles est une pratique de protection de la vie privée.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_019", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1", "domain": "Technologies émergentes",
+    "text": "Qu'est-ce que le 'métavers' et quelles sont les questions éthiques et de vie privée qu'il soulève ?",
+    "options": ["Un nouveau système d'exploitation pour réalité augmentée", "Un espace virtuel immersif et persistant accessible via des technologies XR (VR/AR) qui soulève des questions sur la collecte massive de données biométriques et comportementales, l'identité numérique, la propriété virtuelle et les risques d'addiction", "Une plateforme de jeu en ligne réservée aux mineurs", "Un protocole de communication sécurisé pour les transactions financières"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.1.07, CS4.2.02) : reconnaître qu'il existe un continuum réalité-virtualité dans les environnements numériques. Le métavers collecte des données biométriques (mouvements oculaires, expressions faciales) qui soulèvent des défis majeurs pour la protection des données personnelles.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_020", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.3", "domain": "Propriété intellectuelle - avancé",
+    "text": "Qu'est-ce que le 'fair use' ou 'exception d'utilisation équitable' et existe-t-il un équivalent en droit européen ?",
+    "options": ["C'est le même concept dans tous les pays du monde", "Le fair use est un concept américain permettant l'utilisation non autorisée d'œuvres protégées dans certains cas. En droit européen, des exceptions spécifiques existent (citation, parodie, enseignement, recherche) mais le système est plus restrictif et moins flexible", "Le fair use s'applique uniquement aux œuvres de plus de 50 ans", "La directive européenne sur le droit d'auteur interdit toute exception"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.3.11, CS3.3.12) : décrire les principales caractéristiques de la législation sur le copyright numérique. La directive DASM (2019) harmonise certaines exceptions dans l'UE (text and data mining, éducation, contenu généré par les utilisateurs) mais reste différente du fair use américain.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_021", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2", "domain": "RGPD - Approfondissement",
+    "text": "Qu'est-ce que la pseudonymisation des données et comment se distingue-t-elle de l'anonymisation ?",
+    "options": ["Ce sont des synonymes désignant la même technique", "La pseudonymisation remplace les identifiants directs par des pseudonymes, permettant une ré-identification avec une clé de correspondance (toujours des données personnelles). L'anonymisation supprime irrémédiablement tout lien avec la personne (n'est plus une donnée personnelle)", "La pseudonymisation est plus sécurisée que l'anonymisation", "L'anonymisation est toujours préférable pour les études médicales"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.10) : le RGPD encourage la pseudonymisation comme mesure de sécurité (art. 25, 89) mais elle reste dans le champ du RGPD. L'anonymisation véritable (irréversible) sort du champ du RGPD mais est difficile à garantir techniquement avec les données complexes.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_022", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.2", "domain": "Accessibilité numérique",
+    "text": "Que sont les WCAG (Web Content Accessibility Guidelines) et à quel niveau une organisation publique européenne doit-elle se conformer ?",
+    "options": ["Des recommandations optionnelles de design web", "Les normes internationales définissant comment rendre le contenu web accessible aux personnes handicapées, organisées en 3 niveaux (A, AA, AAA). Les sites publics européens doivent atteindre au minimum le niveau AA selon la directive sur l'accessibilité web (2016)", "Un standard de sécurité pour les sites gouvernementaux", "Une certification de qualité pour les développeurs web"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.1.02, CS5.2.09) : la directive UE 2016/2102 impose aux organismes publics la conformité WCAG 2.1 niveau AA. La Loi européenne sur l'accessibilité (2025) étend ces obligations au secteur privé pour certains produits et services.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_023", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3", "domain": "Gestion des données - avancé",
+    "text": "Qu'est-ce que l'architecture de données 'data lake' et en quoi diffère-t-elle d'un entrepôt de données traditionnel ?",
+    "options": ["Ce sont deux termes pour le même concept", "Un data lake stocke les données brutes dans leur format natif (structurées et non structurées), offrant une flexibilité maximale. Un entrepôt de données (data warehouse) stocke des données structurées pré-traitées pour les analyses courantes", "Un data lake est exclusivement utilisé pour les données IoT", "Un entrepôt de données est toujours plus sécurisé qu'un data lake"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.14, CS1.3.15) : décrire des exemples d'applications du big data. La distinction data lake/data warehouse est fondamentale dans l'architecture des données d'entreprise. Les data lakes permettent l'exploration et l'analyse exploratoire (data science, IA), les warehouses les rapports structurés.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_024", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Politiques européennes numériques",
+    "text": "Qu'est-ce que la stratégie européenne pour les données ('European Data Strategy') adoptée en 2020 ?",
+    "options": ["Un plan de stockage de toutes les données européennes sur des serveurs publics", "Une vision politique visant à créer un marché unique des données dans l'UE, permettant la libre circulation des données entre pays et secteurs, tout en maintenant les droits des individus et la confiance", "Un accord sur la surveillance numérique entre États membres", "Un programme de subvention pour les start-ups de la donnée"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.08) : la stratégie européenne pour les données est le cadre politique qui a généré le Data Act, le Data Governance Act et les espaces européens de données sectoriels (santé, agriculture, mobilité...). Elle vise à faire de l'UE un leader mondial de l'économie des données.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_025", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.3", "domain": "Bien-être numérique - avancé",
+    "text": "Qu'est-ce que la 'charge cognitive numérique' (digital cognitive overload) et comment peut-on la gérer ?",
+    "options": ["La consommation électrique des appareils numériques", "L'état de surcharge mentale causé par un excès d'informations, de notifications et de sollicitations numériques. Gestion : notifications sélectives, plages sans écran, outil de gestion de l'attention, priorisation des tâches", "Un bug informatique qui ralentit le traitement des données", "La difficulté à apprendre de nouveaux outils numériques"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.3.06, CS4.3.07) : évaluer ses habitudes numériques en relation avec son bien-être et reconnaître l'importance de l'équilibre entre activités numériques et hors ligne. La surcharge cognitive est reconnue comme un risque professionnel émergent.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_026", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.1", "domain": "Création de contenu - pratique",
+    "text": "Qu'est-ce qu'un 'format ouvert' de document (comme ODF ou EPUB) et pourquoi est-il préférable dans les administrations publiques ?",
+    "options": ["Un format de document non protégé par mot de passe", "Un format dont les spécifications sont publiquement accessibles et non contrôlées par une entreprise unique, garantissant l'interopérabilité à long terme, l'indépendance technologique et la préservation des archives", "Un format de document uniquement compatible avec Linux", "Un standard de format de fichier créé par l'ONU"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.1.03) : les institutions européennes sont encouragées à utiliser des formats ouverts (ODF pour les documents, PDF/A pour les archives) pour garantir l'accessibilité à long terme des documents publics et éviter la dépendance envers des fournisseurs propriétaires.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_027", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4", "domain": "Collaboration numérique",
+    "text": "Qu'est-ce que le 'contrôle de version' (version control) dans le travail collaboratif numérique ?",
+    "options": ["Le processus de mise à jour automatique des logiciels", "Un système qui enregistre les modifications apportées à un ensemble de fichiers au fil du temps, permettant de rappeler des versions antérieures, de suivre qui a fait quoi et de fusionner les contributions parallèles", "La hiérarchie d'autorisation pour accéder à des documents partagés", "Un outil d'authentification pour les plateformes collaboratives"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.4.04, CS1.3.08) : créer, gérer et contribuer efficacement à des tâches collaboratives dans des environnements numériques. Git est le système de contrôle de version le plus utilisé. La gestion des versions évite la perte de travail et facilite la collaboration asynchrone.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_028", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3", "domain": "Innovation numérique",
+    "text": "Qu'est-ce que le 'design thinking' et comment s'articule-t-il avec les compétences numériques ?",
+    "options": ["Une méthode de création d'interfaces graphiques", "Une méthode de résolution de problèmes centrée sur l'utilisateur qui combine empathie, définition du problème, idéation, prototypage et test. Elle guide l'utilisation des technologies numériques pour résoudre des problèmes réels", "Un outil de gestion de projet réservé aux équipes techniques", "Le processus de design des appareils électroniques"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.3.04, CS5.3.06) : le design thinking est aligné avec l'approche centrée sur l'humain de DigComp 3.0. Dans les institutions européennes, il est utilisé pour concevoir des services numériques publics plus accessibles et efficaces.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_029", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2", "domain": "Intelligence artificielle - évaluation",
+    "text": "Comment peut-on évaluer la fiabilité d'une information produite par un chatbot IA ?",
+    "options": ["En vérifiant si le chatbot est certifié par une institution reconnue", "En vérifiant les affirmations dans des sources primaires indépendantes, en cherchant des références ou citations cités par le chatbot, et en étant particulièrement vigilant pour des informations récentes ou très spécifiques", "En demandant au chatbot de confirmer ses propres affirmations", "En vérifiant si le chatbot répond rapidement (signe de fiabilité)"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.10, CS1.2.13) : l'évaluation des réponses des chatbots IA nécessite les mêmes compétences d'évaluation critique que pour toute source numérique. Les chatbots peuvent produire des 'hallucinations' convaincantes, particulièrement sur des sujets récents ou très spécialisés.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_030", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1", "domain": "Cybersécurité - pratique",
+    "text": "Qu'est-ce que la 'gestion des identités et des accès' (IAM - Identity and Access Management) et pourquoi est-elle critique ?",
+    "options": ["Un service de création de comptes utilisateurs", "Un cadre de politiques et technologies qui contrôle qui peut accéder à quelles ressources dans une organisation, basé sur le principe du moindre privilège, essential pour prévenir les violations de données et les abus d'accès", "Un outil de sauvegarde des mots de passe", "Un protocole de connexion unique (SSO) pour les applications cloud"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.04, CS4.2.06) : le principe du moindre privilège (chaque utilisateur n'a accès qu'aux ressources strictement nécessaires) est fondamental en cybersécurité. La gestion des droits d'accès est une exigence de NIS2 et un pilier de la cybersécurité institutionnelle.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_031", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5", "domain": "Comportement numérique - avancé",
+    "text": "Qu'est-ce que la 'polarisation en ligne' et quel est son impact sur le débat démocratique ?",
+    "options": ["Une panne technique des serveurs des plateformes sociales", "Un phénomène par lequel les interactions en ligne tendent à radicaliser les positions, à réduire la tolérance aux opinions contraires et à fragmenter la société en communautés hermétiques, affaiblissant le consensus démocratique", "La différence de vitesse internet entre zones urbaines et rurales", "Un type d'attaque informatique ciblant les partis politiques"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.09, CS2.5.10) : les algorithmes de recommandation amplifient le contenu polarisant. Le DSA impose aux grandes plateformes de conduire des évaluations des risques systémiques, dont la polarisation et les processus démocratiques.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_032", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4", "domain": "Pensée computationnelle - application",
+    "text": "Un algorithme de tri d'une liste de noms doit être développé. Quelle approche illustre la pensée computationnelle ?",
+    "options": ["Taper les noms manuellement dans l'ordre alphabétique", "Décomposer le problème (comparer paires de noms, définir l'ordre), reconnaître le motif (comparaison répétée), abstraction (ignorer le contenu, se concentrer sur l'ordre alphabétique), puis concevoir l'algorithme de tri", "Demander à un utilisateur humain de trier la liste", "Utiliser un tableur pour trier automatiquement"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.4.07, CS3.4.11) : les quatre étapes de la pensée computationnelle (décomposition, reconnaissance de motifs, abstraction, conception d'algorithme) s'appliquent ici. C'est cette pensée structurée qui permet de créer des solutions automatisées reproductibles.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_033", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2", "domain": "Vie privée - pratique avancée",
+    "text": "Qu'est-ce que la 'navigation privée' (mode incognito) permet réellement de protéger et quelles sont ses limites ?",
+    "options": ["Elle protège toutes les données personnelles et rend l'utilisateur totalement anonyme", "Elle efface l'historique local, les cookies et les données de formulaire sur l'appareil. Elle ne cache PAS l'adresse IP à l'employeur, au fournisseur internet ou aux sites visités, et n'empêche pas les traceurs tiers", "Elle chiffre toutes les communications internet", "Elle empêche tout téléchargement de logiciels malveillants"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.6.06, CS4.2.15) : mettre en œuvre des mesures simples pour gérer l'identité numérique et protéger la vie privée. Le mode incognito offre une protection limitée contre la surveillance locale, mais ne confère pas d'anonymat en ligne — une idée reçue très répandue.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_034", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4", "domain": "Compétences numériques - auto-évaluation",
+    "text": "Qu'est-ce que le 'syndrome de l'imposteur numérique' et comment peut-on y remédier ?",
+    "options": ["Un virus informatique qui vole l'identité numérique", "Le sentiment d'être insuffisamment compétent dans les outils numériques malgré une maîtrise réelle, souvent lié à l'évolution rapide des technologies. Remède : évaluation objective de ses compétences, apprentissage continu ciblé sur ses lacunes réelles", "Une tentative de fraude en ligne utilisant une fausse identité", "La difficulté à passer d'une plateforme numérique à une autre"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.4.05) : évaluer avec précision ses propres compétences numériques et ses besoins. La capacité d'auto-évaluation réaliste est une compétence de niveau avancé dans DigComp, permettant de cibler efficacement son développement professionnel.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_035", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2", "domain": "Communication numérique - avancé",
+    "text": "Qu'est-ce que la 'communication assertive' en ligne et comment se distingue-t-elle de la communication agressive ou passive ?",
+    "options": ["La communication assertive est synonyme de communication directe et parfois brutale", "La communication assertive exprime clairement ses opinions, besoins et limites, en respectant ceux des autres, sans être ni agressive (imposer), ni passive (se soumettre). En ligne, elle est adaptée au contexte et au canal", "La communication assertive n'est applicable qu'en communication orale, pas écrite", "La communication assertive en ligne consiste à toujours avoir le dernier mot"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.5.08) : répondre avec une communication et un comportement efficaces et respectueux face à des situations difficiles ou complexes dans les environnements numériques. L'assertivité numérique est une compétence clé pour maintenir des relations professionnelles saines.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_036", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3", "domain": "Gestion de l'information - avancé",
+    "text": "Qu'est-ce que la 'gouvernance des données' dans une organisation et pourquoi est-elle essentielle ?",
+    "options": ["Le département informatique responsable des serveurs", "L'ensemble des politiques, processus, standards et responsabilités qui régissent la collecte, le stockage, l'utilisation, la qualité et la protection des données dans une organisation, essentiel pour la conformité réglementaire et la prise de décision éclairée", "Un logiciel de gestion de bases de données", "L'élection d'un comité de surveillance des données par les employés"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.12, CS1.3.17) : la gouvernance des données est une responsabilité organisationnelle croissante. Elle est exigée implicitement par le RGPD (art. 5 : accountability), le Data Act et les politiques de cybersécurité européennes.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_037", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.4", "domain": "Impact environnemental - avancé",
+    "text": "Qu'est-ce que le 'numérique responsable' et comment s'intègre-t-il dans la stratégie européenne ?",
+    "options": ["L'utilisation de l'internet uniquement pour des activités légales", "Une approche qui vise à minimiser l'impact environnemental et social des technologies numériques à toutes les étapes de leur cycle de vie (fabrication, usage, fin de vie), intégrée dans le Green Deal et la stratégie circulaire européenne", "Un label pour les entreprises qui ne publient que du contenu factuel en ligne", "La restriction de l'accès internet aux personnes responsables"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.4.06, CS4.4.11) : le numérique responsable s'inscrit dans le Green Deal européen et la transition numérique durable. Le Règlement sur l'écoconception (2024), le règlement sur les batteries et les initiatives sur les déchets électroniques en sont des expressions concrètes.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_038", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal", "domain": "Récapitulatif - niveaux de maîtrise",
+    "text": "Selon DigComp 3.0, qu'est-ce qui caractérise le niveau 'avancé' (advanced) par rapport au niveau 'intermédiaire' ?",
+    "options": ["Le niveau avancé nécessite uniquement une formation plus longue", "Le niveau avancé implique la capacité d'évaluer et appliquer des solutions à des tâches complexes dans une variété de contextes, de guider les autres si nécessaire, en plus de fonctionner de manière autonome", "Le niveau avancé est identique à l'intermédiaire, sauf pour les outils techniques utilisés", "Le niveau avancé exige une certification officielle"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.4, Table 3) : au niveau avancé, les individus 'évaluent et appliquent des solutions à une variété de tâches complexes de manière autonome et s'adaptent à différents contextes pour évaluer et exécuter les tâches de manière appropriée, guidant les autres si nécessaire'. La capacité de guidance des autres est la distinction clé.",
+    "difficulty": 2
+  },
+  {
+    "id": "dca_039", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3", "domain": "Politiques - AI Act spécifique",
+    "text": "Quelles obligations l'AI Act impose-t-il aux fournisseurs de systèmes d'IA à usage général (GPAI) comme les grands modèles de langage ?",
+    "options": ["Aucune obligation spécifique, ils sont assimilés à des logiciels ordinaires", "Obligations de transparence (documentation technique, respect du droit d'auteur dans les données d'entraînement) et pour les modèles à risque systémique : évaluation des risques, incidents à signaler, cybersécurité", "Obligation d'obtenir une autorisation préalable de la Commission européenne avant tout déploiement", "Obligation de rendre public le code source et les données d'entraînement de leurs modèles"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.6) : les fournisseurs de GPAI (comme GPT-4, Gemini, Claude, Llama) sont soumis aux articles 53 et 55 de l'AI Act. Les modèles à risque systémique (capacités supérieures à un seuil de calcul) ont des obligations renforcées d'évaluation et de notification.",
+    "difficulty": 3
+  },
+  {
+    "id": "dca_040", "category": "digital", "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4", "domain": "Développement professionnel numérique",
+    "text": "Comment un fonctionnaire européen peut-il maintenir et développer ses compétences numériques dans un environnement technologique en rapide évolution ?",
+    "options": ["En suivant une formation initiale unique suffisante pour toute la carrière", "En adoptant une approche d'apprentissage continu : veille technologique, auto-évaluation régulière via DigComp, formations ciblées sur les lacunes identifiées, échanges avec des pairs, expérimentation des nouveaux outils dans un cadre sécurisé", "En se spécialisant dans un seul outil numérique et en maîtrisant tous ses aspects", "En déléguant toutes les tâches numériques complexes à des collègues plus jeunes"],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.4.05, CS5.4.08) : évaluer ses compétences numériques et s'engager activement dans l'apprentissage pour y répondre. Dans les institutions européennes, les programmes de formation comme DIGIT Training offrent des ressources pour le développement continu des compétences numériques.",
+    "difficulty": 1
+  }
+]
