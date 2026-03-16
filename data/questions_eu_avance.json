@@ -1,0 +1,227 @@
+[
+  {
+    "id": "eup001",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Quelles sont les huit compétences professionnelles générales évaluées aux concours européens (concours EPSO) ?",
+    "options": [
+      "Analyse, Communication, Travail d'équipe, Qualité/résultats, Priorités/organisation, Apprentissage, Résilience, Leadership",
+      "Droit, Économie, Langues, Communication, Finance, Management, Informatique, Protocole",
+      "Analyse, Négociation, Rédaction, Présentation, Budget, Planification, Diplomatie, Innovation",
+      "Compétence juridique, Compétence linguistique, Compétence numérique, Compétence managériale"
+    ],
+    "correct": 0,
+    "explanation": "Les 8 compétences générales EPSO sont : 1) Analyser et résoudre des problèmes, 2) Communiquer, 3) Travailler en équipe, 4) Fournir un travail de qualité et des résultats, 5) Hiérarchiser ses priorités et s'organiser, 6) Apprendre et se développer, 7) Faire preuve de résilience, 8) Faire preuve de leadership.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup002",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Comment est structuré le test de présélection informatisé au concours AD5 (format 2015) ?",
+    "options": [
+      "Raisonnement verbal (18 min/10 Q) + Numérique (20 min/10 Q) + Abstrait (20 min/20 Q) + Jugement situationnel (30 min/20 Q)",
+      "Raisonnement verbal (30 min/20 Q) + Numérique (30 min/20 Q) + Abstrait (30 min/20 Q)",
+      "Connaissance UE (60 min/40 Q) + Jugement situationnel (30 min/20 Q)",
+      "Raisonnement verbal (45 min/30 Q) + Numérique (45 min/30 Q) + Jugement situationnel (20 min/10 Q)"
+    ],
+    "correct": 0,
+    "explanation": "Format officiel AD5 : Test a) Verbal – 18 min – 10 questions. Test b) Numérique – 20 min – 10 questions. Test c) Abstrait – 20 min – 20 questions. Test d) Jugement situationnel – 30 min – 20 questions. Total ≈ 2 heures avec pause facultative de 10 min.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup003",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Dans la procédure de recrutement EPSO, que signifie le 'marquage' (flagging) d'un lauréat ?",
+    "options": [
+      "Le candidat a été sanctionné pour irrégularité lors du concours.",
+      "Une institution a signalé l'intérêt pour ce candidat sur la liste de réserve, le 'réservant' pour une courte période.",
+      "Le candidat a refusé une offre d'emploi et cette information est inscrite à son dossier.",
+      "Le candidat a été placé en liste d'attente pour un second concours."
+    ],
+    "correct": 1,
+    "explanation": "Le 'flagging' (marquage) : lorsqu'une institution trouve un candidat intéressant dans la liste de réserve, elle active un marqueur visible par toutes les institutions. Cela permet de le 'réserver' pour une courte période (jusqu'à 2 mois). Si aucun recrutement n'aboutit, le marqueur est réinitialisé.",
+    "difficulty": 3
+  },
+  {
+    "id": "eup004",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Quelle est la principale différence entre la 'coopération renforcée' et la procédure législative ordinaire dans l'UE ?",
+    "options": [
+      "La coopération renforcée est plus rapide car elle contourne le Parlement européen.",
+      "La coopération renforcée permet à un groupe d'au moins 9 États membres d'avancer ensemble dans un domaine sans attendre tous les États membres.",
+      "La coopération renforcée remplace la procédure ordinaire pour tous les actes législatifs sensibles.",
+      "La coopération renforcée est réservée aux États membres fondateurs de l'UE."
+    ],
+    "correct": 1,
+    "explanation": "La coopération renforcée (art. 20 TUE) permet à un minimum de 9 États membres d'adopter une législation commune dans un domaine sans que les autres États soient contraints de participer. D'autres États peuvent s'y associer ultérieurement. Elle a été utilisée pour la première fois pour le droit applicable au divorce transfrontalier.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup005",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Qu'est-ce que le RASFF dans le contexte de l'Union européenne ?",
+    "options": [
+      "Le Réseau d'Alerte Sociale pour les Fonctionnaires Frontaliers",
+      "Le Règlement sur les Aides d'État aux Secteurs Financiers et Ferroviaires",
+      "Le Système d'Alerte Rapide pour les Denrées Alimentaires et les Aliments pour Animaux",
+      "Le Registre des Accords de Sécurité et de Surveillance Frontalière"
+    ],
+    "correct": 2,
+    "explanation": "Le RASFF (Rapid Alert System for Food and Feed) est le Système d'Alerte Rapide pour les Denrées Alimentaires et les Aliments pour Animaux. Il permet aux autorités nationales et à la Commission de partager rapidement des informations sur les risques alimentaires détectés dans un État membre.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup006",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Quel est le rôle principal d'EPSO (Office européen de sélection du personnel) ?",
+    "options": [
+      "Gérer les ressources humaines de toutes les institutions de l'UE au quotidien.",
+      "Concevoir et organiser les procédures de sélection des fonctionnaires européens et établir des listes de réserve.",
+      "Recruter directement les fonctionnaires européens en leur proposant des postes.",
+      "Former les fonctionnaires européens nouvellement recrutés."
+    ],
+    "correct": 1,
+    "explanation": "EPSO conçoit et organise le processus de sélection, mais ne recrute pas directement. Il établit des 'listes de réserve' dans lesquelles les institutions sélectionnent elles-mêmes leur personnel en fonction de leurs besoins. Les jurys de concours sont nommés parmi le personnel des institutions, pas parmi le personnel d'EPSO.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup007",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Qu'est-ce que la directive 'Services' (2006/123/CE) a principalement visé à accomplir ?",
+    "options": [
+      "Imposer la privatisation des services publics dans tous les États membres.",
+      "Libéraliser et simplifier l'accès au marché unique des services en éliminant les barrières injustifiées.",
+      "Harmoniser les salaires dans le secteur des services au niveau européen.",
+      "Supprimer les réglementations nationales sur les services financiers."
+    ],
+    "correct": 1,
+    "explanation": "La directive Services (dite 'directive Bolkestein') vise à libéraliser le marché des services en supprimant les obstacles injustifiés à l'établissement et à la libre prestation de services. Elle couvre une large gamme d'activités mais prévoit des exclusions pour des secteurs sensibles (santé, audiovisuel, jeux de hasard, etc.).",
+    "difficulty": 2
+  },
+  {
+    "id": "eup008",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "L'apprentissage 'non formel' et 'informel' sont deux concepts distincts selon la Commission européenne. Quelle est la différence essentielle ?",
+    "options": [
+      "L'apprentissage non formel est illégal, l'informel est toléré.",
+      "L'apprentissage non formel se déroule dans un cadre éducatif mais sans diplôme reconnu ; l'informel se passe en dehors de tout cadre éducatif formel.",
+      "L'apprentissage non formel concerne les adultes, l'informel les enfants.",
+      "Il n'y a pas de différence substantielle, les deux termes sont synonymes."
+    ],
+    "correct": 1,
+    "explanation": "Distinction EPSO/Commission : L'apprentissage NON FORMEL s'acquiert dans un lieu d'enseignement formel mais ne donne pas lieu à qualification (cours, ateliers, séminaires). L'apprentissage INFORMEL se fait en dehors des lieux d'enseignement formel : à la maison, au travail, dans une association. La Commission vise à valorider les deux.",
+    "difficulty": 3
+  },
+  {
+    "id": "eup009",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Qu'est-ce que le Fonds européen d'ajustement à la mondialisation (FEM) ?",
+    "options": [
+      "Un fonds destiné à aider les entreprises européennes à s'adapter aux normes environnementales.",
+      "Un fonds visant à aider les travailleurs licenciés suite à la mondialisation ou à des crises économiques à retrouver un emploi.",
+      "Un fonds de compensation pour les États membres touchés par des délocalisations.",
+      "Un fonds de soutien aux PME exportatrices vers des marchés hors UE."
+    ],
+    "correct": 1,
+    "explanation": "Le FEM soutient les travailleurs qui perdent leur emploi à cause des mutations de l'économie mondiale (mondialisation) ou de crises économiques. Il finance des mesures d'aide à la réinsertion : formation, accompagnement, aide à la recherche d'emploi. En 2011, il a versé des fonds à des travailleurs licenciés notamment dans l'automobile et le textile.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup010",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Le processus de Kimberley (PK) concerne quel type de commerce international ?",
+    "options": [
+      "Le commerce international de produits pharmaceutiques et de médicaments génériques.",
+      "Le commerce de diamants bruts, notamment pour prévenir le financement de conflits armés.",
+      "Le commerce de matières premières agricoles et de ressources en eau.",
+      "Le commerce international d'armes légères entre États membres de l'ONU."
+    ],
+    "correct": 1,
+    "explanation": "Le Processus de Kimberley est un mécanisme de certification international qui vise à prévenir le commerce de 'diamants de conflits' (ou diamants de sang), c'est-à-dire des diamants bruts utilisés pour financer des groupes rebelles ou des gouvernements qui se battent contre des forces légitimes.",
+    "difficulty": 3
+  },
+  {
+    "id": "eup011",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Qu'est-ce que la 'instruction européenne' (mandat d'enquête européen) proposée par la Commission ?",
+    "options": [
+      "Une procédure permettant aux autorités judiciaires d'un État membre de demander à leurs homologues d'un autre État de rechercher des preuves ou de procéder à des enquêtes.",
+      "Une procédure d'harmonisation des codes pénaux entre États membres de l'UE.",
+      "Un mécanisme de création d'une police européenne commune.",
+      "Une directive imposant aux États membres des peines minimales pour certains crimes."
+    ],
+    "correct": 0,
+    "explanation": "L'instruction européenne (ou décision d'instruction européenne) permet à un enquêteur d'un État membre de demander à ses homologues d'enquêter sur une affaire dans un autre État, de partager et de réunir des preuves. Exemple cité dans le PDF : un enquêteur suédois cherchant des criminels en Espagne peut demander une perquisition.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup012",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Qu'est-ce que le système Eurodac dans le contexte européen ?",
+    "options": [
+      "Un système d'échange de données fiscales entre États membres.",
+      "Une base de données biométriques (empreintes digitales) permettant de gérer les demandes d'asile et d'identifier les migrations irrégulières.",
+      "Un registre européen des entreprises et des marques déposées.",
+      "Un système de surveillance des frontières extérieures de l'espace Schengen."
+    ],
+    "correct": 1,
+    "explanation": "Eurodac est une base de données européenne d'empreintes digitales. Elle aide à : 1) déterminer l'État membre responsable d'une demande d'asile, 2) empêcher les demandes multiples. Le nombre de demandes multiples est passé de 17,5 % à 23,3 % malgré le système, ce qui montre ses limites.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup013",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "La stratégie 'Europe 2020' proposée par la Commission en 2009 avait comme objectif central de :",
+    "options": [
+      "Élargir l'Union européenne à tous les pays des Balkans d'ici 2020.",
+      "Orienter l'économie européenne vers une économie à faible intensité de carbone et à haut rendement énergétique, dans le cadre de la relance post-crise.",
+      "Supprimer l'ensemble des barrières douanières entre l'UE et les partenaires commerciaux.",
+      "Réformer entièrement le système de recrutement des fonctionnaires européens d'ici 2020."
+    ],
+    "correct": 1,
+    "explanation": "La stratégie Europe 2020 (adoptée officiellement par le Conseil européen en juin 2010) vise une 'croissance intelligente, durable et inclusive'. Elle soutient notamment l'orientation vers une économie bas-carbone, comme le mentionne le rapport d'examen de la politique environnementale cité dans le PDF.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup014",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Qu'est-ce que le 'Cadre Financier Pluriannuel' (CFP) de l'Union européenne ?",
+    "options": [
+      "Le budget annuel voté chaque année par le Parlement européen.",
+      "Un plan de programmation budgétaire à moyen terme (généralement 7 ans) fixant les plafonds de dépenses par rubrique.",
+      "Le plan de financement des États membres les plus endettés via le Mécanisme européen de stabilité.",
+      "Le programme d'investissement de la Banque européenne d'investissement."
+    ],
+    "correct": 1,
+    "explanation": "Le CFP est un cadre pluriannuel (généralement 7 ans) qui fixe les plafonds des dépenses de l'UE par grandes rubriques (cohésion, PAC, compétitivité, etc.). Le CFP 2021-2027 s'élève à 1 074 Md€ en crédits d'engagement. Il est distinct du budget annuel, mais en constitue le cadre contraignant.",
+    "difficulty": 2
+  },
+  {
+    "id": "eup015",
+    "category": "eu_knowledge",
+    "categoryLabel": "Connaissances UE",
+    "text": "Dans le domaine de la politique commerciale, que représente l'accord de partenariat et de coopération (APC) par rapport à un accord de libre-échange (ALE) ?",
+    "options": [
+      "L'APC et l'ALE sont deux termes synonymes désignant le même type d'accord.",
+      "L'APC est plus contraignant qu'un ALE car il inclut obligatoirement des concessions tarifaires.",
+      "L'APC renforce la coopération sur diverses questions commerciales mais ne comprend pas de concessions commerciales spécifiques, contrairement à un ALE.",
+      "Un APC exclut toujours le commerce de marchandises et se concentre uniquement sur les services."
+    ],
+    "correct": 2,
+    "explanation": "Comme mentionné dans le cadre de l'accord UE-Philippines : 'L'accord de partenariat et de coopération n'est pas un accord de libre-échange. S'il renforce la coopération sur différentes questions commerciales, il ne comporte pas de concessions commerciales spécifiques.' Un ALE va plus loin en incluant des réductions tarifaires.",
+    "difficulty": 3
+  }
+]
