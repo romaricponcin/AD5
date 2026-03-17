@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "dcb5_001",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Évaluation de l'information — Scénarios",
+    "text": "Vous recevez un lien vers un article titré « L'UE vote l'interdiction totale de l'IA d'ici 2026 ». Le site semble professionnel. Quelle est votre démarche AVANT de partager cet article ?",
+    "options": [
+      "Partager si le titre semble crédible et le site présente un design professionnel",
+      "Vérifier la date, rechercher d'autres sources fiables et appliquer la lecture latérale",
+      "Vérifier uniquement si l'article a été partagé par des comptes officiels vérifiés",
+      "Partager avec la mention 'à confirmer', ce qui déchargerait votre responsabilité"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.06, CS1.2.07) : la lecture latérale (ouvrir d'autres onglets pour vérifier la source) est la technique des fact-checkers professionnels. Les sites officiels comme europa.eu ou le Journal officiel de l'UE sont les sources primaires pour les actes législatifs européens.",
+    "difficulty": 2,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Implicit"
+  },
+  {
+    "id": "dcb5_002",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Évaluation de l'information — Scénarios",
+    "text": "Un collègue vous envoie un graphique montrant une hausse spectaculaire d'un indicateur économique. Le graphique n'indique pas la source des données ni l'échelle de l'axe vertical. Que faut-il faire ?",
+    "options": [
+      "Utiliser le graphique tel quel puisqu'il vient d'un collègue de confiance",
+      "Demander la source, vérifier l'échelle des axes et recouper avec Eurostat ou l'OCDE",
+      "Refuser tout graphique ne provenant pas directement d'Eurostat ou d'une source primaire",
+      "Accepter le graphique si la tendance correspond à votre compréhension préalable"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.13, CS3.2.07) : évaluer de manière critique la fiabilité des sources. Les graphiques manipulés (axe tronqué, échelle non linéaire) sont un vecteur courant de désinformation. L'absence de source est un signal d'alarme immédiat.",
+    "difficulty": 2,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Implicit"
+  },
+  {
+    "id": "dcb5_003",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Évaluation de l'information — Scénarios",
+    "text": "Un chatbot IA vous donne une réponse très détaillée sur un arrêt récent de la CJUE, avec des numéros de paragraphes précis. Comment vérifier la fiabilité de cette réponse ?",
+    "options": [
+      "Faire confiance aux numéros de paragraphes précis, signes d'une réponse fiable",
+      "Rechercher l'arrêt directement dans EUR-Lex, vérifier les numéros et comparer",
+      "Demander au chatbot de confirmer et sourcer lui-même ses propres affirmations",
+      "Accepter la réponse si elle est cohérente avec votre connaissance du droit"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.10) : les systèmes d'IA peuvent 'halluciner' des références précises (numéros de paragraphes, citations) qui n'existent pas. EUR-Lex est la source officielle pour les arrêts de la CJUE. Des numéros précis ne garantissent pas l'exactitude.",
+    "difficulty": 2,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_004",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2",
+    "domain": "Partage responsable — Scénarios",
+    "text": "Lors d'une conférence européenne, vous prenez des photos d'un panel de discussion. Avant de les publier sur les réseaux sociaux de votre institution, quelle précaution est essentielle ?",
+    "options": [
+      "Publier immédiatement car la conférence était publique et ouverte à tous",
+      "Vérifier le consentement des participants à être photographiés et identifiés publiquement",
+      "Flouter uniquement les participants n'appartenant pas à une institution européenne",
+      "Publier en basse résolution pour rendre toute identification impossible"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.2.02, CS4.2.01) : les photos de personnes identifiables constituent des données personnelles soumises au RGPD. La conférence publique ne dispense pas du consentement. Les politiques photographiques sont généralement mentionnées dans les programmes d'événements.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_005",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2",
+    "domain": "Partage responsable — Scénarios",
+    "text": "Votre institution publie un communiqué de presse important. Un journaliste vous demande de lui envoyer le document avant publication officielle. Quelle est la bonne pratique ?",
+    "options": [
+      "Envoyer immédiatement par email pour aider le journaliste à préparer son article",
+      "Respecter les embargos et procédures officielles ; tout partage anticipé est risqué",
+      "Partager le document en échange d'une couverture positive de l'institution",
+      "Envoyer uniquement si le journaliste signe un accord de confidentialité informel"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.2.08, CS2.2.09) : définir les responsabilités associées au partage d'informations dans les environnements numériques. Le respect des procédures institutionnelles de communication est une obligation professionnelle fondamentale.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_006",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Cybersécurité — Scénarios opérationnels",
+    "text": "Vous travaillez en télétravail et devez accéder aux systèmes internes de votre institution depuis un café. Quelles précautions prendre ?",
+    "options": [
+      "Utiliser le VPN institutionnel et éviter tout réseau Wi-Fi public non sécurisé",
+      "Se connecter directement au Wi-Fi du café, la connexion HTTPS étant suffisante",
+      "Utiliser uniquement le réseau du café avec un onglet de navigation privée",
+      "Désactiver le pare-feu pour améliorer la vitesse de connexion sur le réseau public"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS4.1.04, CS4.1.08) : le VPN institutionnel chiffre les communications sur des réseaux non sécurisés. Le 'visual hacking' (espionnage visuel de l'écran) est un vecteur d'attaque réel. Ces pratiques sont généralement obligatoires dans les chartes de sécurité des institutions européennes.",
+    "difficulty": 1,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_007",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Cybersécurité — Scénarios opérationnels",
+    "text": "Votre ordinateur professionnel affiche soudainement un message exigeant le paiement de bitcoins pour 'déchiffrer vos fichiers'. Quelle est la première action à effectuer ?",
+    "options": [
+      "Payer la rançon rapidement pour récupérer les fichiers chiffrés le plus vite",
+      "Déconnecter immédiatement du réseau, alerter l'informatique et ne pas payer",
+      "Redémarrer l'ordinateur plusieurs fois pour tenter de supprimer le malware",
+      "Sauvegarder les fichiers non encore chiffrés sur une clé USB avant toute action"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.06, CS5.1.03) : face à un ransomware, la déconnexion immédiate du réseau est prioritaire pour éviter la propagation. Payer ne garantit pas la récupération. Le service informatique doit être alerté immédiatement. Brancher une clé USB peut propager le malware.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_008",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Cybersécurité — Scénarios opérationnels",
+    "text": "Vous recevez un email apparemment de votre directeur vous demandant un virement urgent et confidentiel. L'adresse expéditrice contient 'ec.europa.eu' mais avec une légère variation orthographique. De quel type d'attaque s'agit-il ?",
+    "options": [
+      "Un email légitime avec une simple faute de frappe involontaire dans l'adresse",
+      "Une attaque de type spear phishing ou fraude au président, exploitant urgence et usurpation",
+      "Un test de phishing interne organisé par le service informatique de l'institution",
+      "Une tentative de hameçonnage générique sans ciblage particulier de l'organisation"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.03, CS4.2.14) : le spear phishing (hameçonnage ciblé) utilise des informations sur la cible pour paraître crédible. Les 'fraudes au président' coûtent des millions d'euros chaque année. Vérifier toujours par un canal distinct (téléphone) avant tout virement.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_009",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Protection des données — Scénarios",
+    "text": "Votre service envisage d'utiliser un outil IA en ligne pour analyser des contrats. Les contrats contiennent des données personnelles de partenaires. Quelle vérification préalable est indispensable ?",
+    "options": [
+      "Aucune vérification si l'outil est gratuit et bien noté sur la boutique",
+      "Vérifier la conformité RGPD, consulter le DPO et évaluer si les données entraînent l'IA",
+      "Vérifier uniquement si l'outil a une version payante garantissant la conformité",
+      "Supprimer les noms propres avant traitement, ce qui suffit pour être conforme"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.13, CS4.2.15) : évaluer les implications de confidentialité. L'utilisation d'outils IA en ligne pour traiter des données personnelles nécessite un accord de traitement (DPA), une évaluation RGPD, et la vérification que les données ne seront pas réutilisées pour entraîner les modèles.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_010",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Protection des données — Scénarios",
+    "text": "Un citoyen vous contacte pour exercer son 'droit d'accès' à ses données personnelles détenues par votre institution. Quel est le délai légal de réponse et que doit-elle contenir ?",
+    "options": [
+      "30 jours avec uniquement la liste des types de données détenues par l'organisation",
+      "1 mois (prolongeable à 3) avec copie des données, finalités, droits et voies de recours",
+      "8 jours ouvrables avec uniquement confirmation de la détention des données",
+      "6 mois avec le rapport d'audit complet de traitement des données personnelles"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.10) : l'art. 15 RGPD donne le droit d'accès avec réponse sous 1 mois (article 12). Le responsable du traitement doit fournir une copie des données et les informations sur le traitement. La prolongation à 3 mois est possible pour les demandes complexes ou nombreuses.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_011",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.1",
+    "domain": "Création de contenu — Scénarios",
+    "text": "Vous devez créer une présentation sur les politiques européennes pour un public mixte incluant des personnes malvoyantes. Quelles adaptations concrètes apporter ?",
+    "options": [
+      "Aucune adaptation n'est nécessaire pour une présentation institutionnelle standard",
+      "Contraste élevé, textes alternatifs et pas de codes couleur exclusifs",
+      "Envoyer uniquement un enregistrement audio à la place de la présentation visuelle",
+      "Créer deux versions : une standard et une pour les personnes malvoyantes"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.1.02, CS3.1.11) : créer du contenu numérique accessible et inclusif. Ces pratiques sont requises par la Loi européenne sur l'accessibilité (2025) et les normes WCAG 2.1. L'accessibilité universelle bénéficie à tous les utilisateurs.",
+    "difficulty": 1,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_012",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.1",
+    "domain": "Création de contenu — Scénarios",
+    "text": "Votre équipe doit produire un rapport de 80 pages. Vous envisagez d'utiliser un outil d'IA pour rédiger les sections descriptives. Quel est le risque principal à gérer ?",
+    "options": [
+      "Le risque que le rapport soit trop bien écrit et que les lecteurs le remarquent",
+      "Les risques d'hallucinations, de biais, de confidentialité et de droits d'auteur",
+      "Uniquement le risque que le style IA soit détecté par les lecteurs du rapport",
+      "Le risque que l'IA soit plus rapide que les membres humains de l'équipe"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.1.04, CS3.1.08) : l'utilisation d'IA pour la création de contenu requiert une supervision humaine rigoureuse. Les quatre risques principaux sont : exactitude factuelle, biais de contenu, confidentialité des données, droits d'auteur du contenu généré.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_013",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4",
+    "domain": "Collaboration — Scénarios",
+    "text": "Votre équipe internationale utilise un outil de co-rédaction en ligne. Un collègue supprime accidentellement une section importante. Quelle fonctionnalité permet de résoudre ce problème rapidement ?",
+    "options": [
+      "Contacter le support technique de l'outil, ce qui peut prendre plusieurs jours",
+      "Utiliser l'historique des versions pour restaurer instantanément la section supprimée",
+      "Demander à chaque collaborateur s'il conserve une copie locale de la section",
+      "Accepter la perte et rédiger à nouveau la section supprimée par le collègue"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.4.04, CS1.3.08) : les outils de co-rédaction modernes (Google Docs, Microsoft 365, Nextcloud) conservent un historique complet des modifications permettant la restauration instantanée. C'est l'une des fonctionnalités de base à maîtriser pour la collaboration numérique professionnelle.",
+    "difficulty": 1,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_014",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.2",
+    "domain": "Besoins numériques — Scénarios",
+    "text": "Un nouveau collègue déclare ne pas savoir utiliser les outils de gestion de projet numériques de votre équipe. Quelle est l'approche la plus efficace pour l'intégrer ?",
+    "options": [
+      "Lui demander d'apprendre seul grâce à la documentation en ligne disponible",
+      "Identifier ses lacunes, proposer un accompagnement personnalisé et intégrer progressivement",
+      "Lui demander de continuer avec ses méthodes habituelles pour ne pas ralentir l'équipe",
+      "L'inscrire immédiatement à toutes les formations disponibles sans évaluation préalable"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.2.05, CS5.4.09) : soutenir les autres dans le développement de la confiance, de l'autonomie et des capacités dans les environnements numériques. L'accompagnement personnalisé et progressif est plus efficace qu'une formation générale ou l'apprentissage solitaire.",
+    "difficulty": 1,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_015",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Citoyenneté numérique — Scénarios",
+    "text": "Vous observez qu'un forum officiel de consultation publique en ligne de la Commission européenne est envahi de commentaires identiques et répétitifs, probablement générés automatiquement. Quelle action est appropriée ?",
+    "options": [
+      "Signaler l'activité via les mécanismes de modération ; l'astroturfing fausse la démocratie",
+      "Ignorer, c'est une pratique normale sur les forums de consultation publique",
+      "Publier des commentaires vous-même pour contrebalancer les faux messages reçus",
+      "Télécharger les commentaires et les analyser vous-même pour confirmer la fraude"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS2.3.09, CS2.2.10) : l'astroturfing (simulation de soutien populaire par des bots) est une menace pour les processus démocratiques. Le DSA oblige les plateformes à détecter et supprimer ce type de manipulation. Signaler est un acte de citoyenneté numérique.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Implicit"
+  },
+  {
+    "id": "dcb5_016",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1",
+    "domain": "Recherche avancée — Chiffres clés",
+    "text": "Selon les données officielles DigComp 3.0 (2025), quel pourcentage de travailleurs de l'UE utilisaient des appareils, outils ou équipements numériques dans leur travail en 2024-2025 ?",
+    "options": [
+      "62%",
+      "79%",
+      "92%",
+      "100%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 92% des travailleurs de l'UE utilisaient des appareils, outils ou équipements numériques pour leur travail en 2024-2025. Ce chiffre illustre l'omniprésence du numérique dans l'emploi et justifie l'urgence du développement des compétences numériques.",
+    "difficulty": 2,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_017",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Chiffres clés DigComp",
+    "text": "Selon DigComp 3.0, quel pourcentage d'adolescents de 15 ans dans l'UE utilisaient les réseaux sociaux quotidiennement en 2022 ?",
+    "options": [
+      "43%",
+      "72%",
+      "96%",
+      "100%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 96% des adolescents de 15 ans dans l'UE utilisaient les réseaux sociaux quotidiennement en 2022. Ce chiffre souligne l'importance d'éduquer les jeunes aux compétences numériques, notamment l'évaluation de l'information et le comportement en ligne responsable.",
+    "difficulty": 2,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_018",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Chiffres clés DigComp",
+    "text": "Selon DigComp 3.0, quel objectif l'UE s'est-elle fixée pour 2030 concernant les compétences numériques de base des adultes ?",
+    "options": [
+      "56% des adultes (actuel)",
+      "70% des adultes",
+      "80% des adultes",
+      "100% des adultes"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (p.12, Digital Decade Policy Programme) : l'objectif de la Décennie numérique est que 80% des adultes européens aient au moins des compétences numériques de base d'ici 2030. En 2023, seulement 56% atteignaient ce niveau, soit un écart de 24 points à combler en 7 ans.",
+    "difficulty": 2,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_019",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1",
+    "domain": "Chiffres clés DigComp",
+    "text": "Quel pourcentage d'adolescents de 11-15 ans déclaraient avoir été victimes de cyberharcèlement au moins deux fois dans un intervalle de deux mois, selon les données citées dans DigComp 3.0 ?",
+    "options": [
+      "3-5%",
+      "9-12%",
+      "14-16%",
+      "22-25%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 14-16% des adolescents de 11-15 ans déclaraient avoir été victimes de cyberharcèlement. Ce chiffre justifie l'importance de la compétence 2.5 (comportement numérique) et la nécessité d'une éducation au numérique dès le plus jeune âge.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_020",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "Chiffres clés DigComp",
+    "text": "Selon DigComp 3.0, quel pourcentage de travailleurs de l'UE ont utilisé des systèmes d'IA dans leur travail en 2024-2025 ?",
+    "options": [
+      "8%",
+      "18%",
+      "30%",
+      "45%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 30% des travailleurs de l'UE ont utilisé des systèmes d'IA dans leur travail en 2024-2025. Ce chiffre est en forte hausse et explique pourquoi DigComp 3.0 intègre l'IA de manière transversale dans toutes les compétences.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_021",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Chiffres clés DigComp",
+    "text": "En 2024, quel pourcentage des adultes de l'UE qui utilisent internet avaient interagi numériquement avec des services publics, selon DigComp 3.0 ?",
+    "options": [
+      "48%",
+      "60%",
+      "70%",
+      "85%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 70% des adultes utilisant internet avaient interagi numériquement avec des services publics en 2024. Cela illustre l'importance de l'e-gouvernement et justifie l'objectif européen de 100% des services publics en ligne d'ici 2030.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_022",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Chiffres clés DigComp",
+    "text": "Quel pourcentage de travailleurs à travers 11 pays européens déclaraient un déficit de compétences en IA en 2024, selon DigComp 3.0 ?",
+    "options": [
+      "12%",
+      "28%",
+      "42%",
+      "65%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 42% des travailleurs dans 11 pays européens déclaraient un déficit de compétences en IA en 2024. Cette donnée est critique pour comprendre l'urgence de la formation aux compétences numériques, notamment dans le contexte des politiques de l'Union of Skills.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_023",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.3",
+    "domain": "Chiffres clés DigComp",
+    "text": "Selon DigComp 3.0, quel pourcentage d'adultes de l'UE avaient utilisé internet en 2022 pour rechercher des informations de santé ?",
+    "options": [
+      "28%",
+      "45%",
+      "58%",
+      "74%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 58% des adultes de l'UE ont utilisé internet pour chercher des informations de santé en 2022. Ce chiffre souligne l'importance de la littératie numérique en santé et la nécessité d'évaluer la fiabilité des sources médicales en ligne.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_024",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.3",
+    "domain": "Chiffres clés DigComp",
+    "text": "En 2022, quel pourcentage d'adultes de l'UE déclaraient avoir été confrontés à du contenu faux ou douteux sur les réseaux sociaux ?",
+    "options": [
+      "20%",
+      "35%",
+      "49%",
+      "67%"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 1, p.11) : 49% des adultes de l'UE déclaraient avoir vu du contenu faux ou douteux sur les réseaux sociaux en 2022. Presque un adulte sur deux — ce qui justifie l'importance centrale de la compétence 1.2 (évaluation de l'information) dans DigComp 3.0.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_025",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1",
+    "domain": "Chiffres clés DigComp",
+    "text": "DigComp 3.0 contient combien d'énoncés de compétence (competence statements) au total ?",
+    "options": [
+      "120",
+      "237",
+      "362",
+      "523"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (section 2.4) : le cadre contient 362 énoncés de compétence répartis entre les 4 niveaux de maîtrise : 97 au niveau Basique (27%), 103 Intermédiaire (28%), 89 Avancé (25%) et 73 Très avancé (20%). Les 523 sont les résultats d'apprentissage (learning outcomes), présentés en Annexe 2.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_026",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6",
+    "domain": "Réglementations — RGPD avancé",
+    "text": "Qu'est-ce que le 'Comité européen de la protection des données' (CEPD / EDPB) et quel est son rôle ?",
+    "options": [
+      "Un organe de l'UE coordonnant les autorités nationales et assurant l'application cohérente du RGPD",
+      "Un organisme remplaçant les autorités nationales de protection des données",
+      "Un tribunal spécialisé pour les affaires de cybercriminalité dans l'Union",
+      "Un service de la Commission rédigeant les propositions sur la protection des données"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS4.2.10) : le CEPD (art. 68 RGPD) coordonne les autorités nationales (CNIL en France, etc.), émet des avis contraignants et des lignes directrices pour l'interprétation du RGPD. Il garantit une application harmonisée dans les 27 États membres.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_027",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Réglementations — AI Act",
+    "text": "L'AI Act européen classe les systèmes d'IA utilisés dans les procédures d'asile et de contrôle aux frontières comme :",
+    "options": [
+      "Des systèmes à risque minimal car gérés par des autorités publiques certifiées",
+      "Des systèmes à haut risque soumis à évaluation, transparence et supervision",
+      "Des systèmes interdits car ils traitent obligatoirement des données biométriques",
+      "Des systèmes exemptés de l'AI Act car relevant de la sécurité nationale"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.16) : l'AI Act (Annexe III) classe les systèmes d'IA utilisés dans la migration, l'asile et le contrôle aux frontières comme 'à haut risque'. Ils doivent faire l'objet d'une évaluation de conformité, avoir une supervision humaine renforcée et être enregistrés dans une base de données européenne.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_028",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Réglementations — AI Act",
+    "text": "Selon l'AI Act, qui sont les 'fournisseurs' (providers) de systèmes d'IA et quelles obligations leur incombent ?",
+    "options": [
+      "Toute personne développant un système d'IA pour le marché de l'UE",
+      "Uniquement les grandes entreprises technologiques non européennes du secteur",
+      "Uniquement les administrations publiques qui déploient des systèmes d'IA",
+      "Les fournisseurs soumis uniquement à des obligations de reporting annuel simple"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (section 2.6, AI Act art. 3) : les fournisseurs (providers) sont responsables de la conformité de leurs systèmes. Pour les systèmes à haut risque, ils doivent assurer documentation technique, gestion des risques, contrôle qualité des données, transparence et supervision humaine.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_029",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Réglementations — Nouvelles lois numériques",
+    "text": "Le Data Governance Act (DGA) européen, entré en vigueur en 2023, introduit le concept de 'services d'intermédiation de données'. À quoi correspondent-ils ?",
+    "options": [
+      "Des services facilitant le partage volontaire de données entre organisations ou secteurs",
+      "Des services d'assistance technique pour les problèmes de connexion internet",
+      "Des services de courtage en données personnelles à des fins commerciales",
+      "Des agences gouvernementales chargées de stocker les données nationales"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS2.3.08, CS1.3.14) : le Data Governance Act (DGA) crée un cadre pour les 'data intermediaries' — des acteurs neutres facilitant le partage de données. Il est complémentaire du Data Act et vise à créer des espaces de données sectoriels européens (santé, mobilité, énergie).",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_030",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.4",
+    "domain": "Réglementations — Environnement numérique",
+    "text": "Qu'est-ce que le Règlement européen sur l'écoconception des produits durables (2024) impose spécifiquement aux fabricants d'appareils numériques ?",
+    "options": [
+      "L'interdiction totale de fabriquer des appareils non recyclables à 100 pourcent",
+      "Des exigences de durabilité, réparabilité et un passeport numérique du produit",
+      "L'obligation d'utiliser uniquement des énergies renouvelables dans la fabrication",
+      "La limitation obligatoire de la puissance des chargeurs à 30 watts maximum"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.4.07, CS4.4.09) : le Règlement sur l'écoconception des produits durables (ESPR, 2024) crée un cadre horizontal imposant des exigences de durabilité, réparabilité et un 'passeport numérique du produit' pour tracer les matériaux. Il est central à la stratégie d'économie circulaire de l'UE.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_031",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "Technologies émergentes — Blockchain",
+    "text": "Qu'est-ce que la technologie blockchain et quelle est son utilisation dans le contexte européen ?",
+    "options": [
+      "Un type avancé de stockage cloud centralisé géré par un opérateur",
+      "Un protocole de sécurité chiffrée pour les communications gouvernementales",
+      "Un registre distribué immuable enregistrant des transactions sans autorité centrale",
+      "Un système de base de données relationnelle optimisé pour les grandes institutions"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS3.4.08, CS5.3.02) : la blockchain est une technologie de registre distribué. Dans l'UE, elle est utilisée pour les certificats COVID numériques, la traçabilité alimentaire, les diplômes numériques vérifiables et s'intègre dans le cadre eIDAS2 pour les portefeuilles d'identité numérique.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_032",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "Technologies émergentes — Informatique quantique",
+    "text": "Pourquoi l'informatique quantique représente-t-elle une menace potentielle pour la cybersécurité actuelle ?",
+    "options": [
+      "Elle consomme trop d'électricité pour fonctionner de manière fiable et stable",
+      "Les ordinateurs quantiques pourraient casser les algorithmes de chiffrement actuels",
+      "L'informatique quantique produit trop de chaleur pour une utilisation pratique",
+      "Elle n'est pas compatible avec les standards internet actuels tels que TCP/IP"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.12) : rester informé des développements technologiques en cybersécurité. L'algorithme de Shor permettrait à un ordinateur quantique suffisamment puissant de factoriser de grands nombres, cassant RSA. L'ENISA et le NIST travaillent aux standards de cryptographie post-quantique.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_033",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Technologies émergentes — 5G et IoT",
+    "text": "Quels avantages spécifiques la 5G apporte-t-elle par rapport à la 4G et quels nouveaux risques introduit-elle ?",
+    "options": [
+      "La 5G n'offre que plus de vitesse, sans changement de risque ou de périmètre",
+      "La 5G est exclusivement bénéfique car plus sécurisée par conception architecturale",
+      "La 5G remplace entièrement le Wi-Fi et supprime le besoin de câblage réseau",
+      "La 5G offre latence ultra-faible et haute capacité, mais élargit la surface d'attaque"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.1.12, CS5.4.07) : rester informé des développements des technologies numériques. La 5G démultiplie les possibilités de l'IoT mais élargit aussi la surface d'attaque. L'UE a publié une boîte à outils 5G pour gérer les risques de sécurité, notamment liés aux fournisseurs d'équipements.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_034",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Technologies émergentes — Biométrie",
+    "text": "Pourquoi les données biométriques (empreintes digitales, reconnaissance faciale) bénéficient-elles d'une protection renforcée dans le RGPD ?",
+    "options": [
+      "Uniquement parce qu'elles sont difficiles à collecter techniquement sur le terrain",
+      "Parce qu'elles sont exclusivement utilisées par les forces de l'ordre publiques",
+      "En raison de leur coût de collecte très élevé pour les organisations privées",
+      "Parce qu'elles permettent une identification unique et irréversible contrairement à un mot de passe"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.2.10, CS4.2.04) : les données biométriques constituent une catégorie spéciale (art. 9 RGPD) en raison de leur nature irremplaçable. L'AI Act interdit l'identification biométrique en temps réel dans les espaces publics sauf exceptions strictes.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_035",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Gouvernance de l'IA — Éthique",
+    "text": "Quels sont les principes d'une IA 'digne de confiance' (trustworthy AI) selon les lignes directrices éthiques de la Commission européenne ?",
+    "options": [
+      "L'IA est digne de confiance si elle est développée par une entreprise européenne",
+      "L'IA est digne de confiance uniquement si elle ne commet jamais d'erreur",
+      "Une IA digne de confiance doit être légale, éthique et robuste selon 7 exigences",
+      "Une IA est digne de confiance si son code source est entièrement public"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS3.4.12, CS3.4.16) : les Lignes directrices éthiques pour une IA digne de confiance (Commission européenne, 2019) définissent 7 exigences clés : supervision humaine, robustesse technique, vie privée, transparence, diversité/non-discrimination, bien-être sociétal, responsabilité.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_036",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "Gouvernance de l'IA — Éthique",
+    "text": "Qu'est-ce que l''IA explicable' (XAI) et pourquoi est-elle particulièrement importante dans les décisions administratives européennes ?",
+    "options": [
+      "Une IA rédigeant ses propres explications de façon automatique et autonome",
+      "Un standard technique pour les interfaces utilisateurs des applications d'IA",
+      "Une IA réservée aux applications d'enseignement et aux plateformes éducatives",
+      "Des systèmes dont les décisions sont compréhensibles par les humains, essentiels pour la responsabilité"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS1.2.09, CS3.4.12) : l'XAI est cruciale dans les administrations publiques car l'art. 22 RGPD et l'AI Act imposent le droit à l'explication et la contestation des décisions automatisées. Sans XAI, il est impossible de respecter ces droits fondamentaux.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_037",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Désinformation — Opérations d'influence",
+    "text": "Qu'est-ce qu'une 'opération d'influence' (IO) dans l'environnement numérique et comment la détecter ?",
+    "options": [
+      "Une campagne de marketing digital légale ciblant des électeurs spécifiques",
+      "Une action coordonnée utilisant bots et contenus manipulés pour influencer l'opinion",
+      "Une simple campagne publicitaire ciblée sur les réseaux sociaux professionnels",
+      "Un programme d'éducation aux médias financé par des gouvernements nationaux"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.04, CS2.3.09) : les opérations d'influence sont régulièrement documentées par l'EEAS (Service d'action extérieure de l'UE) dans ses rapports sur la désinformation. Le DSA oblige les grandes plateformes à identifier et supprimer les comportements inauthentiques coordonnés.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Implicit"
+  },
+  {
+    "id": "dcb5_038",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Désinformation — Réponses institutionnelles",
+    "text": "Qu'est-ce que l'Observatoire européen des médias numériques (EDMO) et quel est son rôle dans la lutte contre la désinformation ?",
+    "options": [
+      "Un organe de censure des contenus en ligne nommé par la Commission européenne",
+      "Un réseau indépendant de fact-checkers et chercheurs analysant la désinformation en Europe",
+      "Une agence gouvernementale surveillant les médias de masse dans les États membres",
+      "Un service technique filtrant automatiquement les contenus faux sur internet"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.07, CS2.3.09) : l'EDMO est un hub pan-européen créé en 2020, avec des hubs nationaux dans les États membres. Il coordonne la recherche et la vérification des faits, contribuant au rapport annuel de transparence imposé aux très grandes plateformes par le DSA.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_039",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Désinformation — Réponses institutionnelles",
+    "text": "Qu'est-ce que le 'Code de bonnes pratiques contre la désinformation' de l'UE et qui le signe ?",
+    "options": [
+      "Une loi contraignante imposant des amendes aux plateformes diffusant de la désinformation",
+      "Un accord autorégulateur entre plateformes s'engageant volontairement contre la désinformation",
+      "Un traité international signé uniquement par les États membres de l'Union européenne",
+      "Un ensemble de normes techniques pour détecter automatiquement les fake news"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.09) : le Code de bonnes pratiques contre la désinformation (2018, renforcé en 2022) est signé par des plateformes comme Meta, Google, TikTok, Twitter/X, Microsoft. Sous le DSA, les très grandes plateformes doivent évaluer les risques systémiques, dont la désinformation.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_040",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.3",
+    "domain": "Bien-être numérique — Santé mentale",
+    "text": "Quels mécanismes des plateformes sociales contribuent spécifiquement à la détérioration du bien-être mental des utilisateurs, selon la recherche ?",
+    "options": [
+      "Uniquement la quantité de temps passé quotidiennement sur la plateforme",
+      "La comparaison sociale, les systèmes de récompense variable et les boucles de validation",
+      "Uniquement le contenu violent ou explicite présent sur ces plateformes",
+      "La connexion avec des inconnus plutôt qu'avec des amis proches et connus"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.3.02, CS4.3.08, CS4.3.11) : ces mécanismes sont documentés par la recherche en psychologie numérique. La Loi européenne sur les services numériques (DSA) interdit désormais certains dark patterns ciblant les mineurs et impose des évaluations des risques pour le bien-être.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Implicit"
+  },
+  {
+    "id": "dcb5_041",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.3",
+    "domain": "Bien-être numérique — Professionnels",
+    "text": "Dans un contexte de travail hybride, comment préserver efficacement le bien-être numérique de son équipe ?",
+    "options": [
+      "Interdire tout outil numérique en dehors des heures de bureau strictement",
+      "Établir des normes de communication claires incluant plages de disponibilité et droit à déconnecter",
+      "Obliger chaque membre à définir ses propres règles de disponibilité indépendamment",
+      "Réduire au strict minimum l'utilisation de tous les outils numériques professionnels"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.3.07, CS4.3.13) : le droit à la déconnexion et les normes d'équipe pour la communication numérique sont des pratiques managériales essentielles. La directive européenne sur le droit à la déconnexion est en cours d'élaboration dans plusieurs États membres.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_042",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Innovation numérique — Secteur public",
+    "text": "Qu'est-ce qu'un 'bac à sable réglementaire' (regulatory sandbox) dans le contexte de l'innovation numérique européenne ?",
+    "options": [
+      "Un espace de jeu pour les enfants dans les jardins publics équipés de Wi-Fi",
+      "Un datacenter sécurisé pour les tests de cybersécurité des autorités gouvernementales",
+      "Un environnement contrôlé pour tester des innovations sous supervision des régulateurs",
+      "Une procédure de consultation publique pour les nouvelles technologies numériques"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS5.3.06, CS5.3.07) : l'AI Act prévoit explicitement des bacs à sable réglementaires pour l'IA (art. 57-63). Ils permettent de tester des innovations dans des conditions réelles avec un risque limité, accélérant l'innovation tout en maintenant la protection des droits.",
+    "difficulty": 3,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_043",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Innovation numérique — Secteur public",
+    "text": "Qu'est-ce que le concept de 'jumeaux numériques' (digital twins) et quelles en sont les applications dans les administrations publiques ?",
+    "options": [
+      "Deux comptes en ligne identiques utilisés pour les tests de sécurité informatique",
+      "Des copies de sauvegarde des bases de données gouvernementales hors site",
+      "Des identités numériques secondaires pour les fonctionnaires en mission officielle",
+      "Des répliques virtuelles de systèmes physiques permettant de simuler des scénarios sans risque"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS5.3.02, CS5.3.09) : les jumeaux numériques sont utilisés par des villes comme Helsinki et Amsterdam pour planifier leur développement urbain. La Commission européenne développe un jumeau numérique de la Terre (Destination Earth) pour les simulations climatiques.",
+    "difficulty": 2,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_044",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Souveraineté numérique européenne",
+    "text": "Qu'est-ce que le projet GAIA-X et quel problème cherche-t-il à résoudre dans l'écosystème numérique européen ?",
+    "options": [
+      "Un programme spatial européen utilisant des technologies numériques innovantes",
+      "Un réseau social européen alternatif développé par des institutions publiques",
+      "Un programme de formation aux compétences numériques pour les fonctionnaires",
+      "Une initiative créant une infrastructure cloud souveraine et interopérable en Europe"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS2.3.08, CS4.2.04) : GAIA-X répond aux préoccupations de souveraineté numérique européenne. Il établit des règles communes pour un écosystème de données européen transparent et sécurisé. La souveraineté technologique est un objectif stratégique de la Décennie numérique.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_045",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Souveraineté numérique — Sécurité",
+    "text": "Pourquoi la 'souveraineté numérique' est-elle devenue un enjeu stratégique pour l'Union européenne ?",
+    "options": [
+      "Pour empêcher les citoyens européens d'accéder à des services numériques étrangers",
+      "Pour créer un internet européen complètement séparé de l'internet mondial",
+      "Pour protéger uniquement les entreprises numériques européennes de la concurrence",
+      "Pour réduire la dépendance technologique et garantir l'application du droit européen"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS2.3.08, CS4.1.12) : la souveraineté numérique européenne porte sur les données (RGPD, Data Act), les infrastructures (cloud, 5G), les technologies (chips, IA) et la gouvernance. Le rapport Draghi (2024) identifie la dépendance technologique comme un risque stratégique majeur pour l'UE.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_046",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "Technologies — Spécificités numériques",
+    "text": "Quelle est la différence entre l'adresse IP version 4 (IPv4) et version 6 (IPv6), et pourquoi la transition vers IPv6 est-elle nécessaire ?",
+    "options": [
+      "IPv6 est uniquement plus rapide qu'IPv4, sans autre différence fonctionnelle",
+      "IPv4 et IPv6 sont incompatibles et ne peuvent pas coexister sur un même réseau",
+      "IPv6 remplace IPv4 uniquement dans les réseaux mobiles de cinquième génération",
+      "IPv4 offre 4 milliards d'adresses (épuisées) ; IPv6 en offre un espace quasi illimité"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS5.1.02) : comprendre les bases des réseaux informatiques. L'épuisement des adresses IPv4 a été officiellement constaté. La transition vers IPv6 est en cours mais lente ; la coexistence des deux protocoles (double pile) est la situation actuelle dans la plupart des réseaux.",
+    "difficulty": 2,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_047",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3",
+    "domain": "Gestion des données — Formats",
+    "text": "Pourquoi le format CSV (Comma-Separated Values) est-il recommandé pour l'échange de données dans l'Open Data européen ?",
+    "options": [
+      "Parce qu'il est plus sécurisé que tous les autres formats disponibles",
+      "Parce qu'il compresse mieux les données que XML ou JSON dans tous les cas",
+      "Parce qu'il est simple, universel et lisible par tout logiciel ou langage de programmation",
+      "Parce qu'il intègre nativement des métadonnées de protection des droits d'auteur"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS1.3.09, CS1.3.14) : le portail data.europa.eu recommande les formats ouverts comme CSV, JSON et XML pour les données ouvertes. L'interopérabilité est un principe fondamental de l'open data européen.",
+    "difficulty": 2,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_048",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.3",
+    "domain": "Droits d'auteur — IA générative",
+    "text": "Un texte entièrement généré par un système d'IA sans intervention créative humaine est-il protégeable par le droit d'auteur dans l'UE ?",
+    "options": [
+      "Oui, automatiquement car il s'agit d'une création originale selon le droit",
+      "Oui, si l'entreprise propriétaire de l'IA dépose une demande de brevet officielle",
+      "Non selon le droit actuel, le droit d'auteur requérant un auteur humain identifiable",
+      "Oui uniquement si le contenu dépasse un certain seuil de longueur ou complexité"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS3.3.02, CS3.3.09) : le droit d'auteur dans l'UE requiert un auteur humain. Le contenu purement généré par IA n'est pas automatiquement protégé. Cependant, si un humain fait des choix créatifs significatifs dans l'utilisation de l'IA, sa contribution peut être protégée. Ce débat est au cœur de l'AI Act et des litiges en cours.",
+    "difficulty": 3,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_049",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.1",
+    "domain": "Communication numérique — Formats pro",
+    "text": "Dans une communication professionnelle par email, qu'est-ce qu'une 'signature électronique' (qualifiée) et quelle valeur juridique a-t-elle dans l'UE ?",
+    "options": [
+      "C'est le bloc de texte en bas d'un email avec les coordonnées de l'expéditeur",
+      "C'est un sceau électronique utilisé uniquement par les notaires et officiers publics",
+      "Elle n'a de valeur juridique que dans le pays où le certificat a été émis",
+      "Selon eIDAS, une signature qualifiée a la même valeur légale qu'une signature manuscrite dans l'UE"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS2.1.01, CS2.6.03) : le Règlement eIDAS (2014, révisé 2024) définit trois niveaux : signature simple, avancée et qualifiée. Seule la signature qualifiée a la même valeur légale qu'une signature manuscrite dans tous les États membres de l'UE.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_050",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Développement professionnel — Auto-évaluation",
+    "text": "Comment DigComp 3.0 peut-il être utilisé concrètement par un fonctionnaire européen pour planifier son développement de compétences numériques ?",
+    "options": [
+      "Il ne peut pas être utilisé individuellement, seulement par les institutions",
+      "En s'auto-évaluant sur les 21 compétences, en identifiant les lacunes et en ciblant des formations",
+      "En suivant la totalité du programme DigComp quel que soit son niveau actuel",
+      "En passant uniquement la certification officielle DigComp pour valider ses compétences"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 1.6, CS5.4.05) : DigComp est conçu pour être adapté à des contextes spécifiques. L'auto-évaluation ciblée (quelles compétences, à quel niveau) est plus efficace qu'une formation générale. Le DIGIT Training de la Commission européenne utilise DigComp comme référentiel.",
+    "difficulty": 1,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_051",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Politiques UE — Inclusion numérique",
+    "text": "Qu'est-ce que le 'Pilier européen des droits sociaux' et comment se rapporte-t-il aux compétences numériques ?",
+    "options": [
+      "Un mécanisme de financement uniquement pour les infrastructures numériques",
+      "Un ensemble de 20 principes sociaux dont l'objectif inclut les compétences numériques",
+      "Un programme de subvention pour les entreprises numériques européennes innovantes",
+      "Un accord sur les salaires minimums dans le secteur numérique européen"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (p.12) : le Pilier européen des droits sociaux fixe l'objectif de 60% d'adultes participant à des formations chaque année d'ici 2030. Les compétences numériques sont au cœur de cet objectif, en lien direct avec le Digital Decade Policy Programme.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_052",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.4",
+    "domain": "Environnement numérique — Données",
+    "text": "Qu'est-ce que l''empreinte eau' (water footprint) des technologies numériques et pourquoi est-elle peu connue ?",
+    "options": [
+      "La quantité d'eau numérisée dans les bases de données environnementales mondiales",
+      "La pollution de l'eau causée uniquement par l'élimination des écrans numériques",
+      "La consommation d'eau nécessaire pour refroidir les datacenters et fabriquer les composants",
+      "Un indicateur de performance des serveurs gérant les données hydrologiques"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS4.4.02, CS4.4.03) : l'impact environnemental des technologies numériques va au-delà de la consommation électrique. Les datacenters de grandes entreprises consomment des quantités colossales d'eau. L'entraînement d'un grand modèle d'IA peut consommer des centaines de milliers de litres.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_053",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3",
+    "domain": "Gestion de l'information — Pratiques organisationnelles",
+    "text": "Qu'est-ce que la 'gouvernance de l'information' (information governance) et pourquoi est-elle critique dans les institutions européennes ?",
+    "options": [
+      "La gestion des communications officielles vers les médias et le grand public",
+      "La surveillance du contenu publié par les agents institutionnels sur les réseaux",
+      "Un système de classification des documents par niveau de confidentialité uniquement",
+      "Un cadre de politiques et processus régissant la qualité et la protection de l'information"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS1.3.17, CS1.3.19) : dans les institutions européennes, la gouvernance de l'information englobe la gestion des archives (Règlement 354/83), la protection des données (RGPD/RPDUE), la transparence (Règlement 1049/2001) et la sécurité de l'information.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_054",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5",
+    "domain": "Comportement numérique — Inclusion",
+    "text": "Qu'est-ce que la 'fracture numérique de genre' (gender digital divide) et quelles sont ses manifestations ?",
+    "options": [
+      "La différence de vitesse de connexion entre les hommes et les femmes",
+      "Les inégalités femmes-hommes dans l'accès, l'usage et les bénéfices du numérique",
+      "La différence dans les préférences de plateformes numériques selon le genre",
+      "L'absence de fonctionnalités adaptées aux besoins spécifiques des femmes"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.2.09, CS2.3.02) : la fracture numérique de genre est documentée dans les rapports Eurostat et les indicateurs de la Décennie numérique. Les femmes représentent seulement 19% des spécialistes en TIC dans l'UE. Les femmes constituent 59% des diplômés de l'enseignement supérieur mais restent sous-représentées dans le numérique.",
+    "difficulty": 2,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_055",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "IA — Applications sectorielles",
+    "text": "Comment l'IA est-elle utilisée dans le cadre de la politique agricole commune (PAC) de l'UE ?",
+    "options": [
+      "L'IA n'a pas encore d'applications concrètes dans l'agriculture européenne",
+      "Uniquement pour la gestion administrative des subventions agricoles PAC",
+      "Pour remplacer intégralement les agriculteurs dans la prise de décision",
+      "Via l'agriculture de précision : analyse satellite, drones, optimisation des intrants"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.4.08, CS5.3.02) : l'agriculture de précision est une application directe des compétences numériques dans le secteur primaire. Le système de surveillance des terres agricoles de l'UE (LPIS) utilise des images satellite et le machine learning pour vérifier les déclarations PAC.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_056",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "RGPD — Applications spécifiques",
+    "text": "Qu'est-ce que l''Espace européen des données de santé' (EEDS / EHDS) et quels droits donne-t-il aux citoyens ?",
+    "options": [
+      "Un hôpital virtuel européen entièrement accessible en ligne pour tous les citoyens",
+      "Une base de données centralisée de tous les dossiers médicaux européens",
+      "Un service de télémédecine gratuit pour les citoyens de l'Union européenne",
+      "Un cadre permettant aux citoyens d'accéder à leurs données de santé dans toute l'UE"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.2.15, CS2.3.08) : le Règlement EHDS (2025) crée un espace permettant aux citoyens d'accéder à leurs données de santé (ordonnances, imagerie, résultats biologiques) via MyHealth@EU, et permet leur réutilisation anonymisée pour la recherche médicale européenne.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_057",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4",
+    "domain": "Collaboration — Outils institutionnels",
+    "text": "Quels sont les critères pour choisir un outil de collaboration numérique approprié dans un contexte institutionnel européen ?",
+    "options": [
+      "Choisir uniquement l'outil le moins cher disponible sur le marché",
+      "Choisir l'outil le plus utilisé par les institutions américaines de référence",
+      "Conformité RGPD, sécurité, interopérabilité, accessibilité et localisation des données",
+      "Sélectionner uniquement les outils développés par des entreprises européennes cotées"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS2.4.05, CS2.4.08) : dans les institutions de l'UE, le choix des outils numériques intègre nécessairement les exigences de conformité (RGPD, Règlement de sécurité de l'UE), d'accessibilité (WCAG) et de souveraineté des données. La politique cloud des institutions privilégie les services conformes au droit européen.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_058",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.1",
+    "domain": "Résolution de problèmes — Pratique",
+    "text": "Votre connexion internet institutionnelle est lente. Quelle démarche de diagnostic adopter avant de contacter le support ?",
+    "options": [
+      "Redémarrer l'ordinateur et attendre que le problème disparaisse spontanément",
+      "Appeler immédiatement le support sans effectuer de diagnostic préalable",
+      "Tester la vitesse, vérifier si local ou global, puis contacter le support",
+      "Installer un VPN pour contourner les restrictions réseau de l'institution"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS5.1.06, CS5.1.07) : une démarche diagnostique structurée avant de contacter le support économise du temps et permet une résolution plus efficace. Identifier si le problème est local ou global, lié au réseau ou à l'application, est la première étape.",
+    "difficulty": 1,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_059",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.1",
+    "domain": "Création numérique — Droits d'auteur pratique",
+    "text": "Vous souhaitez utiliser une musique de fond pour une vidéo institutionnelle publiée sur YouTube. Quelle est la procédure correcte ?",
+    "options": [
+      "Utiliser n'importe quelle musique populaire, c'est un usage institutionnel",
+      "Utiliser des musiques CC (en vérifiant l'usage commercial) ou des bibliothèques libres",
+      "Modifier légèrement le tempo de 10% pour éviter la détection automatique",
+      "Utiliser des musiques d'artistes décédés, car elles seraient libres de droits"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.3.04, CS3.3.10) : YouTube utilise Content ID pour détecter les œuvres protégées. Les artistes décédés ne sont pas automatiquement dans le domaine public (70 ans après le décès dans l'UE). Les bibliothèques de musique libre (Pixabay Music, ccMixter) offrent des solutions légales.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_060",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6",
+    "domain": "Identité numérique — Applications",
+    "text": "Qu'est-ce qu'un 'portefeuille européen d'identité numérique' (EUDIW) et quels documents pourra-t-il contenir ?",
+    "options": [
+      "Un portefeuille physique avec puce RFID pour les citoyens européens",
+      "Un service cloud uniquement pour les documents gouvernementaux officiels",
+      "Une application mobile permettant de s'identifier et partager des attributs dans l'UE",
+      "Un protocole technique pour les transactions bancaires électroniques transfrontalières"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS2.6.03, CS2.6.15) : le Règlement eIDAS 2 (2024) crée le cadre légal pour l'EUDIW. Chaque État membre devra proposer un portefeuille d'identité numérique à ses citoyens d'ici 2026. Il permettra l'identification transfrontalière et le partage sélectif d'attributs.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_061",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Vie privée — Pratiques avancées",
+    "text": "Qu'est-ce que le 'Privacy Enhancing Technologies' (PETs) et pourquoi représentent-elles une avancée ?",
+    "options": [
+      "Des logiciels payants pour améliorer visuellement les photos personnelles",
+      "Des systèmes de détection automatique des violations de vie privée en ligne",
+      "Des applications mobiles pour paramétrer rapidement sa vie privée sur les plateformes",
+      "Des techniques cryptographiques permettant d'analyser des données personnelles en préservant la confidentialité"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.2.15, CS4.2.16) : les PETs permettent de réconcilier utilisation des données et protection de la vie privée. Le Règlement EHDS et le Data Act encouragent leur utilisation pour les espaces de données européens. Elles sont au cœur de la stratégie 'privacy by design'.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_062",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Évaluation critique — IA",
+    "text": "Un rapport cite une étude montrant que 'l'IA réduit de 40% les erreurs médicales'. Quelles questions critiques poser avant d'accepter cette conclusion ?",
+    "options": [
+      "Aucune question : les études scientifiques publiées sont toujours fiables",
+      "Simplement vérifier si l'étude a été publiée dans un journal médical renommé",
+      "Questionner le financement, le contexte, la méthodologie et la reproductibilité de l'étude",
+      "Vérifier si le même résultat est annoncé par plusieurs fabricants d'IA médicale"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS1.2.13, CS1.2.14) : évaluer de manière critique comment les systèmes d'IA et les intérêts commerciaux influencent la génération et l'interprétation des informations. Les biais de financement (industry-funded research), la généralisation abusive et l'absence de réplication sont des problèmes courants.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_063",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Résolution créative — Applications sectorielles",
+    "text": "Comment le numérique et l'IA contribuent-ils à la lutte contre le changement climatique dans le secteur de l'énergie ?",
+    "options": [
+      "Ils n'ont aucune application concrète dans la transition énergétique actuelle",
+      "Uniquement en stockant les données de consommation électrique des ménages",
+      "En remplaçant les centrales nucléaires par des datacenters plus efficaces",
+      "Via la gestion intelligente des réseaux et l'optimisation de la production renouvelable"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.4.08, CS5.3.09) : les smart grids permettent d'intégrer les énergies renouvelables intermittentes et d'optimiser la distribution. Le projet Copernicus de l'UE utilise l'IA et les satellites pour surveiller les émissions et l'état des écosystèmes.",
+    "difficulty": 2,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_064",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Cybersécurité — Aspects organisationnels",
+    "text": "Qu'est-ce qu'un 'plan de continuité d'activité numérique' (PCAD) et pourquoi est-il obligatoire pour certaines organisations dans l'UE ?",
+    "options": [
+      "Un document décrivant comment l'organisation se transformera en entreprise numérique",
+      "Une stratégie de communication sur les réseaux sociaux pendant une crise institutionnelle",
+      "Un contrat de service avec un fournisseur cloud assurant la disponibilité 24h/24",
+      "Un plan documentant les procédures pour maintenir les activités critiques en cas d'incident"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.1.08, CS4.1.09) : la directive NIS2 impose aux entités essentielles (énergie, transport, santé, eau, infrastructure numérique, administrations) d'avoir des plans de continuité et de gestion des crises. Les institutions européennes ont leurs propres politiques de continuité selon le règlement de sécurité.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_065",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Gouvernance — Institutions numériques EU",
+    "text": "Quel est le rôle du Contrôleur européen de la protection des données (CEPD/EDPS) et qui surveille-t-il ?",
+    "options": [
+      "Il surveille toutes les organisations privées traitant des données dans l'UE",
+      "Il s'occupe uniquement des violations signalées directement par des citoyens",
+      "Il remplace le CEPD dans les États membres sans autorité nationale propre",
+      "Il est l'autorité surveillant les institutions et organes de l'UE (Règlement 2018/1725)"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.2.10) : le CEPD (EDPS) est l'équivalent institutionnel européen des autorités nationales comme la CNIL. Il surveille le respect du Règlement 2018/1725 (lex specialis du RGPD pour les institutions UE) et contribue à l'élaboration des politiques numériques européennes.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_066",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "IA — Gouvernance et concepts",
+    "text": "Qu'est-ce que le 'AI literacy' (littératie en IA) et pourquoi l'AI Act le rend-il obligatoire pour les fournisseurs ?",
+    "options": [
+      "La capacité technique à programmer des systèmes d'IA complexes",
+      "La maîtrise de l'anglais technique pour lire les documentations d'IA",
+      "La certification en machine learning requise pour tous les ingénieurs IA",
+      "Des compétences pour comprendre, évaluer et utiliser l'IA de façon critique"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (section 2.6, CS3.4.03) : l'art. 4 de l'AI Act impose aux fournisseurs d'IA de garantir un niveau adéquat d'AI literacy. DigComp 3.0 est le cadre de référence de l'UE pour définir et mesurer cette littératie, intégrant l'IA de manière transversale dans ses 21 compétences.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_067",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1",
+    "domain": "Recherche — Sources officielles UE",
+    "text": "Quelles sont les sources primaires officielles pour rechercher la législation européenne en vigueur ?",
+    "options": [
+      "Wikipedia et les sites d'information juridique généralistes accessibles",
+      "Les bases de données de cabinets d'avocats et études notariales",
+      "Les archives numériques des parlements des États membres de l'UE",
+      "EUR-Lex et le Journal officiel de l'UE pour les actes législatifs"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS1.1.06, CS1.2.15) : identifier et utiliser des sources primaires fiables est une compétence essentielle pour un fonctionnaire européen. EUR-Lex est la source officielle, gratuite et exhaustive pour tout acte juridique de l'UE.",
+    "difficulty": 1,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_068",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.3",
+    "domain": "Bien-être — Ergonomie numérique",
+    "text": "Qu'est-ce que le syndrome de la 'fatigue Zoom' (Zoom fatigue) et quelles pratiques peuvent le réduire ?",
+    "options": [
+      "Une allergie aux écrans d'ordinateur détectée uniquement pendant les appels vidéo",
+      "Un épuisement mental spécifique aux visioconférences causé par les signaux non verbaux",
+      "Un problème technique de connexion internet pendant les appels en visioconférence",
+      "La difficulté à se concentrer à cause des notifications reçues pendant les réunions"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.3.06, CS4.3.13) : la fatigue des visioconférences est documentée scientifiquement. Les facteurs incluent la charge cognitive liée au traitement des signaux non-verbaux, l'immobilité physique, et l'auto-observation constante. Adapter les pratiques de réunion réduit cet épuisement.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_069",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.5",
+    "domain": "Comportement numérique — Institutions",
+    "text": "Quels sont les principes de la 'communication institutionnelle responsable' sur les réseaux sociaux pour un fonctionnaire européen ?",
+    "options": [
+      "Partager librement toutes les informations professionnelles au bénéfice des citoyens",
+      "Distinguer expression personnelle et position institutionnelle, respecter la confidentialité",
+      "Ne jamais utiliser de réseaux sociaux personnels si on est fonctionnaire européen",
+      "Partager uniquement les informations approuvées par le service de communication"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.5.05, CS2.5.09) : les fonctionnaires européens sont régis par le Statut des fonctionnaires et les guidelines de communication. L'équilibre entre liberté d'expression personnelle et obligations de loyauté et de discrétion est une question éthique clé.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_070",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Apprentissage continu — Ressources",
+    "text": "Quelle plateforme européenne gratuite propose des ressources de formation aux compétences numériques pour les citoyens et les institutions ?",
+    "options": [
+      "Il n'existe pas de plateforme européenne dédiée aux compétences numériques",
+      "Digital Skills and Jobs Platform, agrégeant ressources de formation et offres d'emploi",
+      "Une application mobile exclusive aux fonctionnaires des institutions européennes",
+      "Une plateforme uniquement disponible pour les citoyens des États membres avant 2015"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.4.10) : la Digital Skills and Jobs Platform de la Commission européenne compile les opportunités de formation, les défis numériques nationaux et les initiatives de la Coalition. Elle est centrale dans la mise en œuvre de la stratégie pour la Décennie numérique.",
+    "difficulty": 1,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_071",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "IA — Robustesse et biais",
+    "text": "Qu'est-ce que la 'robustesse adversariale' d'un système d'IA et pourquoi est-elle importante ?",
+    "options": [
+      "La résistance aux attaques adversariales — légères modifications trompant l'IA de façon dramatique",
+      "La capacité d'un système d'IA à débattre efficacement avec d'autres systèmes d'IA",
+      "La protection contre les tentatives de piratage du code source de l'IA",
+      "La capacité à continuer de fonctionner malgré une connexion internet instable"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS3.4.16) : les attaques adversariales représentent un risque de sécurité majeur pour les systèmes d'IA critiques (reconnaissance d'image médicale, conduite autonome, systèmes de sécurité). L'AI Act impose des exigences de robustesse pour les systèmes à haut risque.",
+    "difficulty": 3,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_072",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2",
+    "domain": "Communication — Données et transparence",
+    "text": "Qu'est-ce que le principe de 'transparence algorithmique' et pourquoi est-il important pour les citoyens ?",
+    "options": [
+      "L'obligation de publier tout le code source de tout algorithme utilisé",
+      "L'obligation d'informer les utilisateurs sur les décisions algorithmiques les concernant",
+      "Un standard technique de lisibilité du code informatique pour les développeurs",
+      "L'interdiction d'utiliser des algorithmes propriétaires dans les administrations"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.14, CS2.3.08) : le DSA, l'AI Act et le RGPD imposent différents niveaux de transparence algorithmique. Les utilisateurs ont le droit de comprendre les grandes lignes des décisions algorithmiques qui les concernent, sans nécessairement avoir accès au code source (qui peut être protégé comme secret commercial).",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Implicit"
+  },
+  {
+    "id": "dcb5_073",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.4",
+    "domain": "Numérique responsable — Pratiques",
+    "text": "Qu'est-ce que l''éco-conception logicielle' (green software / sustainable software) et quelles pratiques implique-t-elle ?",
+    "options": [
+      "L'obligation légale d'utiliser des serveurs alimentés à 100% en énergies renouvelables",
+      "L'utilisation de couleurs vertes dans l'interface des applications numériques",
+      "Une approche minimisant la consommation d'énergie et ressources des logiciels",
+      "Un standard ISO pour les logiciels de gestion environnementale et durabilité"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS4.4.10, CS4.4.15) : l'éco-conception logicielle est un domaine émergent. Des organisations comme la Green Software Foundation développent des standards pour mesurer et réduire l'empreinte carbone des logiciels. C'est une dimension croissante de la responsabilité des développeurs et des donneurs d'ordre.",
+    "difficulty": 3,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_074",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3",
+    "domain": "Gestion données — Formats avancés",
+    "text": "Qu'est-ce que le format RDF (Resource Description Framework) et dans quel contexte est-il utilisé par les institutions européennes ?",
+    "options": [
+      "Un format de compression de fichiers pour les grandes bases de données",
+      "Un standard W3C pour le web sémantique ; EUR-Lex publie sa législation en RDF",
+      "Un protocole réseau pour les transferts de fichiers sécurisés entre serveurs",
+      "Un format de document pour les rapports officiels des institutions de l'UE"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.14, CS1.3.15) : le web sémantique et les données liées permettent aux machines de comprendre et interconnecter automatiquement des données de sources différentes. EUR-Lex publie sa législation en RDF, permettant des requêtes SPARQL pour les développeurs.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_075",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Cadre réglementaire — Récapitulatif",
+    "text": "Quel est le principal texte européen régissant la protection des données personnelles au sein des institutions de l'UE (distinct du RGPD qui s'applique aux États membres) ?",
+    "options": [
+      "La directive Police/Justice (UE 2016/680) sur le traitement pénal des données",
+      "La Charte des droits fondamentaux de l'UE (article 8) sur la protection des données",
+      "Le Règlement (UE) 2018/1725, lex specialis du RGPD pour les institutions de l'UE",
+      "La Convention 108 du Conseil de l'Europe sur la protection des données"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS4.2.10) : le Règlement 2018/1725 est l'équivalent du RGPD pour les institutions UE (Commission, Parlement, Conseil, agences…). Il est supervisé par le CEPD/EDPS. La Charte (art. 8) et la Convention 108 sont des textes fondateurs mais moins opérationnels.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_076",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "Pensée computationnelle — Application avancée",
+    "text": "Comment le concept d''abstraction' en pensée computationnelle s'applique-t-il dans la vie professionnelle d'un fonctionnaire européen ?",
+    "options": [
+      "L'abstraction ne s'applique qu'à la programmation informatique et au code",
+      "L'abstraction signifie utiliser un langage vague et général dans les rapports",
+      "L'abstraction est uniquement utile pour créer des présentations visuelles",
+      "L'abstraction consiste à identifier l'essentiel d'un problème en ignorant le superflu"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS3.4.07, CS5.4.02) : la pensée computationnelle est une compétence transversale. L'abstraction — identifier l'essentiel et éliminer le superflu — est fondamentale pour analyser des politiques complexes, rédiger des synthèses concises ou structurer une argumentation.",
+    "difficulty": 2,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_077",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Cybersécurité — Culture organisationnelle",
+    "text": "Pourquoi l'humain est-il souvent décrit comme le 'maillon faible' de la cybersécurité, et comment y remédier ?",
+    "options": [
+      "Parce que les humains commettent des erreurs techniques de programmation",
+      "Parce que les attaquants exploitent d'abord les comportements humains (phishing, ingénierie sociale)",
+      "Parce que les humains refusent d'utiliser des outils de sécurité avancés",
+      "Parce que les humains sont incapables d'apprendre les bonnes pratiques de sécurité"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.05, CS4.2.14) : 80-90% des incidents de cybersécurité impliquent une erreur humaine selon les études sectorielles. La formation continue et les simulations (phishing tests) sont plus efficaces que les solutions techniques seules. Une culture de signalement sans stigmatisation encourage la remontée des incidents.",
+    "difficulty": 1,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_078",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.4",
+    "domain": "Collaboration — IA et travail collectif",
+    "text": "Quelles sont les implications éthiques de l'utilisation d'une IA pour 'noter' ou 'évaluer' les contributions individuelles dans un projet collaboratif numérique ?",
+    "options": [
+      "Aucune implication si l'IA est précise et bien calibrée par des experts",
+      "La notation IA est toujours plus objective que la notation humaine",
+      "Risques de biais, atteinte à la vie privée et réduction de la créativité",
+      "Uniquement un risque si l'IA n'a pas été entraînée sur les données du secteur"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS2.4.08, CS3.4.16) : l'IA utilisée pour évaluer les travailleurs est classifiée à haut risque par l'AI Act (Annexe III). Des garanties de transparence, d'équité et de supervision humaine sont obligatoires. Des études montrent que les systèmes de surveillance algorithmique peuvent réduire la créativité et la collaboration.",
+    "difficulty": 3,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_079",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Vérification — Médias et IA",
+    "text": "Qu'est-ce que le 'watermarking' (filigrane numérique) pour les contenus IA et quel est son intérêt selon l'AI Act ?",
+    "options": [
+      "Un procédé pour protéger les images contre la copie non autorisée en ligne",
+      "L'intégration de marqueurs invisibles dans les contenus IA permettant d'en détecter l'origine",
+      "Un système de chiffrement des données transmises par des systèmes d'IA",
+      "Une technique de compression des modèles d'IA pour les déployer sur mobile"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.3.03, CS1.2.03) : le watermarking des contenus IA est encouragé par l'AI Act (art. 50) et par la Coalition for Content Provenance and Authenticity (C2PA). Il permet aux fact-checkers et aux outils de détection d'identifier les contenus artificiels, même après modifications.",
+    "difficulty": 3,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_080",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Innovation — Secteur public européen",
+    "text": "Qu'est-ce que le 'gouvernement ouvert' (open government) et comment le numérique le renforce-t-il ?",
+    "options": [
+      "Un principe de gouvernance fondé sur transparence, participation et collaboration citoyenne",
+      "Un gouvernement n'imposant aucune restriction à l'accès à internet pour les citoyens",
+      "Un gouvernement utilisant exclusivement des logiciels open source et libres",
+      "Un système où les citoyens votent directement sur toutes les lois via internet"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS2.3.11, CS5.3.02) : l'UE est signataire du Partenariat pour un gouvernement ouvert (OGP). Le portail data.europa.eu, EUR-Lex et les plateformes de consultation 'Have your say' sont des illustrations de l'open government numérique européen.",
+    "difficulty": 2,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_081",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.3",
+    "domain": "Copyright — Cas pratiques",
+    "text": "Vous souhaitez créer un cours en ligne qui cite des extraits de livres académiques sous droits. Quelle exception de droit d'auteur pourrait s'appliquer dans l'UE ?",
+    "options": [
+      "L'exception pédagogique de la directive DASM permet l'usage d'extraits à des fins d'enseignement",
+      "Aucune exception ne s'applique aux cours en ligne, quelle que soit leur finalité",
+      "L'exception fair use s'applique automatiquement à tout contenu éducatif en ligne",
+      "Tous les livres académiques sont automatiquement libres de droits pour l'enseignement"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS3.3.11) : l'art. 5(3)(a) de la Directive InfoSoc et l'art. 5 de la Directive DASM prévoient des exceptions pour l'enseignement. Elles sont limitées : extraits, non commercial, cadre institutionnel. Leur portée varie selon les transpositions nationales.",
+    "difficulty": 3,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_082",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Vie privée — Technologies spécifiques",
+    "text": "Qu'est-ce que la 'reconnaissance faciale en espace public' et pourquoi l'AI Act adopte-t-il une position particulièrement restrictive à son égard ?",
+    "options": [
+      "Elle est simplement réglementée comme tout autre système d'IA à haut risque",
+      "Elle est autorisée uniquement pour les institutions européennes dans leurs locaux",
+      "Elle est en principe interdite dans les espaces publics par l'AI Act (art. 5)",
+      "Elle est interdite uniquement dans les États ayant une forte tradition des libertés civiles"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS2.3.16, CS4.2.04) : l'AI Act classe l'identification biométrique à distance en temps réel dans les espaces publics parmi les pratiques d'IA inacceptables (art. 5), sauf dans des cas d'urgence très limitatifs. C'est l'une des décisions les plus symboliques de cette loi.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_083",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.6",
+    "domain": "Identité — Authentification moderne",
+    "text": "Qu'est-ce que l'authentification 'sans mot de passe' (passwordless) et quelles technologies la permettent ?",
+    "options": [
+      "Un système permettant de se connecter sans aucune vérification d'identité",
+      "Un système réservé exclusivement aux smartphones de dernière génération",
+      "Des méthodes remplaçant les mots de passe par des facteurs cryptographiques sûrs",
+      "Un protocole uniquement applicable aux applications mobiles, pas aux sites web"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS4.1.04, CS2.6.06) : les standards FIDO2 et WebAuthn permettent une authentification sans mot de passe basée sur la cryptographie à clé publique. Les institutions européennes adoptent progressivement ces méthodes pour réduire les risques liés aux mots de passe compromis.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_084",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.2",
+    "domain": "Besoins technologiques — Adaptation",
+    "text": "Qu'est-ce que l''UX' (User Experience / Expérience utilisateur) et pourquoi est-elle importante dans le développement de services publics numériques ?",
+    "options": [
+      "Une mesure technique de la vitesse de chargement des pages web uniquement",
+      "La qualité globale de l'expérience utilisateur lors de son interaction avec un service numérique",
+      "Un logiciel de conception graphique pour les interfaces web et applications",
+      "Un indicateur de performance mesurant uniquement la satisfaction des utilisateurs"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.2.06, CS5.3.04) : l'approche centrée sur l'utilisateur est fondamentale dans la conception des services numériques publics. La Commission européenne a publié des guidelines UX pour les sites .europa.eu. Une mauvaise UX des services publics numériques est un obstacle à l'inclusion et à l'e-gouvernement.",
+    "difficulty": 1,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_085",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.4",
+    "domain": "Environnement — Mesure et action",
+    "text": "Qu'est-ce que l''ITU' dans le contexte de la gouvernance mondiale d'internet et des compétences numériques ?",
+    "options": [
+      "Un réseau social professionnel concurrent de LinkedIn pour les ingénieurs",
+      "L'ITU est l'agence spécialisée de l'ONU coordonnant les standards TIC mondiaux",
+      "Un consortium d'entreprises technologiques américaines gérant les brevets logiciels",
+      "Un traité international sur la neutralité d'internet signé par 195 pays"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.4, Box 2) : l'ITU est citée dans DigComp 3.0 pour ses travaux sur les pré-requis d'accès aux compétences numériques de base. Elle publie le Global Connectivity Report mesurant l'accès à internet dans le monde.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_086",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "IA — Aspects techniques fondamentaux",
+    "text": "Qu'est-ce qu'un 'transformeur' (transformer) dans le contexte des modèles de langage et pourquoi a-t-il révolutionné l'IA générative ?",
+    "options": [
+      "Un convertisseur de format de fichier pour les textes numériques",
+      "Un composant matériel améliorant la vitesse de calcul des GPU spécialisés",
+      "Un protocole de communication entre différents systèmes et modèles d'IA",
+      "Une architecture de réseau de neurones (2017) à la base des LLMs comme GPT"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS3.4.09, CS3.4.15) : comprendre les bases de l'architecture des LLMs permet d'évaluer leurs capacités et limites. Les transformeurs ont rendu possible GPT-4, Claude, Gemini et Llama, transformant radicalement les capacités de l'IA générative depuis 2020.",
+    "difficulty": 3,
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit"
+  },
+  {
+    "id": "dcb5_087",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Droits numériques — Pratique citoyenne",
+    "text": "Comment un citoyen européen peut-il exercer son droit d'accès à un document détenu par la Commission européenne ?",
+    "options": [
+      "En contactant uniquement le Médiateur européen pour toute demande de document",
+      "En adressant une pétition au Parlement européen via le formulaire officiel",
+      "Via une demande au titre du Règlement 1049/2001 sur la transparence institutionnelle",
+      "En demandant à son État membre de faire la demande à la place du citoyen"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS2.3.11, CS2.3.12) : le Règlement 1049/2001 garantit l'accès aux documents des institutions européennes. Ce droit, exerceable par tout citoyen de l'UE ou résident, est fondamental pour la transparence démocratique et peut être exercé numériquement via le portail ACCESS-EU.",
+    "difficulty": 2,
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_088",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3",
+    "domain": "Gestion données — Archivage numérique",
+    "text": "Qu'est-ce que la 'pérennité numérique' (digital preservation) et quels défis pose-t-elle pour les archives institutionnelles ?",
+    "options": [
+      "La simple sauvegarde régulière de fichiers sur des disques durs locaux",
+      "Les stratégies pour garantir l'accès à long terme aux contenus malgré l'obsolescence",
+      "Le chiffrement permanent des archives pour les protéger contre le piratage",
+      "La numérisation des documents papier pour les rendre accessibles en ligne"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.3.18, CS1.3.19) : la pérennité numérique est un enjeu majeur pour les archives européennes. La stratégie consiste à utiliser des formats ouverts (PDF/A, XML, TIFF), à effectuer des migrations régulières, et à maintenir une documentation des contextes (métadonnées). Les Archives européennes gèrent ces défis pour les documents institutionnels.",
+    "difficulty": 2,
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_089",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.3",
+    "domain": "Bien-être — Mineurs en ligne",
+    "text": "Quelles protections spécifiques le RGPD et le DSA prévoient-ils pour les mineurs dans les environnements numériques ?",
+    "options": [
+      "Aucune protection spécifique, les mineurs ayant exactement les mêmes droits",
+      "Le RGPD interdit totalement aux mineurs d utiliser internet en ligne",
+      "Uniquement une information simplifiée sur la vie privée pour les mineurs",
+      "Le RGPD impose consentement parental pour -16 ans et DSA interdit le ciblage"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS4.2.09, CS2.5.07) : la protection des mineurs est renforcée. Le RGPD (art. 8) fixe l'âge du consentement à 16 ans (modifiable par les États membres à partir de 13 ans). Le DSA impose aux grandes plateformes des mesures spécifiques de protection des mineurs. La Stratégie pour un meilleur internet pour les enfants (BIK+, 2022) complète ce cadre.",
+    "difficulty": 2,
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None"
+  },
+  {
+    "id": "dcb5_090",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Parcours — Récapitulatif global",
+    "text": "En résumé, quelles sont les cinq grandes aires de compétences du cadre DigComp 3.0 ?",
+    "options": [
+      "Bureautique, Communication, Sécurité, Programmation et Gestion de projet",
+      "Informatique, Réseaux, Bases de données, IA et Cybersécurité numérique",
+      "Recherche d information ; Communication ; Contenu ; Sécurité ; Résolution",
+      "Compétences cognitives, Compétences sociales, Techniques, Juridiques et Créatives"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (Figure 5, section 2.3) : les 5 domaines de compétences sont : 1. Recherche, évaluation et gestion de l'information ; 2. Communication et collaboration ; 3. Création de contenu numérique ; 4. Sécurité, bien-être et usage responsable ; 5. Résolution de problèmes. Sous ces 5 domaines se déclinent 21 compétences spécifiques.",
+    "difficulty": 1,
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None"
+  }
+]
