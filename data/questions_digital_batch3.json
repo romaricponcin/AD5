@@ -1,0 +1,802 @@
+[
+  {
+    "id": "dc5_001",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.1",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "AI-Implicit",
+    "text": "Votre ordinateur affiche régulièrement une erreur au démarrage d'une application. Quelle est la démarche méthodique à adopter ?",
+    "options": [
+      "Redémarrer en boucle jusqu'à disparition spontanée du problème",
+      "Ignorer l'erreur si l'application fonctionne partiellement malgré tout",
+      "Identifier l'erreur, diagnostiquer la cause, tester des solutions, escalader si besoin",
+      "Remplacer l'ordinateur si le problème persiste plus d'une journée"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS5.1.06) — Niveau Basique : résoudre les problèmes techniques en utilisant diverses stratégies de recherche. Une approche méthodique (identifier → diagnostiquer → tenter → escalader) est bien plus efficace que des solutions aléatoires. La documentation de l'erreur exacte est cruciale pour le support.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc5_002",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.1",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Quelle est la différence entre un système d'exploitation et un logiciel d'application ?",
+    "options": [
+      "Le système d'exploitation gère le matériel et fournit des services aux applications",
+      "Les deux désignent la même catégorie de logiciel selon les différents éditeurs",
+      "Le système d'exploitation est payant et les logiciels d'application sont toujours gratuits",
+      "Les logiciels d'application peuvent fonctionner sans aucun système d'exploitation"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS5.1.02) — Niveau Basique : le système d'exploitation (Windows, macOS, Linux) gère les ressources matérielles et fournit des services de base. Les logiciels d'application (traitement de texte, navigateur) s'exécutent au-dessus du système d'exploitation. Options B, C et D véhiculent des confusions fréquentes mais incorrectes.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc5_003",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.1",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que la mise en cache (caching) et pourquoi son effacement peut-il résoudre des problèmes d'affichage web ?",
+    "options": [
+      "Un mécanisme chiffrant les données de navigation pour protéger la confidentialité",
+      "Un stockage temporaire de pages web ; un cache obsolète peut afficher du contenu périmé",
+      "Un système de sauvegarde automatique des documents récemment modifiés en local",
+      "Un outil de compression des images pour accélérer les transferts réseau"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.1.03, CS5.1.07) — Niveau Basique : le cache stocke des copies locales de pages web pour accélérer le chargement. Un cache obsolète peut afficher du contenu périmé ou incompatible avec les mises à jour du site. Son effacement force le rechargement des ressources fraîches depuis le serveur.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc5_004",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.2",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Qu'est-ce qu'une technologie d'assistance (assistive technology) et donnez un exemple ?",
+    "options": [
+      "Un logiciel de gestion de projet facilitant la coordination des équipes distribuées",
+      "Un système d'IA automatisant les tâches administratives répétitives en entreprise",
+      "Des technologies permettant aux personnes handicapées d'accéder aux outils numériques",
+      "Un outil d'analyse de données pour les responsables et décideurs institutionnels"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS5.2.03) — Niveau Basique : les technologies d'assistance (lecteurs d'écran, claviers alternatifs, reconnaissance vocale) sont essentielles pour l'inclusion numérique des personnes handicapées. La Loi européenne sur l'accessibilité (2025) impose leur prise en compte dans les produits et services numériques.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc5_005",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.2",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que la fracture numérique et quelles en sont les principales dimensions ?",
+    "options": [
+      "Uniquement la différence de débit entre pays développés et pays en développement",
+      "Des inégalités d'accès et d'usage du numérique liées à l'âge, l'éducation ou le revenu",
+      "La division entre systèmes d'exploitation propriétaires et libres open source",
+      "L'écart technologique entre smartphones haut de gamme et appareils bas de gamme"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.02, CS5.2.09) — Niveau Intermédiaire : la fracture numérique est multidimensionnelle — accès matériel, compétences, usage effectif et résultats. L'UE la combat via le Programme pour la décennie numérique 2030 (objectif 80% d'adultes avec compétences numériques de base). L'option A ne décrit qu'une seule dimension.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc5_006",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Implicit",
+    "text": "Qu'est-ce qu'une approche 'centrée sur l'humain' (human-centric) dans le développement de technologies numériques ?",
+    "options": [
+      "Une philosophie plaçant les besoins et valeurs humains au centre du développement technologique",
+      "Un style de management fondé sur l'automatisation maximale des tâches humaines répétitives",
+      "Un protocole remplaçant les opérateurs humains par des systèmes entièrement automatisés",
+      "Un standard technique pour les interfaces graphiques des applications mobiles modernes"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS5.3.04, CS5.3.07) — Niveau Intermédiaire : l'approche centrée sur l'humain garantit que la technologie sert l'humain et non l'inverse. C'est un principe fondateur de la politique numérique européenne (AI Act, Charte des droits numériques). L'option B décrit précisément l'opposé de cette philosophie.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc5_007",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit",
+    "text": "Quelles sont les forces et limites des systèmes d'IA dans les processus créatifs ?",
+    "options": [
+      "Forces : rapidité et variété. Limites : absence de jugement éthique autonome et biais",
+      "L'IA excelle dans tout aspect créatif sans aucune limite pratique ou éthique notable",
+      "L'IA est inutile dans les processus créatifs professionnels ou artistiques sérieux",
+      "L'IA ne peut travailler qu'avec des données numériques structurées et tabulaires"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS5.3.05) — Niveau Intermédiaire [AI-Explicit] : forces de l'IA : rapidité, génération de variantes, disponibilité. Limites : manque de compréhension contextuelle profonde, absence de jugement éthique autonome, dépendance aux données d'entraînement, pas de créativité originale au sens humain. Options A et B sont des extrêmes incorrects.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc5_008",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Selon DigComp 3.0, comment définit-on la compétence numérique ?",
+    "options": [
+      "La maîtrise d'au moins deux langages de programmation et d'un tableur professionnel",
+      "La possession de certifications informatiques officielles reconnues au niveau européen",
+      "L'utilisation confiante, critique et responsable des technologies numériques pour apprendre, travailler et participer",
+      "La capacité à utiliser des outils bureautiques standard dans un contexte professionnel"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (section 2.2) — Niveau Basique : selon la Recommandation du Conseil (2018), la compétence numérique est l'utilisation confiante, critique et responsable des technologies numériques pour l'apprentissage, le travail et la participation à la société. Elle est bien plus large que la maîtrise technique (A, B, D).",
+    "difficulty": 1
+  },
+  {
+    "id": "dc5_009",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "En 2023, quel pourcentage d'adultes de l'UE avait au moins des compétences numériques de base ?",
+    "options": [
+      "38%",
+      "56%",
+      "72%",
+      "85%"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (p.11, Digital Decade Policy Programme) — Niveau Basique : en 2023, seulement 56% des adultes de l'UE avaient au moins des compétences numériques de base. L'objectif de l'UE est d'atteindre 80% d'ici 2030, soulignant l'ampleur du défi pour les politiques de formation.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc5_010",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.4",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que l'apprentissage tout au long de la vie appliqué aux compétences numériques ?",
+    "options": [
+      "L'obligation légale de suivre des formations numériques annuelles dûment certifiées",
+      "La nécessité de mettre à jour continuellement ses compétences face à l'évolution technologique",
+      "Un programme de formation réservé aux seniors en situation de reconversion professionnelle",
+      "L'obligation d'obtenir un diplôme universitaire en informatique avant l'âge de 35 ans"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.4.02, CS5.4.07) — Niveau Basique : les compétences numériques nécessitent une mise à jour régulière tout au long de la vie professionnelle. La stratégie Union of Skills (2025) vise 60% des adultes en formation chaque année d'ici 2030. L'option A confond recommandation et obligation légale.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc5_011",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.1",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que le protocole HTTPS et pourquoi est-il important pour la sécurité en ligne ?",
+    "options": [
+      "Un format d'image optimisé pour les sites web à fort trafic et haute résolution",
+      "Un protocole chiffrant les communications entre navigateur et serveur, garantissant confidentialité et authenticité",
+      "Un outil mesurant la vitesse et la qualité de la connexion internet d'un utilisateur",
+      "Un protocole de téléchargement de fichiers volumineux depuis des serveurs distants"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.04, CS5.1.02) — Niveau Basique : HTTPS (avec cadenas dans la barre d'adresse) chiffre les communications via TLS/SSL, garantissant la confidentialité des données transmises et l'authenticité du site. Essentiel pour les transactions financières et la saisie de données personnelles.",
+    "difficulty": 1
+  },
+  {
+    "id": "dc5_012",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.2",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que l'interopérabilité dans les systèmes numériques et pourquoi est-elle importante dans le contexte européen ?",
+    "options": [
+      "La capacité d'un système à fonctionner sans connexion internet ni infrastructure réseau",
+      "Un standard de sécurité pour les transactions financières transfrontalières dans l'UE",
+      "La compatibilité entre marques d'appareils pour garantir l'échange de fichiers courants",
+      "La capacité de systèmes distincts à échanger et interpréter des informations efficacement"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS5.2.06, CS5.2.08) — Niveau Intermédiaire : l'interopérabilité est fondamentale pour les services publics numériques transfrontaliers dans l'UE (cadre d'interopérabilité européen). Elle permet à des systèmes hétérogènes d'échanger des données sans adaptation manuelle.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc5_013",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit",
+    "text": "Qu'est-ce que l'IA explicable (XAI) et pourquoi est-elle importante ?",
+    "options": [
+      "Une IA capable de rédiger et présenter automatiquement ses propres rapports d'activité",
+      "Des systèmes dont les décisions sont compréhensibles par les humains, essentiels pour la responsabilité",
+      "Un type d'IA réservé aux applications éducatives pour les enfants et les apprenants",
+      "Un standard technique définissant les interfaces utilisateurs pour les outils d'IA"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.09, CS3.4.12) — Niveau Avancé [AI-Explicit] : l'AI Act impose la transparence et l'explicabilité pour les systèmes à haut risque. Sans XAI, il est impossible de respecter le droit à l'explication garanti par le RGPD (art. 22) pour les décisions automatisées significatives.",
+    "difficulty": 3
+  },
+  {
+    "id": "dc5_014",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.2",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que l'hyperconnectivité et quels sont ses effets sur la vie professionnelle ?",
+    "options": [
+      "Une connexion internet très rapide (fibre optique) permettant le streaming haute définition",
+      "Un état de connexion permanente via plusieurs appareils pouvant provoquer surcharge et difficultés à déconnecter",
+      "Un protocole réseau dédié aux objets connectés et aux infrastructures industrielles",
+      "Un indicateur mesurant la performance et la disponibilité des réseaux mobiles 5G"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.3.01, CS4.3.07) — Niveau Intermédiaire : l'hyperconnectivité génère une surcharge informationnelle et rend difficile la déconnexion, avec des impacts sur l'équilibre travail-vie personnelle. La directive européenne sur le droit à la déconnexion répond à ce défi croissant du travail hybride.",
+    "difficulty": 2
+  },
+  {
+    "id": "dc5_015",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.1",
+    "domain": "Résolution de problèmes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Quelle est la différence entre le mode avion et l'état hors connexion sur un appareil numérique ?",
+    "options": [
+      "Les deux sont identiques et désactivent exactement les mêmes fonctionnalités",
+      "Le mode avion désactive toutes les radios (Wi-Fi, Bluetooth, données, GPS) en une action",
+      "Le mode avion accélère la batterie uniquement sur les appareils certifiés IATA",
+      "Le mode avion est exclusivement disponible sur les smartphones récents"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS5.1.07) — Niveau Basique : le mode avion désactive toutes les communications sans fil (Wi-Fi, Bluetooth, données mobiles, GPS) en une seule action. Être 'hors connexion' peut simplement signifier pas d'internet actif, tandis que d'autres radios (Bluetooth) restent actives. Cette distinction a des implications pour la sécurité et la vie privée.",
+    "difficulty": 1
+  },
+  {
+    "id": "dcx_001",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Le programme 'Décennie numérique 2030' de l'UE fixe des objectifs ambitieux. Lequel des éléments suivants en fait partie ?",
+    "options": [
+      "100% des services publics clés accessibles en ligne pour les citoyens d'ici 2030",
+      "L'interdiction de tous les systèmes d'IA dans les administrations publiques d'ici 2030",
+      "La création d'une monnaie numérique unique pour tous les États membres d'ici 2030",
+      "La suppression de tous les réseaux 4G au profit de la 5G dans toute l'UE"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (p.12, Box 1) — Niveau Intermédiaire : le Programme pour la décennie numérique 2030 définit notamment : 80% d'adultes avec compétences numériques de base, 100% des services publics clés en ligne, 75% des entreprises utilisant cloud/IA/big data, et couverture 5G généralisée. Les options B, C et D décrivent des objectifs inexistants dans ce programme.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_002",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que l'Indicateur de compétences numériques (DSI) de l'UE ?",
+    "options": [
+      "Une application mobile permettant à chaque citoyen de s'auto-certifier numériquement",
+      "Un classement annuel des États membres par niveau de transformation numérique globale",
+      "Un indice composite mesurant les compétences numériques de base dans l'UE selon DigComp",
+      "Un outil de certification individuelle des compétences délivré par la Commission"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (section 1.3, 2.1) — Niveau Avancé : le DSI mesure les compétences numériques dans les 5 domaines de DigComp et sert d'indicateur clé pour suivre les progrès vers les objectifs de la Décennie numérique 2030. Ce n'est pas un classement de pays (B) ni une certification individuelle (D).",
+    "difficulty": 3
+  },
+  {
+    "id": "dcx_003",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Quelle institution européenne a développé DigComp 3.0 ?",
+    "options": [
+      "La Banque centrale européenne (BCE) en partenariat avec la DG EMPL",
+      "Le Centre commun de recherche (JRC) de la Commission européenne avec la DG EMPL",
+      "Le Parlement européen via sa commission ITRE industries et recherche",
+      "L'ENISA, agence européenne dédiée à la cybersécurité et aux réseaux"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (p.3) — Niveau Basique : DigComp 3.0 est développé par le Centre commun de recherche (JRC — Joint Research Centre) de la Commission européenne, en collaboration avec la Direction générale Emploi, affaires sociales et inclusion (DG EMPL). Sa 5ème édition date de 2025.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_004",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit",
+    "text": "Comment l'IA est-elle intégrée dans DigComp 3.0 par rapport à la version précédente ?",
+    "options": [
+      "DigComp 3.0 crée un 6ème domaine entièrement dédié à la compétence IA",
+      "L'IA est intégrée transversalement dans les 5 domaines et 21 compétences existants",
+      "DigComp 3.0 retire toute référence à l'IA pour maintenir la neutralité technologique",
+      "L'IA n'est abordée que dans le domaine 3 (Création de contenu numérique)"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.6, Box 3) — Niveau Avancé [AI-Explicit] : 14% des 362 énoncés sont AI-explicites, 68% sont AI-implicites. L'IA est transversale car elle est désormais intégrée dans toutes les dimensions de la vie numérique. DigComp 3.0 maintient la structure à 5 domaines tout en intégrant l'IA systématiquement.",
+    "difficulty": 3
+  },
+  {
+    "id": "dcx_005",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Quels sont les quatre niveaux de maîtrise définis dans DigComp 3.0 ?",
+    "options": [
+      "Débutant, Intermédiaire, Expert et Maître selon les aptitudes acquises",
+      "Basique, Intermédiaire, Avancé et Très avancé selon DigComp 3.0",
+      "Bronze, Argent, Or et Platine en référence aux standards certifications reconnues",
+      "Niveau A, B, C et D selon le cadre commun européen CECRL"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.4, Table 3) — Niveau Basique : les quatre niveaux sont Basic (basique), Intermediate (intermédiaire), Advanced (avancé) et Highly Advanced (très avancé). Chaque niveau décrit des capacités croissantes en termes de complexité des tâches et d'autonomie. Ces niveaux sont mappables sur les 8 niveaux de l'ancienne version.",
+    "difficulty": 1
+  },
+  {
+    "id": "dcx_006",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit",
+    "text": "Qu'est-ce que l'AI Act et quelle approche réglementaire adopte-t-il ?",
+    "options": [
+      "Un règlement interdisant toute utilisation de l'IA dans le secteur public européen",
+      "Un accord international consultatif sans force légale contraignante dans les États membres",
+      "Un règlement fondé sur les risques : obligations proportionnelles au niveau de risque du système",
+      "Une directive sur la formation obligatoire à l'IA pour les fonctionnaires de l'UE"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (section 2.6, CS2.3.16) — Niveau Avancé [AI-Explicit] : l'AI Act (Règlement UE 2024/1689) adopte une approche fondée sur les risques avec 4 niveaux : risque minimal, limité, élevé et inacceptable (interdit). C'est le premier cadre réglementaire complet sur l'IA au monde, directement applicable dans tous les États membres.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_007",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que le Certificat européen de compétences numériques (EDSC) en cours de développement ?",
+    "options": [
+      "Un diplôme universitaire européen de 3 ans spécialisé en informatique appliquée",
+      "Un cadre de certification basé sur DigComp pour reconnaître les compétences numériques dans l'UE",
+      "Une obligation légale pour les fonctionnaires européens d'ici 2026 sous peine de sanction",
+      "Un label de qualité attribué aux entreprises investissant dans la formation numérique"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 1.2, p.14) — Niveau Avancé : une étude de faisabilité de l'EDSC a impliqué 650 parties prenantes. Il viserait à créer un standard de reconnaissance des compétences numériques dans toute l'UE, facilitant la mobilité professionnelle. Ce n'est pas encore une obligation légale (C) ni un label entreprise (D).",
+    "difficulty": 3
+  },
+  {
+    "id": "dcx_008",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit",
+    "text": "Quelle est la définition d'un système d'IA selon l'AI Act, telle qu'intégrée dans DigComp 3.0 ?",
+    "options": [
+      "Tout logiciel capable de résoudre des problèmes mathématiques complexes de manière automatisée",
+      "Tout programme informatique utilisant des données d'entraînement, quelle que soit leur taille",
+      "Un système machine à autonomie variable inférant, à partir d'entrées, comment générer des sorties",
+      "Uniquement les robots physiques dotés de capacités de décision entièrement autonomes"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (section 2.6) — Niveau Avancé [AI-Explicit] : selon l'AI Act (art. 3(1)), un système d'IA est un système basé sur des machines, à autonomie variable, pouvant être adaptatif après déploiement, qui infère de ses entrées comment générer des sorties (prédictions, recommandations, décisions). Cette définition couvre l'IA générative.",
+    "difficulty": 3
+  },
+  {
+    "id": "dcx_009",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Quel est le nom de l'agence européenne dédiée à la cybersécurité ?",
+    "options": [
+      "EUROPOL",
+      "ENISA",
+      "EUIPO",
+      "EBA"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.1.09) — Niveau Basique : l'ENISA (Agence de l'Union européenne pour la cybersécurité) contribue à la politique de cybersécurité de l'UE, soutient les États membres et promeut des pratiques fiables. Le Cyber Resilience Act et NIS2 renforcent son rôle. EUROPOL = police, EUIPO = propriété intellectuelle, EBA = banques.",
+    "difficulty": 1
+  },
+  {
+    "id": "dcx_010",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "transversal",
+    "domain": "Réglementations & Politiques européennes",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Que sont les 'compétences clés pour l'éducation et la formation tout au long de la vie' selon la Recommandation du Conseil (2018) ?",
+    "options": [
+      "Des certifications professionnelles obligatoires définies par chaque État membre",
+      "Un cadre de 8 compétences essentielles incluant la compétence numérique pour l'épanouissement",
+      "Des modules de formation en ligne obligatoires pour les demandeurs d'emploi européens",
+      "Des diplômes universitaires reconnus dans toute l'Union européenne via Erasmus+"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.2) — Niveau Intermédiaire : la compétence numérique est l'une des 8 compétences clés (2018), essentielles pour l'épanouissement personnel, la citoyenneté active et l'employabilité. Les autres incluent la communication en langues étrangères, les compétences mathématiques, l'apprendre à apprendre, etc.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_011",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Transversal - IA & Éthique",
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit",
+    "text": "Qu'est-ce qu'un biais algorithmique et donnez un exemple concret de ses effets ?",
+    "options": [
+      "Une erreur de calcul aléatoire survenant lors du traitement de grands volumes de données",
+      "Une mesure technique limitant volontairement la puissance de calcul des algorithmes",
+      "Une distorsion systématique des résultats d'un algorithme due à des biais dans les données d'entraînement",
+      "Un mécanisme de sécurité empêchant les algorithmes d'accéder à des données sensibles"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS1.2.11) — Niveau Intermédiaire [AI-Explicit] : des données d'entraînement biaisées produisent des résultats biaisés. Exemple : un algorithme de recrutement entraîné sur des CV historiques majoritairement masculins discrimine systématiquement les femmes. L'AI Act impose des exigences de non-discrimination pour les systèmes à haut risque.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_012",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.4",
+    "domain": "Transversal - IA & Éthique",
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit",
+    "text": "Qu'est-ce que l'IA 'boîte noire' (black box AI) et pourquoi pose-t-elle problème ?",
+    "options": [
+      "Un serveur d'IA physiquement protégé dans une enceinte blindée pour des raisons de sécurité",
+      "Un système d'IA fonctionnant uniquement en mode hors ligne sans connexion réseau",
+      "Un système dont les décisions sont opaques et incompréhensibles, même pour ses concepteurs",
+      "Une IA dédiée à l'enregistrement et l'analyse des incidents de vol dans l'aviation"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS1.2.09) — Niveau Intermédiaire [AI-Explicit] : les IA boîte noire rendent difficile l'explication de leurs décisions. L'AI Act impose des exigences de transparence pour les systèmes à haut risque. Le droit à l'explication du RGPD (art. 22) est impossible à respecter sans explicabilité minimale.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_013",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2",
+    "domain": "Transversal - IA & Éthique",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit",
+    "text": "Qu'est-ce que le droit à l'explication dans le contexte du RGPD et de l'AI Act ?",
+    "options": [
+      "Le droit de demander une formation numérique gratuite financée par son employeur",
+      "Le droit de refuser toute décision automatisée sans exception ni condition préalable",
+      "Le droit d'accéder au code source complet des algorithmes qui traitent ses données",
+      "Le droit de recevoir une explication intelligible sur les décisions automatisées le concernant"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS2.3.08, CS1.2.09) — Niveau Avancé [AI-Explicit] : l'art. 22 RGPD et l'AI Act prévoient des garanties pour les décisions automatisées significatives (refus de crédit, décision d'embauche). Les individus ont le droit de comprendre les grandes lignes de ces décisions et de demander une intervention humaine.",
+    "difficulty": 3
+  },
+  {
+    "id": "dcx_014",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Transversal - IA & Éthique",
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que la stratégie Union of Skills lancée par la Commission européenne en 2025 ?",
+    "options": [
+      "Une fédération syndicale des travailleurs du secteur numérique en Europe",
+      "Une stratégie de la Commission pour développer les compétences tout au long",
+      "Un programme déchange de travailleurs qualifiés entre États membres de lUE",
+      "Un label de qualité certifiant les formations professionnelles européennes agréées"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (résumé, p.12) — Niveau Intermédiaire : l'Union of Skills (2025) est la stratégie cadre de la Commission pour les compétences. DigComp 3.0 y est explicitement cité comme action. Elle inclut un Plan d'action pour les compétences de base et vise 60% des adultes en formation annuelle d'ici 2030.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_015",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Transversal - IA & Éthique",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "None",
+    "text": "Qu'est-ce que le Global Digital Compact (GDC) adopté par les Nations Unies en 2024 ?",
+    "options": [
+      "Un accord commercial réduisant les droits de douane sur les produits numériques",
+      "Le premier cadre de gouvernance numérique mondiale de l'ONU pour un espace sûr et inclusif",
+      "Un traité régulant l'émission et les échanges de cryptomonnaies entre membres de l'ONU",
+      "Un accord de coopération policière sur la cybercriminalité entre les pays du G20"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (section 2.4) — Niveau Avancé : le GDC (ONU, 2024) est le premier cadre complet de gouvernance numérique mondiale, adopté par tous les États membres. Il reconnaît l'importance des compétences numériques de base pour tous et vise à promouvoir un espace numérique inclusif, ouvert et sûr.",
+    "difficulty": 3
+  },
+  {
+    "id": "dcx_016",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.3",
+    "domain": "Transversal - IA & Éthique",
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Advanced",
+    "aiLabel": "AI-Explicit",
+    "text": "Selon l'AI Act, un système d'IA utilisant des techniques subliminales pour influencer des personnes à leur insu est :",
+    "options": [
+      "Classé à haut risque avec obligations renforcées de transparence et supervision",
+      "Interdit par l'AI Act art. 5 : pratique d'IA inacceptable et interdite",
+      "Autorisé sous conditions strictes si déclaré aux autorités désignées compétentes",
+      "Réglementé uniquement dans les communications publicitaires à caractère commercial"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS2.3.16) — Niveau Avancé [AI-Explicit] : l'AI Act (art. 5) interdit catégoriquement les systèmes utilisant des techniques subliminales ou d'autres techniques pour manipuler le comportement à l'insu des personnes. Cette interdiction est absolue — il ne s'agit pas d'un système à haut risque assujetti à obligations, mais d'une pratique prohibée.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_017",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.1",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Implicit",
+    "text": "Un moteur de recherche retourne des résultats différents selon que vous êtes connecté ou non à votre compte. Qu'est-ce que cela illustre ?",
+    "options": [
+      "Un bug technique intermittent affectant l'index du moteur de recherche",
+      "La personnalisation algorithmique basée sur votre historique, pouvant créer une bulle de filtre",
+      "Une exigence légale de personnalisation imposée aux moteurs de recherche dans l'UE",
+      "Un mécanisme de sécurité protégeant votre compte contre les connexions suspectes"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.1.01, CS1.2.05) — Niveau Intermédiaire : les moteurs de recherche personnalisent les résultats selon les données de l'utilisateur connecté. Cela peut créer des effets de bulle de filtre limitant l'exposition à des perspectives diversifiées. Rechercher en mode incognito ou avec un moteur non personnalisé permet de contourner cet effet.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_018",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.2",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Une application de calculatrice vous demande l'accès à vos contacts, votre localisation et votre caméra. Que faire ?",
+    "options": [
+      "Accepter toutes les permissions pour que l'application fonctionne correctement",
+      "Accepter uniquement si l'application est gratuite et bien notée dans la boutique",
+      "Refuser les permissions inutiles ; des demandes excessives signalent une collecte abusive",
+      "Contacter le développeur pour demander une explication avant d'accepter ou refuser"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS4.2.01, CS4.2.04) — Niveau Basique : une calculatrice n'a besoin d'aucune de ces permissions. Des demandes excessives sont un signal d'alerte de collecte abusive de données. Le principe de minimisation du RGPD s'applique aussi aux applications : elles ne peuvent collecter que les données strictement nécessaires à leur fonction.",
+    "difficulty": 1
+  },
+  {
+    "id": "dcx_019",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.2",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "AI-Implicit",
+    "text": "Un site web affiche un compte à rebours 'offre expire dans 5 minutes'. Comment qualifier cette technique ?",
+    "options": [
+      "Une information objective signalant une promotion réelle limitée dans le temps",
+      "Une technique de nudging créant une urgence artificielle pour pousser à une décision impulsive",
+      "Une fonctionnalité technique de sécurité pour les transactions en ligne sensibles",
+      "Une obligation légale de durée limitée pour les promotions commerciales dans l'UE"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS1.2.12, CS4.3.02) — Niveau Basique : le compte à rebours artificiel est un dark pattern exploitant l'aversion à la perte. Le DSA vise à réguler ces pratiques sur les grandes plateformes. La règle : prendre le temps de la réflexion et vérifier si l'offre existe réellement sans la pression artificielle.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_020",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.2",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit",
+    "text": "Vous créez un document professionnel avec l'aide d'un outil d'IA générative. Que faire avant de le soumettre ?",
+    "options": [
+      "Soumettre directement sans vérification, l'IA étant plus précise qu'une rédaction humaine",
+      "Vérifier l'exactitude factuelle, signaler l'utilisation de l'IA si requis et respecter les politiques de confidentialité",
+      "Créditer l'outil IA comme co-auteur officiel sur la page de titre du document",
+      "Soumettre d'abord à un comité d'éthique avant tout usage professionnel de l'IA"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS3.1.04, CS3.3.03) — Niveau Intermédiaire [AI-Explicit] : l'auteur humain reste responsable de l'exactitude et de l'adéquation contextuelle du document, quelle que soit la technologie utilisée. L'AI Act (art. 50) impose la transparence sur les contenus IA. La vérification factuelle est indispensable face aux hallucinations.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_021",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "4.1",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Safety, wellbeing and responsible use",
+    "proficiencyLevel": "Basic",
+    "aiLabel": "None",
+    "text": "Vous recevez un email de votre banque vous demandant de cliquer sur un lien pour vérifier votre compte. Quelle est la première vérification à effectuer ?",
+    "options": [
+      "Cliquer immédiatement, les banques envoyant régulièrement ce type de communication officielle",
+      "Vérifier l'adresse expéditrice exacte, survoler le lien et contacter la banque via son site officiel",
+      "Répondre à l'email pour confirmer votre identité et votre numéro de compte",
+      "Transférer l'email à vos collègues pour obtenir leur avis avant d'agir"
+    ],
+    "correct": 1,
+    "explanation": "DigComp 3.0 (CS4.2.03, CS4.2.14) — Niveau Basique : les banques ne demandent jamais de vérifier un compte via email. Vérifier l'expéditeur réel (pas seulement le nom affiché) et accéder directement au site officiel (sans cliquer le lien) sont les protections fondamentales contre le phishing.",
+    "difficulty": 1
+  },
+  {
+    "id": "dcx_022",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "3.3",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Content creation",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Vous trouvez une image sur Flickr avec la mention 'CC BY 2.0'. Pouvez-vous l'utiliser dans une présentation commerciale ?",
+    "options": [
+      "Oui, à condition de citer l'auteur, car CC BY autorise tout usage y compris commercial",
+      "Non, les licences CC n'autorisent jamais les usages commerciaux sans exception",
+      "Oui, sans aucune condition car toute image disponible en ligne est libre d'utilisation",
+      "Non, car toute utilisation hors de Flickr est interdite par les conditions de la plateforme"
+    ],
+    "correct": 0,
+    "explanation": "DigComp 3.0 (CS3.3.07, CS3.3.10) — Niveau Intermédiaire : la licence CC BY (Attribution seule) est la plus permissive des licences CC. Elle autorise tout usage — y compris commercial et les modifications — sous réserve d'attribution correcte de l'auteur original. L'option B confond CC BY avec CC BY-NC.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_023",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "5.3",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Problem identification and solving",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "AI-Explicit",
+    "text": "Un collègue propose d'automatiser entièrement la rédaction des rapports mensuels par IA. Quelle est l'approche la plus prudente ?",
+    "options": [
+      "Adopter immédiatement la proposition pour gagner du temps sans phase de test",
+      "Refuser catégoriquement toute automatisation par IA dans les documents officiels",
+      "Évaluer les risques (exactitude, confidentialité, responsabilité), tester sur un pilote et superviser",
+      "Adopter l'outil uniquement si tous les membres de l'équipe expriment leur accord"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS5.3.05, CS2.4.08) — Niveau Intermédiaire [AI-Explicit] : une adoption éclairée de l'IA implique évaluation des risques (exactitude factuelle, confidentialité des données, responsabilité légale des rapports), phase pilote supervisée et formalisation d'une politique d'utilisation. Ni adoption aveugle (A) ni refus systématique (B) ne sont adaptés.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_024",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "1.3",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Information and data literacy",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Vous devez partager un fichier confidentiel avec un partenaire externe. Quelle méthode est la plus sécurisée ?",
+    "options": [
+      "Envoyer le fichier en pièce jointe d'un email standard non chiffré",
+      "Publier le fichier dans un dossier cloud public et envoyer le lien par email",
+      "Utiliser un outil de partage sécurisé avec chiffrement, accès restreint et lien à expiration",
+      "Imprimer le document et l'envoyer par courrier postal recommandé avec accusé de réception"
+    ],
+    "correct": 2,
+    "explanation": "DigComp 3.0 (CS1.3.08, CS4.1.04, CS4.2.06) — Niveau Intermédiaire : le partage de documents confidentiels exige chiffrement de bout en bout, authentification du destinataire, traçabilité des accès et limitation temporelle. L'email standard (A) et le dossier public (B) n'offrent aucune de ces garanties.",
+    "difficulty": 2
+  },
+  {
+    "id": "dcx_025",
+    "category": "digital",
+    "categoryLabel": "Compétences Numériques",
+    "digcomp": "2.3",
+    "domain": "Pratiques numériques — scénarios concrets",
+    "digCompArea": "Communication and collaboration",
+    "proficiencyLevel": "Intermediate",
+    "aiLabel": "None",
+    "text": "Un participant à une visioconférence de travail enregistre la réunion à votre insu avec un outil IA. Est-ce problématique ?",
+    "options": [
+      "Non, l'enregistrement dans un cadre professionnel est toujours autorisé sans condition",
+      "Non, car les données de travail ne sont pas considérées comme des données personnelles",
+      "Oui uniquement si la réunion traite de sujets classifiés ou hautement confidentiels",
+      "Oui, l'enregistrement sans consentement peut violer le RGPD et constituer une infraction pénale"
+    ],
+    "correct": 3,
+    "explanation": "DigComp 3.0 (CS2.4.08, CS4.2.01) — Niveau Intermédiaire : l'enregistrement sans consentement viole le RGPD (voix = donnée personnelle biométrique dans certains cas) et peut être pénalement sanctionnable selon les législations nationales. Le consentement de tous les participants est requis pour toute captation.",
+    "difficulty": 2
+  }
+]
