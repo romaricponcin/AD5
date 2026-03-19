@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "eu1_001",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 2,
+    "text": "Quelle était l'échéance fixée par l'Acte unique européen pour l'achèvement du marché intérieur ?",
+    "options": [
+      "Le 1er janvier 1990",
+      "Le 1er juillet 1992",
+      "Le 31 décembre 1994",
+      "Le 1er janvier 1993"
+    ],
+    "correct": 3,
+    "explanation": "L'AUE (1986) prévoyait la réalisation du marché intérieur avant le 1er janvier 1993, défini comme 'un espace sans frontières intérieures dans lequel la libre circulation des marchandises, des personnes, des services et des capitaux est assurée' (article 7 du traité CEE)."
+  },
+  {
+    "id": "eu1_002",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 2,
+    "text": "Combien de directives la Commission présidée par Jacques Delors a-t-elle initiées pour achever le marché intérieur après l'AUE ?",
+    "options": [
+      "Près de 300 directives",
+      "Près de 100 directives",
+      "Près de 500 directives",
+      "Près de 800 directives"
+    ],
+    "correct": 0,
+    "explanation": "Après l'AUE, la Commission Delors a initié près de 300 directives pour démanteler les obstacles aux quatre libertés de circulation (marchandises, personnes, services, capitaux)."
+  },
+  {
+    "id": "eu1_003",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 2,
+    "text": "Quel organe l'Acte unique européen a-t-il officiellement consacré dans les traités ?",
+    "options": [
+      "Le Comité des régions dans les affaires régionales",
+      "La Banque centrale européenne pour la politique monétaire",
+      "Le Comité économique et social européen",
+      "Le Conseil européen dans les traités"
+    ],
+    "correct": 3,
+    "explanation": "L'Acte unique européen (1986) a consacré l'existence du Conseil européen dans les traités. Organe intergouvernemental, il réunit les chefs d'État ou de gouvernement des États membres et le président de la Commission."
+  },
+  {
+    "id": "eu1_004",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 2,
+    "text": "Quelle nouvelle juridiction l'Acte unique européen a-t-il créée pour assister la Cour de justice ?",
+    "options": [
+      "Un Tribunal de première instance et d'appel",
+      "La Cour des comptes pour le contrôle budgétaire",
+      "La Cour européenne des droits de l'homme",
+      "Un comité d'arbitrage interinstitutionnel consultatif autonome"
+    ],
+    "correct": 0,
+    "explanation": "L'AUE a créé un Tribunal de première instance pour assister la CJCE, compétent notamment pour les recours des personnes physiques ou morales, les recours des entreprises contre la Commission, et les litiges entre l'UE et ses fonctionnaires."
+  },
+  {
+    "id": "eu1_005",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 2,
+    "text": "Dans quel domaine l'AUE maintenait-il la règle de l'unanimité, contrairement à la majorité qualifiée ?",
+    "options": [
+      "Le transport maritime et aérien",
+      "La libre circulation des capitaux",
+      "La libre prestation de services transfrontaliers",
+      "Les questions fiscales et sociales hors santé-sécurité"
+    ],
+    "correct": 3,
+    "explanation": "L'AUE étendait la majorité qualifiée à de nombreux domaines du marché intérieur, mais maintenait l'unanimité pour les questions fiscales et sociales — à l'exception de la santé et de la sécurité des travailleurs."
+  },
+  {
+    "id": "eu1_006",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 2,
+    "text": "Quelle procédure législative l'AUE a-t-il introduite, renforçant le rôle du Parlement européen ?",
+    "options": [
+      "La procédure de consultation simple",
+      "La procédure d'avis conforme obligatoire",
+      "La procédure de co-décision",
+      "La procédure de coopération"
+    ],
+    "correct": 3,
+    "explanation": "L'AUE a introduit la procédure de coopération (aujourd'hui abandonnée), qui conférait un pouvoir accru au PE, renforçait le rôle d'arbitre de la Commission et maintenait le pouvoir de décision final au Conseil. Elle s'appliquait au marché intérieur, à la politique sociale et à la recherche."
+  },
+  {
+    "id": "eu1_007",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 1,
+    "text": "En quelle année a été signé l'Acte unique européen ?",
+    "options": [
+      "1986",
+      "1984",
+      "1988",
+      "1992"
+    ],
+    "correct": 0,
+    "explanation": "L'Acte unique européen a été signé en 1986 (9 États membres à la première signature, rejoints ensuite par l'Italie, la Grèce et le Danemark). Il est entré en vigueur en 1987."
+  },
+  {
+    "id": "eu1_008",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte Unique Européen",
+    "difficulty": 2,
+    "text": "Quels fonds structurels l'AUE prévoyait-il de réformer pour la cohésion économique et sociale ?",
+    "options": [
+      "FEOGA, FEDER et FSE pour la cohésion économique",
+      "FEDER, FED et FSE+ pour la politique régionale",
+      "LEADER, FEDER et Fonds de cohésion régionale",
+      "FSE, INTERREG et FEAGA en matière agricole"
+    ],
+    "correct": 0,
+    "explanation": "L'AUE prévoyait la réforme du FEOGA (Fonds européen d'orientation et de garantie agricole), du FEDER (Fonds européen de développement régional) et du FSE (Fonds social européen) pour soutenir la cohésion économique et sociale."
+  },
+  {
+    "id": "eu1_009",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 1,
+    "text": "Quelle est la différence fondamentale entre le Conseil européen et le Conseil de l'UE ?",
+    "options": [
+      "Le Conseil européen réunit les chefs d'État ; le Conseil de l'UE réunit les ministres sectoriels",
+      "Le Conseil européen est législatif ; le Conseil de l'UE est consultatif",
+      "Le Conseil européen se réunit mensuellement ; le Conseil de l'UE annuellement",
+      "Le Conseil européen est présidé par la Commission ; le Conseil de l'UE par le Parlement"
+    ],
+    "correct": 0,
+    "explanation": "Le Conseil européen réunit les chefs d'État ou de gouvernement des États membres et fixe les grandes orientations politiques. Le Conseil de l'UE (ou Conseil des ministres) réunit les ministres sectoriels des États membres pour la fonction législative et budgétaire."
+  },
+  {
+    "id": "eu1_010",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 1,
+    "text": "Quelle est la différence entre le Conseil de l'Europe et le Conseil de l'UE ?",
+    "options": [
+      "Une organisation indépendante de l'UE fondée en 1949 à Strasbourg",
+      "Un organe de l'UE avec des fonctions complémentaires au Conseil de l'UE",
+      "L'ancienne dénomination du Conseil européen avant le Traité de Lisbonne",
+      "Une émanation du Parlement européen chargée des droits humains"
+    ],
+    "correct": 0,
+    "explanation": "Le Conseil de l'Europe est une organisation internationale distincte de l'UE, fondée en 1949 à Strasbourg, avec 46 membres. Il est notamment responsable de la Convention européenne des droits de l'homme (CEDH) et de la Cour européenne des droits de l'homme (CourEDH). Il ne doit pas être confondu avec les deux institutions de l'UE."
+  },
+  {
+    "id": "eu1_011",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 2,
+    "text": "Comment est élue la présidente de la Commission européenne selon le Traité de Lisbonne ?",
+    "options": [
+      "Élue au suffrage universel direct par les citoyens",
+      "Nommée directement par le Conseil européen à l'unanimité",
+      "Proposée par le Conseil européen puis élue par le Parlement",
+      "Désignée par rotation entre États membres selon leur population"
+    ],
+    "correct": 2,
+    "explanation": "Selon le Traité de Lisbonne (article 17 TUE), le Conseil européen désigne à la majorité qualifiée un candidat à la présidence de la Commission, en tenant compte des élections européennes. Ce candidat est ensuite élu par le Parlement européen à la majorité de ses membres."
+  },
+  {
+    "id": "eu1_012",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le COREPER et quel est son rôle dans le système institutionnel ?",
+    "options": [
+      "Le Comité des représentants permanents préparant les travaux du Conseil",
+      "Un organe consultatif regroupant les partenaires sociaux européens",
+      "La formation du Conseil chargée des affaires économiques et financières",
+      "Un service interinstitutionnel de coordination administrative de l'UE"
+    ],
+    "correct": 0,
+    "explanation": "Le COREPER (Comité des représentants permanents) est composé des ambassadeurs des États membres auprès de l'UE. Il prépare les travaux du Conseil de l'UE, négocie les textes législatifs en amont et gère les agendas des formations du Conseil."
+  },
+  {
+    "id": "eu1_013",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la comitologie dans le système décisionnel européen ?",
+    "options": [
+      "La procédure de vote au PE pour les actes délégués",
+      "L'ensemble des règles régissant la composition de la Commission",
+      "Le système de comités nationaux assistant la Commission dans ses actes d'exécution",
+      "La procédure de désignation des membres du Comité des régions"
+    ],
+    "correct": 2,
+    "explanation": "La comitologie désigne le système par lequel la Commission, lorsqu'elle adopte des actes d'exécution, est assistée par des comités composés de représentants des États membres. Ces comités contrôlent l'action exécutive de la Commission selon différentes procédures (examen, consultation, etc.)."
+  },
+  {
+    "id": "eu1_014",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 2,
+    "text": "Quel organe de l'UE est chargé de veiller au respect et à l'application du droit de l'Union ?",
+    "options": [
+      "Le Parlement européen via sa commission des affaires juridiques",
+      "Le Médiateur européen pour les litiges avec les institutions",
+      "L'Agence des droits fondamentaux de l'Union européenne",
+      "La Cour de justice de l'Union européenne (CJUE)"
+    ],
+    "correct": 3,
+    "explanation": "La CJUE (anciennement CJCE) est l'institution chargée d'assurer le respect du droit de l'Union dans l'interprétation et l'application des traités. Elle statue notamment sur les recours en manquement intentés par la Commission contre les États membres."
+  },
+  {
+    "id": "eu1_015",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Service européen pour l'action extérieure (SEAE) ?",
+    "options": [
+      "Le service diplomatique de l'UE placé sous l'autorité du Haut Représentant",
+      "Le réseau de représentations permanentes des États membres à Bruxelles",
+      "Une agence de financement des projets de coopération extérieure de l'UE",
+      "Le service de traduction et d'interprétation des institutions européennes"
+    ],
+    "correct": 0,
+    "explanation": "Créé par le Traité de Lisbonne, le SEAE est le corps diplomatique de l'UE placé sous l'autorité du Haut Représentant pour les affaires étrangères et la politique de sécurité. Il gère les délégations de l'UE dans le monde (ambassades de l'UE)."
+  },
+  {
+    "id": "eu1_016",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 1,
+    "text": "Combien de langues officielles compte l'Union européenne depuis le Brexit ?",
+    "options": [
+      "20 langues officielles",
+      "22 langues officielles",
+      "24 langues officielles",
+      "27 langues officielles"
+    ],
+    "correct": 2,
+    "explanation": "Depuis le Brexit (2020), l'UE compte 24 langues officielles (le retrait du Royaume-Uni n'a pas supprimé l'anglais, co-officiel de l'Irlande et de Malte). L'irlandais (gaélique) est devenu langue de travail à part entière en 2022."
+  },
+  {
+    "id": "eu1_017",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure législative",
+    "difficulty": 2,
+    "text": "Dans la procédure législative ordinaire, quel acteur a l'initiative législative exclusive ?",
+    "options": [
+      "La Commission européenne dans la quasi-totalité des matières",
+      "Le Conseil européen par une résolution de ses chefs d'État",
+      "Le Parlement européen par ses commissions thématiques spécialisées",
+      "Le Conseil de l'UE via la présidence tournante semestrielle"
+    ],
+    "correct": 0,
+    "explanation": "La Commission européenne détient le quasi-monopole du droit d'initiative législative (article 17 TUE). Le Parlement et le Conseil peuvent lui demander de proposer des textes, mais ne peuvent pas eux-mêmes déposer de propositions législatives en règle générale."
+  },
+  {
+    "id": "eu1_018",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure législative",
+    "difficulty": 2,
+    "text": "Quelle est la principale différence entre un règlement et une directive en droit de l'UE ?",
+    "options": [
+      "Le règlement est directement applicable sans transposition nationale",
+      "La directive est plus contraignante car elle ne laisse aucune marge",
+      "Le règlement ne s'applique qu'aux États membres fondateurs",
+      "La directive s'adresse uniquement aux institutions de l'Union"
+    ],
+    "correct": 0,
+    "explanation": "Un règlement est directement applicable dans tous les États membres dès son entrée en vigueur, sans nécessiter de transposition en droit national. Une directive fixe des objectifs mais laisse aux États membres le choix des moyens pour les atteindre, via un acte de transposition dans le délai imparti."
+  },
+  {
+    "id": "eu1_019",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure législative",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la procédure d'infraction (recours en manquement) ?",
+    "options": [
+      "La procédure permettant à la Commission de poursuivre un État pour violation du droit UE",
+      "La procédure par laquelle le PE retire sa confiance à la Commission",
+      "La procédure par laquelle un État conteste l'acte d'une institution devant la CJUE",
+      "La procédure de révision simplifiée des traités fondateurs de l UE"
+    ],
+    "correct": 0,
+    "explanation": "La procédure d'infraction (articles 258-260 TFUE) permet à la Commission de poursuivre un État membre qui ne respecte pas le droit de l'Union. Elle comprend une mise en demeure, un avis motivé, puis le cas échéant un recours devant la CJUE, qui peut imposer des sanctions financières."
+  },
+  {
+    "id": "eu1_020",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droit de l'UE - CJUE",
+    "difficulty": 2,
+    "text": "Qu'a consacré l'arrêt Van Gend en Loos de la CJCE (1963) ?",
+    "options": [
+      "Le principe de subsidiarité dans les politiques de l'UE",
+      "La primauté du droit communautaire sur les lois nationales",
+      "L'effet direct du droit communautaire invocable par les particuliers",
+      "La compétence exclusive de l'UE en matière de politique commerciale"
+    ],
+    "correct": 2,
+    "explanation": "Van Gend en Loos (CJCE, 1963) a consacré le principe d'effet direct : les particuliers peuvent se prévaloir du droit de l'Union devant les juridictions nationales. Par leur adhésion à la CEE, les États ont accepté de céder une partie de leur souveraineté et que leurs citoyens soient directement titulaires de droits."
+  },
+  {
+    "id": "eu1_021",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droit de l'UE - CJUE",
+    "difficulty": 2,
+    "text": "Qu'a établi l'arrêt Costa contre ENEL de la CJCE (1964) ?",
+    "options": [
+      "La primauté du droit communautaire sur les législations nationales",
+      "L'effet direct des directives non transposées dans les délais",
+      "La responsabilité des États membres pour violation du droit de l'UE",
+      "La compétence de la CJCE pour les renvois préjudiciels nationaux"
+    ],
+    "correct": 0,
+    "explanation": "Costa c. ENEL (CJCE, 1964) a établi le principe de primauté du droit communautaire : le droit de l'UE prévaut sur les législations nationales, y compris postérieures. Ce principe n'est pas expressément inscrit dans les traités mais résulte de cette jurisprudence fondatrice."
+  },
+  {
+    "id": "eu1_022",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droit de l'UE - CJUE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le renvoi préjudiciel (article 267 TFUE) ?",
+    "options": [
+      "Un mécanisme par lequel un juge national interroge la CJUE sur le droit UE",
+      "La procédure permettant à un État de saisir la CJUE avant toute loi nationale",
+      "La procédure de révision d'urgence des traités en cas de crise institutionnelle",
+      "Le recours par lequel le Parlement conteste un acte de la Commission"
+    ],
+    "correct": 0,
+    "explanation": "Le renvoi préjudiciel permet à une juridiction nationale, confrontée à une question d'interprétation ou de validité du droit de l'UE, de saisir la CJUE. Les juridictions suprêmes nationales sont tenues de renvoyer ; les autres ont la faculté de le faire. Il assure l'application uniforme du droit de l'UE."
+  },
+  {
+    "id": "eu1_023",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droit de l'UE - CJUE",
+    "difficulty": 3,
+    "text": "Qu'a décidé la CJUE dans l'arrêt Rottmann (2010) concernant la citoyenneté européenne ?",
+    "options": [
+      "Les États peuvent retirer leur nationalité sans aucune contrainte européenne",
+      "La citoyenneté européenne est indépendante de la nationalité d'un État membre",
+      "Un État peut retirer sa nationalité uniquement si c'est justifié et proportionné",
+      "La CJUE peut directement octroyer la citoyenneté européenne à un ressortissant"
+    ],
+    "correct": 2,
+    "explanation": "CJUE, Rottmann (2010) : un État peut retirer sa nationalité à un citoyen (perdant ainsi la citoyenneté européenne) uniquement si c'est justifié et proportionné. La décision nationale doit tenir compte des conséquences sur les droits conférés par la citoyenneté européenne."
+  },
+  {
+    "id": "eu1_024",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Quel principe détermine la répartition des compétences entre l'UE et les États membres ?",
+    "options": [
+      "Le principe de subsidiarité",
+      "Le principe de coopération loyale",
+      "Le principe de proportionnalité",
+      "Le principe d'attribution des compétences"
+    ],
+    "correct": 3,
+    "explanation": "Le principe d'attribution des compétences (article 5 TUE) stipule que l'UE ne peut agir que dans les domaines où les États membres lui ont attribué des compétences via les traités. L'UE ne peut pas définir seule l'étendue de ses compétences (compétence de la compétence)."
+  },
+  {
+    "id": "eu1_025",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Dans quel domaine l'UE dispose-t-elle d'une compétence exclusive ?",
+    "options": [
+      "La politique étrangère et de sécurité commune",
+      "La politique sociale et de l'emploi",
+      "La politique commerciale commune de l'UE",
+      "La politique d'immigration et d'asile"
+    ],
+    "correct": 2,
+    "explanation": "La politique commerciale commune (tarifs extérieurs, accords commerciaux) est une compétence exclusive de l'UE. Dans ce domaine, les États membres ne peuvent agir qu'habilités par l'UE. La PESC est de nature intergouvernementale ; la politique sociale et l'immigration sont des compétences partagées."
+  },
+  {
+    "id": "eu1_026",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le principe de subsidiarité en droit de l'UE ?",
+    "options": [
+      "L UE intervient par défaut sauf opposition explicite des États membres",
+      "Les États membres ont toujours la priorité d agir avant la Commission",
+      "Les régions et parlements doivent être consultés avant toute législation UE",
+      "Dans les domaines partagés, l UE n agit que si les États ne peuvent accomplir"
+    ],
+    "correct": 3,
+    "explanation": "Le principe de subsidiarité (article 5 TUE) s'applique aux compétences partagées : l'UE n'intervient que si l'action à l'échelle nationale est insuffisante pour atteindre les objectifs poursuivis et que l'action européenne apporte une valeur ajoutée. Les parlements nationaux peuvent émettre un avis motivé (carton jaune/orange)."
+  },
+  {
+    "id": "eu1_027",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "La Politique étrangère et de sécurité commune (PESC) relève de quelle méthode de décision ?",
+    "options": [
+      "La méthode communautaire avec initiative exclusive de la Commission",
+      "La procédure législative ordinaire avec co-décision PE et Conseil",
+      "La méthode intergouvernementale avec prédominance du Conseil à l'unanimité",
+      "La délégation à la SEAE avec contrôle du Parlement européen"
+    ],
+    "correct": 2,
+    "explanation": "La PESC relève d'une méthode intergouvernementale spécifique : le Conseil et le Conseil européen décident généralement à l'unanimité. La Commission et le PE n'ont qu'un rôle limité. La CJUE n'est pas compétente pour les actes PESC, sauf exceptions limitées."
+  },
+  {
+    "id": "eu1_028",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traité de Lisbonne",
+    "difficulty": 2,
+    "text": "Quelle innovation majeure le Traité de Lisbonne a-t-il introduite en matière de politique extérieure ?",
+    "options": [
+      "La suppression de la présidence tournante semestrielle du Conseil",
+      "Le transfert de la représentation externe à la présidence de la Commission",
+      "La compétence exclusive de l'UE pour tous les accords internationaux",
+      "La création du Haut Représentant permanent et du Service européen d'action extérieure"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Lisbonne (2009) a créé le poste de Haut Représentant de l'Union pour les affaires étrangères et la politique de sécurité (double casquette : vice-président de la Commission + président du Conseil Affaires étrangères), ainsi que le SEAE."
+  },
+  {
+    "id": "eu1_029",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traité de Lisbonne",
+    "difficulty": 2,
+    "text": "Quelle nouveauté le Traité de Lisbonne a-t-il introduite pour les citoyens européens ?",
+    "options": [
+      "Le droit de vote aux élections nationales dans un autre État membre",
+      "Le droit de recours direct de tout citoyen devant la CJUE",
+      "Le référendum paneuropéen sur les modifications majeures des traités",
+      "L'initiative citoyenne européenne permettant de demander une proposition législative"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Lisbonne a introduit l'Initiative citoyenne européenne (ICE) : un million de citoyens d'au moins un quart des États membres peuvent demander à la Commission de proposer une législation dans un domaine de compétence de l'UE."
+  },
+  {
+    "id": "eu1_030",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traité de Lisbonne",
+    "difficulty": 2,
+    "text": "Quelle procédure le Traité de Lisbonne a-t-il introduite pour qu'un État quitte l'UE ?",
+    "options": [
+      "L'article 7 TUE sur la suspension des droits d'un État",
+      "L'article 49 TUE sur la procédure d'adhésion à l'UE",
+      "L'article 50 TUE sur la procédure de retrait volontaire",
+      "L'article 352 TFUE sur la clause de flexibilité"
+    ],
+    "correct": 2,
+    "explanation": "L'article 50 TUE, introduit par le Traité de Lisbonne, prévoit la procédure de retrait volontaire d'un État membre de l'UE. Il a été activé pour la première fois par le Royaume-Uni en mars 2017, menant au Brexit effectif le 31 janvier 2020."
+  },
+  {
+    "id": "eu1_031",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Couple franco-allemand",
+    "difficulty": 2,
+    "text": "Quel traité fondateur, signé en 1957, réunit notamment la France, l'Allemagne et 4 autres États ?",
+    "options": [
+      "Le Traité de Paris instituant la CECA (1951)",
+      "L'Acte unique européen signé en 1986",
+      "Le Traité de l'Élysée franco-allemand de 1963",
+      "Le Traité de Rome instituant la CEE (1957)"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Rome du 25 mars 1957 a institué la Communauté économique européenne (CEE). Il a été signé par la France, l'Allemagne, la Belgique, l'Italie, le Luxembourg et les Pays-Bas. Konrad Adenauer et Guy Mollet y ont notamment contribué côté franco-allemand."
+  },
+  {
+    "id": "eu1_032",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Couple franco-allemand",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'Ostpolitik menée par le chancelier Willy Brandt dans les années 1970 ?",
+    "options": [
+      "Une politique d'attraction des investissements vers l'Allemagne de l'Est",
+      "Une politique d'approfondissement de l'intégration européenne vers l'Est",
+      "Un rapprochement de l'Allemagne de l'Ouest avec l'URSS et la RDA",
+      "Une politique de sécurité collective associant OTAN et Varsovie"
+    ],
+    "correct": 2,
+    "explanation": "L'Ostpolitik (politique vers l'Est) de Brandt visait à atténuer la division de l'Allemagne en normalisant les relations avec l'URSS, la RDA et les pays d'Europe de l'Est. Elle a éloigné l'Allemagne de la France et de la ligne atlantique, mais a permis aux Allemands de l'Ouest de se rendre librement à Berlin-Est dès 1971."
+  },
+  {
+    "id": "eu1_033",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Couple franco-allemand",
+    "difficulty": 2,
+    "text": "Quelle institution financière européenne Valéry Giscard d'Estaing et Helmut Schmidt ont-ils lancée en 1978 ?",
+    "options": [
+      "Le Mécanisme européen de stabilité (MES)",
+      "Le Fonds européen de stabilité financière (FESF)",
+      "La Banque centrale européenne (BCE)",
+      "Le Système monétaire européen (SME)"
+    ],
+    "correct": 3,
+    "explanation": "En 1978, Giscard d'Estaing et Schmidt ont lancé le projet de Système monétaire européen (SME), entré en vigueur en 1979. Il remplaçait le Serpent monétaire européen et visait à stabiliser les taux de change entre les monnaies européennes, préfigurant l'union économique et monétaire."
+  },
+  {
+    "id": "eu1_034",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Couple franco-allemand",
+    "difficulty": 1,
+    "text": "En quelle année le Parlement européen a-t-il été élu pour la première fois au suffrage universel direct ?",
+    "options": [
+      "1975",
+      "1977",
+      "1979",
+      "1981"
+    ],
+    "correct": 2,
+    "explanation": "En 1979, le Parlement européen a été élu pour la première fois au suffrage universel direct. Simone Veil, ancienne ministre de VGE, en est devenue la première présidente. Cette élection directe a marqué un tournant dans la démocratisation de l'intégration européenne."
+  },
+  {
+    "id": "eu1_035",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Couple franco-allemand",
+    "difficulty": 2,
+    "text": "Quel corps d'armée franco-allemand François Mitterrand et Helmut Kohl ont-ils créé en 1992 ?",
+    "options": [
+      "La Force de réaction rapide de l'OTAN (NRF)",
+      "L'EUROFOR, Force d'intervention rapide européenne créée en 1995",
+      "L'Eurocorps, corps d'armée franco-germano-multilatéral créé en 1992",
+      "La Brigade franco-allemande fondée en 1989"
+    ],
+    "correct": 2,
+    "explanation": "En 1992, Mitterrand et Kohl ont lancé l'Eurocorps, un corps d'armée multinationale regroupant des contingents français, allemand, belge, espagnol et luxembourgeois. Il est intervenu dans les Balkans, en Afghanistan (sous OTAN) et au Mali (sous mandat UE)."
+  },
+  {
+    "id": "eu1_036",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Couple franco-allemand",
+    "difficulty": 2,
+    "text": "Quel traité de 1992 a validé le projet de monnaie unique européenne, sous l'impulsion du couple Mitterrand-Kohl ?",
+    "options": [
+      "L'Acte unique européen",
+      "Le Traité de Nice",
+      "Le Traité d'Amsterdam",
+      "Le Traité de Maastricht"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Maastricht (1992), signé sous l'impulsion notamment du couple franco-allemand Mitterrand-Kohl et de Jacques Delors (président de la Commission), a institué l'Union européenne et créé le cadre de l'Union économique et monétaire (UEM) menant à l'euro."
+  },
+  {
+    "id": "eu1_037",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Couple franco-allemand",
+    "difficulty": 2,
+    "text": "Qui était président de la Commission européenne lors des grandes avancées des années 1985-1995, notamment l'AUE et Maastricht ?",
+    "options": [
+      "Romano Prodi",
+      "Roy Jenkins",
+      "Jacques Delors",
+      "Walter Hallstein"
+    ],
+    "correct": 2,
+    "explanation": "Jacques Delors a présidé la Commission européenne de 1985 à 1995. Il est associé aux grandes avancées de cette période : programme du marché unique, Acte unique européen (1986) et Traité de Maastricht (1992). Il était proche à la fois de Mitterrand et de Kohl."
+  },
+  {
+    "id": "eu1_038",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "AELE et voisinage européen",
+    "difficulty": 2,
+    "text": "Combien de membres compte aujourd'hui l'Association européenne de libre-échange (AELE) ?",
+    "options": [
+      "2 membres",
+      "9 membres",
+      "6 membres",
+      "4 membres"
+    ],
+    "correct": 3,
+    "explanation": "Fondée en 1960, l'AELE ne compte plus aujourd'hui que 4 membres : la Suisse, la Norvège, le Liechtenstein et l'Islande. Elle comptait initialement plus de membres, dont plusieurs ont depuis rejoint l'UE (dont le Royaume-Uni, le Danemark, le Portugal, la Finlande, l'Autriche et la Suède)."
+  },
+  {
+    "id": "eu1_039",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "AELE et voisinage européen",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la Politique européenne de voisinage (PEV) et quand a-t-elle été inaugurée ?",
+    "options": [
+      "Un cadre de libre circulation des personnes entre l'UE et ses voisins",
+      "Un programme de financement des infrastructures des Balkans occidentaux",
+      "Un mécanisme de pré-adhésion pour les pays candidats à l'UE",
+      "Un cadre de relations privilégiées sans perspective d'adhésion pour les pays voisins"
+    ],
+    "correct": 3,
+    "explanation": "La PEV, inaugurée en 2004, propose aux pays voisins de l'UE à l'Est et au Sud une relation privilégiée basée sur le respect des valeurs communes (démocratie, droits humains, État de droit) en échange d'avantages commerciaux et financiers, sans perspective d'adhésion formelle."
+  },
+  {
+    "id": "eu1_040",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "AELE et voisinage européen",
+    "difficulty": 2,
+    "text": "Pourquoi la Russie n'a-t-elle pas participé à la Politique européenne de voisinage ?",
+    "options": [
+      "La Russie a demandé à rejoindre l'UE et attend une réponse formelle",
+      "La Russie était couverte par un accord de défense mutuelle avec l'OTAN",
+      "La Russie était exclue car membre permanent du Conseil de sécurité",
+      "La Russie préférait un partenariat stratégique bilatéral et non un cadre asymétrique"
+    ],
+    "correct": 3,
+    "explanation": "La Russie a refusé de s'inscrire dans le cadre de la PEV, qu'elle percevait comme asymétrique (UE dictant des conditions). Elle préférait un partenariat stratégique d'égal à égal avec l'UE. Elle a développé sa propre zone d'influence via l'Union économique eurasiatique."
+  },
+  {
+    "id": "eu1_041",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "AELE et voisinage européen",
+    "difficulty": 2,
+    "text": "Quelle est la différence principale entre la PEV Sud et la PEV Est ?",
+    "options": [
+      "La PEV Sud inclut des pays candidats à l'adhésion ; la PEV Est exclut toute adhésion",
+      "La PEV Sud est financée par le FEDER ; la PEV Est par le Fonds de cohésion",
+      "La PEV Est inclut des accords militaires ; la PEV Sud se concentre sur le commerce",
+      "La PEV Est inclut le Partenariat oriental avec 6 pays ex-soviétiques ; la PEV Sud s'adresse aux pays méditerranéens"
+    ],
+    "correct": 3,
+    "explanation": "La PEV Est s'articule autour du Partenariat oriental (2009), ciblant 6 pays ex-soviétiques (Ukraine, Moldova, Géorgie, Arménie, Azerbaïdjan, Biélorussie). La PEV Sud s'adresse aux pays du voisinage méditerranéen (Maroc, Tunisie, Égypte, Jordanie, etc.). Ni l'une ni l'autre n'offre de perspective d'adhésion."
+  },
+  {
+    "id": "eu1_042",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 3,
+    "text": "Quelle est la thèse centrale de Jürgen Habermas dans 'Après l'État-nation' (1998) ?",
+    "options": [
+      "L'État-nation est indépassable car seul garant de la cohésion démocratique",
+      "L'identité européenne doit reposer sur des critères ethniques et culturels communs",
+      "La mondialisation impose un retour à la souveraineté nationale pour protéger la démocratie",
+      "Les fonctions de l'État social doivent être transférées à l'UE dans un cadre fédéral"
+    ],
+    "correct": 3,
+    "explanation": "Habermas (1998) propose de transférer les fonctions de l'État social à l'UE pour une configuration post-nationale fédéraliste, en faisant émerger un espace public transcendant les frontières. Face à la mondialisation qui menace l'État social et la démocratie, seule l'UE peut proposer une communauté politique fédérale."
+  },
+  {
+    "id": "eu1_043",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 3,
+    "text": "Sur quoi repose le concept de 'patriotisme constitutionnel' de Habermas ?",
+    "options": [
+      "L'attachement à une constitution nationale spécifique et à son héritage historique",
+      "Des principes constitutionnels et valeurs démocratiques plutôt que sur des critères ethniques",
+      "La fierté nationale liée aux victoires militaires et aux fondations de l'État",
+      "L'idée que la constitution européenne doit primer sur toutes les constitutions nationales"
+    ],
+    "correct": 1,
+    "explanation": "Pour Habermas, le patriotisme constitutionnel fonde la légitimité nationale sur des principes constitutionnels et valeurs démocratiques universels plutôt que sur des critères ethniques, culturels ou religieux. Ce concept est la clé de son argumentaire pour une identité européenne possible au-delà des identités nationales."
+  },
+  {
+    "id": "eu1_044",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 2,
+    "text": "Quel courant théorique des relations internationales a inspiré les fondateurs de la construction européenne comme Jean Monnet ?",
+    "options": [
+      "Le réalisme politique de Hans Morgenthau",
+      "Le néo-libéralisme institutionnel de Robert Keohane",
+      "Le fonctionnalisme de David Mitrany",
+      "Le constructivisme social d'Alexander Wendt"
+    ],
+    "correct": 2,
+    "explanation": "Jean Monnet s'est inspiré du fonctionnalisme de David Mitrany, qui préconisait le transfert de compétences vers des structures supranationales techniques pour garantir la paix et la prospérité. Monnet n'en voulait pas des États faibles mais un échelon supranational pour la coopération — d'où la CECA (1951)."
+  },
+  {
+    "id": "eu1_045",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 2,
+    "text": "Qu'est-ce qu'une 'démocratie illibérale' et quel pays européen est fréquemment cité comme exemple ?",
+    "options": [
+      "Un régime avec élections libres mais sans État de droit ni droits des minorités",
+      "Un État refusant d'adhérer aux instances démocratiques européennes et internationales",
+      "Un système où seul le parti au pouvoir peut concourir aux élections",
+      "Un régime transitoire avant une démocratisation complète au sens occidental"
+    ],
+    "correct": 0,
+    "explanation": "La démocratie illibérale (Fareed Zakaria) désigne un système où des élections ont lieu mais les libertés publiques, l'État de droit et les droits des minorités sont limités. La Hongrie sous Orbán est souvent citée comme exemple dans le contexte européen, notamment en lien avec les procédures de l'article 7 TUE."
+  },
+  {
+    "id": "eu1_046",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Europe sociale",
+    "difficulty": 2,
+    "text": "En quelle année et à quel sommet a été adopté le Socle européen des droits sociaux ?",
+    "options": [
+      "2012, lors du Conseil européen de Bruxelles",
+      "2015, lors du sommet de Riga",
+      "2017, lors du sommet de Göteborg",
+      "2021, lors du sommet de Porto"
+    ],
+    "correct": 2,
+    "explanation": "Le Socle européen des droits sociaux a été adopté par la Commission, le Conseil et le Parlement européen lors du sommet social de Göteborg (Suède) en novembre 2017. Ce texte non juridiquement contraignant fixe 20 principes en matière d'égalité des chances, de conditions de travail et de protection sociale."
+  },
+  {
+    "id": "eu1_047",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Europe sociale",
+    "difficulty": 2,
+    "text": "Combien de principes comprend le Socle européen des droits sociaux ?",
+    "options": [
+      "10 principes",
+      "15 principes",
+      "20 principes",
+      "27 principes"
+    ],
+    "correct": 2,
+    "explanation": "Le Socle européen des droits sociaux comprend 20 principes articulés en trois chapitres : 'Égalité des chances et accès au marché du travail', 'Des conditions de travail équitables' et 'Protection et inclusion sociales'. Il a inspiré notamment la directive sur les salaires minimums (2022)."
+  },
+  {
+    "id": "eu1_048",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Europe sociale",
+    "difficulty": 2,
+    "text": "La politique sociale est-elle une compétence exclusive de l'UE ?",
+    "options": [
+      "Oui, depuis Maastricht qui a transféré cette compétence à l'UE",
+      "Non, c'est une compétence des États ; l'UE fixe des règles minimales",
+      "Non, c'est une compétence de soutien sans harmonisation directe",
+      "Oui, mais uniquement pour l'emploi et l'égalité des genres"
+    ],
+    "correct": 1,
+    "explanation": "La politique sociale n'est pas une compétence forte de l'UE. Les États membres, très attachés à leur souveraineté sociale, n'ont consenti que des transferts limités. L'UE peut fixer des règles minimales dans certains domaines (santé-sécurité, temps de travail, etc.) mais la politique redistributive reste principalement nationale."
+  },
+  {
+    "id": "eu1_049",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Europe sociale",
+    "difficulty": 2,
+    "text": "Quel est le budget du Fonds social européen plus (FSE+) pour la période 2021-2027 ?",
+    "options": [
+      "28 milliards d'euros",
+      "55 milliards d'euros",
+      "88 milliards d'euros",
+      "120 milliards d'euros"
+    ],
+    "correct": 2,
+    "explanation": "Le FSE+ dispose d'un budget de 88 milliards d'euros pour 2021-2027. Dédié à la promotion de l'emploi et à l'inclusion sociale, il finance des programmes dans les États membres pour la formation professionnelle, l'insertion des chômeurs, la lutte contre la pauvreté et l'éducation."
+  },
+  {
+    "id": "eu1_050",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Défense européenne",
+    "difficulty": 2,
+    "text": "En quelle année a été créé l'Eurocorps, et qui en est à l'initiative ?",
+    "options": [
+      "1987, à l'initiative de Delors et Kohl",
+      "1992, à l'initiative de Mitterrand et Kohl",
+      "1995, à l'initiative du Conseil européen de Madrid",
+      "1999, à l'initiative du Traité d'Amsterdam"
+    ],
+    "correct": 1,
+    "explanation": "L'Eurocorps a été créé en 1992 à l'initiative de François Mitterrand et Helmut Kohl. Corps d'armée multinationale regroupant France, Allemagne, Belgique, Espagne et Luxembourg, il est intervenu en Bosnie-Herzégovine, au Kosovo, en Afghanistan et au Mali."
+  },
+  {
+    "id": "eu1_051",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Défense européenne",
+    "difficulty": 2,
+    "text": "Quel article du TUE prévoit l'obligation d'assistance mutuelle en cas d'agression armée contre un État membre ?",
+    "options": [
+      "Article 5 TUE sur le principe d'attribution",
+      "Article 42(7) TUE sur la clause d'assistance mutuelle",
+      "Article 50 TUE sur le retrait volontaire",
+      "Article 7 TUE sur la suspension des droits"
+    ],
+    "correct": 1,
+    "explanation": "L'article 42(7) TUE (clause d'assistance mutuelle) prévoit que si un État membre est victime d'une agression armée, les autres États membres ont l'obligation de lui porter assistance par tous les moyens en leur pouvoir. Il a été invoqué pour la première fois par la France après les attentats de novembre 2015."
+  },
+  {
+    "id": "eu1_052",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Déficit démocratique",
+    "difficulty": 2,
+    "text": "Qu'entend-on par 'déficit démocratique' dans l'Union européenne ?",
+    "options": [
+      "Le manque de ressources financières du Parlement européen",
+      "Le nombre insuffisant d'États participants aux élections européennes",
+      "Les décisions perçues comme éloignées des citoyens et peu contrôlées démocratiquement",
+      "La sous-représentation des petits États membres dans les institutions"
+    ],
+    "correct": 2,
+    "explanation": "Le déficit démocratique désigne l'écart perçu entre le pouvoir croissant des institutions européennes et leur légitimité démocratique limitée : faible participation aux élections européennes, rôle longtemps secondaire du PE, opacité des négociations au Conseil, technicité des décisions et éloignement des citoyens."
+  },
+  {
+    "id": "eu1_053",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Déficit démocratique",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le principe du 'Spitzenkandidat' dans le contexte des élections européennes ?",
+    "options": [
+      "Le système de représentation proportionnelle aux élections européennes nationales",
+      "L'idée que le chef de file du parti dominant préside la Commission",
+      "La règle imposant une liste transnationale unique pour les élections européennes",
+      "Un mécanisme pour élire directement le président du Conseil européen"
+    ],
+    "correct": 1,
+    "explanation": "Le Spitzenkandidat (tête de liste) est le principe selon lequel chaque groupe politique européen désigne un candidat en amont des élections européennes, et que le chef de file du groupe arrivé en tête devient président de la Commission. Ce principe a été contesté lors de la désignation de Von der Leyen en 2019."
+  },
+  {
+    "id": "eu1_054",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Déficit démocratique",
+    "difficulty": 2,
+    "text": "Les élections au Parlement européen sont-elles organisées au niveau européen ou national ?",
+    "options": [
+      "Au niveau européen avec des règles électorales uniformes dans tous les États",
+      "Au niveau national, chaque État déterminant ses propres règles électorales",
+      "Au niveau régional, les circonscriptions étant définies par les régions",
+      "Par un mélange de règles communes et d'adaptations nationales obligatoires"
+    ],
+    "correct": 1,
+    "explanation": "Les élections au Parlement européen sont organisées au niveau national : chaque État membre détermine ses règles électorales (mode de scrutin, seuil, financement des partis), dans le cadre de principes généraux communs (suffrage universel, vote secret, représentation proportionnelle). Il n'existe pas encore de circonscription transnationale unique."
+  },
+  {
+    "id": "eu1_055",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Critères et élargissement",
+    "difficulty": 2,
+    "text": "Que désigne-t-on par 'Critères de Copenhague' ?",
+    "options": [
+      "Les normes environnementales du sommet de Copenhague de 2009",
+      "Les critères d'adhésion à l'UE définis au Conseil européen de 1993",
+      "Les règles budgétaires du Pacte de stabilité définies lors d'un sommet danois",
+      "Les conditions d'entrée dans l'espace Schengen définies en 1985"
+    ],
+    "correct": 1,
+    "explanation": "Les Critères de Copenhague (Conseil européen de 1993) définissent les conditions d'adhésion à l'UE : institutions stables garantissant la démocratie, l'État de droit et les droits de l'homme ; économie de marché viable et capacité d'en supporter la concurrence ; capacité à reprendre l'acquis communautaire."
+  },
+  {
+    "id": "eu1_056",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Critères et élargissement",
+    "difficulty": 2,
+    "text": "Quelle est la différence entre la politique d'élargissement et la Politique européenne de voisinage ?",
+    "options": [
+      "L'élargissement offre une perspective d'adhésion à l'UE ; la PEV non",
+      "La PEV s'adresse aux pays candidats ; l'élargissement aux États déjà membres",
+      "L'élargissement est financé par le FEDER ; la PEV par les Fonds structurels",
+      "La PEV exige des réformes politiques ; l'élargissement uniquement économiques"
+    ],
+    "correct": 0,
+    "explanation": "L'élargissement offre une perspective d'adhésion pleine et entière à l'UE (ex. Balkans occidentaux, Ukraine, Moldova). La PEV propose une relation privilégiée sans perspective d'adhésion formelle aux pays voisins qui ne sont pas candidats. La Turquie est un cas particulier : candidate depuis 1987, ses négociations sont gelées."
+  },
+  {
+    "id": "eu1_057",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Critères et élargissement",
+    "difficulty": 2,
+    "text": "En quelle année les 10 nouveaux États membres, dont la Pologne, ont-ils adhéré à l'UE ?",
+    "options": [
+      "1995",
+      "2000",
+      "2004",
+      "2007"
+    ],
+    "correct": 2,
+    "explanation": "Le grand élargissement de 2004 a accueilli 10 nouveaux États membres : Pologne, République tchèque, Hongrie, Slovaquie, Slovénie, Estonie, Lettonie, Lituanie, Chypre et Malte. Deux autres pays (Bulgarie et Roumanie) ont rejoint l'UE en 2007, et la Croatie en 2013."
+  },
+  {
+    "id": "eu1_058",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Critères et élargissement",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le groupe de Visegrád et quels pays le composent ?",
+    "options": [
+      "Un groupe comprenant Pologne, Hongrie, République tchèque et Slovaquie",
+      "Un forum consultatif des pays baltes Estonie Lettonie Lituanie",
+      "Un groupe des pays fondateurs historiques de la CECA",
+      "Une alliance des pays méditerranéens de l'UE"
+    ],
+    "correct": 0,
+    "explanation": "Le groupe de Visegrád (V4), fondé en 1991 et nommé d'après une ville hongroise, regroupe la Pologne, la Hongrie, la République tchèque et la Slovaquie. Il coordonne leurs positions au sein de l'UE et a été particulièrement visible dans les débats sur la migration et l'État de droit."
+  },
+  {
+    "id": "eu1_059",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Brexit",
+    "difficulty": 1,
+    "text": "Quel article du TUE le Royaume-Uni a-t-il activé en mars 2017 pour initier sa sortie de l'UE ?",
+    "options": [
+      "Article 7 TUE",
+      "Article 49 TUE",
+      "Article 50 TUE",
+      "Article 352 TFUE"
+    ],
+    "correct": 2,
+    "explanation": "Le Royaume-Uni a notifié son intention de quitter l'UE le 29 mars 2017 en activant l'article 50 TUE, introduit par le Traité de Lisbonne. Le retrait est devenu effectif le 31 janvier 2020, suite à un accord de retrait négocié après plusieurs reports."
+  },
+  {
+    "id": "eu1_060",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Brexit",
+    "difficulty": 2,
+    "text": "Quelles ont été les principales conséquences institutionnelles du Brexit pour l'UE ?",
+    "options": [
+      "L'UE est passée de 28 à 27 membres avec redistribution des sièges au PE",
+      "La Commission a réduit de 28 à 25 commissaires après le retrait britannique",
+      "Le Conseil a perdu son droit de veto en matière de politique étrangère",
+      "Le Parlement européen a dû déménager de Strasbourg à Bruxelles"
+    ],
+    "correct": 0,
+    "explanation": "Le Brexit a ramené l'UE de 28 à 27 États membres. Des sièges britanniques au Parlement européen ont été redistribués à d'autres États membres (les 73 sièges britanniques ont été partiellement réattribués : 27 redistribués, 46 conservés comme réserve pour futurs élargissements). La composition de la Commission et le système de vote au Conseil ont été ajustés."
+  },
+  {
+    "id": "eu1_061",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 1,
+    "text": "En quelle année a été créée la Communauté européenne du charbon et de l'acier (CECA) ?",
+    "options": [
+      "1945",
+      "1951",
+      "1957",
+      "1962"
+    ],
+    "correct": 1,
+    "explanation": "La CECA a été créée par le Traité de Paris de 1951, signé par la France, l'Allemagne, la Belgique, l'Italie, le Luxembourg et les Pays-Bas. Elle a mis en commun la production de charbon et d'acier, supprimant ainsi les instruments économiques de la guerre. Elle a expiré en 2002."
+  },
+  {
+    "id": "eu1_062",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "Pour quelle raison l'UE a-t-elle reçu le Prix Nobel de la Paix en 2012 ?",
+    "options": [
+      "Pour son rôle dans la résolution de la crise financière grecque",
+      "Pour avoir contribué à la paix, la réconciliation et les droits humains en Europe",
+      "Pour son engagement dans les négociations sur le changement climatique mondial",
+      "Pour la gestion humanitaire de la crise des réfugiés méditerranéens"
+    ],
+    "correct": 1,
+    "explanation": "Le Comité Nobel norvégien a attribué le Prix Nobel de la Paix 2012 à l'UE 'pour avoir contribué pendant plus de six décennies à la promotion de la paix et de la réconciliation, de la démocratie et des droits de l'homme en Europe'. Ce prix a été largement salué malgré le contexte de la crise de la zone euro."
+  },
+  {
+    "id": "eu1_063",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la 'crise de la chaise vide' de 1965 et comment a-t-elle été résolue ?",
+    "options": [
+      "La France boycottant le Conseil, résolu par le compromis de Luxembourg",
+      "L'Allemagne suspendant sa participation pour protester contre l'élargissement",
+      "La Commission refusant de siéger au Conseil suite à un désaccord",
+      "Le Parlement boycottant le Conseil lors du vote sur l'Acte unique"
+    ],
+    "correct": 0,
+    "explanation": "En 1965, la France du général de Gaulle a boycotté les réunions du Conseil pour s'opposer au financement de la PAC et à l'extension du vote à la majorité qualifiée. La crise a été résolue en janvier 1966 par le compromis de Luxembourg, qui permet à un État membre d'invoquer ses intérêts vitaux pour bloquer une décision."
+  },
+  {
+    "id": "eu1_064",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "Quelle différence y a-t-il entre la méthode communautaire et la méthode intergouvernementale ?",
+    "options": [
+      "La méthode communautaire centralise les institutions supranationales ; la méthode intergouvernementale préserve les États",
+      "La méthode communautaire requiert l'unanimité ; la méthode intergouvernementale la MQ",
+      "La méthode communautaire s'applique uniquement à l'économie ; l'intergouvernementale aux autres",
+      "La méthode communautaire exclut le PE ; la méthode intergouvernementale le renforce"
+    ],
+    "correct": 0,
+    "explanation": "La méthode communautaire implique l'initiative exclusive de la Commission, le vote à la majorité qualifiée au Conseil et la co-décision avec le PE. La méthode intergouvernementale (ex. PESC, coopération judiciaire initiale) préserve le contrôle des États (souvent unanimité), avec un rôle limité des institutions supranationales."
+  },
+  {
+    "id": "eu1_065",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Marché intérieur",
+    "difficulty": 1,
+    "text": "Quelles sont les 'quatre libertés' fondamentales du marché intérieur européen ?",
+    "options": [
+      "Liberté de résidence, travail, retraite et accès aux soins dans l'UE",
+      "Libre circulation des marchandises, des personnes, des services et des capitaux",
+      "Libre circulation des marchandises, des travailleurs, des idées et des technologies",
+      "Libre échange commercial, financier, académique et culturel en Europe"
+    ],
+    "correct": 1,
+    "explanation": "Le marché intérieur européen repose sur quatre libertés fondamentales : la libre circulation des marchandises, des personnes, des services et des capitaux. Ces libertés, prévues par le Traité de Rome (1957), sont au cœur de l'intégration européenne et sont protégées par la CJUE."
+  },
+  {
+    "id": "eu1_066",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Marché intérieur",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le principe de 'reconnaissance mutuelle' dans le marché intérieur européen ?",
+    "options": [
+      "L'obligation pour les États de reconnaître mutuellement leurs systèmes de vote",
+      "Un produit légalement commercialisé dans un État membre peut circuler librement dans l'UE",
+      "L'accord par lequel les États reconnaissent la primauté des actes de la Commission",
+      "Le principe de reconnaissance des diplômes universitaires dans toute l'UE"
+    ],
+    "correct": 1,
+    "explanation": "La reconnaissance mutuelle (consacrée par l'arrêt Cassis de Dijon, CJCE 1979) stipule qu'un produit légalement fabriqué et commercialisé dans un État membre peut être librement vendu dans les autres États membres, sauf restrictions justifiées par des raisons impérieuses d'intérêt général."
+  },
+  {
+    "id": "eu1_067",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Marché intérieur",
+    "difficulty": 1,
+    "text": "Qu'est-ce que l'espace Schengen ?",
+    "options": [
+      "La zone de libre-échange entre l'UE et ses voisins immédiats",
+      "Un espace de libre circulation des personnes sans contrôle aux frontières intérieures",
+      "Un accord de coopération douanière entre les États fondateurs de la CEE",
+      "Une zone monétaire commune associée à l'usage de l'euro"
+    ],
+    "correct": 1,
+    "explanation": "L'espace Schengen (1985/1995) est un espace de libre circulation des personnes au sein duquel les contrôles aux frontières intérieures ont été supprimés. Il compte 27 pays membres dont des non-membres de l'UE (Norvège, Islande, Suisse, Liechtenstein). Certains États membres de l'UE n'en font pas partie (Irlande notamment)."
+  },
+  {
+    "id": "eu1_068",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "UEM et euro",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Pacte de stabilité et de croissance (PSC) et quelles sont ses règles principales ?",
+    "options": [
+      "Un accord avec les partenaires de l'UE pour stabiliser les échanges",
+      "Un cadre de surveillance budgétaire avec déficit max 3% et dette 60% du PIB",
+      "Un programme d'investissement pour soutenir la croissance dans l'Union européenne",
+      "Un mécanisme de solidarité financière entre États en cas de récession"
+    ],
+    "correct": 1,
+    "explanation": "Le PSC (1997) impose aux États membres de la zone euro une discipline budgétaire : déficit public inférieur à 3% du PIB et dette publique inférieure à 60% du PIB. Les États en déficit excessif font l'objet d'une procédure spécifique pouvant mener à des sanctions financières. Il a été réformé plusieurs fois."
+  },
+  {
+    "id": "eu1_069",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "UEM et euro",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Mécanisme européen de stabilité (MES) ?",
+    "options": [
+      "La banque centrale responsable de la politique monétaire de la zone euro",
+      "Un fonds d'urgence permanent fournissant une assistance financière aux États en difficulté",
+      "Le mécanisme de surveillance des risques systémiques dans le secteur bancaire",
+      "L'accord de coopération économique entre la zone euro et le FMI"
+    ],
+    "correct": 1,
+    "explanation": "Le MES (2012) est le mécanisme de sauvetage permanent de la zone euro, avec une capacité de prêt de 500 milliards d'euros. Il fournit une assistance financière aux États membres de la zone euro en difficulté, sous conditions de réforme. Il a succédé aux mécanismes temporaires créés pendant la crise de 2010-2012."
+  },
+  {
+    "id": "eu1_070",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "UEM et euro",
+    "difficulty": 2,
+    "text": "Quel est l'objectif principal de la Banque centrale européenne (BCE) ?",
+    "options": [
+      "Financer les investissements dans les infrastructures des États membres",
+      "Maintenir la stabilité des prix avec un objectif d'inflation proche de 2%",
+      "Coordonner les politiques fiscales des États membres de la zone euro",
+      "Gérer les réserves de change et l'or des États membres de l'UE"
+    ],
+    "correct": 1,
+    "explanation": "La mission principale de la BCE est de maintenir la stabilité des prix dans la zone euro, avec un objectif d'inflation symétrique de 2% à moyen terme (révisé en 2021). Elle gère la politique monétaire de la zone euro via les taux directeurs et divers instruments non-conventionnels (QE, TLTRO, etc.)."
+  },
+  {
+    "id": "eu1_071",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politiques européennes",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Plan de relance européen NextGenerationEU et quel est son montant ?",
+    "options": [
+      "Un plan de 500 milliards d'euros de prêts aux États membres adopté en 2019",
+      "Un plan de 750 milliards d'euros en subventions et prêts adopté en juillet 2020",
+      "Un plan de 1 000 milliards d'euros entièrement financé par l'emprunt européen",
+      "Un plan de 400 milliards uniquement pour les pays les plus touchés par le Covid"
+    ],
+    "correct": 1,
+    "explanation": "NextGenerationEU (NGEU), adopté en juillet 2020, est un plan de 750 milliards d'euros (répartis en subventions et prêts) pour aider les États membres à se remettre de la crise Covid et financer la transition verte et numérique. Pour la première fois, l'UE s'est endettée en commun à grande échelle."
+  },
+  {
+    "id": "eu1_072",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politiques européennes",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Pacte vert européen (European Green Deal) et quel est son objectif central ?",
+    "options": [
+      "Un programme de subventions pour les énergies renouvelables dans les pays en développement",
+      "Une stratégie visant la neutralité climatique de l'UE d'ici 2050",
+      "Un accord commercial favorisant les produits agricoles biologiques dans le marché unique",
+      "Un fonds pour les régions européennes touchées par les catastrophes climatiques"
+    ],
+    "correct": 1,
+    "explanation": "Le Pacte vert européen, présenté en décembre 2019 par la Commission Von der Leyen, vise à rendre l'UE climatiquement neutre d'ici 2050 en transformant l'économie (énergie, transport, agriculture, industrie). Il inclut la loi climatique européenne, le mécanisme d'ajustement carbone aux frontières, etc."
+  },
+  {
+    "id": "eu1_073",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politiques européennes",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la Politique agricole commune (PAC) et quelle est son importance budgétaire ?",
+    "options": [
+      "Une politique d'aide aux pays en développement partenaires de l'UE",
+      "La politique la moins dotée du budget européen avec moins de 10% des dépenses",
+      "Un programme exclusivement consacré à la modernisation des équipements agricoles",
+      "Un soutien aux agriculteurs représentant historiquement environ un tiers du budget de l'UE"
+    ],
+    "correct": 3,
+    "explanation": "La PAC, introduite dès le Traité de Rome (1957), est l'une des politiques les plus anciennes et les plus importantes de l'UE. Elle représente historiquement environ un tiers du budget européen (réduit progressivement). Elle vise à garantir la sécurité alimentaire, soutenir le revenu des agriculteurs et protéger l'environnement."
+  },
+  {
+    "id": "eu1_074",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politiques européennes",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'Union de l'énergie et quand a-t-elle été lancée ?",
+    "options": [
+      "Une entreprise publique créée en 2010 pour gérer les réseaux électriques transfrontaliers",
+      "Un accord de partage d'énergie nucléaire entre les États membres de l'Euratom",
+      "Une stratégie cadre lancée en 2015 visant la sécurité, la durabilité et la compétitivité énergétique",
+      "Un mécanisme de financement réservé aux États sans accès aux énergies renouvelables"
+    ],
+    "correct": 2,
+    "explanation": "L'Union de l'énergie a été lancée en 2015 par la Commission Juncker. Elle est structurée autour de cinq dimensions : sécurité d'approvisionnement, marché intérieur de l'énergie, efficacité énergétique, décarbonation et recherche/innovation. Elle vise à réduire la dépendance aux énergies fossiles importées."
+  },
+  {
+    "id": "eu1_075",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des citoyens européens",
+    "difficulty": 2,
+    "text": "Quels sont les principaux droits attachés à la citoyenneté européenne (article 20 TFUE) ?",
+    "options": [
+      "Droit de résidence, travail, retraite et accès aux soins dans tout État membre",
+      "Droit de voter et d'être élu aux élections européennes et municipales, protection diplomatique",
+      "Droit à l'éducation, à la sécurité sociale et à un revenu minimum garanti dans toute l'UE",
+      "Droit au logement, à la formation et à l'accès aux services publics nationaux"
+    ],
+    "correct": 1,
+    "explanation": "La citoyenneté européenne (Traité de Maastricht, art. 20-25 TFUE) confère notamment : droit de circuler et résider librement dans l'UE, droit de voter et d'être élu aux élections européennes et municipales dans le pays de résidence, protection diplomatique par tout État membre, droit de pétition au PE, droit de saisir le Médiateur européen."
+  },
+  {
+    "id": "eu1_076",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des citoyens européens",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'article 7 TUE et dans quel contexte a-t-il été invoqué récemment ?",
+    "options": [
+      "L'article sur la primauté du droit UE invoqué contre des réformes judiciaires nationales",
+      "Un mécanisme pouvant suspendre les droits d'un État en cas de violation des valeurs UE",
+      "L'article sur la clause de solidarité en cas de catastrophe naturelle ou d'attentat",
+      "Un mécanisme de protection des frontières extérieures lors de crises migratoires"
+    ],
+    "correct": 1,
+    "explanation": "L'article 7 TUE prévoit un mécanisme de suspension des droits d'un État membre (y compris le droit de vote au Conseil) en cas de 'violation grave et persistante' des valeurs fondamentales de l'UE (art. 2 TUE). Des procédures ont été ouvertes contre la Pologne (2017) et la Hongrie (2018) pour atteinte à l'État de droit."
+  },
+  {
+    "id": "eu1_077",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations extérieures UE",
+    "difficulty": 2,
+    "text": "Quelle est la nature du rôle de l'UE au sein de l'Organisation des Nations Unies ?",
+    "options": [
+      "L'UE est membre à part entière du Conseil de sécurité avec droit de veto",
+      "L'UE est membre à part entière de l'Assemblée générale avec un siège et un vote",
+      "L'UE dispose d'un statut d'observateur renforcé à l'Assemblée générale sans droit de vote",
+      "L'UE n'a pas de présence formelle à l'ONU, les États membres y siégeant individuellement"
+    ],
+    "correct": 2,
+    "explanation": "L'UE dispose d'un statut d'observateur renforcé à l'Assemblée générale de l'ONU (depuis 2011), lui permettant de prendre la parole mais sans droit de vote. Les États membres gardent leur siège individuel. Au Conseil de sécurité, seuls la France et le Royaume-Uni (avant Brexit) sont membres permanents avec droit de veto."
+  },
+  {
+    "id": "eu1_078",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations extérieures UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que GAIA-X et quel problème cherche-t-il à résoudre dans l'économie des données ?",
+    "options": [
+      "Un satellite européen de surveillance des données environnementales mondiales",
+      "Un réseau social européen alternatif développé en réponse aux géants américains",
+      "Une initiative franco-allemande créant une infrastructure cloud souveraine en Europe",
+      "Un programme de recherche sur l'IA financé par Horizon Europe"
+    ],
+    "correct": 2,
+    "explanation": "GAIA-X est une initiative franco-allemande, puis européenne, visant à créer une infrastructure cloud et de données souveraine, sécurisée et interopérable en Europe. Elle répond à la dépendance technologique vis-à-vis des hyperscalers américains (AWS, Azure, Google Cloud) et aux enjeux de souveraineté numérique."
+  },
+  {
+    "id": "eu1_079",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations extérieures UE",
+    "difficulty": 2,
+    "text": "Quelle est la différence entre une délégation de l'UE et une ambassade nationale dans un pays tiers ?",
+    "options": [
+      "Il n'y a aucune différence, les délégations ont remplacé les ambassades nationales",
+      "La délégation représente l'UE en tant qu'entité ; l'ambassade représente un État membre",
+      "Les délégations n'ont pas de rôle diplomatique mais uniquement humanitaire",
+      "Les délégations remplacent les ambassades uniquement dans les pays candidats"
+    ],
+    "correct": 1,
+    "explanation": "Les délégations de l'UE (environ 140 dans le monde), gérées par le SEAE, représentent l'Union européenne en tant qu'entité supranationale. Elles coexistent avec les ambassades nationales des États membres. Elles conduisent la politique étrangère de l'UE, gèrent l'aide au développement et promeuvent les intérêts de l'UE."
+  },
+  {
+    "id": "eu1_080",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Contrôleur européen de la protection des données (CEPD/EDPS) ?",
+    "options": [
+      "L'autorité indépendante surveillant le traitement des données par les institutions UE",
+      "Un organe regroupant les autorités nationales de protection des données des États",
+      "Un service de la Commission pour la mise en œuvre du RGPD",
+      "Un comité du Parlement pour l'application du droit numérique européen"
+    ],
+    "correct": 0,
+    "explanation": "Le CEPD/EDPS est l'autorité de contrôle indépendante dont la mission est de surveiller le traitement des données personnelles par les institutions, organes et agences de l'UE, conformément au Règlement (UE) 2018/1725 (lex specialis du RGPD pour les institutions européennes). Il est distinct du Comité européen de la protection des données (CEPD/EDPB)."
+  }
+]

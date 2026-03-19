@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "eu4_001",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Commission",
+    "difficulty": 2,
+    "text": "Which EU institution holds the right of legislative initiative in most policy areas?",
+    "options": [
+      "European Parliament (EP)",
+      "European Commission (EC)",
+      "Council of the EU",
+      "European Council (EUCO)"
+    ],
+    "correct": 0,
+    "explanation": "The European Commission holds the near-exclusive right of legislative initiative under Article 17 TEU. The Parliament and Council can request proposals, but only the Commission can formally submit them."
+  },
+  {
+    "id": "eu4_002",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Commission",
+    "difficulty": 2,
+    "text": "How many Commissioners currently sit in the College of the European Commission?",
+    "options": [
+      "27",
+      "24",
+      "30",
+      "33"
+    ],
+    "correct": 0,
+    "explanation": "The College of Commissioners has 27 members — one per EU Member State — each responsible for a specific policy area. The President decides the allocation of responsibilities."
+  },
+  {
+    "id": "eu4_003",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Commission",
+    "difficulty": 2,
+    "text": "What is the term of office of the European Commission?",
+    "options": [
+      "5 years",
+      "4 years",
+      "3 years",
+      "6 years"
+    ],
+    "correct": 0,
+    "explanation": "The European Commission serves a 5-year term, aligned with the legislative term of the European Parliament. The current von der Leyen II Commission took office in December 2024."
+  },
+  {
+    "id": "eu4_004",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Parlement européen",
+    "difficulty": 1,
+    "text": "Where does the European Parliament hold its plenary sessions?",
+    "options": [
+      "Strasbourg",
+      "Luxembourg",
+      "Brussels",
+      "Frankfurt"
+    ],
+    "correct": 0,
+    "explanation": "The European Parliament holds its official plenary sessions in Strasbourg (France). Committee meetings and additional plenary sessions take place in Brussels. The General Secretariat is based in Luxembourg."
+  },
+  {
+    "id": "eu4_005",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Parlement européen",
+    "difficulty": 2,
+    "text": "How many MEPs sit in the European Parliament for the 2024–2029 term?",
+    "options": [
+      "720",
+      "705",
+      "751",
+      "785"
+    ],
+    "correct": 0,
+    "explanation": "The 2024–2029 European Parliament has 720 MEPs, an increase from 705 in the previous term. Seats are distributed among Member States using degressive proportionality."
+  },
+  {
+    "id": "eu4_006",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Conseil européen",
+    "difficulty": 2,
+    "text": "Who presides over the European Council?",
+    "options": [
+      "The elected President of the European Council",
+      "The Head of State of the rotating Presidency",
+      "The President of the European Commission",
+      "The High Representative for Foreign Affairs"
+    ],
+    "correct": 0,
+    "explanation": "The European Council has its own elected President (currently António Costa since December 2024), chosen by the European Council for a renewable 2.5-year term. This is distinct from the rotating Presidency of the Council of the EU."
+  },
+  {
+    "id": "eu4_007",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Conseil européen",
+    "difficulty": 2,
+    "text": "How often does the European Council normally meet?",
+    "options": [
+      "At least twice per",
+      "Monthly, 12 times per",
+      "Once per semester",
+      "Once per year minimum"
+    ],
+    "correct": 0,
+    "explanation": "The European Council meets at least twice per semester (i.e. at least four times per year), normally in Brussels. The President may convene extraordinary meetings when required."
+  },
+  {
+    "id": "eu4_008",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Conseil de l'UE",
+    "difficulty": 2,
+    "text": "Which Council of the EU configuration is NOT chaired by the rotating Presidency?",
+    "options": [
+      "Foreign Affairs Council (FAC)",
+      "Economic and Financial Affairs Council",
+      "General Affairs Council (GAC)",
+      "Agriculture and Fisheries Council"
+    ],
+    "correct": 0,
+    "explanation": "The Foreign Affairs Council is chaired permanently by the High Representative of the Union for Foreign Affairs and Security Policy, currently Kaja Kallas. All other Council configurations are chaired by the rotating six-month Presidency."
+  },
+  {
+    "id": "eu4_009",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Conseil de l'UE",
+    "difficulty": 2,
+    "text": "What percentage of Council members must vote in favour to reach a qualified majority?",
+    "options": [
+      "55%",
+      "50%",
+      "65%",
+      "75%"
+    ],
+    "correct": 0,
+    "explanation": "Under the double majority rule (Lisbon Treaty), a qualified majority requires at least 55% of Member States (15 out of 27) representing at least 65% of the EU's total population. A blocking minority requires at least 4 states representing 35% of the population."
+  },
+  {
+    "id": "eu4_010",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Cour de justice",
+    "difficulty": 1,
+    "text": "Where is the Court of Justice of the EU located?",
+    "options": [
+      "Luxembourg City",
+      "Strasbourg, France",
+      "Brussels, Belgium",
+      "The Hague"
+    ],
+    "correct": 0,
+    "explanation": "The Court of Justice of the EU (CJEU) is located in Luxembourg. It comprises the Court of Justice, the General Court, and specialised courts. It is the judicial authority ensuring uniform interpretation of EU law."
+  },
+  {
+    "id": "eu4_011",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - Cour de justice",
+    "difficulty": 2,
+    "text": "Which procedure allows national courts to ask the CJEU to interpret EU law?",
+    "options": [
+      "Preliminary reference procedure",
+      "Action for annulment",
+      "Infringement proceedings (Art.258)",
+      "Action for failure"
+    ],
+    "correct": 0,
+    "explanation": "The preliminary reference procedure (Article 267 TFEU) allows national courts to refer questions on the interpretation or validity of EU law to the CJEU. Courts of last resort are obliged to refer; lower courts may do so voluntarily."
+  },
+  {
+    "id": "eu4_012",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - BCE et Cour des comptes",
+    "difficulty": 1,
+    "text": "Where is the European Central Bank headquartered?",
+    "options": [
+      "Frankfurt",
+      "Luxembourg",
+      "Brussels",
+      "Amsterdam"
+    ],
+    "correct": 0,
+    "explanation": "The European Central Bank (ECB) is headquartered in Frankfurt, Germany. Its primary objective is to maintain price stability in the euro area, with a symmetric 2% inflation target."
+  },
+  {
+    "id": "eu4_013",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Institutions - BCE et Cour des comptes",
+    "difficulty": 2,
+    "text": "Which EU institution audits the revenue and expenditure of the EU?",
+    "options": [
+      "European Court of Auditors",
+      "European Central Bank",
+      "European Investment Bank",
+      "Directorate-General for Budget"
+    ],
+    "correct": 0,
+    "explanation": "The European Court of Auditors (ECA), seated in Luxembourg, audits all EU revenue and expenditure. It publishes an annual report and special reports on specific EU policies. It is one of the seven EU institutions."
+  },
+  {
+    "id": "eu4_014",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droit de l'UE - CJUE",
+    "difficulty": 2,
+    "text": "Which landmark 1963 CJEU ruling established the principle of direct effect of EU law?",
+    "options": [
+      "Van Gend en Loos (1963)",
+      "Cassis de Dijon (1979)",
+      "Costa v ENEL (1964)",
+      "Francovich v Italy (1991)"
+    ],
+    "correct": 0,
+    "explanation": "Van Gend en Loos (1963) established the principle of direct effect: EU law creates rights that individuals can invoke before national courts. Costa v ENEL (1964) established primacy. Francovich (1991) established State liability."
+  },
+  {
+    "id": "eu4_015",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droit de l'UE - CJUE",
+    "difficulty": 2,
+    "text": "Which 1964 CJEU ruling established the primacy of EU law over national law?",
+    "options": [
+      "Van Gend en Loos (1963)",
+      "Cassis de Dijon (1979)",
+      "The Dassonville case (1974)",
+      "Costa v ENEL (1964)"
+    ],
+    "correct": 3,
+    "explanation": "Costa v ENEL (1964) established that EU law takes precedence over national law, including constitutions. This principle of primacy is not explicitly stated in the Treaties but derives from this founding case law."
+  },
+  {
+    "id": "eu4_016",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Sources du droit UE",
+    "difficulty": 2,
+    "text": "Which type of EU legal act is directly applicable in all Member States without transposition?",
+    "options": [
+      "Regulation",
+      "Directive",
+      "Decision",
+      "Recommendation"
+    ],
+    "correct": 0,
+    "explanation": "A Regulation is directly applicable in all Member States as soon as it enters into force — no transposition into national law is required. A Directive binds Member States to achieve results but leaves the choice of method to national authorities."
+  },
+  {
+    "id": "eu4_017",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Sources du droit UE",
+    "difficulty": 2,
+    "text": "Which EU legal instrument is binding on those to whom it is addressed but does not require transposition?",
+    "options": [
+      "Decision",
+      "Recommendation",
+      "Directive",
+      "Regulation"
+    ],
+    "correct": 0,
+    "explanation": "A Decision is binding in its entirety on those to whom it is addressed (which may be specific Member States, companies or individuals). Unlike a Directive, it does not require transposition into national law."
+  },
+  {
+    "id": "eu4_018",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure législative",
+    "difficulty": 2,
+    "text": "What is the name of the standard EU legislative procedure?",
+    "options": [
+      "Ordinary legislative procedure",
+      "Codecision procedure (1992)",
+      "Cooperation procedure (1987)",
+      "Assent consent procedure"
+    ],
+    "correct": 0,
+    "explanation": "The Ordinary Legislative Procedure (OLP), introduced by the Lisbon Treaty, replaced the codecision procedure. It involves the Commission proposing, and the Parliament and Council co-deciding on an equal footing. About 80% of legislation passes at first reading via informal trilogues."
+  },
+  {
+    "id": "eu4_019",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure législative",
+    "difficulty": 2,
+    "text": "In the Ordinary Legislative Procedure, which institution formally introduces legislative proposals?",
+    "options": [
+      "European Parliament (EP)",
+      "European Council (EUCO)",
+      "Council of the EU",
+      "European Commission (EC)"
+    ],
+    "correct": 3,
+    "explanation": "The European Commission holds the quasi-exclusive right of legislative initiative under Article 17 TEU. The Parliament and Council may request the Commission to propose legislation, but cannot themselves formally initiate it under the OLP."
+  },
+  {
+    "id": "eu4_020",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure législative",
+    "difficulty": 3,
+    "text": "What is a 'trilogue' in EU legislative practice?",
+    "options": [
+      "Informal trilateral negotiation between Parliament, Council and Commission",
+      "A treaty between three EU institutions",
+      "A three-reading procedure in the Council",
+      "A joint committee of three MEPs and"
+    ],
+    "correct": 0,
+    "explanation": "A trilogue is an informal three-way negotiation between representatives of the European Parliament, the Council and the European Commission, aiming to reach agreement before the formal legislative readings. Today, about 80% of EU legislation is adopted at first reading via trilogues."
+  },
+  {
+    "id": "eu4_021",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Which of the following is an exclusive competence of the EU?",
+    "options": [
+      "Environmental policy",
+      "Public health",
+      "Customs union",
+      "Education policy"
+    ],
+    "correct": 0,
+    "explanation": "The customs union is an exclusive EU competence (Article 3 TFEU): only the EU may act in this area. Environment and public health are shared or supporting competences. Education is a supporting competence where the EU may only coordinate."
+  },
+  {
+    "id": "eu4_022",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Which policy area is a SHARED competence between the EU and Member States?",
+    "options": [
+      "Common trade policy",
+      "Monetary policy for euro",
+      "Customs union policy",
+      "Internal market policy"
+    ],
+    "correct": 3,
+    "explanation": "The internal market is a shared competence under Article 4 TFEU, meaning both the EU and Member States may legislate, but Member States may only act where the EU has not exercised its competence. Trade policy and monetary policy (euro) and the customs union are exclusive EU competences."
+  },
+  {
+    "id": "eu4_023",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Under which EU principle does the Union only act if objectives cannot be sufficiently achieved by Member States alone?",
+    "options": [
+      "Proportionality principle",
+      "Subsidiarity principle",
+      "Attribution principle",
+      "Loyal cooperation"
+    ],
+    "correct": 3,
+    "explanation": "The subsidiarity principle (Article 5 TEU) applies to non-exclusive competences: the EU may only act if the objectives of the proposed action cannot be sufficiently achieved at national, regional or local level, but can be better achieved at Union level."
+  },
+  {
+    "id": "eu4_024",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traité de Lisbonne",
+    "difficulty": 1,
+    "text": "When did the Treaty of Lisbon enter into force?",
+    "options": [
+      "1 January 2007",
+      "13 December 2007",
+      "1 January 2010",
+      "1 December 2009"
+    ],
+    "correct": 3,
+    "explanation": "The Treaty of Lisbon entered into force on 1 December 2009, after ratification by all 27 Member States. It was signed on 13 December 2007. It amended the TEU and the Treaty of Rome (renamed TFEU)."
+  },
+  {
+    "id": "eu4_025",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traité de Lisbonne",
+    "difficulty": 2,
+    "text": "Which article of the TEU provides the legal basis for a Member State to withdraw from the EU?",
+    "options": [
+      "Article 7 TEU",
+      "Article 49 TEU",
+      "Article 352 TFEU",
+      "Article 50 TEU"
+    ],
+    "correct": 3,
+    "explanation": "Article 50 TEU, introduced by the Lisbon Treaty, provides the procedure for a Member State to voluntarily leave the EU. It was first activated by the United Kingdom on 29 March 2017, leading to Brexit on 31 January 2020."
+  },
+  {
+    "id": "eu4_026",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 1,
+    "text": "Which treaty established the European Economic Community?",
+    "options": [
+      "Treaty of Paris (1951)",
+      "Single European Act (1986)",
+      "Maastricht Treaty (1992)",
+      "Treaty of Rome (1957)"
+    ],
+    "correct": 3,
+    "explanation": "The Treaty of Rome (25 March 1957) established the European Economic Community (EEC), which became the European Community under Maastricht and the basis for the current TFEU under the Lisbon Treaty."
+  },
+  {
+    "id": "eu4_027",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "Which treaty first introduced EU citizenship?",
+    "options": [
+      "Single European Act (1986)",
+      "Lisbon Treaty (2009)",
+      "Amsterdam Treaty (1997)",
+      "Maastricht Treaty (1992)"
+    ],
+    "correct": 3,
+    "explanation": "The Maastricht Treaty (1992) introduced EU citizenship for the first time. It is conferred automatically on every national of a Member State and complements, without replacing, national citizenship."
+  },
+  {
+    "id": "eu4_028",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "The Single European Act (1986) set a deadline for completing the internal market. What was that deadline?",
+    "options": [
+      "1 January 1990",
+      "1 July 1991",
+      "1 January 1995",
+      "1 January 1993"
+    ],
+    "correct": 3,
+    "explanation": "The Single European Act (1986) set 1 January 1993 as the deadline for completing the internal market — a space without internal frontiers ensuring free movement of goods, persons, services and capital."
+  },
+  {
+    "id": "eu4_029",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Marché intérieur",
+    "difficulty": 2,
+    "text": "Which 1974 CJEU ruling made measures equivalent to quantitative trade restrictions illegal?",
+    "options": [
+      "Cassis de Dijon (1979)",
+      "Keck and Mithouard (1993)",
+      "Van Gend en",
+      "Dassonville ruling (1974)"
+    ],
+    "correct": 3,
+    "explanation": "The Dassonville ruling (1974) established that any measure capable of hindering, directly or indirectly, intra-EU trade constitutes a measure of equivalent effect to a quantitative restriction, prohibited by the Treaty."
+  },
+  {
+    "id": "eu4_030",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Marché intérieur",
+    "difficulty": 2,
+    "text": "Which 1979 CJEU ruling established the principle of mutual recognition of goods?",
+    "options": [
+      "Dassonville judgment (1974)",
+      "Costa v ENEL (1964)",
+      "Cassis de Dijon (1979)",
+      "Francovich ruling (1991)"
+    ],
+    "correct": 2,
+    "explanation": "Cassis de Dijon (1979) established mutual recognition: a product lawfully manufactured in one Member State must in principle be admitted to the market of any other Member State, unless the state can justify a restriction on overriding grounds of public interest."
+  },
+  {
+    "id": "eu4_031",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élargissements successifs",
+    "difficulty": 1,
+    "text": "How many Member States does the EU currently have?",
+    "options": [
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "correct": 2,
+    "explanation": "Following the UK's withdrawal (Brexit, 31 January 2020), the EU has 27 Member States. The last country to join was Croatia on 1 July 2013."
+  },
+  {
+    "id": "eu4_032",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élargissements successifs",
+    "difficulty": 2,
+    "text": "Which country was the most recent to join the EU?",
+    "options": [
+      "Bulgaria (2007)",
+      "Romania (2007)",
+      "Croatia (2013)",
+      "North Macedonia"
+    ],
+    "correct": 2,
+    "explanation": "Croatia became the 28th (now 27th after Brexit) Member State on 1 July 2013. Bulgaria and Romania joined in 2007. North Macedonia is currently a candidate country."
+  },
+  {
+    "id": "eu4_033",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "UEM et euro",
+    "difficulty": 1,
+    "text": "How many EU Member States are in the euro area in 2024?",
+    "options": [
+      "17",
+      "19",
+      "20",
+      "22"
+    ],
+    "correct": 2,
+    "explanation": "As of 2024, 20 EU Member States use the euro. Croatia became the 20th on 1 January 2023. Seven Member States have not yet adopted the euro (Sweden, Czech Republic, Hungary, Poland, Romania, Bulgaria, Denmark)."
+  },
+  {
+    "id": "eu4_034",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "UEM et euro",
+    "difficulty": 2,
+    "text": "What is the primary objective of the European Central Bank?",
+    "options": [
+      "Promoting economic growth",
+      "Supervising EU financial markets",
+      "Public debt financing function",
+      "Maintaining price stability"
+    ],
+    "correct": 3,
+    "explanation": "The primary objective of the ECB is to maintain price stability (Article 127 TFEU), defined as keeping inflation close to, but below, 2% over the medium term (revised to a symmetric 2% target in 2021). Without prejudice to this objective, it supports the EU's general economic policies."
+  },
+  {
+    "id": "eu4_035",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "UEM et euro",
+    "difficulty": 2,
+    "text": "What are the Stability and Growth Pact's deficit and debt reference values?",
+    "options": [
+      "3% GDP deficit, 60% GDP debt",
+      "2% GDP deficit, 80% GDP debt",
+      "5% GDP deficit, 100% GDP debt",
+      "3% GDP deficit, 80% GDP debt"
+    ],
+    "correct": 0,
+    "explanation": "The Stability and Growth Pact (1997) sets reference values of 3% of GDP for the general government deficit and 60% of GDP for public debt. Exceeding these values triggers the Excessive Deficit Procedure."
+  },
+  {
+    "id": "eu4_036",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "MES - Mécanisme européen de stabilité",
+    "difficulty": 2,
+    "text": "When was the European Stability Mechanism (ESM) established?",
+    "options": [
+      "2008",
+      "2010",
+      "2012",
+      "2015"
+    ],
+    "correct": 2,
+    "explanation": "The ESM entered into force on 27 September 2012 as a permanent crisis resolution mechanism for the euro area. It replaced the temporary EFSF and EFSM. It can provide up to €700 billion in financial assistance to Member States."
+  },
+  {
+    "id": "eu4_037",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE",
+    "difficulty": 2,
+    "text": "What share of the EU's GDP does its annual budget approximately represent?",
+    "options": [
+      "Around 0.5% of EU GNI",
+      "Around 10% of EU GNI",
+      "Around 5% of EU GNI",
+      "Around 1% of EU GNI"
+    ],
+    "correct": 3,
+    "explanation": "The EU budget represents approximately 1% of the EU's Gross National Income (GNI), far smaller than national budgets (typically 40-50% of GDP). The own resources ceiling is set at 1.4% of GNI for the 2021-2027 MFF period."
+  },
+  {
+    "id": "eu4_038",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Cadre financier pluriannuel",
+    "difficulty": 2,
+    "text": "What is the total budget of the NextGenerationEU recovery instrument?",
+    "options": [
+      "350 billion euros",
+      "540 billion euros",
+      "750 billion euros",
+      "1 trillion euros"
+    ],
+    "correct": 2,
+    "explanation": "NextGenerationEU (NGEU), adopted in July 2020, amounts to €750 billion (in 2018 prices), financed through common EU borrowing. It includes the Recovery and Resilience Facility (RRF) of €672.5 billion, supporting green and digital transitions post-COVID."
+  },
+  {
+    "id": "eu4_039",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Green Deal",
+    "difficulty": 2,
+    "text": "What is the EU's climate neutrality target under the European Climate Law?",
+    "options": [
+      "2035",
+      "2045",
+      "2050",
+      "2060"
+    ],
+    "correct": 2,
+    "explanation": "The European Climate Law (2021) sets a legally binding EU-wide target of climate neutrality by 2050 and an intermediate target of at least 55% reduction in greenhouse gas emissions by 2030 compared to 1990 levels."
+  },
+  {
+    "id": "eu4_040",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Green Deal",
+    "difficulty": 2,
+    "text": "What is the 'Fit for 55' package?",
+    "options": [
+      "A social programme for workers aged 55+",
+      "A fund for the 55 poorest EU regions",
+      "An energy efficiency standard for buildings",
+      "A legislative package aligning with the EU's 55%"
+    ],
+    "correct": 3,
+    "explanation": "'Fit for 55' is a set of legislative proposals to revise and update EU legislation to align with the goal of reducing net greenhouse gas emissions by at least 55% by 2030. It covers the ETS, land use, renewable energy, energy efficiency, transport, and carbon border adjustment."
+  },
+  {
+    "id": "eu4_041",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Green Deal",
+    "difficulty": 2,
+    "text": "What does the EU Emissions Trading System (ETS) primarily regulate?",
+    "options": [
+      "Import tariffs on carbon-intensive goods",
+      "Fines on Member States exceeding emissions targets",
+      "Taxes on fossil fuels for household consumers",
+      "A cap-and-trade system limiting CO2 emissions"
+    ],
+    "correct": 3,
+    "explanation": "The EU ETS is the world's largest carbon market, operating since 2005. It sets a cap on total greenhouse gas emissions from covered sectors (power, heavy industry, aviation). Companies must hold allowances for each tonne of CO2 emitted and can trade them."
+  },
+  {
+    "id": "eu4_042",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique numérique de l'UE",
+    "difficulty": 2,
+    "text": "What does the EU's Digital Services Act (DSA) primarily address?",
+    "options": [
+      "Licensing of digital services in the",
+      "Digital skills training for public sector workers",
+      "EU funding for broadband infrastructure",
+      "Obligations of platforms regarding illegal and"
+    ],
+    "correct": 3,
+    "explanation": "The Digital Services Act (2022) establishes a new framework for online intermediary services. It introduces graduated obligations based on platform size, including enhanced duties for very large online platforms (VLOPs) on content moderation, transparency, and algorithmic accountability."
+  },
+  {
+    "id": "eu4_043",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique numérique de l'UE",
+    "difficulty": 2,
+    "text": "Which EU regulation targets 'gatekeeper' digital platforms to ensure fair market access?",
+    "options": [
+      "Digital Services Act (DSA)",
+      "Data Governance Act (DGA)",
+      "AI Act (AIA)",
+      "Digital Markets Act (DMA)"
+    ],
+    "correct": 3,
+    "explanation": "The Digital Markets Act (DMA, 2022) designates certain large online platforms as 'gatekeepers' and imposes ex-ante obligations to ensure contestable and fair digital markets. Gatekeepers include search engines, app stores, and social networks meeting specific thresholds."
+  },
+  {
+    "id": "eu4_044",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "RGPD et protection des données",
+    "difficulty": 1,
+    "text": "In which year did the GDPR become applicable?",
+    "options": [
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "correct": 2,
+    "explanation": "The General Data Protection Regulation (GDPR, Regulation 2016/679) was adopted in April 2016 but became applicable on 25 May 2018, giving organisations two years to comply. It applies to all organisations processing EU residents' personal data."
+  },
+  {
+    "id": "eu4_045",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Migration et asile",
+    "difficulty": 2,
+    "text": "Which EU regulation determines which Member State is responsible for examining an asylum application?",
+    "options": [
+      "Schengen Border Code",
+      "Reception Conditions Directive",
+      "Eurodac fingerprint database",
+      "Dublin Regulation (III)"
+    ],
+    "correct": 3,
+    "explanation": "The Dublin Regulation (currently Dublin III, 2013) establishes the criteria for determining which Member State is responsible for an asylum application. The general principle is that the first EU country of entry is responsible, which puts disproportionate pressure on border states."
+  },
+  {
+    "id": "eu4_046",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Espace Schengen",
+    "difficulty": 1,
+    "text": "In which year did the Schengen Agreement enter into force, abolishing border controls?",
+    "options": [
+      "1985",
+      "1990",
+      "1995",
+      "1997"
+    ],
+    "correct": 2,
+    "explanation": "The Schengen Agreement was signed in 1985 and the implementing Convention in 1990, but the abolition of internal border controls began in 1995 for the first group of five states (France, Germany, Belgium, Netherlands, Luxembourg). The Schengen acquis was integrated into EU law by the Amsterdam Treaty."
+  },
+  {
+    "id": "eu4_047",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Espace Schengen",
+    "difficulty": 2,
+    "text": "How many countries are currently members of the Schengen Area?",
+    "options": [
+      "22",
+      "25",
+      "27",
+      "29"
+    ],
+    "correct": 2,
+    "explanation": "As of 2024, the Schengen Area has 27 members — including 25 EU Member States (Ireland is not a member) plus Iceland, Liechtenstein, Norway and Switzerland. Bulgaria and Romania fully joined in 2024."
+  },
+  {
+    "id": "eu4_048",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Agences européennes",
+    "difficulty": 2,
+    "text": "Which EU agency is responsible for managing the external borders of the Schengen Area?",
+    "options": [
+      "Europol",
+      "Eurojust",
+      "Frontex",
+      "EASO"
+    ],
+    "correct": 2,
+    "explanation": "Frontex (European Border and Coast Guard Agency) manages and coordinates EU external border surveillance. It was significantly reinforced in 2019 with a mandate for a standing corps of 10,000 border guards and broadened return powers."
+  },
+  {
+    "id": "eu4_049",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Agences européennes",
+    "difficulty": 2,
+    "text": "Which EU agency is responsible for evaluating and approving medicines for the EU market?",
+    "options": [
+      "EFSA",
+      "EEA",
+      "ECDC",
+      "EMA"
+    ],
+    "correct": 3,
+    "explanation": "The European Medicines Agency (EMA), now headquartered in Amsterdam, evaluates and supervises medicines for the EU. It moved from London following Brexit. EFSA covers food safety, ECDC covers disease prevention, and EEA covers environment."
+  },
+  {
+    "id": "eu4_050",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Agences européennes",
+    "difficulty": 2,
+    "text": "What is the primary mandate of Europol?",
+    "options": [
+      "Border surveillance at EU external frontiers",
+      "Prosecution of EU budget fraud cases",
+      "Facilitating law enforcement cooperation against serious crime",
+      "Judicial cooperation in cross-border criminal proceedings"
+    ],
+    "correct": 2,
+    "explanation": "Europol (headquartered in The Hague) supports and strengthens cooperation between national law enforcement authorities in fighting serious organised crime, terrorism and cybercrime. Unlike the European Public Prosecutor's Office, it has no executive powers of arrest."
+  },
+  {
+    "id": "eu4_051",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "PESC et défense",
+    "difficulty": 2,
+    "text": "Who holds the post of EU High Representative for Foreign Affairs and Security Policy?",
+    "options": [
+      "President of the European Commission",
+      "A dual-hatted VP of the",
+      "Rotating Presidency's Foreign Minister",
+      "Secretary-General of the Council"
+    ],
+    "correct": 1,
+    "explanation": "The HR/VP post was created by the Lisbon Treaty: it combines the roles of Vice-President of the European Commission and chair of the Foreign Affairs Council. Kaja Kallas holds this position since December 2024."
+  },
+  {
+    "id": "eu4_052",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "PESC et défense",
+    "difficulty": 2,
+    "text": "Which EU defence cooperation framework was activated in 2017 under Article 46 TEU?",
+    "options": [
+      "European Defence Agency (EDA)",
+      "EU Strategic Compass (2022)",
+      "Permanent Structured Cooperation (PESCO)",
+      "EU Battlegroup Framework"
+    ],
+    "correct": 2,
+    "explanation": "PESCO (Permanent Structured Cooperation), established by Council Decision in December 2017, is a framework within the EU's defence policy allowing 25 participating Member States to deepen defence cooperation and develop joint military capabilities."
+  },
+  {
+    "id": "eu4_053",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "PESC et défense",
+    "difficulty": 2,
+    "text": "What is the 'Strategic Compass' adopted by the EU in 2022?",
+    "options": [
+      "A common EU defence treaty replacing NATO",
+      "The EU's strategic framework on security and",
+      "An EU diplomatic strategy for the Eastern neighbourhood",
+      "A rotating EU military command framework"
+    ],
+    "correct": 1,
+    "explanation": "The Strategic Compass (March 2022) is the EU's strategic framework on security and defence to 2030. It sets concrete goals including a Rapid Deployment Capacity of 5,000 troops, enhanced cyber defence, space capabilities, and hybrid threat resilience."
+  },
+  {
+    "id": "eu4_054",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations extérieures UE",
+    "difficulty": 2,
+    "text": "Which body constitutes the EU's diplomatic service?",
+    "options": [
+      "DG RELEX (Commission)",
+      "European External Action Service",
+      "Council Secretariat (Foreign Affairs)",
+      "DG Trade (Commission)"
+    ],
+    "correct": 1,
+    "explanation": "The European External Action Service (EEAS), established by the Lisbon Treaty, is the EU's diplomatic corps. It operates under the authority of the HR/VP, manages EU Delegations worldwide (over 140), and supports EU external action."
+  },
+  {
+    "id": "eu4_055",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations extérieures UE",
+    "difficulty": 2,
+    "text": "What status does the EU hold at the United Nations General Assembly?",
+    "options": [
+      "Full UN member state",
+      "Enhanced observer status",
+      "No formal status",
+      "Associate member with limited"
+    ],
+    "correct": 1,
+    "explanation": "The EU has enhanced observer status at the UN General Assembly (since 2011), allowing it to speak on behalf of its Member States. It is not a UN member and cannot vote. France and Germany hold permanent and non-permanent Council seats respectively among Member States."
+  },
+  {
+    "id": "eu4_056",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de voisinage et élargissement",
+    "difficulty": 2,
+    "text": "When were Ukraine and Moldova granted EU candidate status?",
+    "options": [
+      "March 2022",
+      "June 2022",
+      "December 2022",
+      "June 2023"
+    ],
+    "correct": 1,
+    "explanation": "The European Council of 23 June 2022 granted candidate status to Ukraine and Moldova. Accession negotiations were formally opened in June 2024. Georgia received the status of potential candidate at the same time and was upgraded to candidate in December 2023."
+  },
+  {
+    "id": "eu4_057",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de voisinage et élargissement",
+    "difficulty": 2,
+    "text": "What are the 'Copenhagen Criteria' for EU accession?",
+    "options": [
+      "Economic convergence criteria from the Maastricht Treaty",
+      "Political, economic and institutional conditions for candidate countries",
+      "Schengen security standards for border management",
+      "Environmental standards for the Green Deal"
+    ],
+    "correct": 1,
+    "explanation": "The Copenhagen Criteria (1993) define the conditions for EU membership: (1) stable institutions guaranteeing democracy, rule of law and human rights; (2) a functioning market economy; (3) ability to take on the obligations of membership including the acquis communautaire."
+  },
+  {
+    "id": "eu4_058",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Citoyenneté européenne",
+    "difficulty": 2,
+    "text": "What right does EU citizenship grant regarding elections in another Member State?",
+    "options": [
+      "Right to vote in national parliamentary elections",
+      "Right to vote in European and municipal elections",
+      "Right to vote in all elections including referenda",
+      "Right to stand in all elections after 5 years"
+    ],
+    "correct": 1,
+    "explanation": "EU citizens residing in another Member State have the right to vote and stand as candidates in European Parliament elections and in local (municipal) elections in their Member State of residence (Article 22 TFEU). They do not have the right to vote in national parliamentary elections."
+  },
+  {
+    "id": "eu4_059",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Citoyenneté européenne",
+    "difficulty": 2,
+    "text": "How many citizens from at least how many Member States are needed for a European Citizens' Initiative?",
+    "options": [
+      "500,000 citizens from at least 5 Member States",
+      "1 million citizens from at least one quarter of Member States",
+      "1 million citizens from at least half of Member States",
+      "500,000 citizens from at least 7 Member States"
+    ],
+    "correct": 1,
+    "explanation": "A European Citizens' Initiative (ECI) requires signatures from at least 1 million EU citizens from at least 7 Member States (one quarter of 27). It allows citizens to invite the Commission to propose legislation on matters within its competence."
+  },
+  {
+    "id": "eu4_060",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits fondamentaux",
+    "difficulty": 2,
+    "text": "When did the EU Charter of Fundamental Rights become legally binding?",
+    "options": [
+      "2000, when it was proclaimed in Nice",
+      "2004, with the Constitutional Treaty signing",
+      "2007, when it was re-proclaimed",
+      "2009, with entry into force of"
+    ],
+    "correct": 3,
+    "explanation": "The EU Charter of Fundamental Rights was proclaimed in Nice in 2000, but only acquired legally binding status on 1 December 2009 with the entry into force of the Treaty of Lisbon (Article 6 TEU). It now has the same legal value as the Treaties."
+  },
+  {
+    "id": "eu4_061",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits fondamentaux",
+    "difficulty": 2,
+    "text": "Which procedure under Article 7 TEU can lead to the suspension of a Member State's voting rights?",
+    "options": [
+      "Infringement procedure (Art.258)",
+      "Article 7 mechanism",
+      "Excessive deficit procedure",
+      "Enhanced cooperation procedure"
+    ],
+    "correct": 1,
+    "explanation": "Article 7 TEU allows the Council to determine a 'clear risk of a serious breach' of EU values (4/5 majority), and the European Council to determine a 'serious and persistent breach' (unanimity). The Council may then suspend rights including voting rights. Procedures were opened against Poland (2017) and Hungary (2018)."
+  },
+  {
+    "id": "eu4_062",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "PAC - Politique agricole commune",
+    "difficulty": 2,
+    "text": "In which year was the Common Agricultural Policy (CAP) launched?",
+    "options": [
+      "1957",
+      "1962",
+      "1968",
+      "1975"
+    ],
+    "correct": 1,
+    "explanation": "The CAP was launched in 1962, implementing the agricultural provisions of the 1957 Treaty of Rome. It initially focused on guaranteed prices and production subsidies to ensure food security. The current CAP covers 2023–2027."
+  },
+  {
+    "id": "eu4_063",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "PAC - Politique agricole commune",
+    "difficulty": 2,
+    "text": "What do the two pillars of the CAP cover?",
+    "options": [
+      "Food production and food safety",
+      "Direct payments to farmers and rural development",
+      "Organic farming and conventional farming",
+      "EU internal market and EU export subsidies"
+    ],
+    "correct": 1,
+    "explanation": "The CAP's Pillar 1 covers direct payments to farmers and market measures (funded entirely by the EU). Pillar 2 covers rural development programmes (co-financed by Member States). Pillar 1 absorbs more than two-thirds of the CAP budget."
+  },
+  {
+    "id": "eu4_064",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique commerciale commune",
+    "difficulty": 2,
+    "text": "Which body negotiates international trade agreements on behalf of the EU?",
+    "options": [
+      "The Council Presidency",
+      "The European Parliament",
+      "The European Commission",
+      "The EEAS diplomatic service"
+    ],
+    "correct": 2,
+    "explanation": "The European Commission negotiates trade agreements on behalf of the EU, based on a mandate approved by the Council. The Council must authorise the opening of negotiations and approve the final agreement. The European Parliament must give its consent for the agreement to enter into force."
+  },
+  {
+    "id": "eu4_065",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Union bancaire",
+    "difficulty": 2,
+    "text": "Which EU body directly supervises significant banks in the euro area under the SSM?",
+    "options": [
+      "European Banking Authority (EBA)",
+      "European Central Bank (ECB)",
+      "European Stability Mechanism (ESM)",
+      "European Court of Auditors"
+    ],
+    "correct": 1,
+    "explanation": "Under the Single Supervisory Mechanism (SSM, established 2014), the ECB directly supervises significant banks in the euro area (those meeting certain size or cross-border thresholds, approximately 110 banks). National supervisors continue to oversee less significant institutions."
+  },
+  {
+    "id": "eu4_066",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique régionale et cohésion",
+    "difficulty": 2,
+    "text": "Which EU fund supports employment, social inclusion and education through the Cohesion Policy?",
+    "options": [
+      "ERDF (regional development",
+      "ESF+ (social fund)",
+      "Cohesion Fund (CF)",
+      "EAFRD (agricultural fund)"
+    ],
+    "correct": 1,
+    "explanation": "The European Social Fund+ (ESF+) is the EU's main instrument for investing in people: employment, education, training, and social inclusion. The ERDF funds infrastructure and innovation, the Cohesion Fund supports transport and environment in less developed Member States."
+  },
+  {
+    "id": "eu4_067",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Innovation et recherche",
+    "difficulty": 2,
+    "text": "What is the EU's framework programme for research and innovation for 2021–2027?",
+    "options": [
+      "Horizon 2020 (2014-2020)",
+      "Horizon Europe (2021-2027)",
+      "Digital Europe (2021-2027)",
+      "InvestEU Programme (2021)"
+    ],
+    "correct": 1,
+    "explanation": "Horizon Europe (2021–2027) is the EU's flagship research and innovation programme, with a budget of €95.5 billion. It succeeds Horizon 2020 and includes the European Research Council, Marie Skłodowska-Curie Actions, and research missions on cancer, climate, oceans, cities and soil."
+  },
+  {
+    "id": "eu4_068",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Programme Erasmus+",
+    "difficulty": 1,
+    "text": "What is the EU programme for education, training, youth and sport?",
+    "options": [
+      "Horizon Europe Programme",
+      "Creative Europe Programme",
+      "Erasmus+ (education programme)",
+      "InvestEU (investment programme)"
+    ],
+    "correct": 2,
+    "explanation": "Erasmus+ is the EU programme supporting education, training, youth and sport. For 2021–2027, it has a budget of approximately €26.2 billion. Since 1987, it has supported the mobility of over 12 million students and staff."
+  },
+  {
+    "id": "eu4_069",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique spatiale",
+    "difficulty": 2,
+    "text": "What is the EU's satellite navigation system?",
+    "options": [
+      "GPS",
+      "GLONASS",
+      "Galileo",
+      "Copernicus"
+    ],
+    "correct": 2,
+    "explanation": "Galileo is the EU's own global satellite navigation system, providing positioning and timing services worldwide. It became fully operational in 2016. Copernicus is the EU's Earth observation programme — a different system. GPS is American and GLONASS is Russian."
+  },
+  {
+    "id": "eu4_070",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique spatiale",
+    "difficulty": 2,
+    "text": "What is the Copernicus programme?",
+    "options": [
+      "EU satellite navigation system",
+      "EU Earth observation programme",
+      "EU space debris monitoring system",
+      "EU programme for weather forecasting"
+    ],
+    "correct": 1,
+    "explanation": "Copernicus is the EU's Earth observation programme, providing free and open data on land, marine environment, atmosphere, climate change, emergency management and security. It is managed by the European Commission in partnership with ESA and EUMETSAT."
+  },
+  {
+    "id": "eu4_071",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Transparence et lobbying",
+    "difficulty": 2,
+    "text": "Which EU institution hosts the Transparency Register for lobby organisations?",
+    "options": [
+      "The European Ombudsman",
+      "The Parliament and Commission",
+      "The Council of the",
+      "The European Court of"
+    ],
+    "correct": 1,
+    "explanation": "The EU Transparency Register is a joint register of the European Parliament, Council and Commission (since 2021), listing organisations seeking to influence EU decision-making. Registration has been made mandatory for meeting with senior officials of the Commission, Parliament rapporteurs and Council Presidency."
+  },
+  {
+    "id": "eu4_072",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Transparence et lobbying",
+    "difficulty": 2,
+    "text": "What body handles complaints about maladministration in EU institutions?",
+    "options": [
+      "European Court of Auditors",
+      "General Court of",
+      "European Ombudsman (EO)",
+      "DG Justice (Commission)"
+    ],
+    "correct": 2,
+    "explanation": "The European Ombudsman investigates complaints about maladministration by EU institutions, bodies, offices and agencies. The Ombudsman is elected by the European Parliament. Citizens, residents and companies registered in the EU can submit complaints."
+  },
+  {
+    "id": "eu4_073",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "OLAF, Eurojust, Parquet européen",
+    "difficulty": 2,
+    "text": "What is OLAF's main function?",
+    "options": [
+      "Judicial prosecution of EU budget fraud",
+      "Administrative investigation of fraud against EU",
+      "Coordination of national anti-corruption agencies",
+      "Supervision of EU officials' financial declarations"
+    ],
+    "correct": 1,
+    "explanation": "OLAF (European Anti-Fraud Office) conducts independent administrative investigations to protect EU finances against fraud, corruption and serious misconduct. Unlike the European Public Prosecutor's Office (EPPO), OLAF cannot directly prosecute — it issues recommendations to national authorities."
+  },
+  {
+    "id": "eu4_074",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "OLAF, Eurojust, Parquet européen",
+    "difficulty": 2,
+    "text": "The European Public Prosecutor's Office (EPPO) can directly prosecute which type of offences?",
+    "options": [
+      "Terrorism and serious organised crime",
+      "Offences against the EU's financial",
+      "Corruption involving EU officials",
+      "Human trafficking across EU borders"
+    ],
+    "correct": 1,
+    "explanation": "The EPPO, operational since June 2021 and based in Luxembourg (with 22 participating Member States), has exclusive competence to investigate and prosecute crimes affecting the EU's financial interests, including VAT fraud, corruption and misuse of EU funds."
+  },
+  {
+    "id": "eu4_075",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Identité culturelle de l'UE",
+    "difficulty": 1,
+    "text": "What is the official motto of the European Union?",
+    "options": [
+      "Peace through prosperity",
+      "Unity in diversity",
+      "United we stand",
+      "Together for Europe"
+    ],
+    "correct": 1,
+    "explanation": "'United in diversity' is the EU's official motto, adopted in 2000 following a selection process. It reflects that Europeans are united in their common project of peace and prosperity, while drawing strength from the continent's many different cultures, traditions and languages."
+  },
+  {
+    "id": "eu4_076",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Identité culturelle de l'UE",
+    "difficulty": 2,
+    "text": "Which musical work is used as the EU's anthem?",
+    "options": [
+      "La Marseillaise (France)",
+      "Beethoven's Ode to Joy",
+      "Europa, Europa by Carl",
+      "A specially composed EU"
+    ],
+    "correct": 1,
+    "explanation": "The EU anthem is the 'Ode to Joy', the prelude to the fourth movement of Beethoven's Ninth Symphony, arranged by Herbert von Karajan. Adopted by the Council of Europe in 1972 and by the EU in 1985, it is performed without words to transcend language barriers."
+  },
+  {
+    "id": "eu4_077",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élections européennes",
+    "difficulty": 1,
+    "text": "In which year were the first direct elections to the European Parliament held?",
+    "options": [
+      "1974",
+      "1977",
+      "1979",
+      "1984"
+    ],
+    "correct": 2,
+    "explanation": "The first direct elections to the European Parliament took place in June 1979. Simone Veil was elected as its first President. Before 1979, MEPs were appointed by national parliaments."
+  },
+  {
+    "id": "eu4_078",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Europe sociale",
+    "difficulty": 2,
+    "text": "How many principles does the European Pillar of Social Rights consist of?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "27"
+    ],
+    "correct": 2,
+    "explanation": "The European Pillar of Social Rights, proclaimed in 2017 at the Gothenburg Social Summit, contains 20 principles covering three chapters: equal opportunities and access to the labour market, fair working conditions, and social protection and inclusion."
+  },
+  {
+    "id": "eu4_079",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Défense européenne",
+    "difficulty": 2,
+    "text": "What is the EU's annual research and development fund for defence?",
+    "options": [
+      "NATO Common Fund",
+      "European Defence Agency budget",
+      "European Defence Fund (EDF)",
+      "PESCO Joint Investment Scheme"
+    ],
+    "correct": 2,
+    "explanation": "The European Defence Fund (EDF), with a budget of €7.95 billion for 2021–2027, is the first EU budget instrument to directly fund collaborative defence research and capability development projects. It supports research and industrial development phases."
+  },
+  {
+    "id": "eu4_080",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Coopération renforcée",
+    "difficulty": 2,
+    "text": "What is the minimum number of Member States required to establish enhanced cooperation?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "correct": 2,
+    "explanation": "Enhanced cooperation (Article 20 TEU) requires a minimum of 9 Member States. It allows a group of willing Member States to proceed with closer integration in areas where unanimous agreement cannot be reached. It has been used for the unitary patent, divorce law, and the EPPO."
+  }
+]

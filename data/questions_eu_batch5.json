@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "eu5_001",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE - recettes",
+    "difficulty": 2,
+    "text": "Quelle est la principale recette du budget de l'Union européenne ?",
+    "options": [
+      "La ressource RNB (64% des recettes)",
+      "Les droits de douane (13% des recettes)",
+      "La ressource TVA (12% des recettes)",
+      "La ressource plastique (4% des recettes)"
+    ],
+    "correct": 0,
+    "explanation": "La ressource RNB (Revenu national brut) constitue la principale recette du budget de l'UE, représentant environ 64% des recettes totales. C'est une contribution des États membres proportionnelle à leur RNB. Les droits de douane (13%), la TVA (12%) et la contribution plastique (4%) complètent les recettes."
+  },
+  {
+    "id": "eu5_002",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE - recettes",
+    "difficulty": 2,
+    "text": "Quelle ressource propre de l'UE a été introduite en 2021 liée à la pollution ?",
+    "options": [
+      "La ressource basée sur les déchets plastiques non",
+      "La taxe carbone sur les émissions industrielles",
+      "La contribution sur les transactions financières",
+      "La taxe sur les bénéfices des multinationales"
+    ],
+    "correct": 0,
+    "explanation": "En 2021, l'UE a introduit une nouvelle ressource propre basée sur les déchets plastiques non recyclés : les États membres contribuent à hauteur de 0,80 €/kg de déchets d'emballages plastiques non recyclés. Cette ressource représente environ 4% des recettes du budget européen."
+  },
+  {
+    "id": "eu5_003",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE - dépenses",
+    "difficulty": 2,
+    "text": "Quelle est la principale dépense du budget européen en 2022 ?",
+    "options": [
+      "La PAC - Politique agricole commune (33%)",
+      "La politique de cohésion régionale (30%)",
+      "Les actions extérieures et aide humanitaire (8%)",
+      "La recherche et l'innovation (8%)"
+    ],
+    "correct": 0,
+    "explanation": "En 2022, la PAC représente la principale dépense du budget européen avec environ 33% des dépenses totales. Elle est suivie de la politique de cohésion (30%), des actions extérieures (8%), de la recherche et innovation (8%), d'Erasmus+ (2%) et des dépenses de fonctionnement (7%)."
+  },
+  {
+    "id": "eu5_004",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE - dépenses",
+    "difficulty": 2,
+    "text": "Quel était le budget annuel de l'UE en 2023 ?",
+    "options": [
+      "140 milliards d'euros",
+      "155 milliards d'euros",
+      "168,6 milliards d'euros",
+      "185 milliards d'euros"
+    ],
+    "correct": 2,
+    "explanation": "Le budget de l'UE pour 2023 s'élevait à 168,6 milliards d'euros. Le budget est décidé au Parlement européen dans le cadre du cadre financier pluriannuel (CFP) fixé pour 7 ans, qui définit les grandes orientations et le montant maximum des dépenses."
+  },
+  {
+    "id": "eu5_005",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 2,
+    "text": "Qui a développé le néofonctionnalisme comme théorie de l'intégration européenne ?",
+    "options": [
+      "Ernst B. Haas, chercheur américain",
+      "David Mitrany, politologue britannique",
+      "Karl Deutsch, politologue germano-américain",
+      "Robert Schuman, homme politique français"
+    ],
+    "correct": 0,
+    "explanation": "Ernst B. Haas a développé le néofonctionnalisme après la Seconde Guerre mondiale. Il s'appuie sur le fonctionnalisme de David Mitrany mais y ajoute l'idée de spillover politique, le rôle des institutions supranationales et des acteurs non-étatiques dans le processus d'intégration."
+  },
+  {
+    "id": "eu5_006",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 2,
+    "text": "Quelle est la différence entre spillover technique et spillover politique ?",
+    "options": [
+      "Le spillover technique concerne un domaine fonctionnel ; le politique entraîne une intégration dans",
+      "Le spillover technique porte sur les institutions ; le politique sur l'économie",
+      "Le spillover technique est propre au fonctionnalisme ; le politique est propre au fédéralisme",
+      "Le spillover technique est réversible ; le politique est irréversible et contraignant"
+    ],
+    "correct": 0,
+    "explanation": "Le spillover technique (fonctionnalisme de Mitrany) désigne la coopération dans un domaine économique qui entraîne la coopération dans d'autres domaines techniques. Le spillover politique (néofonctionnalisme de Haas) va plus loin : l'intégration économique crée des pressions pour une intégration dans des domaines politiques et institutionnels."
+  },
+  {
+    "id": "eu5_007",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 2,
+    "text": "Quelle caractéristique distingue le néofonctionnalisme du fonctionnalisme ?",
+    "options": [
+      "L'importance des acteurs non-étatiques et des institutions supranationales",
+      "Le rôle central des États dans l'intégration régionale",
+      "Le rejet de tout transfert de souveraineté vers des organisations supranationales",
+      "La priorité accordée à la coopération militaire entre États membres"
+    ],
+    "correct": 0,
+    "explanation": "Le néofonctionnalisme (Haas) se distingue du fonctionnalisme (Mitrany) par l'accent mis sur : le spillover politique, le rôle actif des institutions supranationales (Commission européenne), l'influence des acteurs non-étatiques (groupes d'intérêt, entreprises) et le rôle des élites et technocrates dans la promotion de l'intégration."
+  },
+  {
+    "id": "eu5_008",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Théories de l'intégration",
+    "difficulty": 2,
+    "text": "Comment le fonctionnalisme de Mitrany concevait-il la souveraineté nationale ?",
+    "options": [
+      "La souveraineté s'érode progressivement par la pratique de la coopération technique",
+      "La souveraineté doit être entièrement transférée à un État fédéral européen",
+      "La souveraineté est intangible et aucun transfert n'est envisageable",
+      "La souveraineté doit être partagée par référendum dans chaque État membre"
+    ],
+    "correct": 0,
+    "explanation": "Pour Mitrany, la coopération technique et fonctionnelle entre États crée une interdépendance croissante qui érode la souveraineté nationale de manière progressive et non conflictuelle. Ce n'est pas un transfert formel de souveraineté mais une érosion pratique via des solidarités de fait dans des domaines économiques et techniques."
+  },
+  {
+    "id": "eu5_009",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Spitzenkandidat",
+    "difficulty": 2,
+    "text": "Quel est le principe du système Spitzenkandidat dans les élections européennes ?",
+    "options": [
+      "Le chef de file du parti vainqueur au PE devient automatiquement président",
+      "Un candidat transnational unique représente tous les partis au PE",
+      "Les chefs d'État désignent directement le président de la Commission",
+      "Le Parlement élit son président en même temps que celui de la Commission"
+    ],
+    "correct": 0,
+    "explanation": "Le système Spitzenkandidat (tête de liste en allemand) prévoit que chaque parti politique européen désigne un chef de file avant les élections. Le Spitzenkandidat du parti arrivé en tête est ensuite proposé par le Conseil européen au vote du PE pour la présidence de la Commission, renforçant le lien entre vote et désignation."
+  },
+  {
+    "id": "eu5_010",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Spitzenkandidat",
+    "difficulty": 2,
+    "text": "En quelle année le Spitzenkandidat a-t-il été appliqué pour la première fois avec succès ?",
+    "options": [
+      "2014, avec Jean-Claude Juncker (PPE)",
+      "2009, avec José Manuel Barroso (PPE)",
+      "2019, avec Manfred Weber (PPE)",
+      "2024, avec Ursula von der Leyen (PPE)"
+    ],
+    "correct": 0,
+    "explanation": "En 2014, le PPE a désigné Jean-Claude Juncker comme Spitzenkandidat. Après la victoire du PPE, il a été élu président de la Commission européenne, marquant la première application réussie du principe. En 2019 en revanche, le Conseil européen a écarté le Spitzenkandidat (Manfred Weber) pour désigner Ursula von der Leyen."
+  },
+  {
+    "id": "eu5_011",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Spitzenkandidat",
+    "difficulty": 2,
+    "text": "Pourquoi le Conseil européen a-t-il écarté le Spitzenkandidat en 2019 ?",
+    "options": [
+      "Les chefs d'État ont considéré que le processus n'avait aucun caractère automatique",
+      "Le parti arrivé en tête n'avait pas désigné de chef de file avant les élections",
+      "Le Parlement européen a refusé de voter la candidature du Spitzenkandidat",
+      "La CJUE a jugé le principe contraire au Traité de Lisbonne"
+    ],
+    "correct": 0,
+    "explanation": "En 2019, après la victoire du PPE, les chefs d'État ont déclaré lors d'un sommet informel qu'ils ne pouvaient pas garantir a priori que le Spitzenkandidat (Manfred Weber, PPE) serait proposé. Ils ont désigné Ursula von der Leyen, qui n'était pas tête de liste. Le processus 'ne présente aucun caractère automatique' selon leurs déclarations."
+  },
+  {
+    "id": "eu5_012",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Spitzenkandidat",
+    "difficulty": 2,
+    "text": "Quel est l'avantage principal du système Spitzenkandidat selon ses partisans ?",
+    "options": [
+      "Il renforce la légitimité démocratique de la Commission et réduit l'abstention",
+      "Il simplifie les négociations entre États membres sur les postes de l'UE",
+      "Il garantit une meilleure représentation géographique au sein de la Commission",
+      "Il accélère la procédure d'élection du président de la Commission européenne"
+    ],
+    "correct": 0,
+    "explanation": "Les partisans du Spitzenkandidat font valoir qu'il renforce la légitimité démocratique de la Commission en créant un lien direct entre le vote des citoyens et la désignation du président. Il accroît la dimension partisane des institutions, renforce l'attrait des élections et lutte contre l'abstention en donnant plus de sens au vote européen."
+  },
+  {
+    "id": "eu5_013",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Frontex",
+    "difficulty": 2,
+    "text": "En quelle année Frontex a-t-elle été créée et quelle est sa base juridique ?",
+    "options": [
+      "2004, sur la base de l'Article 67 du TFUE",
+      "2001, sur la base de l'Accord de Schengen de 1985",
+      "2007, suite au Traité de Lisbonne sur les frontières extérieures",
+      "2015, en réponse à la crise migratoire de l'été 2015"
+    ],
+    "correct": 0,
+    "explanation": "Frontex (Agence européenne de garde-frontières et de garde-côtes) a été créée en 2004. Sa base juridique remonte à l'Article 67 du TFUE qui prévoit la nécessité de gérer les frontières extérieures de l'UE de manière coordonnée, notamment après l'abolition des frontières intérieures au sein de l'espace Schengen."
+  },
+  {
+    "id": "eu5_014",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Frontex",
+    "difficulty": 2,
+    "text": "Comment le budget de Frontex a-t-il évolué entre 2005 et 2023 ?",
+    "options": [
+      "De 6 millions à 845 millions d'euros (multiplié par 140)",
+      "De 50 millions à 500 millions d'euros (multiplié par 10)",
+      "De 100 millions à 1 milliard d'euros (multiplié par 10)",
+      "De 20 millions à 600 millions d'euros (multiplié par 30)"
+    ],
+    "correct": 0,
+    "explanation": "Le budget de Frontex a connu une croissance spectaculaire, passant de 6 millions d'euros en 2005 à 845 millions d'euros en 2023, soit une multiplication par environ 140 en 14 ans. Cette croissance reflète l'extension progressive de son mandat et les crises migratoires successives."
+  },
+  {
+    "id": "eu5_015",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élections européennes",
+    "difficulty": 1,
+    "text": "Combien d'électeurs étaient appelés à voter aux élections européennes de juin 2024 ?",
+    "options": [
+      "200 millions d'électeurs",
+      "280 millions d'électeurs",
+      "360 millions d'électeurs",
+      "450 millions d'électeurs"
+    ],
+    "correct": 2,
+    "explanation": "Les élections européennes de juin 2024 ont mobilisé environ 360 millions d'électeurs dans les 27 États membres de l'UE. Elles se sont tenues du 6 au 9 juin 2024. C'était les 10e élections européennes depuis les premières élections directes de 1979."
+  },
+  {
+    "id": "eu5_016",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élections européennes",
+    "difficulty": 2,
+    "text": "Dans quels pays le vote aux élections européennes est-il obligatoire ?",
+    "options": [
+      "Belgique, Bulgarie, Luxembourg et Grèce",
+      "Allemagne, Autriche, Pays-Bas et Espagne",
+      "France, Italie, Portugal et Irlande",
+      "Pologne, Hongrie, Roumanie et République tchèque"
+    ],
+    "correct": 0,
+    "explanation": "Le vote est obligatoire avec des amendes en cas de non-participation en Belgique, Bulgarie, Luxembourg et Grèce. Dans les autres États membres, le vote est facultatif. Ces règles nationales expliquent en partie les disparités de participation entre États membres."
+  },
+  {
+    "id": "eu5_017",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élections européennes",
+    "difficulty": 2,
+    "text": "Quel seuil électoral s'applique en France pour accéder aux sièges au Parlement européen ?",
+    "options": [
+      "5% des suffrages exprimés",
+      "3% des suffrages exprimés",
+      "7% des suffrages exprimés",
+      "10% des suffrages exprimés"
+    ],
+    "correct": 0,
+    "explanation": "En France, seules les listes obtenant plus de 5% des suffrages exprimés peuvent envoyer des eurodéputés à Strasbourg. En 2019, six listes avaient franchi ce seuil. La France constitue une circonscription nationale unique avec 81 sièges au Parlement européen pour le mandat 2024-2029."
+  },
+  {
+    "id": "eu5_018",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Groupes politiques PE",
+    "difficulty": 2,
+    "text": "Quel est le nombre minimum de députés requis pour former un groupe politique au Parlement européen ?",
+    "options": [
+      "23 députés issus d'au moins un quart des États membres",
+      "15 députés issus d'au moins 5 États membres",
+      "30 députés issus d'au moins un tiers des États membres",
+      "35 députés issus d'au moins la moitié des États membres"
+    ],
+    "correct": 0,
+    "explanation": "Pour former un groupe politique au Parlement européen, il faut un minimum de 23 députés issus d'au moins un quart des États membres (soit au moins 7 États membres sur 27). Les eurodéputés n'appartenant à aucun groupe sont désignés comme 'non-inscrits'."
+  },
+  {
+    "id": "eu5_019",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Groupes politiques PE",
+    "difficulty": 2,
+    "text": "Combien de groupes politiques composent le Parlement européen ?",
+    "options": [
+      "7 groupes politiques",
+      "5 groupes politiques",
+      "9 groupes politiques",
+      "12 groupes politiques"
+    ],
+    "correct": 0,
+    "explanation": "Le Parlement européen est composé de 7 groupes politiques, allant de l'extrême gauche à l'extrême droite : GUE/NGL (gauche), S&D (socialistes), Verts/ALE (écologistes), Renew (libéraux), PPE (droite/conservateurs), CRE (eurosceptiques conservateurs) et ID (identitaires). Les eurodéputés n'appartenant à aucun groupe sont 'non-inscrits'."
+  },
+  {
+    "id": "eu5_020",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Groupes politiques PE",
+    "difficulty": 2,
+    "text": "Quelle est la différence entre un parti politique européen et un groupe politique au PE ?",
+    "options": [
+      "Le parti politique européen regroupe des partis nationaux ; le groupe politique se forme au sein du PE entre eurodéputés élus",
+      "Le parti politique national regroupe les eurodéputés ; le groupe européen regroupe les partis nationaux",
+      "Le parti politique européen est élu par les citoyens ; le groupe est nommé par le Conseil européen",
+      "Le parti politique européen adopte des actes législatifs ; le groupe politique ne vote pas"
+    ],
+    "correct": 0,
+    "explanation": "Les partis politiques européens regroupent des partis nationaux et portent le programme de campagne (ex. PPE regroupe CDU, LR, etc.). Une fois élus, les eurodéputés forment des groupes politiques au sein du Parlement selon leur affinité idéologique. Le groupe sert au fonctionnement parlementaire (amendements, votes)."
+  },
+  {
+    "id": "eu5_021",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Effet direct du droit UE",
+    "difficulty": 2,
+    "text": "Quelles sont les conditions pour qu'une disposition du droit UE soit d'effet direct ?",
+    "options": [
+      "Elle doit être claire, précise, inconditionnelle et sans mesure complémentaire",
+      "Elle doit être publiée au JOUE et transposée dans les 2 ans",
+      "Elle doit être adoptée selon la procédure législative ordinaire uniquement",
+      "Elle doit être approuvée par le PE à la majorité des deux tiers"
+    ],
+    "correct": 0,
+    "explanation": "Consacré par Van Gend en Loos (1963), l'effet direct s'applique à toute disposition qui est : claire, précise, inconditionnelle et n'appelant pas de mesure complémentaire nationale ou européenne. Ces conditions s'appliquent qu'il s'agisse du droit primaire, des règlements, directives, décisions ou accords internationaux."
+  },
+  {
+    "id": "eu5_022",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Effet direct du droit UE",
+    "difficulty": 2,
+    "text": "Quelle distinction fait-on entre effet direct vertical et effet direct horizontal ?",
+    "options": [
+      "Vertical : entre États ; horizontal : entre institutions de l'UE",
+      "Vertical : droit primaire ; horizontal : droit dérivé uniquement",
+      "Vertical : invoquer le DUE contre l'État ; horizontal : l'invoquer contre",
+      "Vertical : en première instance ; horizontal : en appel devant la CJUE"
+    ],
+    "correct": 2,
+    "explanation": "L'effet direct vertical désigne la possibilité d'invoquer le droit de l'Union contre l'État devant un juge national. L'effet direct horizontal permet de l'invoquer contre des personnes privées (entreprises, particuliers). Toutes les dispositions ayant l'effet direct vertical ne l'ont pas nécessairement dans les deux sens."
+  },
+  {
+    "id": "eu5_023",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Effet direct du droit UE",
+    "difficulty": 3,
+    "text": "Dans quelles conditions une directive peut-elle exceptionnellement avoir un effet direct ?",
+    "options": [
+      "Uniquement si le Conseil l'autorise expressément dans le texte",
+      "Dès sa publication au Journal officiel de l'Union européenne",
+      "Si ses dispositions sont claires, précises, inconditionnelles et que l'État n'a",
+      "Uniquement pour les directives adoptées sous la procédure d'urgence"
+    ],
+    "correct": 2,
+    "explanation": "La directive n'est en principe pas d'effet direct car elle nécessite une transposition nationale. Mais par exception (arrêt Van Duyn), si l'État n'a pas transposé dans les délais ou a mal transposé, et si la disposition est claire, précise et inconditionnelle, le particulier peut l'invoquer directement contre l'État."
+  },
+  {
+    "id": "eu5_024",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Effet direct du droit UE",
+    "difficulty": 3,
+    "text": "Qu'impose l'arrêt Inter-Environnement Wallonie à un État pendant le délai de transposition d'une directive ?",
+    "options": [
+      "L'État doit immédiatement appliquer la directive comme si elle était transposée",
+      "L'État doit notifier la CJUE de toute législation nationale adoptée dans ce domaine",
+      "L'État ne doit pas prendre des mesures nationales compromettant sérieusement le résultat prescrit",
+      "L'État ne peut adopter aucune législation nationale dans le domaine concerné"
+    ],
+    "correct": 2,
+    "explanation": "L'arrêt Inter-Environnement Wallonie (CJCE, C-129/96) a établi que pendant le délai de transposition, l'État ne doit pas prendre des mesures nationales de nature à compromettre sérieusement le résultat prescrit par la directive. C'est une obligation de ne pas faire, même si la directive n'est pas encore transposée."
+  },
+  {
+    "id": "eu5_025",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Primauté du droit UE",
+    "difficulty": 2,
+    "text": "Qu'a décidé la Cour constitutionnelle allemande dans l'arrêt Solange I (1974) ?",
+    "options": [
+      "Elle a reconnu la primauté absolue du droit de l'UE sur la Constitution allemande",
+      "Elle a déclaré l'UE incompatible avec la Loi fondamentale allemande",
+      "Elle a refusé d'appliquer le DUE car la Constitution allemande offrait une",
+      "Elle a exigé un référendum allemand avant toute nouvelle intégration européenne"
+    ],
+    "correct": 2,
+    "explanation": "Dans Solange I (1974), la Cour constitutionnelle fédérale allemande a refusé de faire primer le droit communautaire sur la Constitution allemande tant que (solange = 'aussi longtemps que') le niveau de protection des droits fondamentaux en droit de l'UE n'était pas équivalent à celui garanti par la Loi fondamentale."
+  },
+  {
+    "id": "eu5_026",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Primauté du droit UE",
+    "difficulty": 3,
+    "text": "Qu'a établi l'arrêt Sarran du Conseil d'État français (1998) sur la primauté du DUE ?",
+    "options": [
+      "Le DUE prime sur la Constitution française en toutes circonstances",
+      "La Constitution prime sur tous les textes, y compris le droit de l'UE",
+      "Le DUE prime sur la loi mais pas sur la Constitution française",
+      "Le juge administratif renvoie systématiquement à la CJUE pour les conflits avec la Constitution"
+    ],
+    "correct": 2,
+    "explanation": "Dans l'arrêt Sarran (CE, 1998), le Conseil d'État français a jugé que l'art. 55 de la Constitution prévoit uniquement la supériorité des traités sur la loi. Le DUE ne prime donc pas sur la Constitution française selon le juge administratif. La Cour de cassation a adopté la même position dans l'arrêt Fraisse."
+  },
+  {
+    "id": "eu5_027",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Primauté du droit UE",
+    "difficulty": 3,
+    "text": "Quel mécanisme préventif la Constitution française prévoit-elle pour éviter les conflits entre traités et Constitution ?",
+    "options": [
+      "L'article 49 permettant le vote de confiance avant toute ratification",
+      "L'article 89 imposant une révision constitutionnelle avant tout nouveau traité",
+      "L'article 54 permettant au CC de vérifier la conformité d'un traité avant ratification",
+      "L'article 16 permettant au Président de suspendre l'application d'un traité"
+    ],
+    "correct": 2,
+    "explanation": "L'article 54 de la Constitution française permet au Conseil constitutionnel de vérifier la compatibilité d'un engagement international avec la Constitution avant sa ratification. S'il y a incompatibilité, le traité ou la Constitution doit être révisé. C'est un mécanisme préventif a priori, appliqué notamment pour le Traité de Maastricht (1992)."
+  },
+  {
+    "id": "eu5_028",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Primauté du droit UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le 'perspectivisme' en matière de primauté du droit de l'UE ?",
+    "options": [
+      "La CJUE adopte différentes positions selon les États membres concernés",
+      "L'UE prend des perspectives différentes selon les domaines de politique publique",
+      "La portée de la primauté varie selon qu'on se place dans l'ordre",
+      "Les juridictions nationales ont une marge d'appréciation pour refuser la primauté du DUE"
+    ],
+    "correct": 2,
+    "explanation": "Le perspectivisme désigne le fait que la primauté du DUE n'a pas la même force selon l'ordre juridique dans lequel on se place : dans l'ordre de l'UE, le DUE prime sur tout ; dans l'ordre interne des États, le juge considère que le DUE prime sur la loi mais pas sur la Constitution ; dans l'ordre international, il n'y a pas de primauté du DUE."
+  },
+  {
+    "id": "eu5_029",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Recours en annulation",
+    "difficulty": 2,
+    "text": "Quel est le délai pour introduire un recours en annulation devant la CJUE ?",
+    "options": [
+      "1 mois à compter de la publication de l'acte",
+      "6 mois à compter de l'entrée en vigueur de l'acte",
+      "2 mois à compter de la publication ou notification",
+      "1 an à compter de la connaissance de l'acte"
+    ],
+    "correct": 2,
+    "explanation": "Selon l'article 263 TFUE, un recours en annulation doit être introduit dans un délai de 2 mois à compter de la publication de l'acte au JOUE ou de sa notification au requérant. Ce délai est d'ordre public et son dépassement entraîne l'irrecevabilité automatique du recours."
+  },
+  {
+    "id": "eu5_030",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Recours en annulation",
+    "difficulty": 2,
+    "text": "Quels sont les 4 motifs d'annulation d'un acte prévus par l'article 263 TFUE ?",
+    "options": [
+      "Incompétence, violation des formes, violation du traité, détournement",
+      "Illégalité, disproportionnalité, violation de subsidiarité, excès de compétence",
+      "Non-conformité, irrecevabilité, méconnaissance, abus de pouvoir",
+      "Inconstitutionnalité, violation des droits fondamentaux, abus de procédure,"
+    ],
+    "correct": 0,
+    "explanation": "L'article 263 TFUE prévoit 4 motifs d'annulation : l'incompétence (matérielle, territoriale ou temporelle), la violation des formes substantielles (motivation, subsidiarité), la violation du traité ou d'une règle de droit relative à son application, et le détournement de pouvoir (utilisation des pouvoirs à des fins détournées)."
+  },
+  {
+    "id": "eu5_031",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Recours en annulation",
+    "difficulty": 3,
+    "text": "Qu'a établi l'arrêt Plaumann (CJCE) concernant la qualité de requérant non-privilégié ?",
+    "options": [
+      "Tout particulier peut contester un acte de l'UE dès qu'il en a connaissance",
+      "Un particulier peut uniquement contester les décisions dont il est expressément le destinataire",
+      "Un particulier est individuellement concerné si l'acte l'atteint en raison de qualités qui lui sont particulières",
+      "Un particulier est directement concerné si l'acte produit des effets immédiats sur sa situation"
+    ],
+    "correct": 2,
+    "explanation": "L'arrêt Plaumann a établi la condition d'individualité pour les requérants non-privilégiés : un tiers est individuellement concerné par un acte s'il est atteint en raison de certaines qualités qui lui sont particulières, ou en raison d'une situation de fait qui le caractérise par rapport à toute autre personne. C'est une condition restrictive très difficile à satisfaire."
+  },
+  {
+    "id": "eu5_032",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Recours en annulation",
+    "difficulty": 2,
+    "text": "Qui sont les requérants 'privilégiés' dans le recours en annulation ?",
+    "options": [
+      "Les citoyens européens résidant depuis plus de 5 ans",
+      "Le Parlement européen et le Conseil européen",
+      "Les États membres, la Commission et le Conseil",
+      "Les associations de plus d'un million de membres"
+    ],
+    "correct": 2,
+    "explanation": "Les requérants privilégiés (États membres, Commission, Conseil et Parlement européen) peuvent attaquer tout acte dès qu'il produit des effets de droit, sans condition supplémentaire. Les requérants semi-privilégiés (BCE, Cour des comptes, Comité des régions) ne peuvent agir que pour la sauvegarde de leurs prérogatives."
+  },
+  {
+    "id": "eu5_033",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Renvoi préjudiciel",
+    "difficulty": 2,
+    "text": "Qu'a établi l'arrêt Foto Frost (CJCE, 1987) sur le renvoi préjudiciel en validité ?",
+    "options": [
+      "Les juges nationaux peuvent déclarer un acte invalide si évident",
+      "Le renvoi préjudiciel en validité est réservé aux juridictions suprêmes",
+      "Si un juge national a un doute, il doit obligatoirement renvoyer à la CJUE",
+      "La CJUE ne peut se prononcer que sur saisine des États membres"
+    ],
+    "correct": 2,
+    "explanation": "L'arrêt Foto Frost (1987) a établi que seule la CJUE peut déclarer invalide un acte de l'Union. Si un juge national a un doute sur la validité d'un acte de l'UE, il est obligé de poser une question préjudicielle à la CJUE. En revanche, si le juge n'a pas de doute, il peut déclarer l'acte valide sans renvoi."
+  },
+  {
+    "id": "eu5_034",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Renvoi préjudiciel",
+    "difficulty": 2,
+    "text": "Dans quels cas une juridiction de dernier ressort est-elle dispensée de poser une question préjudicielle en interprétation ?",
+    "options": [
+      "Jamais — la juridiction suprême est toujours obligée de renvoyer à la CJUE",
+      "Si la question préjudicielle a déjà été posée dans un autre État membre de l'UE",
+      "Selon Cilfit (1982) : renvoi inutile, question déjà tranchée, ou interprétation sans doute raisonnable",
+      "Si la Commission européenne a déjà adopté un acte d'interprétation sur la question"
+    ],
+    "correct": 2,
+    "explanation": "Selon l'arrêt Cilfit (CJCE, 1982), une juridiction de dernier ressort peut se dispenser de renvoyer à la CJUE si : (1) le renvoi n'est pas utile pour résoudre le litige, (2) la CJUE a déjà éclairé la question (acte clair), ou (3) l'interprétation du DUE ne laisse place à aucun doute raisonnable."
+  },
+  {
+    "id": "eu5_035",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Renvoi préjudiciel",
+    "difficulty": 2,
+    "text": "Quel est l'avantage du renvoi préjudiciel en validité par rapport au recours en annulation pour un particulier ?",
+    "options": [
+      "Il est gratuit et accessible sans avocat devant toute juridiction nationale",
+      "Il permet d'obtenir des dommages-intérêts de l'UE en cas d'acte illégal",
+      "Il n'est pas soumis au délai de 2 mois et le requérant",
+      "Il suspend automatiquement l'application de l'acte contesté pendant la procédure"
+    ],
+    "correct": 2,
+    "explanation": "Le renvoi préjudiciel en appréciation de validité offre deux avantages majeurs par rapport au recours en annulation : (1) il n'est pas soumis au délai de 2 mois, permettant d'agir même après l'expiration de ce délai ; (2) le particulier n'a pas besoin d'être directement et individuellement concerné par l'acte."
+  },
+  {
+    "id": "eu5_036",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Nature juridique de l'UE",
+    "difficulty": 2,
+    "text": "Pourquoi l'Union européenne n'est-elle pas qualifiée de fédération au sens strict ?",
+    "options": [
+      "Elle n'a pas de président élu au suffrage universel direct",
+      "Elle n'a pas de constitution formelle adoptée par référendum",
+      "Les États membres conservent leur personnalité juridique et le droit de retrait",
+      "Son budget est trop limité pour des compétences fédérales réelles"
+    ],
+    "correct": 2,
+    "explanation": "L'UE n'est pas une fédération car : les États membres conservent leur propre personnalité juridique internationale, le droit de retrait existe (art. 50 TUE activé par le Royaume-Uni), l'UE ne peut pas annuler des actes des États membres, et l'UE relève du droit international plutôt que du droit interne qui régit les fédérations."
+  },
+  {
+    "id": "eu5_037",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Nature juridique de l'UE",
+    "difficulty": 2,
+    "text": "En quoi l'UE se distingue-t-elle d'une Organisation internationale de simple coopération ?",
+    "options": [
+      "L'UE dispose d'une armée commune permanente, contrairement aux OI classiques",
+      "L'UE peut imposer des sanctions militaires à ses membres, contrairement aux OI classiques",
+      "L'UE peut décider seule de ses membres, contrairement aux OI classiques",
+      "L'UE utilise la majorité qualifiée et couvre des domaines beaucoup plus larges"
+    ],
+    "correct": 3,
+    "explanation": "L'UE est une OI d'intégration (et non de simple coopération) car : elle utilise le vote à la majorité qualifiée (non l'unanimité systématique), ses compétences couvrent des domaines très larges bien au-delà des domaines économiques, et les institutions supranationales (Commission, CJUE) ont un pouvoir réel sur les États membres."
+  },
+  {
+    "id": "eu5_038",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traités européens",
+    "difficulty": 2,
+    "text": "Quel était l'objectif principal du Traité de Nice (2001) ?",
+    "options": [
+      "Créer la monnaie unique et l'Union économique et monétaire",
+      "Créer le Service européen pour l'action extérieure (SEAE)",
+      "Introduire la citoyenneté européenne et le principe de subsidiarité",
+      "Préparer les institutions de l'UE à l'élargissement à 13 nouveaux pays"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Nice, signé le 26 février 2001 et entré en vigueur le 1er février 2003, avait pour objectif principal d'adapter les institutions de l'UE à l'élargissement de 13 pays candidats. Il a réformé la composition de la Commission, la pondération des voix au Conseil et étendu le vote à la majorité qualifiée."
+  },
+  {
+    "id": "eu5_039",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traités européens",
+    "difficulty": 2,
+    "text": "Quand le Traité d'Amsterdam est-il entré en vigueur et quelle innovation a-t-il apportée ?",
+    "options": [
+      "1er janvier 1999, il a créé l'euro et l'Union économique et monétaire",
+      "1er novembre 1999, il a étendu Schengen à tous les États membres",
+      "1er janvier 1997, il a renforcé les compétences du Parlement européen",
+      "1er mai 1999, il a créé le poste de Haut Représentant pour la PESC"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité d'Amsterdam est entré en vigueur le 1er mai 1999. Il a créé le poste de Haut Représentant pour la PESC, renforcé la coopération policière et judiciaire, 'communautarisé' la libre circulation des personnes, simplifié la procédure de codécision et introduit la coopération renforcée ('Europe à deux vitesses')."
+  },
+  {
+    "id": "eu5_040",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Traités européens",
+    "difficulty": 2,
+    "text": "Quels étaient les trois piliers du Traité de Maastricht (1992) ?",
+    "options": [
+      "CECA, CEE et Euratom (3 traités)",
+      "Conseil, Commission et Parlement européens",
+      "Marché unique, monnaie unique et citoyenneté",
+      "Communauté européenne, PESC et JAI"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Maastricht (signé le 7 février 1992, en vigueur le 1er novembre 1993) a créé l'UE en trois piliers : la Communauté européenne (méthode communautaire), la Politique étrangère et de sécurité commune (PESC, méthode intergouvernementale) et la coopération Justice et Affaires intérieures (JAI, méthode intergouvernementale)."
+  },
+  {
+    "id": "eu5_041",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Chronologie - traités et jalons",
+    "difficulty": 2,
+    "text": "Quand l'Union douanière européenne a-t-elle été achevée entre les Six pays fondateurs ?",
+    "options": [
+      "25 mars 1957, avec les Traités de Rome",
+      "1er janvier 1993, avec l'achèvement du marché intérieur",
+      "1er janvier 1973, avec le premier élargissement",
+      "1er juillet 1968, en avance sur le calendrier prévu"
+    ],
+    "correct": 3,
+    "explanation": "L'union douanière entre les Six pays de la CEE a été achevée le 1er juillet 1968, en avance sur les prévisions du Traité de Rome qui fixait l'horizon à 1969. Cela signifiait la suppression de tous les droits de douane entre les Six et l'adoption d'un tarif extérieur commun vis-à-vis des pays tiers."
+  },
+  {
+    "id": "eu5_042",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Chronologie - traités et jalons",
+    "difficulty": 2,
+    "text": "Quand l'Acte unique européen a-t-il été signé et quand est-il entré en vigueur ?",
+    "options": [
+      "Signé en juin 1985, entré en vigueur le 1er janvier 1987",
+      "Signé en décembre 1985, entré en vigueur le 1er janvier 1986",
+      "Signé le 7 février 1986, entré en vigueur le 1er novembre 1987",
+      "Signé les 17-28 février 1986, entré en vigueur le 1er juillet 1987"
+    ],
+    "correct": 3,
+    "explanation": "L'Acte unique européen a été signé les 17 et 28 février 1986 (en deux phases : Luxembourg puis La Haye) et est entré en vigueur le 1er juillet 1987. Il visait à réaliser le marché intérieur avant le 31 décembre 1992 et a officialise le Conseil européen dans les traités."
+  },
+  {
+    "id": "eu5_043",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Chronologie - traités et jalons",
+    "difficulty": 2,
+    "text": "Pourquoi le Traité de Nice a-t-il été difficile à ratifier ?",
+    "options": [
+      "La France a rejeté le texte lors d'un référendum national",
+      "L'Allemagne a exigé des modifications constitutionnelles avant la ratification",
+      "Le PE a refusé de donner son avis conforme au texte",
+      "L'Irlande n'a approuvé qu'à l'issue d'un second référendum en 2002"
+    ],
+    "correct": 3,
+    "explanation": "La ratification du Traité de Nice a été délicate : l'Irlande l'a rejeté lors d'un premier référendum (2001) avant de l'approuver lors d'un second référendum en octobre 2002, après obtention de garanties supplémentaires. C'est pourquoi le traité n'est entré en vigueur que le 1er février 2003."
+  },
+  {
+    "id": "eu5_044",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élargissements successifs",
+    "difficulty": 2,
+    "text": "Pourquoi la Norvège n'a-t-elle pas rejoint l'UE lors du premier élargissement de 1973 ?",
+    "options": [
+      "Elle ne remplissait pas les critères économiques de Copenhague en 1972",
+      "La Norvège a préféré rejoindre l'AELE plutôt que la CEE",
+      "La CEE a refusé sa candidature en raison de sa politique de neutralité",
+      "Un référendum organisé fin 1972 a rejeté l'adhésion à une majorité de 54%"
+    ],
+    "correct": 3,
+    "explanation": "La Norvège avait signé un traité d'adhésion pour rejoindre la CEE avec le Danemark, le Royaume-Uni et l'Irlande en 1973. Cependant, un référendum organisé en novembre 1972 a rejeté l'adhésion (environ 54% de Non). La Norvège a renouvelé ce refus lors d'un second référendum en 1994."
+  },
+  {
+    "id": "eu5_045",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "Quelle organisation a été créée en réponse à la fondation de la CEE pour les pays qui n'en faisaient pas partie ?",
+    "options": [
+      "L'Union de l'Europe occidentale (UEO) en 1954",
+      "L'Organisation de coopération économique européenne en 1948",
+      "Le Conseil de l'Europe en 1949",
+      "L'Association européenne de libre-échange (AELE) en 1959-1960"
+    ],
+    "correct": 3,
+    "explanation": "L'Association européenne de libre-échange (AELE) a été créée en 1959-1960 à l'initiative du Royaume-Uni pour les pays européens qui ne souhaitaient pas ou ne pouvaient pas rejoindre la CEE. Elle comptait initialement 7 membres. Aujourd'hui, l'AELE ne comprend plus que 4 membres : Suisse, Norvège, Islande et Liechtenstein."
+  },
+  {
+    "id": "eu5_046",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "Pourquoi la Communauté européenne de défense (CED) a-t-elle échoué en 1954 ?",
+    "options": [
+      "L'OTAN s'y est opposée car elle voyait en la CED une menace",
+      "Les États-Unis ont exercé un veto contre la création d'une armée européenne autonome",
+      "L'Allemagne a refusé de participer à une armée européenne intégrée",
+      "L'Assemblée nationale française a rejeté le traité le 30 août 1954"
+    ],
+    "correct": 3,
+    "explanation": "La CED, qui prévoyait une armée européenne intégrée incluant des soldats allemands, a été rejetée par l'Assemblée nationale française le 30 août 1954, après de vifs débats. C'est la France elle-même qui l'avait proposée (via Jean Monnet) mais qui l'a ensuite torpillée, craignant notamment le réarmement allemand."
+  },
+  {
+    "id": "eu5_047",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 2,
+    "text": "Quel plan américain a aidé à la reconstruction de l'Europe après la Seconde Guerre mondiale ?",
+    "options": [
+      "Le Plan Dawes de 1924 sur les réparations allemandes",
+      "Le Plan Monnet de modernisation de l'économie française",
+      "Le Plan Schuman de mise en commun du charbon et",
+      "Le Plan Marshall d'aide financière américaine à l'Europe"
+    ],
+    "correct": 3,
+    "explanation": "Le Plan Marshall (1948-1952), du nom du secrétaire d'État américain George Marshall, a fourni une aide financière massive des États-Unis aux pays européens dévastés par la guerre. Il a contribué à la prise de conscience de la nécessité de s'unir pour assurer la paix et la prospérité, posant les bases de la coopération européenne."
+  },
+  {
+    "id": "eu5_048",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Histoire et traités",
+    "difficulty": 1,
+    "text": "Quelle communauté a été fondée par le Traité de Paris du 18 avril 1951 ?",
+    "options": [
+      "La Communauté économique européenne (CEE)",
+      "La Communauté européenne de l'énergie atomique (Euratom)",
+      "La Communauté européenne de défense (CED)",
+      "La Communauté européenne du charbon et de"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Paris du 18 avril 1951 a institué la CECA, signée par 6 pays fondateurs (France, Allemagne, Belgique, Italie, Luxembourg, Pays-Bas). La CECA est entrée en vigueur le 23 juillet 1952 pour une durée de 50 ans et a expiré en 2002. Les Traités de Rome (1957) ont institué la CEE et Euratom."
+  },
+  {
+    "id": "eu5_049",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des femmes dans l'UE",
+    "difficulty": 2,
+    "text": "Quelle directive européenne de 2022 impose des quotas de femmes dans les conseils d'administration ?",
+    "options": [
+      "Une directive imposant 40% de femmes dans tous les organes de direction d'ici 2026",
+      "Une directive recommandant 30% de femmes dans les comités de direction des entreprises publiques",
+      "Une directive imposant la parité absolue dans tous les conseils d'administration dès 2024",
+      "Une directive exigeant que les grandes entreprises cotées atteignent 40% de femmes dans les CA d'ici 2026"
+    ],
+    "correct": 3,
+    "explanation": "La directive de 2022 prévoit que d'ici juillet 2026, les conseils d'administration des grandes entreprises européennes cotées en bourse devront atteindre 40% de femmes parmi les administrateurs non-exécutifs. Cette directive complète la directive sur la transparence des rémunérations adoptée en 2023."
+  },
+  {
+    "id": "eu5_050",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des femmes dans l'UE",
+    "difficulty": 2,
+    "text": "Quelle a été la première présidente du Parlement européen et en quelle année ?",
+    "options": [
+      "Nicole Fontaine, en 1999 lors des élections européennes",
+      "Ursula von der Leyen, en 2019 lors de sa nomination",
+      "Roberta Metsola, en 2022 lors du renouvellement du mandat",
+      "Simone Veil, en 1979 lors des premières élections directes"
+    ],
+    "correct": 3,
+    "explanation": "Simone Veil est devenue la première présidente du Parlement européen en 1979, lors des premières élections directes au suffrage universel. Ancienne ministre de Valéry Giscard d'Estaing, elle a présidé le PE jusqu'en 1982. Roberta Metsola est l'actuelle présidente depuis 2022."
+  },
+  {
+    "id": "eu5_051",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des femmes dans l'UE",
+    "difficulty": 2,
+    "text": "Quel traité a inscrit l'égalité hommes-femmes comme valeur fondamentale de l'UE ?",
+    "options": [
+      "Le Traité de Paris (1951) lors de la création de la CECA",
+      "Le Traité de Lisbonne (2009) qui a renforcé la Charte des droits fondamentaux",
+      "Le Traité de Maastricht (1992) lors de la création de l'UE",
+      "Le Traité de Rome (1957) qui l'a inclus dès les origines"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité de Rome de 1957 a inscrit dès les origines l'égalité entre hommes et femmes comme valeur fondamentale, notamment dans le domaine salarial (article 119 CEE, devenu article 157 TFUE). Les premiers règlements sur l'égalité de rémunération ont suivi en 1962 et le principe a été renforcé progressivement."
+  },
+  {
+    "id": "eu5_052",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des femmes dans l'UE",
+    "difficulty": 2,
+    "text": "Quelle directive européenne adoptée en 2023 vise à réduire l'écart salarial entre hommes et femmes ?",
+    "options": [
+      "La directive sur l'équilibre travail-vie personnelle (2019)",
+      "La directive sur l'égalité de traitement dans l'emploi",
+      "La directive sur le salaire minimum adéquat dans l'UE",
+      "La directive sur la transparence des rémunérations (2023)"
+    ],
+    "correct": 3,
+    "explanation": "La directive 2023/970 sur la transparence des rémunérations oblige les entreprises à publier les données sur les écarts de rémunération entre hommes et femmes et à agir si l'écart dépasse 5% sans justification. L'écart salarial de genre est d'environ 13% en moyenne dans l'UE."
+  },
+  {
+    "id": "eu5_053",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Organes auxiliaires de l'UE",
+    "difficulty": 2,
+    "text": "Quel est le rôle du Comité économique et social européen (CESE) ?",
+    "options": [
+      "Contrôler les dépenses des fonds structurels dans les États membres",
+      "Superviser le respect des droits fondamentaux dans les institutions de l'UE",
+      "Coordonner les politiques sociales et d'emploi entre États membres",
+      "Permettre aux organisations de la société civile d'exprimer leur avis au"
+    ],
+    "correct": 3,
+    "explanation": "Le CESE est un organe consultatif de l'UE qui permet aux organisations représentatives de la société civile des États membres (syndicats, patronat, associations) d'exprimer leur avis sur les actes législatifs européens. Il est consulté obligatoirement dans certains domaines et peut rendre des avis d'initiative."
+  },
+  {
+    "id": "eu5_054",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Organes auxiliaires de l'UE",
+    "difficulty": 2,
+    "text": "Quel est le rôle principal de la Banque européenne d'investissement (BEI) ?",
+    "options": [
+      "Gérer la politique monétaire et les taux d'intérêt de la zone euro",
+      "Gérer les ressources propres du budget de l'UE et les emprunts obligataires",
+      "Superviser la solidité des banques commerciales de la zone euro",
+      "Financer des projets d'intérêt européen sur le territoire de l'UE et dans"
+    ],
+    "correct": 3,
+    "explanation": "La BEI est l'institution de financement à long terme de l'UE. Elle accorde des prêts à des conditions avantageuses pour des projets contribuant aux objectifs de l'UE : infrastructure, transition verte et numérique, PME, santé. Elle finance aussi des projets dans les pays partenaires et en développement."
+  },
+  {
+    "id": "eu5_055",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Organes auxiliaires de l'UE",
+    "difficulty": 2,
+    "text": "Quel organe de l'UE veille à la protection des données personnelles dans les institutions européennes ?",
+    "options": [
+      "Le Comité européen de la protection des données (CEPD/EDPB)",
+      "L'Agence de l'UE pour la cybersécurité (ENISA)",
+      "La Direction générale Justice et Consommateurs de la Commission",
+      "Le Contrôleur européen de la protection des données (CEPD/EDPS)"
+    ],
+    "correct": 3,
+    "explanation": "Le Contrôleur européen de la protection des données (CEPD/EDPS) veille à ce que les institutions, organes et agences de l'UE respectent le droit des citoyens à la protection de leurs données lors du traitement de données personnelles. Il est distinct du Comité européen de la protection des données (EDPB) qui coordonne les autorités nationales."
+  },
+  {
+    "id": "eu5_056",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Organes auxiliaires de l'UE",
+    "difficulty": 2,
+    "text": "Quel lien existe-t-il entre l'OLAF et la Cour des comptes européenne ?",
+    "options": [
+      "L'OLAF est une direction de la Cour des comptes sans statut propre",
+      "Les deux institutions partagent un budget commun et des locaux à Luxembourg",
+      "L'OLAF supervise les travaux d'audit de la Cour des comptes européenne",
+      "La Cour des comptes peut rapporter à l'OLAF des soupçons de fraude sur"
+    ],
+    "correct": 3,
+    "explanation": "La Cour des comptes européenne, dans le cadre de ses contrôles des recettes et dépenses de l'UE, peut rapporter à l'OLAF (Office européen de lutte anti-fraude) les soupçons de fraude, de corruption ou d'autres activités illégales qu'elle découvre lors de ses audits. L'OLAF mène ensuite les enquêtes administratives."
+  },
+  {
+    "id": "eu5_057",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure de retrait",
+    "difficulty": 2,
+    "text": "Quelles sont les deux options prévues si aucun accord de retrait n'est trouvé dans le délai de 2 ans prévu par l'art. 50 TUE ?",
+    "options": [
+      "L'État demeure automatiquement dans l'UE ou demande un deuxième référendum",
+      "Le retrait sans accord ('no deal') ou la prolongation du délai par",
+      "L'UE adopte des sanctions économiques ou impose un accord de retrait unilatéral",
+      "Le Parlement européen vote sur l'exclusion ou la suspension de l'État membre"
+    ],
+    "correct": 1,
+    "explanation": "Si aucun accord n'est trouvé dans les 2 ans suivant la notification, deux options existent : le retrait sans accord (no deal), ou la prolongation du délai de négociation décidée à l'unanimité du Conseil européen. Le Brexit illustre les deux : le délai a été prolongé plusieurs fois avant la conclusion d'un accord de retrait."
+  },
+  {
+    "id": "eu5_058",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Charte des droits fondamentaux",
+    "difficulty": 2,
+    "text": "Selon l'article 51 de la Charte, à qui s'applique-t-elle ?",
+    "options": [
+      "À tous les habitants du territoire de l'UE sans restriction",
+      "Aux institutions de l'UE et aux États membres uniquement lorsqu'ils mettent",
+      "À toutes les personnes physiques et morales dans les États membres",
+      "Uniquement aux citoyens européens dans leur État de résidence"
+    ],
+    "correct": 1,
+    "explanation": "L'article 51 de la Charte des droits fondamentaux limite son champ d'application : elle s'adresse aux institutions, organes et organismes de l'UE, et aux États membres uniquement lorsqu'ils mettent en œuvre le droit de l'Union. Elle ne s'applique pas aux actes purement nationaux qui n'ont aucun lien avec le DUE."
+  },
+  {
+    "id": "eu5_059",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Charte des droits fondamentaux",
+    "difficulty": 2,
+    "text": "Que prévoit l'article 52 de la Charte sur le rapport avec la Convention européenne des droits de l'homme ?",
+    "options": [
+      "La Charte remplace entièrement la CEDH pour les États membres de l'UE",
+      "Lorsque la Charte et la CEDH protègent les mêmes droits, la portée est",
+      "La Charte offre systématiquement une protection plus étendue que la CEDH",
+      "La CEDH prime sur la Charte en cas de conflit entre les deux instruments"
+    ],
+    "correct": 1,
+    "explanation": "L'article 52 de la Charte prévoit que lorsque la Charte contient des droits correspondant à ceux garantis par la CEDH, leur sens et leur portée sont au moins les mêmes que ceux conférés par la CEDH. Cela assure une cohérence entre les deux systèmes de protection des droits fondamentaux en Europe."
+  },
+  {
+    "id": "eu5_060",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Subsidiarité - mécanismes de contrôle",
+    "difficulty": 2,
+    "text": "Que prévoit le Protocole n°2 sur l'application des principes de subsidiarité et proportionnalité ?",
+    "options": [
+      "Une procédure automatique d'annulation des actes violant la subsidiarité par la CJUE",
+      "Un contrôle politique par les parlements nationaux avant l'entrée en vigueur, et un contrôle",
+      "Un mécanisme de consultation obligatoire du Comité des régions pour tous les actes législatifs",
+      "Un registre de toutes les lois nationales incompatibles avec le principe de subsidiarité"
+    ],
+    "correct": 1,
+    "explanation": "Le Protocole n°2 prévoit deux niveaux de contrôle : (1) un contrôle politique a priori, où les parlements nationaux émettent des avis motivés dans les 8 semaines (carton jaune/orange) ; (2) un contrôle juridique a posteriori, où la CJUE peut annuler un acte contraire à la subsidiarité via le recours en annulation ou le renvoi préjudiciel."
+  },
+  {
+    "id": "eu5_061",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le principe de préemption dans les compétences partagées de l'UE ?",
+    "options": [
+      "L'UE peut retirer à tout moment une compétence nationale par décision du Conseil",
+      "Les États membres exercent leurs compétences partagées tant que l'UE n'a pas exercé la sienne",
+      "L'UE doit préalablement demander l'accord des États avant d'exercer une compétence partagée",
+      "Les États membres peuvent exercer en priorité leurs compétences partagées avant toute action de l'UE"
+    ],
+    "correct": 1,
+    "explanation": "Le principe de préemption (article 2 §2 TFUE) signifie que dans les domaines de compétences partagées, les États membres peuvent exercer leur compétence tant que l'UE n'a pas exercé la sienne. Dès que l'UE agit dans un domaine partagé, les États membres ne peuvent plus légiférer dans ce domaine (sauf si l'UE a cessé d'exercer sa compétence)."
+  },
+  {
+    "id": "eu5_062",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Compétences de l'UE",
+    "difficulty": 2,
+    "text": "Pourquoi le programme Erasmus+ illustre-t-il la catégorie des compétences d'appui de l'UE ?",
+    "options": [
+      "Car Erasmus+ est financé uniquement par les États membres sans contribution du budget européen",
+      "Car l'UE coordonne et finance sans pouvoir harmoniser les systèmes éducatifs nationaux par des actes contraignants",
+      "Car Erasmus+ est géré par les régions et non par les États membres",
+      "Car l'éducation est une compétence exclusive des États membres sans aucun rôle de l'UE"
+    ],
+    "correct": 1,
+    "explanation": "L'éducation est une compétence d'appui (article 6 TFUE) : l'UE peut soutenir, coordonner et compléter les actions nationales mais ne peut pas harmoniser les systèmes éducatifs par des actes juridiquement contraignants. Erasmus+ illustre ce rôle de coordination : le programme finance la mobilité sans imposer une réforme des systèmes éducatifs nationaux."
+  },
+  {
+    "id": "eu5_063",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Sources du droit UE",
+    "difficulty": 2,
+    "text": "Quelle est la différence entre applicabilité directe et effet direct d'une norme européenne ?",
+    "options": [
+      "Les deux termes sont synonymes et désignent la même réalité juridique",
+      "L'applicabilité directe signifie qu'une norme s'insère dans l'ordre juridique sans mesure nationale ;",
+      "L'applicabilité directe concerne uniquement le droit primaire ; l'effet direct uniquement le droit dérivé",
+      "L'applicabilité directe est réservée aux règlements ; l'effet direct aux directives transposées"
+    ],
+    "correct": 1,
+    "explanation": "L'applicabilité directe désigne l'insertion automatique d'une norme dans l'ordre juridique interne sans mesure de transposition (ex : les règlements). L'effet direct désigne l'aptitude d'une norme à créer directement des droits ou obligations que les particuliers peuvent invoquer devant le juge national. Ces notions sont distinctes mais souvent liées."
+  },
+  {
+    "id": "eu5_064",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Sources du droit UE",
+    "difficulty": 2,
+    "text": "Comment la CEDH est-elle intégrée dans le système juridique de l'UE ?",
+    "options": [
+      "Elle est directement incorporée dans le TFUE depuis le Traité de Maastricht",
+      "Elle constitue un accord externe de l'UE ratifié par tous les États membres",
+      "Elle fait partie du droit de l'Union en tant que principe général du droit",
+      "Elle n'a aucune valeur juridique dans l'ordre de l'UE, seule la Charte s'applique"
+    ],
+    "correct": 2,
+    "explanation": "La CEDH fait partie du droit de l'Union en tant que principe général du droit (PGD) ayant valeur de droit primaire. Elle peut ainsi être invoquée non pas comme accord externe de l'UE mais comme PGD. L'article 6 TUE consacre cette position et prévoit (sans qu'elle soit encore réalisée) l'adhésion formelle de l'UE à la CEDH."
+  },
+  {
+    "id": "eu5_065",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Sources du droit UE",
+    "difficulty": 2,
+    "text": "Quelle norme ne peut pas être attaquée par un recours en annulation devant la CJUE ?",
+    "options": [
+      "Un règlement du Parlement européen et du Conseil",
+      "Un accord externe de l'UE lui-même (seule la décision du",
+      "Une directive adoptée selon la procédure législative ordinaire",
+      "Une décision individuelle de la Commission contre une entreprise"
+    ],
+    "correct": 1,
+    "explanation": "Un accord externe de l'UE lui-même ne peut pas être attaqué par voie du recours en annulation. Si l'on souhaite contester un accord international conclu par l'UE, c'est la décision du Conseil de conclusion de l'accord qu'il faut attaquer. De même, les mesures nationales d'application ne peuvent pas être attaquées directement devant la CJUE."
+  },
+  {
+    "id": "eu5_066",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Pensée européenne",
+    "difficulty": 2,
+    "text": "Quelle citation de Jean Monnet résume sa vision de la construction européenne par les crises ?",
+    "options": [
+      "'L'Europe ne se fera pas d'un coup ni dans une construction globale'",
+      "'L'Europe se fera dans les crises et sera la somme des solutions apportées'",
+      "'Ce qui est proposé n'est pas une construction d'État mais une Europe unie'",
+      "'On ne fait pas l'Europe sans les hommes et on ne peut sans l'Europe'"
+    ],
+    "correct": 1,
+    "explanation": "'L'Europe se fera dans les crises et elle sera la somme des solutions apportées à ces crises' est une citation célèbre attribuée à Jean Monnet, père fondateur de l'Europe. Elle illustre sa vision pragmatique et fonctionnaliste : l'intégration européenne progresse à travers la résolution des crises successives."
+  },
+  {
+    "id": "eu5_067",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Pensée européenne",
+    "difficulty": 2,
+    "text": "Quel homme politique a plaidé pour les 'États-Unis d'Europe' dans un discours célèbre de 1849 ?",
+    "options": [
+      "Robert Schuman lors de sa déclaration fondatrice de 1950",
+      "Victor Hugo lors du Congrès de la Paix de 1849",
+      "Aristide Briand lors de son mémorandum de 1929",
+      "Winston Churchill lors de son discours de Zurich de 1946"
+    ],
+    "correct": 1,
+    "explanation": "Victor Hugo a plaidé pour les 'États-Unis d'Europe' lors du Congrès de la Paix de Paris en 1849. Cette vision d'une Europe unie était partagée par d'autres penseurs comme Kant, Rousseau et l'abbé de Saint-Pierre. Churchill a repris cette expression dans son discours de Zurich en 1946."
+  },
+  {
+    "id": "eu5_068",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Pensée européenne",
+    "difficulty": 2,
+    "text": "Quelle a été la contribution de Pierre Dubois à l'idée européenne dès le XIVe siècle ?",
+    "options": [
+      "Il a proposé une monnaie commune entre les principautés européennes",
+      "Il a formulé l'un des premiers projets d'une Europe unie en tant",
+      "Il a défendu l'idée d'une armée commune européenne contre les invasions ottomanes",
+      "Il a proposé un système arbitral entre les monarques chrétiens d'Europe"
+    ],
+    "correct": 1,
+    "explanation": "Pierre Dubois, juriste français du XIVe siècle, a formulé l'un des premiers projets d'union européenne. L'idée d'une Europe unie est donc ancienne — bien avant la Déclaration Schuman (1950). D'autres penseurs comme l'abbé de Saint-Pierre (XVIIIe siècle), Rousseau et Kant ont ensuite développé des projets similaires."
+  },
+  {
+    "id": "eu5_069",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élections européennes",
+    "difficulty": 2,
+    "text": "Selon l'Eurobaromètre d'avril 2024, quelle proportion de citoyens des 27 États membres déclaraient vouloir voter aux élections européennes ?",
+    "options": [
+      "52% des citoyens de l'UE",
+      "61% des citoyens de l'UE",
+      "71% des citoyens de l'UE",
+      "83% des citoyens de l'UE"
+    ],
+    "correct": 2,
+    "explanation": "Selon l'enquête Eurobaromètre d'avril 2024, 71% des citoyens des 27 États membres déclaraient qu'ils participeraient probablement aux élections européennes, en hausse de dix points par rapport à 2019. En France, ce taux était de 67%, légèrement en dessous de la moyenne européenne."
+  },
+  {
+    "id": "eu5_070",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Frontex",
+    "difficulty": 2,
+    "text": "Quelle est l'évolution du mandat de Frontex depuis sa création en 2004 ?",
+    "options": [
+      "Son mandat est resté strictement limité à la collecte d'informations et leur transmission",
+      "Son mandat s'est étendu à la coordination des opérations, aux retours et au soutien",
+      "Son mandat a été réduit suite aux affaires judiciaires qui l'ont impliquée",
+      "Son mandat a été transféré au SEAE depuis le Traité de Lisbonne en 2009"
+    ],
+    "correct": 1,
+    "explanation": "Le mandat initial de Frontex (2004) se limitait à recueillir des informations et les transmettre aux États membres. Il s'est progressivement étendu pour inclure : la coordination des opérations sur le terrain, la conduite d'opérations de retour, le soutien logistique aux États sous forte pression migratoire, et depuis 2019 un corps permanent de 10 000 agents."
+  },
+  {
+    "id": "eu5_071",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte unique européen",
+    "difficulty": 2,
+    "text": "Quelle procédure l'Acte unique européen a-t-il introduite pour renforcer le rôle du Parlement européen ?",
+    "options": [
+      "La procédure de codécision donnant au PE un droit de veto absolu",
+      "La procédure de coopération associant davantage le PE mais maintenant le Conseil décideur final",
+      "La procédure d'avis conforme obligatoire pour tous les actes législatifs",
+      "La procédure de conciliation paritaire entre PE et Conseil sur tous les textes"
+    ],
+    "correct": 1,
+    "explanation": "L'AUE a introduit la procédure de coopération (aujourd'hui abandonnée et remplacée par la procédure législative ordinaire). Elle permettait au PE de présenter des amendements en deuxième lecture, renforçait le rôle d'arbitre de la Commission mais laissait le pouvoir de décision final au Conseil. C'était une avancée par rapport à la simple consultation."
+  },
+  {
+    "id": "eu5_072",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE - dépenses",
+    "difficulty": 2,
+    "text": "Quelle part du budget européen représente la politique de cohésion régionale en 2022 ?",
+    "options": [
+      "15% du budget européen",
+      "20% du budget européen",
+      "30% du budget européen",
+      "40% du budget européen"
+    ],
+    "correct": 2,
+    "explanation": "En 2022, la politique de cohésion représente environ 30% du budget européen, derrière la PAC (33%). Elle finance le développement régional, la recherche et l'innovation, les questions sociales et l'emploi, et la lutte contre les inégalités entre régions, via le FEDER, le FSE+ et le Fonds de cohésion."
+  },
+  {
+    "id": "eu5_073",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Procédure législative",
+    "difficulty": 2,
+    "text": "Quelle est la règle de vote prédominante dans la procédure législative ordinaire de l'UE ?",
+    "options": [
+      "L'unanimité des États membres au Conseil de l'UE",
+      "La majorité simple au Conseil de l'UE et au Parlement européen",
+      "La majorité qualifiée au Conseil et la majorité des membres",
+      "Le consensus entre les présidences du Conseil et de la Commission"
+    ],
+    "correct": 2,
+    "explanation": "Dans la procédure législative ordinaire, le Conseil vote à la majorité qualifiée (55% des États représentant 65% de la population) tandis que le Parlement européen vote à la majorité de ses membres. L'unanimité reste requise dans certains domaines sensibles comme la fiscalité, la politique étrangère ou la révision des traités."
+  },
+  {
+    "id": "eu5_074",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte unique européen",
+    "difficulty": 2,
+    "text": "Dans quels domaines l'AUE maintenait-il l'unanimité plutôt que la majorité qualifiée ?",
+    "options": [
+      "Les politiques agricole et commerciale communes",
+      "Les questions fiscales et sociales (hormis santé-sécurité des",
+      "La politique régionale et les Fonds structurels",
+      "La libre circulation des marchandises et des personnes"
+    ],
+    "correct": 1,
+    "explanation": "L'AUE a étendu la majorité qualifiée à la plupart des domaines du marché intérieur, mais a maintenu l'unanimité pour les questions fiscales et la politique sociale — à l'exception de la santé et la sécurité des travailleurs. Ces domaines sensibles (fiscalité harmonisée notamment) restent encore aujourd'hui largement soumis à l'unanimité."
+  },
+  {
+    "id": "eu5_075",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Recours en manquement",
+    "difficulty": 2,
+    "text": "Quels acteurs peuvent introduire un recours en manquement devant la CJUE selon l'article 259 TFUE ?",
+    "options": [
+      "Uniquement la Commission européenne contre les États membres",
+      "La Commission européenne et les États membres entre eux",
+      "La Commission, les États membres et le Parlement européen",
+      "Les citoyens européens et les ONG via la Commission"
+    ],
+    "correct": 1,
+    "explanation": "Selon l'article 259 TFUE, le recours en manquement peut être introduit par la Commission européenne (art. 258) ou par un État membre contre un autre État membre (art. 259). Seuls les États membres peuvent être mis en cause. Les particuliers ne peuvent pas directement initier un recours en manquement."
+  },
+  {
+    "id": "eu5_076",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Recours en manquement",
+    "difficulty": 3,
+    "text": "Quelles violations peuvent justifier un recours en manquement contre un État membre ?",
+    "options": [
+      "Uniquement les actes législatifs nationaux contraires à une directive",
+      "Une loi contraire au DUE, l'absence de transposition, ou l'omission de",
+      "Uniquement le refus d'appliquer un arrêt de la CJUE déjà rendu",
+      "L'adoption d'une mesure nationale identique à une mesure européenne sans autorisation"
+    ],
+    "correct": 1,
+    "explanation": "Un recours en manquement peut être fondé sur diverses violations : une loi nationale contraire au droit de l'UE, l'absence de transposition d'une directive dans les délais, une mauvaise transposition, l'omission d'une mesure requise, ou même l'absence de renvoi préjudiciel par une juridiction suprême alors qu'elle y était obligée."
+  },
+  {
+    "id": "eu5_077",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Elections européennes",
+    "difficulty": 2,
+    "text": "Quelle est la caractéristique du système électoral français pour les élections européennes ?",
+    "options": [
+      "Des circonscriptions régionales avec des listes différentes selon les régions",
+      "Une seule circonscription nationale avec des listes identiques pour tous les électeurs",
+      "Un système de vote préférentiel permettant de classer les candidats",
+      "Des listes départementales avec répartition proportionnelle régionale des sièges"
+    ],
+    "correct": 1,
+    "explanation": "En France, les élections européennes se déroulent dans une seule circonscription nationale unique : les mêmes listes sont présentées dans tout le pays et les 81 sièges français sont répartis proportionnellement à l'ensemble national. Certains autres pays (Italie, Pologne, Belgique) ont des circonscriptions régionales."
+  },
+  {
+    "id": "eu5_078",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Subsidiarité - mécanismes de contrôle",
+    "difficulty": 2,
+    "text": "Quel mécanisme permet à une majorité de parlements nationaux de bloquer une proposition législative de la Commission ?",
+    "options": [
+      "Le droit de veto collectif : un tiers des parlements peut contraindre",
+      "La procédure d'alerte précoce avec carton jaune (1/3 des voix) ou orange (majorité simple)",
+      "Le référendum paneuropéen déclenché si 15 parlements nationaux s'y opposent",
+      "Le recours en subsidiarité directement devant la CJUE par 10 parlements nationaux"
+    ],
+    "correct": 1,
+    "explanation": "Le Protocole n°2 prévoit : un 'carton jaune' (1/3 des voix des parlements nationaux) oblige la Commission à réexaminer une proposition mais elle peut la maintenir. Un 'carton orange' (majorité simple des voix) permet au Conseil ou au PE de bloquer la proposition si la Commission décide de la maintenir malgré les avis motivés."
+  },
+  {
+    "id": "eu5_079",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE - recettes",
+    "difficulty": 2,
+    "text": "Quel est le rôle des 'ressources propres traditionnelles' dans le budget de l'UE ?",
+    "options": [
+      "Ce sont les contributions directes des États membres calculées selon leur PIB",
+      "Ce sont les droits de douane perçus aux frontières extérieures de l'UE (environ 13%)",
+      "Ce sont les amendes infligées par la Commission aux entreprises en matière de concurrence",
+      "Ce sont les revenus générés par les placements financiers des réserves de l'UE"
+    ],
+    "correct": 1,
+    "explanation": "Les ressources propres traditionnelles (RPT) sont principalement les droits de douane perçus aux frontières extérieures de l'UE sur les importations de pays tiers. Elles représentent environ 13% des recettes du budget européen. Les États membres en reversent 75% à l'UE et conservent 25% à titre de frais de perception."
+  },
+  {
+    "id": "eu5_080",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Acte unique européen",
+    "difficulty": 2,
+    "text": "Quels fonds structurels l'Acte unique européen prévoyait-il de réformer pour la cohésion économique et sociale ?",
+    "options": [
+      "Le FEADER, le FEDER et le Fonds de cohésion",
+      "Le FEOGA, le FEDER et le FSE (Fonds social européen)",
+      "Le FSE+, le FEAGA et le Fonds européen de pêche",
+      "L'INTERREG, le FED et le FEAGA (3 fonds)"
+    ],
+    "correct": 1,
+    "explanation": "L'AUE (1986) a prévu la réforme de trois fonds structurels pour soutenir la cohésion économique et sociale : le FEOGA (Fonds européen d'orientation et de garantie agricole), le FEDER (Fonds européen de développement régional) et le FSE (Fonds social européen). Ces fonds ont ensuite été profondément réformés en 1988 sous la Commission Delors."
+  }
+]

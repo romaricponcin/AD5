@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "eu3_001",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique commerciale commune",
+    "difficulty": 2,
+    "text": "Qui représente l'Union européenne dans les négociations commerciales multilatérales à l'OMC ?",
+    "options": [
+      "L'UE parle d'une seule voix au nom des 27 États membres",
+      "Chaque État membre défend ses propres intérêts directement à l'OMC",
+      "Le Haut Représentant pour les affaires étrangères de l'Union",
+      "La présidence tournante semestrielle du Conseil de l'UE"
+    ],
+    "correct": 0,
+    "explanation": "En matière de commerce international, l'UE dispose d'une compétence exclusive (politique commerciale commune). Elle siège à l'OMC et dans les négociations au nom des 27 États membres avec une voix unique. C'est la Commission qui négocie, mandatée par le Conseil."
+  },
+  {
+    "id": "eu3_002",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique commerciale commune",
+    "difficulty": 2,
+    "text": "Qu'est-ce qu'un accord de libre-échange de 'nouvelle génération' comme le CETA (avec le Canada) ?",
+    "options": [
+      "Un accord couvrant services, investissements, propriété intellectuelle et marchés publics",
+      "Un accord supprimant uniquement les droits de douane sur les marchandises",
+      "Un accord de défense commerciale contre les pratiques déloyales",
+      "Un accord limité aux exportations agricoles et alimentaires"
+    ],
+    "correct": 0,
+    "explanation": "Les accords de libre-échange de 'nouvelle génération' (CETA, JEFTA) vont bien au-delà de la suppression des droits de douane. Ils couvrent aussi les services, les investissements, les marchés publics, la propriété intellectuelle, le développement durable et les barrières non tarifaires."
+  },
+  {
+    "id": "eu3_003",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique commerciale commune",
+    "difficulty": 2,
+    "text": "Quelle organisation multilatérale régit le commerce mondial et l'UE en est membre fondateur ?",
+    "options": [
+      "L'OMC, Organisation mondiale du commerce créée en 1994",
+      "Le FMI, Fonds monétaire international créé en 1944",
+      "La CNUCED, Conférence des Nations Unies sur le commerce",
+      "L'OCDE, Organisation de coopération et de développement économiques"
+    ],
+    "correct": 0,
+    "explanation": "L'Organisation mondiale du commerce (OMC) a été créée en 1994 (entrée en vigueur en 1995) pour succéder au GATT. L'UE, en tant qu'union douanière, y est membre à part entière et y siège au nom de ses 27 États membres avec une voix prédominante."
+  },
+  {
+    "id": "eu3_004",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique régionale et cohésion",
+    "difficulty": 2,
+    "text": "Quel est l'objectif principal de la politique de cohésion de l'UE ?",
+    "options": [
+      "Réduire les inégalités économiques et sociales entre régions de l'UE",
+      "Harmoniser les systèmes fiscaux entre les États membres",
+      "Financer les politiques de défense et de sécurité communes",
+      "Subventionner les exportations agricoles vers les pays en développement"
+    ],
+    "correct": 0,
+    "explanation": "La politique de cohésion (articles 174-178 TFUE) vise à réduire les disparités entre niveaux de développement des régions européennes. Elle est mise en œuvre via les Fonds structurels (FEDER, FSE+, Fonds de cohésion). C'est l'une des politiques les plus importantes du budget de l'UE (environ un tiers)."
+  },
+  {
+    "id": "eu3_005",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique régionale et cohésion",
+    "difficulty": 2,
+    "text": "Que finance le FEDER (Fonds européen de développement régional) ?",
+    "options": [
+      "Les infrastructures, l'innovation et le développement économique des régions",
+      "La formation professionnelle et l'insertion des chômeurs",
+      "La politique agricole commune et le développement rural",
+      "Les missions humanitaires et l'aide au développement"
+    ],
+    "correct": 0,
+    "explanation": "Le FEDER finance les infrastructures (transports, énergie), l'innovation et la recherche, le soutien aux PME, et la transition numérique et écologique dans les régions. Il est le principal instrument de la politique de cohésion régionale de l'UE."
+  },
+  {
+    "id": "eu3_006",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique régionale et cohésion",
+    "difficulty": 2,
+    "text": "Selon quelle règle les régions européennes sont-elles classées pour bénéficier des Fonds structurels ?",
+    "options": [
+      "Selon la superficie et la densité de population des régions",
+      "Selon le taux de chômage régional comparé à la moyenne nationale",
+      "Selon le PIB par habitant en parité de pouvoir d'achat par rapport à la",
+      "Selon le taux d'émissions de CO2 par rapport aux objectifs climatiques"
+    ],
+    "correct": 2,
+    "explanation": "Les régions européennes (nomenclature NUTS2) sont classées selon leur PIB par habitant en PPA par rapport à la moyenne UE : régions moins développées (<75% de la moyenne), régions en transition (75-100%), régions plus développées (>100%). Cette classification détermine l'intensité du soutien des Fonds structurels."
+  },
+  {
+    "id": "eu3_007",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Espace Schengen",
+    "difficulty": 2,
+    "text": "En quelle année l'accord de Schengen a-t-il été signé et dans quelle petite ville luxembourgeoise ?",
+    "options": [
+      "1985, à Schengen au Luxembourg",
+      "1990, à Maastricht aux Pays-Bas",
+      "1992, à Amsterdam aux Pays-Bas",
+      "1997, à Barcelone en Espagne"
+    ],
+    "correct": 0,
+    "explanation": "L'accord de Schengen a été signé le 14 juin 1985 dans le village de Schengen au Luxembourg, au bord de la Moselle, par 5 États (France, Allemagne, Belgique, Luxembourg, Pays-Bas). La Convention d'application a été signée en 1990. L'accord est entré en vigueur en 1995."
+  },
+  {
+    "id": "eu3_008",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Espace Schengen",
+    "difficulty": 2,
+    "text": "Quels États membres de l'UE ne font pas partie de l'espace Schengen ?",
+    "options": [
+      "L'Irlande (et le Royaume-Uni avant Brexit)",
+      "L'Autriche, la Finlande et la Suède",
+      "La France, l'Espagne et l'Italie",
+      "La Pologne, la Hongrie et la République"
+    ],
+    "correct": 0,
+    "explanation": "L'Irlande a choisi de ne pas adhérer à l'espace Schengen (opt-out) pour maintenir la zone de voyage commune avec le Royaume-Uni. Le Royaume-Uni n'y était pas non plus avant le Brexit. La Bulgarie, la Roumanie, Chypre et la Croatie ont rejoint Schengen progressivement depuis 2023."
+  },
+  {
+    "id": "eu3_009",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Migration et asile",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le règlement Dublin et quel est son principe fondamental ?",
+    "options": [
+      "Un règlement qui désigne le premier pays d'entrée dans l'UE comme responsable du traitement de la",
+      "Un accord entre l'UE et le Royaume-Uni sur la gestion des migrants post-Brexit",
+      "Un accord de répartition des réfugiés par quotas entre les États membres",
+      "Un mécanisme de financement européen pour les États en première ligne migratoire"
+    ],
+    "correct": 0,
+    "explanation": "Le règlement Dublin (actuellement Dublin III, 2013) désigne comme responsable du traitement de la demande d'asile le premier État membre d'entrée du demandeur dans l'UE. Ce système est vivement critiqué car il fait peser la charge sur les pays de première entrée (Italie, Grèce) et les empêche de renvoyer les demandeurs vers d'autres États membres."
+  },
+  {
+    "id": "eu3_010",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Migration et asile",
+    "difficulty": 2,
+    "text": "Quelle agence européenne assure la surveillance des frontières extérieures de l'espace Schengen ?",
+    "options": [
+      "Frontex, l'Agence européenne de garde-frontières et de garde-côtes",
+      "Europol, l'agence européenne de coopération policière",
+      "Eurojust, l'agence européenne de coopération judiciaire",
+      "L'EASO, Bureau européen d'appui en matière d'asile"
+    ],
+    "correct": 0,
+    "explanation": "Frontex (aujourd'hui Agence européenne de garde-frontières et de garde-côtes) a été créée en 2004 et son mandat a été considérablement renforcé en 2016 et 2019. Elle coordonne et appuie la gestion des frontières extérieures de l'UE et dispose d'un corps permanent de 10 000 agents."
+  },
+  {
+    "id": "eu3_011",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Agences européennes",
+    "difficulty": 2,
+    "text": "Quelle est la mission principale d'Europol, l'agence européenne de police ?",
+    "options": [
+      "Faciliter la coopération entre polices nationales dans la lutte contre la criminalité grave",
+      "Diriger les opérations policières et judiciaires dans tous les États membres",
+      "Coordonner les expulsions de ressortissants de pays tiers depuis les États membres",
+      "Surveiller les frontières extérieures de l'Union européenne et ses côtes"
+    ],
+    "correct": 0,
+    "explanation": "Europol (siège à La Haye) facilite la coopération policière entre les États membres et les pays tiers dans la lutte contre la criminalité organisée, le terrorisme et d'autres formes graves de criminalité. Contrairement au Parquet européen, elle n'a pas de pouvoir d'arrestation ni de poursuite directe."
+  },
+  {
+    "id": "eu3_012",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Agences européennes",
+    "difficulty": 1,
+    "text": "Quelle agence européenne évalue et surveille la sécurité des médicaments dans l'UE ?",
+    "options": [
+      "L'EMA, Agence européenne des médicaments",
+      "L'EFSA, Autorité européenne de sécurité des aliments",
+      "L'ECDC, Centre européen de prévention des maladies",
+      "L'EEA, Agence européenne pour l'environnement"
+    ],
+    "correct": 0,
+    "explanation": "L'EMA (European Medicines Agency), créée en 1995 et dont le siège a été transféré à Amsterdam après le Brexit, évalue et surveille la sécurité des médicaments dans l'UE. Elle a notamment coordonné la procédure d'autorisation accélérée des vaccins anti-Covid en 2020-2021."
+  },
+  {
+    "id": "eu3_013",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Agences européennes",
+    "difficulty": 2,
+    "text": "Où siège l'Autorité bancaire européenne (ABE/EBA) et quel est son rôle ?",
+    "options": [
+      "À Paris, elle supervise les pratiques des banques européennes et harmonise la réglementation bancaire",
+      "À Francfort, elle gère la politique monétaire de la zone euro",
+      "À Luxembourg, elle coordonne les politiques fiscales des États membres",
+      "À Bruxelles, elle surveille les marchés financiers et les agences de notation"
+    ],
+    "correct": 0,
+    "explanation": "L'ABE (Autorité bancaire européenne / EBA) siège à Paris depuis le Brexit (anciennement Londres). Elle contribue à la création d'un corpus réglementaire unique pour le secteur bancaire de l'UE, supervise la solidité du système bancaire et publie des tests de résistance (stress tests)."
+  },
+  {
+    "id": "eu3_014",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique numérique de l'UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Digital Services Act (DSA) adopté par l'UE en 2022 ?",
+    "options": [
+      "Un règlement encadrant la responsabilité des plateformes numériques pour les contenus illicites",
+      "Un règlement imposant la neutralité du net à tous les opérateurs téléphoniques",
+      "Un accord de libre-échange numérique entre l'UE et les États-Unis",
+      "Un plan de financement européen pour la transition numérique des PME"
+    ],
+    "correct": 0,
+    "explanation": "Le DSA (Digital Services Act) encadre la responsabilité des plateformes numériques pour les contenus illicites hébergés. Il impose aux très grandes plateformes (VLOP) des obligations renforcées de modération, de transparence algorithmique et d'audit. Il s'accompagne du DMA (Digital Markets Act) sur les pratiques anticoncurrentielles."
+  },
+  {
+    "id": "eu3_015",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique numérique de l'UE",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Digital Markets Act (DMA) adopté par l'UE en 2022 ?",
+    "options": [
+      "Un règlement imposant des obligations aux 'gatekeepers' pour des marchés équitables",
+      "Un règlement créant un marché unique des données industrielles",
+      "Un accord de coopération entre l'UE et les États-Unis sur la cybersécurité",
+      "Un plan d'investissement dans les réseaux 5G et la fibre optique"
+    ],
+    "correct": 0,
+    "explanation": "Le DMA impose des obligations aux grandes plateformes désignées comme 'contrôleurs d'accès' (gatekeepers : Google, Apple, Meta, Amazon, etc.) pour garantir des marchés numériques équitables et contestables. Il interdit certaines pratiques anticoncurrentielles et impose l'interopérabilité des services de messagerie."
+  },
+  {
+    "id": "eu3_016",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique numérique de l'UE",
+    "difficulty": 2,
+    "text": "Que prévoit l'AI Act (Règlement européen sur l'intelligence artificielle) adopté en 2024 ?",
+    "options": [
+      "Une approche par niveau de risque pour réguler les systèmes d'IA avec des interdictions",
+      "La création d'une agence européenne chargée de développer une IA publique",
+      "Un financement de 100 milliards pour la recherche en IA dans les universités",
+      "Un monopole public européen sur les grands modèles de langage"
+    ],
+    "correct": 0,
+    "explanation": "L'AI Act adopte une approche basée sur le risque : systèmes interdits (manipulation comportementale, notation sociale), à haut risque (soumis à évaluation stricte), à risque limité (obligations de transparence) et à risque minimal. Les grands modèles d'IA (GPAI) sont soumis à des obligations spécifiques de transparence."
+  },
+  {
+    "id": "eu3_017",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "RGPD et protection des données",
+    "difficulty": 1,
+    "text": "En quelle année le Règlement général sur la protection des données (RGPD) est-il entré en application ?",
+    "options": [
+      "2018, deux ans après son adoption, laissant le temps de se conformer",
+      "2016, date de son adoption par le Parlement européen",
+      "2019, lors de la prise de fonctions de la Commission européenne",
+      "2020, en même temps que le Brexit du Royaume-Uni"
+    ],
+    "correct": 0,
+    "explanation": "Le RGPD (Règlement 2016/679) a été adopté en avril 2016, mais il est entré en application le 25 mai 2018, laissant deux ans aux organisations pour se conformer. C'est le principal texte européen sur la protection des données personnelles, applicable à toute organisation traitant des données de résidents de l'UE."
+  },
+  {
+    "id": "eu3_018",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "RGPD et protection des données",
+    "difficulty": 2,
+    "text": "Quel droit le RGPD confère-t-il aux citoyens concernant leurs données personnelles ?",
+    "options": [
+      "Droit d'accès, de rectification, d'effacement, de portabilité et d'opposition au traitement",
+      "Le droit de vendre leurs données à des entreprises tierces",
+      "Le droit de bloquer tout traitement algorithmique sans exception",
+      "Le droit d'obtenir une compensation financière automatique pour tout traitement illicite"
+    ],
+    "correct": 0,
+    "explanation": "Le RGPD confère de nombreux droits : accès aux données traitées, rectification, effacement ('droit à l'oubli'), portabilité (recevoir ses données dans un format structuré), opposition au traitement, limitation du traitement, et droit de ne pas faire l'objet d'une décision automatisée. Ces droits sont exercés directement auprès des responsables de traitement."
+  },
+  {
+    "id": "eu3_019",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations UE-États-Unis",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Cadre transatlantique pour la protection des données (Data Privacy Framework) signé en 2023 ?",
+    "options": [
+      "Un accord commercial global remplaçant le TTIP jamais ratifié",
+      "Un accord de cybersécurité entre l'OTAN et l'Union européenne",
+      "Un traité d'extradition pour les criminels numériques transfrontaliers",
+      "Un accord autorisant les transferts de données personnelles vers les États-Unis"
+    ],
+    "correct": 3,
+    "explanation": "Le Data Privacy Framework (2023) succède au Privacy Shield (invalidé par la CJUE en 2020, arrêt Schrems II). Il permet les transferts de données personnelles entre l'UE et les entreprises américaines certifiées qui respectent des garanties renforcées. La CJUE a validé ce cadre en 2024."
+  },
+  {
+    "id": "eu3_020",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations UE-Chine",
+    "difficulty": 2,
+    "text": "Comment l'UE a-t-elle qualifié la Chine dans sa stratégie de 2019 ?",
+    "options": [
+      "Partenaire privilégié, rival systémique et puissance montante",
+      "Partenaire commercial concurrent économique mais jamais rival politique",
+      "Puissance hostile, concurrent déloyal et menace sécuritaire",
+      "Partenaire de coopération, partenaire en négociation et rival systémique"
+    ],
+    "correct": 3,
+    "explanation": "Dans sa communication de 2019, l'UE a défini la Chine de façon triptyque : partenaire de coopération (sur le climat, la Corée du Nord), partenaire en négociation (commerce, investissements), et rival systémique promouvant des modèles alternatifs de gouvernance. Cette qualification reflète la complexité et les tensions des relations UE-Chine."
+  },
+  {
+    "id": "eu3_021",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations UE-Russie",
+    "difficulty": 2,
+    "text": "Quelles sanctions l'UE a-t-elle adoptées contre la Russie après l'invasion de l'Ukraine en 2022 ?",
+    "options": [
+      "L'exclusion de la Russie du G20 et de l'Organisation mondiale du commerce",
+      "Un embargo sur les exportations européennes de luxe vers la Russie uniquement",
+      "Des paquets de sanctions : gel d'avoirs, interdictions d'exportation, exclusion du SWIFT",
+      "Des sanctions diplomatiques uniquement, sans aucune mesure économique coercitive"
+    ],
+    "correct": 2,
+    "explanation": "L'UE a adopté une série de paquets de sanctions sans précédent contre la Russie : gel des avoirs de la banque centrale russe, exclusion de banques russes du système SWIFT, embargo sur certains produits pétroliers, interdictions d'exportation de technologies et de biens à double usage, sanctions individuelles contre des personnalités russes."
+  },
+  {
+    "id": "eu3_022",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Relations UE-Russie",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Partenariat oriental de l'UE et pourquoi est-il lié à la crise ukrainienne ?",
+    "options": [
+      "Un programme militaire de l'OTAN couvrant les pays d'Europe de l'Est",
+      "Un mécanisme de médiation entre l'UE et la Russie sur les questions énergétiques",
+      "Un accord d'élargissement rapide de l'UE aux pays baltes et à la Pologne",
+      "Un cadre d'association de l'UE avec 6 pays ex-soviétiques, dont l'Ukraine, refusé par la Russie"
+    ],
+    "correct": 3,
+    "explanation": "Le Partenariat oriental (2009) vise 6 pays ex-soviétiques : Ukraine, Moldavie, Géorgie, Arménie, Azerbaïdjan et Biélorussie. La volonté de l'Ukraine de signer un Accord d'association avec l'UE (DCFTA), refusée par la Russie qui a fait pression sur Ianoukovitch, a déclenché la révolution du Maïdan en 2014 et l'annexion de la Crimée."
+  },
+  {
+    "id": "eu3_023",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de voisinage et élargissement",
+    "difficulty": 2,
+    "text": "Quand l'Ukraine et la Moldavie ont-elles officiellement obtenu le statut de pays candidat à l'adhésion à l'UE ?",
+    "options": [
+      "En mars 2022, immédiatement après l'invasion russe en Ukraine",
+      "En janvier 2024, après validation par le Parlement européen",
+      "En décembre 2023, lors de l'ouverture formelle des négociations d'adhésion",
+      "En juin 2022, lors du Conseil européen accordant le statut de candidat"
+    ],
+    "correct": 3,
+    "explanation": "Le Conseil européen du 23 juin 2022 a accordé le statut de pays candidat à l'Ukraine et à la Moldavie, ainsi qu'à la Géorgie comme candidat potentiel. C'est une décision historique motivée par l'invasion russe. Les négociations d'adhésion formelles ont été ouvertes en juin 2024."
+  },
+  {
+    "id": "eu3_024",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de voisinage et élargissement",
+    "difficulty": 2,
+    "text": "Qu'appelle-t-on le 'processus de stabilisation et d'association' pour les pays des Balkans occidentaux ?",
+    "options": [
+      "Une procédure accélérée d'adhésion pour les pays ayant signé des accords militaires avec l'OTAN",
+      "Un mécanisme de contrôle des frontières extérieures de l'UE dans les Balkans",
+      "Un plan Marshall européen finançant la reconstruction des infrastructures balkaniques",
+      "Un cadre de relations contractuelles et de rapprochement normatif avec l'UE pour les Balkans"
+    ],
+    "correct": 3,
+    "explanation": "Le processus de stabilisation et d'association (PSA) est le cadre que l'UE offre aux pays des Balkans occidentaux (Serbie, Bosnie-Herzégovine, Kosovo, Monténégro, Macédoine du Nord, Albanie). Il comprend des accords d'association (SAA) et une perspective d'adhésion, mais dans un calendrier indéfini."
+  },
+  {
+    "id": "eu3_025",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE",
+    "difficulty": 2,
+    "text": "Quelles sont les principales ressources propres du budget de l'UE ?",
+    "options": [
+      "Impôts sur les sociétés collectés directement par la Commission",
+      "Recettes des amendes infligées aux entreprises et aux États membres",
+      "Taxes sur les transactions financières et sur les émissions carbone",
+      "Droits de douane, contribution TVA et ressource basée sur le RNB"
+    ],
+    "correct": 3,
+    "explanation": "Le budget de l'UE est financé par trois ressources propres principales : les droits de douane (ressources propres traditionnelles), une contribution basée sur la TVA nationale, et une contribution proportionnelle au RNB (Revenu national brut) de chaque État. La ressource RNB est la plus importante (environ 70%). Une nouvelle ressource basée sur les déchets plastiques non recyclés existe depuis 2021."
+  },
+  {
+    "id": "eu3_026",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Budget de l'UE",
+    "difficulty": 2,
+    "text": "Quelle est la taille approximative du budget annuel de l'UE par rapport au PIB des États membres ?",
+    "options": [
+      "Environ 5% du PIB cumulé des États membres",
+      "Environ 20% des dépenses publiques des États membres",
+      "Environ 10% des recettes fiscales totales des États membres",
+      "Environ 1% du RNB cumulé des États membres"
+    ],
+    "correct": 3,
+    "explanation": "Le budget de l'UE représente environ 1% du RNB cumulé des États membres (le plafond des ressources propres est fixé à 1,4%). C'est relativement modeste comparé aux budgets nationaux (les États membres dépensent en moyenne 45-50% de leur PIB). Le budget 2024 s'élève à environ 189 milliards d'euros."
+  },
+  {
+    "id": "eu3_027",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Coopération renforcée",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la coopération renforcée et dans quels domaines a-t-elle été utilisée ?",
+    "options": [
+      "Un mécanisme permettant à un groupe d'États d'avancer ensemble sur des politiques",
+      "Un processus d'intégration accélérée réservé aux fondateurs de l'UE",
+      "Une procédure d'exclusion temporaire d'un État membre n'appliquant pas les directives",
+      "Un accord entre l'UE et un pays tiers pour approfondir leurs relations"
+    ],
+    "correct": 0,
+    "explanation": "La coopération renforcée (art. 20 TUE) permet à au moins 9 États membres d'avancer ensemble dans un domaine où l'unanimité ne peut être obtenue. Elle a été utilisée notamment pour : le brevet européen unitaire, le divorce transfrontalier (Rome III), le régime matrimonial des couples internationaux, et la taxe sur les transactions financières (en cours de négociation)."
+  },
+  {
+    "id": "eu3_028",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Coopération renforcée",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la Coopération structurée permanente (CSP/PESCO) dans le domaine de la défense ?",
+    "options": [
+      "Un traité d'alliance militaire entre les États membres de l'UE",
+      "Une force d'intervention rapide sous commandement OTAN pour les États de l'UE",
+      "Un programme de financement de la recherche militaire européenne",
+      "Un cadre de coopération renforcée entre États membres dans la défense commune"
+    ],
+    "correct": 3,
+    "explanation": "La PESCO (Permanent Structured Cooperation), prévue par le Traité de Lisbonne et lancée en 2017, est une coopération renforcée dans le domaine de la défense. 25 États membres y participent. Elle implique des engagements contraignants sur les capacités militaires et financements. La PESCO coexiste avec l'OTAN sans la remplacer."
+  },
+  {
+    "id": "eu3_029",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Révision des traités",
+    "difficulty": 2,
+    "text": "Quelle est la procédure ordinaire de révision des traités européens ?",
+    "options": [
+      "Vote à la majorité qualifiée du Conseil européen, puis référendum paneuropéen",
+      "Proposition de la Commission, vote du Conseil et du PE, puis référendum dans les États",
+      "Vote du Parlement européen à la majorité des deux tiers, puis ratification nationale",
+      "Convention ou CIG convoquée par le Conseil européen, puis ratification unanime par tous les États"
+    ],
+    "correct": 3,
+    "explanation": "La procédure ordinaire (art. 48 TUE) prévoit : proposition de révision, convocation d'une Convention (ou CIG), puis ratification par TOUS les États membres selon leurs procédures nationales (référendum ou vote parlementaire). L'accord unanime de tous les États est impératif pour que les révisions entrent en vigueur."
+  },
+  {
+    "id": "eu3_030",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Euratom",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Traité Euratom (CEEA) et est-il toujours en vigueur ?",
+    "options": [
+      "Un traité fondant une armée nucléaire commune, remplacé par le Traité de",
+      "Un traité sur la sécurité des centrales nucléaires, intégré au TFUE en",
+      "Un accord de non-prolifération nucléaire signé avec les États-Unis",
+      "Un traité établissant la coopération pour l'énergie nucléaire civile, toujours en vigueur"
+    ],
+    "correct": 3,
+    "explanation": "Le Traité Euratom (Communauté européenne de l'énergie atomique), signé à Rome en 1957, est toujours en vigueur comme traité distinct. Il organise la coopération nucléaire civile (approvisionnement en combustible, recherche, radioprotection). Contrairement à la CECA, il n'était pas limité dans le temps."
+  },
+  {
+    "id": "eu3_031",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique énergétique",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le mécanisme d'ajustement carbone aux frontières (MACF/CBAM) introduit par l'UE ?",
+    "options": [
+      "Une taxe interne sur les entreprises européennes les plus polluantes",
+      "Un fonds de réduction des émissions financé par les recettes du marché carbone",
+      "Un accord de compensation carbone entre États membres et partenaires commerciaux",
+      "Un mécanisme imposant un prix carbone sur les importations de produits énergivores"
+    ],
+    "correct": 3,
+    "explanation": "Le MACF (CBAM - Carbon Border Adjustment Mechanism), entré en vigueur progressivement depuis 2023, impose un prix carbone sur les importations de certains produits (acier, aluminium, ciment, électricité, engrais, hydrogène) pour éviter que les entreprises européennes soumises au marché carbone ETS ne soient concurrencées par des importations moins soumises aux contraintes climatiques."
+  },
+  {
+    "id": "eu3_032",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique énergétique",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le marché carbone européen ETS (Emission Trading Scheme) ?",
+    "options": [
+      "Un marché financier pour les entreprises souhaitant compenser leurs émissions par des crédits forestiers",
+      "Un mécanisme de compensation entre les États membres sur la base de leurs émissions nationales",
+      "Un fonds de financement des énergies renouvelables alimenté par les amendes environnementales",
+      "Un système d'échange de quotas d'émission de CO2 entre entreprises, avec un plafond global décroissant"
+    ],
+    "correct": 3,
+    "explanation": "L'EU ETS est le premier et le plus grand marché carbone du monde, créé en 2005. Il couvre les secteurs industriels intensifs en énergie et l'aviation intra-UE. Un plafond global d'émissions est fixé et diminue chaque année. Les entreprises reçoivent ou achètent des quotas et peuvent les échanger. Les recettes financent notamment le Fonds d'innovation."
+  },
+  {
+    "id": "eu3_033",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique environnementale",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la stratégie 'De la ferme à la table' dans le cadre du Green Deal européen ?",
+    "options": [
+      "Un programme d'aide directe aux agriculteurs pour la transition vers l'agriculture biologique",
+      "Un accord commercial favorisant les produits alimentaires européens sur les marchés mondiaux",
+      "Un règlement imposant l'étiquetage nutritionnel Nutri-Score dans tous les États membres",
+      "Une stratégie visant un système alimentaire durable : réduction des pesticides, objectifs bio, moins de"
+    ],
+    "correct": 3,
+    "explanation": "La stratégie 'De la ferme à la table' (Farm to Fork) est l'un des piliers du Green Deal. Elle vise : réduction de 50% des pesticides d'ici 2030, 25% de la surface agricole en bio, réduction des engrais chimiques de 20%, réduction du gaspillage alimentaire de 50%. Elle a suscité de vives controverses parmi les agriculteurs européens."
+  },
+  {
+    "id": "eu3_034",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique environnementale",
+    "difficulty": 2,
+    "text": "Quels objectifs climatiques l'UE s'est-elle fixés pour 2030 et 2050 dans la Loi européenne sur le climat ?",
+    "options": [
+      "Réduction de 40% des émissions en 2030 ; neutralité carbone en 2060",
+      "Réduction de 65% des émissions en 2030 ; bilan carbone positif en 2055",
+      "Réduction de 30% des émissions en 2030 ; neutralité carbone en 2045",
+      "Réduction de 55% des émissions en 2030 par rapport à 1990 ; neutralité climatique en 2050"
+    ],
+    "correct": 3,
+    "explanation": "La Loi européenne sur le climat (2021) inscrit dans le droit de l'UE l'objectif de neutralité climatique en 2050 et un objectif intermédiaire de réduction des émissions de gaz à effet de serre d'au moins 55% en 2030 par rapport à 1990. Ces objectifs sont contraignants et s'appliquent à l'ensemble de l'économie européenne."
+  },
+  {
+    "id": "eu3_035",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "BCE - politique monétaire",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le programme PEPP (Pandemic Emergency Purchase Programme) de la BCE ?",
+    "options": [
+      "Un plan de financement direct des États membres en difficulté budgétaire",
+      "Un fonds de relance piloté par la BCE pour financer les entreprises touchées par le",
+      "Un mécanisme d'urgence permettant aux États de la zone euro de demander une aide du",
+      "Un programme de rachat d'obligations publiques et privées pour faire face à la crise Covid"
+    ],
+    "correct": 3,
+    "explanation": "Le PEPP, lancé en mars 2020, a permis à la BCE de racheter jusqu'à 1 750 milliards d'euros d'obligations publiques et privées pour maintenir les conditions de financement favorables pendant la pandémie. Il a été plus flexible que les programmes précédents (QE), notamment en permettant des achats d'obligations grecques."
+  },
+  {
+    "id": "eu3_036",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "BCE - politique monétaire",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Mécanisme de surveillance unique (MSU) dans le cadre de l'union bancaire européenne ?",
+    "options": [
+      "Un mécanisme de résolution des crises bancaires géré par le MES",
+      "Un registre central de toutes les banques opérant sur le marché unique",
+      "Un accord de partage des pertes bancaires entre États membres en cas de faillite",
+      "Le dispositif par lequel la BCE supervise directement les grandes banques de la zone euro"
+    ],
+    "correct": 3,
+    "explanation": "Le MSU (créé en 2013) confie à la BCE la supervision prudentielle directe des banques systémiques ('significatives') de la zone euro (environ 115 banques représentant 80% des actifs bancaires). Il complète le Mécanisme de résolution unique (MRU) et le système de garantie des dépôts pour former l'union bancaire."
+  },
+  {
+    "id": "eu3_037",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique sociale européenne",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la directive sur le salaire minimum adéquat adoptée par l'UE en 2022 ?",
+    "options": [
+      "Un règlement fixant un salaire minimum unique pour tous les travailleurs de l'UE",
+      "Une directive qui établit un salaire minimum de 60% du salaire médian dans tous les États",
+      "Une directive promouvant des salaires minimums adéquats et la couverture des conventions collectives sans imposer un",
+      "Un accord entre partenaires sociaux pour indexer les salaires sur l'inflation européenne"
+    ],
+    "correct": 2,
+    "explanation": "La directive 2022/2041 sur le salaire minimum adéquat ne fixe pas un salaire minimum européen unique (cela serait contraire aux traités). Elle établit des critères pour fixer des salaires minimums nationaux adéquats et favorise la couverture par les conventions collectives. Elle vise la convergence vers le haut des salaires bas."
+  },
+  {
+    "id": "eu3_038",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique sociale européenne",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la directive sur l'équilibre travail-vie personnelle de 2019 ?",
+    "options": [
+      "Une directive limitant le temps de travail à 35 heures dans tous les",
+      "Une directive établissant le droit au télétravail pour tous les travailleurs européens",
+      "Une directive créant de nouveaux droits au congé parental, de paternité et pour",
+      "Une directive imposant la parité hommes-femmes dans les conseils d'administration"
+    ],
+    "correct": 2,
+    "explanation": "La directive 2019/1158 sur l'équilibre entre vie professionnelle et vie privée crée de nouveaux droits : congé de paternité d'au moins 10 jours, congé parental individuel de 4 mois (dont 2 non transférables), congé pour aidants. Elle vise à favoriser la participation des femmes au marché du travail et une meilleure répartition des responsabilités familiales."
+  },
+  {
+    "id": "eu3_039",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de genre",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la directive sur la transparence des rémunérations adoptée par l'UE en 2023 ?",
+    "options": [
+      "Une directive imposant la publication des salaires de tous les fonctionnaires européens",
+      "Une directive établissant un salaire égal entre hommes et femmes pour des postes identiques",
+      "Une directive fixant la parité obligatoire dans les organes exécutifs des grandes entreprises",
+      "Une directive obligeant les entreprises à publier les écarts de rémunération entre hommes et femmes et"
+    ],
+    "correct": 3,
+    "explanation": "La directive 2023/970 sur la transparence des rémunérations oblige les entreprises à informer les candidats sur les salaires, à publier les données sur les écarts salariaux entre hommes et femmes, et à agir si l'écart dépasse 5% sans justification objective. Elle vise à réduire l'écart salarial de genre qui est d'environ 13% en moyenne dans l'UE."
+  },
+  {
+    "id": "eu3_040",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de genre",
+    "difficulty": 2,
+    "text": "Quels pays ont le plus fort taux de représentation féminine dans les parlements nationaux au sein de l'UE ?",
+    "options": [
+      "La France, l'Italie et l'Espagne grâce à des lois sur la parité",
+      "La Belgique, le Luxembourg et les Pays-Bas grâce aux lois",
+      "L'Allemagne et l'Autriche grâce à leurs systèmes électoraux proportionnels ouverts",
+      "Les pays nordiques comme la Suède et la Finlande avec plus de 40%"
+    ],
+    "correct": 3,
+    "explanation": "Les pays nordiques (Suède, Finlande, Danemark) affichent systématiquement les taux les plus élevés de représentation féminine dans leurs parlements nationaux (souvent au-dessus de 40-45%). Cette performance reflète une culture politique d'égalité et des systèmes électoraux proportionnels favorisant la représentation des femmes."
+  },
+  {
+    "id": "eu3_041",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Déclaration Schuman et pensée européenne",
+    "difficulty": 2,
+    "text": "Qui a rédigé la Déclaration Schuman du 9 mai 1950 qui a lancé la construction européenne ?",
+    "options": [
+      "Robert Schuman, ministre des Affaires étrangères français en 1950",
+      "Alcide De Gasperi, Premier ministre italien et père fondateur européen",
+      "Winston Churchill, qui avait appelé à une Europe unie dès 1946",
+      "Jean Monnet, Commissaire général au Plan et véritable architecte du texte"
+    ],
+    "correct": 3,
+    "explanation": "Si la Déclaration Schuman a été présentée par Robert Schuman (ministre des Affaires étrangères), c'est Jean Monnet, Commissaire général au Plan, qui en est le véritable architecte intellectuel. Jean Monnet est souvent appelé le 'père de l'Europe' pour son rôle inspirateur. La déclaration propose la création de la CECA."
+  },
+  {
+    "id": "eu3_042",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Déclaration Schuman et pensée européenne",
+    "difficulty": 2,
+    "text": "Quel philosophe allemand a théorisé le 'patriotisme constitutionnel' comme fondement d'une identité européenne post-nationale ?",
+    "options": [
+      "Immanuel Kant avec son Projet de paix perpétuelle de 1795",
+      "Karl Jaspers avec sa notion d'une culpabilité allemande à dépasser",
+      "Hannah Arendt dans ses réflexions sur les origines du totalitarisme",
+      "Jürgen Habermas dans ses écrits sur l'État post-national et européen"
+    ],
+    "correct": 3,
+    "explanation": "Jürgen Habermas a développé le concept de 'patriotisme constitutionnel' : une identité politique fondée non sur des critères ethniques ou culturels mais sur des valeurs constitutionnelles universelles (droits fondamentaux, démocratie, État de droit). Il préconise son extension à l'échelle européenne comme fondement d'une identité commune post-nationale."
+  },
+  {
+    "id": "eu3_043",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Pensée européenne",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la 'puissance normative' (Normative Power Europe) de l'UE selon Ian Manners ?",
+    "options": [
+      "La capacité de l'UE à imposer des normes économiques aux pays candidats",
+      "La puissance législative de l'UE dans son ordre juridique interne",
+      "L'idée que l'UE diffuse ses valeurs et normes dans les relations internationales",
+      "La capacité de la CJUE à imposer des décisions contraignantes aux États"
+    ],
+    "correct": 2,
+    "explanation": "Ian Manners (2002) a défini l'UE comme une 'puissance normative' : une entité qui utilise sa capacité à définir ce qui est normal dans les relations internationales. L'UE influence le monde en diffusant ses normes (droits fondamentaux, multilatéralisme, développement durable) plutôt qu'en exerçant une puissance militaire ou économique directe."
+  },
+  {
+    "id": "eu3_044",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Pensée européenne",
+    "difficulty": 3,
+    "text": "Qu'est-ce que l'idée de 'Projet de paix perpétuelle' de Kant (1795) et son rapport à la construction européenne ?",
+    "options": [
+      "Un traité proposant l'arbitrage obligatoire pour résoudre les conflits",
+      "Un accord commercial entre États garantissant la neutralité économique",
+      "Un texte proposant une fédération d'États républicains garantissant une paix durable",
+      "Un traité de désarmement entre les grandes puissances européennes du XVIIIe"
+    ],
+    "correct": 2,
+    "explanation": "Kant (1795) propose dans ce texte une fédération d'États républicains comme condition de la paix perpétuelle. Chaque État doit avoir une constitution républicaine et les États doivent former une 'fédération d'États libres'. Cette vision a profondément influencé les pères fondateurs de l'Europe, notamment Jean Monnet et Robert Schuman."
+  },
+  {
+    "id": "eu3_045",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Pensée européenne",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le discours de Zurich de Winston Churchill en 1946 et quel impact a-t-il eu ?",
+    "options": [
+      "Un appel à la création d'une alliance militaire atlantique contre l'URSS",
+      "Un plaidoyer pour le retour aux souverainetés nationales après la Seconde Guerre mondiale",
+      "Un discours appelant à créer les 'États-Unis d'Europe' sur le modèle américain, inspirant les fédéralistes",
+      "Un appel à la réconciliation franco-britannique après les tensions de la guerre"
+    ],
+    "correct": 2,
+    "explanation": "Dans son discours de Zurich (septembre 1946), Churchill appelle à la création des 'États-Unis d'Europe'. Il exhorte la France et l'Allemagne à se réconcilier comme base d'une Europe unie. Bien que le Royaume-Uni n'y soit pas inclus dans sa vision, ce discours a fortement inspiré le mouvement fédéraliste européen."
+  },
+  {
+    "id": "eu3_046",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Justice et droits fondamentaux",
+    "difficulty": 2,
+    "text": "Quelle est la différence entre la CEDH (Convention européenne des droits de l'homme) et la Charte des droits fondamentaux de l'UE ?",
+    "options": [
+      "La CEDH est un traité UE ; la Charte est un traité du Conseil de l'Europe",
+      "La CEDH protège uniquement les droits civils ; la Charte protège aussi les droits économiques",
+      "La CEDH est un traité du Conseil de l'Europe (46 membres) ; la Charte est le droit primaire de",
+      "Les deux sont identiques mais la Charte s'applique uniquement aux États membres de la zone euro"
+    ],
+    "correct": 2,
+    "explanation": "La CEDH est un traité du Conseil de l'Europe (organisation distincte de l'UE, 46 membres), interprétée par la Cour européenne des droits de l'homme de Strasbourg. La Charte des droits fondamentaux est le catalogue des droits fondamentaux de l'UE, contraignant depuis Lisbonne (2009), interprété par la CJUE. Les deux instruments se complètent."
+  },
+  {
+    "id": "eu3_047",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Justice et droits fondamentaux",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le mécanisme de conditionnalité budgétaire (ou conditionnalité État de droit) de l'UE adopté en 2020 ?",
+    "options": [
+      "Un mécanisme imposant des réformes économiques aux États recevant des fonds de cohésion",
+      "Une procédure d'audit obligatoire pour tous les États bénéficiaires du plan de relance NextGenerationEU",
+      "Un règlement permettant de suspendre les fonds européens aux États ne respectant pas l'État de droit",
+      "Un mécanisme de contrôle budgétaire renforcé dans le cadre du Pacte de stabilité"
+    ],
+    "correct": 2,
+    "explanation": "Le règlement 2020/2092 sur la conditionnalité État de droit permet de suspendre ou réduire les fonds européens aux États membres dont les manquements à l'État de droit affectent la bonne gestion financière du budget de l'UE. Il a été activé contre la Hongrie en 2022, menant au gel d'une partie des fonds européens."
+  },
+  {
+    "id": "eu3_048",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Justice et droits fondamentaux",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le mandat d'arrêt européen (MAE) et depuis quand est-il en vigueur ?",
+    "options": [
+      "Un mandat émis par la CJUE permettant l'arrestation de personnes en tout État membre",
+      "Un accord de coopération policière entre les États membres et Interpol",
+      "Un instrument de reconnaissance mutuelle permettant à un État membre d'obtenir l'arrestation d'une personne dans",
+      "Un mécanisme permettant à Europol de conduire des arrestations dans toute l'UE"
+    ],
+    "correct": 2,
+    "explanation": "Le mandat d'arrêt européen (décision-cadre de 2002, en vigueur depuis 2004) remplace les procédures d'extradition entre États membres. Il permet à une autorité judiciaire d'un État d'obtenir qu'une personne soit arrêtée dans un autre État et remise à ses autorités, avec des délais très réduits."
+  },
+  {
+    "id": "eu3_049",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Eurozone et gouvernance économique",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le 'Two-Pack' et le 'Six-Pack' dans la gouvernance économique de la zone euro ?",
+    "options": [
+      "Des accords de libre-échange entre l'UE et deux ou six pays partenaires",
+      "Des programmes d'aide aux États en difficulté financière coordonnés par le MES",
+      "Des paquets législatifs renforçant la surveillance budgétaire et macroéconomique des États membres",
+      "Des plans de relance sectoriels pour six industries clés de l'économie européenne"
+    ],
+    "correct": 2,
+    "explanation": "Le Six-Pack (2011, 5 règlements + 1 directive) et le Two-Pack (2013, 2 règlements pour la zone euro) renforcent le Pacte de stabilité et de croissance. Ils instaurent une surveillance macroéconomique, un tableau de bord d'alerte précoce, et rendent les procédures de déficit excessif semi-automatiques avec des sanctions plus efficaces."
+  },
+  {
+    "id": "eu3_050",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Eurozone et gouvernance économique",
+    "difficulty": 2,
+    "text": "Combien de pays utilisent l'euro comme monnaie officielle en 2024 ?",
+    "options": [
+      "19 pays membres de la zone euro",
+      "22 pays membres de la zone euro",
+      "20 pays membres de la zone euro",
+      "25 pays membres de la zone euro"
+    ],
+    "correct": 2,
+    "explanation": "En 2024, 20 États membres utilisent l'euro (après l'adhésion de la Croatie le 1er janvier 2023). Les États membres de l'UE qui n'ont pas encore adopté l'euro sont : la Suède, la Tchéquie, la Hongrie, la Pologne, la Roumanie, la Bulgarie et le Danemark (opt-out). Certains pays non-membres de l'UE utilisent aussi l'euro (Monaco, San Marin, Andorre, Vatican)."
+  },
+  {
+    "id": "eu3_051",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "PESC et défense",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la 'boussole stratégique' de l'UE adoptée en 2022 ?",
+    "options": [
+      "Un document fixant les priorités géographiques des délégations de l'UE dans le monde",
+      "Un plan de développement des capacités spatiales et cyber de l'Union européenne",
+      "Un document stratégique définissant les ambitions de l'UE en matière de sécurité et de défense à",
+      "Un accord de coopération défensive entre l'UE et les pays du voisinage oriental"
+    ],
+    "correct": 2,
+    "explanation": "La Boussole stratégique (mars 2022) est le premier document stratégique de défense de l'UE. Adoptée juste après l'invasion russe de l'Ukraine, elle fixe des objectifs concrets : création d'une capacité de déploiement rapide (5 000 soldats d'ici 2025), renforcement des capacités cyber et spatiales, approfondissement de la PESCO et du Fonds européen de défense."
+  },
+  {
+    "id": "eu3_052",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "PESC et défense",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Fonds européen de défense (FED) créé en 2021 ?",
+    "options": [
+      "Un fonds d'assurance mutuelle pour les dépenses militaires des États membres",
+      "Un mécanisme de financement des opérations militaires extérieures de l'UE",
+      "Un instrument de financement de la recherche et du développement dans les capacités",
+      "Un fonds destiné à aider les États membres à moderniser leurs équipements militaires"
+    ],
+    "correct": 2,
+    "explanation": "Le Fonds européen de défense (7,95 milliards pour 2021-2027) finance la recherche collaborative et le développement de capacités militaires communes. C'est la première fois que le budget de l'UE finance directement des programmes de défense. Il vise à réduire les doublons et à renforcer la base industrielle et technologique de défense européenne."
+  },
+  {
+    "id": "eu3_053",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de développement",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le programme Global Gateway lancé par l'UE en 2021 ?",
+    "options": [
+      "Un programme de contrôle des frontières extérieures de l'Union européenne",
+      "Un accord de partenariat commercial avec les pays ACP (Afrique, Caraïbes, Pacifique)",
+      "Une stratégie d'investissement mondial de l'UE en infrastructures, répondant à la concurrence chinoise",
+      "Un programme de coopération spatiale entre l'UE et ses principaux partenaires"
+    ],
+    "correct": 2,
+    "explanation": "Global Gateway (décembre 2021) est la stratégie d'investissement mondial de l'UE visant à mobiliser 300 milliards d'euros d'ici 2027 pour financer des infrastructures durables dans les pays partenaires (transports, énergie, numérique, santé, éducation). Elle répond notamment à l'Initiative 'Ceinture et Route' (Belt and Road) de la Chine."
+  },
+  {
+    "id": "eu3_054",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique de développement",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'Accord de Cotonou et quel cadre lui a succédé ?",
+    "options": [
+      "Un accord de pêche entre l'UE et les pays africains côtiers renouvelé en 2021",
+      "Un accord de libre-échange entre l'UE et l'Union africaine signé en 2021",
+      "Un accord de partenariat entre l'UE et 79 pays ACP (2000-2021), remplacé par l'accord SAMOA",
+      "Un traité de coopération militaire entre l'UE et les pays du Sahel"
+    ],
+    "correct": 2,
+    "explanation": "L'Accord de Cotonou (2000-2021) organisait les relations entre l'UE et 79 pays ACP (Afrique, Caraïbes, Pacifique) en matière de développement, commerce et dialogue politique. Il a été remplacé en novembre 2023 par l'Accord SAMOA (ou Accord de partenariat post-Cotonou), qui maintient un cadre rénové incluant désormais 79+1 pays (Timor-Leste)."
+  },
+  {
+    "id": "eu3_055",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Programme Erasmus+",
+    "difficulty": 1,
+    "text": "Qu'est-ce que le programme Erasmus+ et quel budget dispose-t-il pour 2021-2027 ?",
+    "options": [
+      "Un programme d'échanges exclusivement académiques avec un budget de 5 milliards",
+      "Un programme de mobilité réservé aux étudiants de l'enseignement supérieur",
+      "Un programme d'éducation, formation, jeunesse et sport avec un budget de 26,2 milliards",
+      "Un fonds de bourses pour les étudiants de pays en développement souhaitant étudier"
+    ],
+    "correct": 2,
+    "explanation": "Erasmus+ (2021-2027) est le programme de l'UE pour l'éducation, la formation, la jeunesse et le sport. Avec un budget de 26,2 milliards d'euros (quasi doublement par rapport à la période précédente), il finance mobilités académiques, formations professionnelles, échanges de jeunes, sport. Depuis 1987, il a bénéficié à plus de 12 millions de personnes."
+  },
+  {
+    "id": "eu3_056",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Programme Erasmus+",
+    "difficulty": 2,
+    "text": "Quels pays non membres de l'UE peuvent participer au programme Erasmus+ ?",
+    "options": [
+      "Aucun pays hors UE n'est éligible à Erasmus+",
+      "Uniquement les pays de l'espace Schengen non membres de l'UE",
+      "Les pays candidats à l'adhésion et certains pays tiers signataires d'accords",
+      "Tous les pays du monde avec des quotas différenciés"
+    ],
+    "correct": 2,
+    "explanation": "Erasmus+ est ouvert aux États membres de l'UE (+ Islande, Norvège, Liechtenstein, Turquie, Macédoine du Nord, Serbie) comme 'pays programme' avec une participation pleine. De nombreux autres pays dans le monde peuvent y participer comme 'pays partenaires' dans certaines actions spécifiques, notamment en enseignement supérieur."
+  },
+  {
+    "id": "eu3_057",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Chronologie - traités et jalons",
+    "difficulty": 2,
+    "text": "Dans quel ordre chronologique les traités européens fondateurs se sont-ils succédé ?",
+    "options": [
+      "Paris (CECA) → Rome (CEE+Euratom) → AUE → Maastricht → Amsterdam → Nice → Lisbonne",
+      "Maastricht → Amsterdam → Rome → AUE → Nice → Lisbonne",
+      "AUE → Paris → Rome → Maastricht → Amsterdam → Nice → Lisbonne",
+      "Rome → Paris → AUE → Amsterdam → Maastricht → Nice → Lisbonne"
+    ],
+    "correct": 0,
+    "explanation": "La chronologie des traités est : Paris 1951 (CECA) → Rome 1957 (CEE + Euratom) → Acte unique européen 1986 → Maastricht 1992 → Amsterdam 1997 → Nice 2001 → Lisbonne 2007 (entré en vigueur 2009). Les traités s'accumulent et se modifient mutuellement, formant le droit primaire de l'UE dans ses versions consolidées."
+  },
+  {
+    "id": "eu3_058",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Chronologie - traités et jalons",
+    "difficulty": 2,
+    "text": "Qu'est-ce qui a fait échouer le Traité établissant une Constitution pour l'Europe (TCE) en 2005 ?",
+    "options": [
+      "Le rejet par le Parlement européen à une large majorité",
+      "Le veto du Royaume-Uni avant même la ratification dans les autres États",
+      "Le rejet par référendum en France et aux Pays-Bas, stoppant le processus de ratification",
+      "La décision de la CJUE déclarant le texte incompatible avec les traités existants"
+    ],
+    "correct": 2,
+    "explanation": "Le Traité constitutionnel européen (signé en 2004) a été rejeté par référendum en France le 29 mai 2005 (54,7% de Non) puis aux Pays-Bas le 1er juin 2005 (61,5% de Non). Ces votes 'Non' ont stoppé le processus de ratification. Les principaux éléments du TCE ont ensuite été repris dans le Traité de Lisbonne (2007)."
+  },
+  {
+    "id": "eu3_059",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des travailleurs",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la directive sur le détachement des travailleurs et quelles controverses a-t-elle suscitées ?",
+    "options": [
+      "Une directive créant un registre européen pour les travailleurs mobiles",
+      "Une directive sur la portabilité des droits sociaux pour les travailleurs",
+      "Une directive sur le détachement de travailleurs, accusée de",
+      "Une directive harmonisant les systèmes d'assurance-chômage dans l'Union européenne"
+    ],
+    "correct": 2,
+    "explanation": "La directive sur le détachement (1996, révisée en 2018) permet à une entreprise d'envoyer temporairement des salariés dans un autre État membre tout en appliquant les règles sociales du pays d'origine. Elle a été accusée de favoriser le 'dumping social' : des entreprises d'Europe de l'Est pouvaient payer leurs salariés selon les niveaux de leur pays d'origine dans des pays à coûts plus élevés. La révision de 2018 a imposé 'à travail égal, salaire égal'."
+  },
+  {
+    "id": "eu3_060",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits des travailleurs",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la directive sur la transparence et la prévisibilité des conditions de travail (2019) ?",
+    "options": [
+      "Une directive imposant la signature de contrats écrits à tous les employeurs",
+      "Une directive renforçant les droits des travailleurs précaires : information écrite, période d'essai limitée, droit à",
+      "Une directive harmonisant les règles sur les heures supplémentaires dans toute l'UE",
+      "Une directive sur l'intelligence artificielle dans les décisions de gestion des ressources humaines"
+    ],
+    "correct": 1,
+    "explanation": "La directive 2019/1152 améliore les droits des travailleurs, notamment en situation précaire (contrats zéro heure, plateformes numériques) : obligation d'informer par écrit sur les conditions de travail, limitation de la période d'essai à 6 mois, interdiction des clauses d'exclusivité, droit à la formation obligatoire gratuite et reconnue."
+  },
+  {
+    "id": "eu3_061",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique industrielle",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le CHIPS Act européen adopté en 2023 ?",
+    "options": [
+      "Une loi anti-monopole visant les grandes entreprises technologiques mondiales",
+      "Un règlement visant à doubler la part de l'Europe dans les semi-conducteurs",
+      "Un plan de financement de la formation aux métiers du",
+      "Un accord de coopération entre l'UE et Taïwan sur les microprocesseurs"
+    ],
+    "correct": 1,
+    "explanation": "Le European Chips Act (2023) mobilise 43 milliards d'euros d'investissements publics et privés pour renforcer la production européenne de semi-conducteurs. Objectif : doubler la part de l'Europe dans la production mondiale de puces de 9% à 20% d'ici 2030. Il répond à la crise des approvisionnements en semi-conducteurs révélée par la pandémie."
+  },
+  {
+    "id": "eu3_062",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique industrielle",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le plan industriel du Pacte vert (Green Deal Industrial Plan) annoncé en 2023 ?",
+    "options": [
+      "Un plan de subventions directes aux industries les plus polluantes pour leur transition",
+      "Un cadre simplifiant la réglementation et l'accès aux financements pour les industries propres en Europe",
+      "Une taxe carbone sur les industries non respectueuses des objectifs du Green Deal",
+      "Un accord de fusion des politiques industrielles nationales dans un seul ministère européen"
+    ],
+    "correct": 1,
+    "explanation": "Le Green Deal Industrial Plan (2023) est la réponse de l'UE à l'Inflation Reduction Act (IRA) américain. Il vise à renforcer la compétitivité des industries nettes en zéro en simplifiant la réglementation, en accélérant les autorisations, en facilitant l'accès aux financements, et en assurant l'accès aux matières premières critiques."
+  },
+  {
+    "id": "eu3_063",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique spatiale",
+    "difficulty": 2,
+    "text": "Quels sont les deux principaux programmes spatiaux de l'UE ?",
+    "options": [
+      "Ariane et Rosetta, développés par l'Agence spatiale européenne",
+      "Galileo (navigation) et Copernicus (observation de la Terre)",
+      "GMES et EGNOS, systèmes de navigation et de surveillance",
+      "ISS et Orion, stations spatiales et missions habitées"
+    ],
+    "correct": 1,
+    "explanation": "Galileo est le système européen de navigation par satellite, équivalent du GPS américain ou du GLONASS russe, pleinement opérationnel depuis 2016. Copernicus est le programme européen d'observation de la Terre, fournissant des données gratuites et ouvertes sur le climat, la mer, les terres et les situations d'urgence. Les deux sont gérés par l'Agence de l'Union européenne pour le programme spatial (EUSPA)."
+  },
+  {
+    "id": "eu3_064",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Droits numériques",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la déclaration européenne sur les droits et principes numériques de 2023 ?",
+    "options": [
+      "Un traité juridiquement contraignant sur les droits des citoyens dans l'espace numérique",
+      "Un texte politique non contraignant énonçant les valeurs et principes de la transformation numérique en",
+      "Un règlement imposant la neutralité technologique dans les marchés publics européens",
+      "Une charte des droits numériques adoptée par le Parlement européen à la majorité des deux"
+    ],
+    "correct": 1,
+    "explanation": "La déclaration sur les droits et principes numériques (signée en 2023 par les trois institutions) est un engagement politique non contraignant. Elle énonce les principes fondamentaux : centralité de l'humain dans le numérique, solidarité et inclusion, liberté de choix, participation à la démocratie, sécurité et sûreté, durabilité. Elle complète le cadre réglementaire contraignant (RGPD, DSA, DMA)."
+  },
+  {
+    "id": "eu3_065",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Euro numérique",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'euro numérique en cours de développement par la BCE ?",
+    "options": [
+      "Une cryptomonnaie décentralisée émise par les banques commerciales de la zone euro",
+      "Une forme numérique de monnaie banque centrale accessible à tous les citoyens de la zone",
+      "Un système de paiement en temps réel entre banques commerciales européennes",
+      "Un système d'obligations numériques émis par les États membres de la zone euro"
+    ],
+    "correct": 1,
+    "explanation": "L'euro numérique est un projet de la BCE (phase de préparation depuis 2023) pour créer une forme numérique de la monnaie de banque centrale accessible directement aux particuliers et entreprises. Il compléterait les billets et pièces, garantirait un moyen de paiement public dans l'espace numérique et réduirait la dépendance aux systèmes de paiement privés non européens."
+  },
+  {
+    "id": "eu3_066",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Union bancaire",
+    "difficulty": 2,
+    "text": "Quels sont les trois piliers de l'union bancaire européenne ?",
+    "options": [
+      "La BCE, la Commission et le Conseil comme superviseurs",
+      "Le MSU, le Mécanisme de résolution unique et la garantie des dépôts",
+      "L'EBA, l'ESMA et l'EIOPA comme autorités de surveillance sectorielles",
+      "Le MES, la BEI et la BCE comme garants de"
+    ],
+    "correct": 1,
+    "explanation": "L'union bancaire repose sur trois piliers : le Mécanisme de surveillance unique (MSU - BCE supervise les banques significatives), le Mécanisme de résolution unique (MRU - gère la résolution ordonnée des banques en faillite) et le Système européen de garantie des dépôts (SEGD - encore en discussion pour une mutualisation complète). Elle vise à briser le lien entre risque bancaire et risque souverain."
+  },
+  {
+    "id": "eu3_067",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Union des marchés de capitaux",
+    "difficulty": 2,
+    "text": "Quel est l'objectif de l'Union des marchés de capitaux (UMC) lancée par la Commission en 2015 ?",
+    "options": [
+      "Créer une bourse européenne unique remplaçant les bourses nationales",
+      "Réduire la dépendance bancaire et diversifier les sources de financement des entreprises",
+      "Unifier la politique fiscale sur les revenus du capital dans toute l'UE",
+      "Créer un fonds souverain européen pour financer les grandes entreprises stratégiques"
+    ],
+    "correct": 1,
+    "explanation": "L'UMC vise à créer un véritable marché unique des capitaux en Europe, afin que les entreprises (notamment les PME) puissent plus facilement accéder à des financements alternatifs au crédit bancaire (marchés boursiers, capital-risque, fonds de pension). L'objectif est d'améliorer la transmission de l'épargne européenne vers les investissements productifs."
+  },
+  {
+    "id": "eu3_068",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Identité culturelle de l'UE",
+    "difficulty": 2,
+    "text": "Quel est l'hymne de l'Union européenne et quelle est son origine ?",
+    "options": [
+      "La Marseillaise française adoptée comme symbole de liberté démocratique",
+      "L'Ode à la joie de Beethoven tiré de la 9e",
+      "God Save the King britannique symbole de la démocratie parlementaire",
+      "Une composition originale commandée spécialement pour l'UE en 1985"
+    ],
+    "correct": 1,
+    "explanation": "L'hymne européen est l'Ode à la joie, tiré du 4e mouvement de la 9e Symphonie de Beethoven, arrangé par Herbert von Karajan. Il a été adopté par le Conseil de l'Europe en 1972, puis par la Communauté européenne en 1985. Il symbolise les valeurs de paix, liberté et unité. Il est joué sans paroles pour transcender les langues nationales."
+  },
+  {
+    "id": "eu3_069",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Identité culturelle de l'UE",
+    "difficulty": 1,
+    "text": "Quelle est la devise officielle de l'Union européenne ?",
+    "options": [
+      "Liberté, Égalité, Fraternité (devise française)",
+      "Unie dans la diversité des peuples européens",
+      "La paix par la prospérité économique",
+      "Unis par nos différences culturelles"
+    ],
+    "correct": 1,
+    "explanation": "'Unie dans la diversité' est la devise officielle de l'UE, adoptée en 2000 à l'issue d'un concours ouvert aux jeunes européens. Elle exprime le fait que les Européens sont unis dans la construction d'une Europe tournée vers la paix, la prospérité et la solidarité, mais que la diversité des cultures, traditions et langues est une richesse."
+  },
+  {
+    "id": "eu3_070",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élections européennes",
+    "difficulty": 2,
+    "text": "Quand ont eu lieu les premières élections du Parlement européen au suffrage universel direct et quel résultat notable en a découlé ?",
+    "options": [
+      "En 1975, victoire de la droite permettant l'élection du premier président",
+      "En 1979, premières élections directes avec Simone Veil élue première présidente",
+      "En 1984, premières élections avec des partis européens transnationaux",
+      "En 1989, premières élections coïncidant avec la chute du Mur de Berlin"
+    ],
+    "correct": 1,
+    "explanation": "Les premières élections du PE au suffrage universel direct ont eu lieu en juin 1979. Simone Veil, ancienne ministre française de Valéry Giscard d'Estaing, en est devenue la première présidente (1979-1982). Ces élections ont constitué un tournant dans la démocratisation de la construction européenne."
+  },
+  {
+    "id": "eu3_071",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Élections européennes",
+    "difficulty": 2,
+    "text": "Quelle est la particularité du système électoral des élections européennes ?",
+    "options": [
+      "Un système de représentation proportionnelle uniforme imposé à tous les États",
+      "Chaque État détermine son propre système électoral dans le cadre de principes communs",
+      "Un système de scrutin à deux tours identique dans tous les États membres",
+      "Un système de listes paneuropéennes transnationales pour toute l'Union européenne"
+    ],
+    "correct": 1,
+    "explanation": "Les élections européennes sont organisées au niveau national : chaque État choisit son propre système électoral dans le cadre de principes communs (représentation proportionnelle, vote secret, suffrage universel, limitation du financement des partis). La date varie sur 4 jours dans la même semaine. Il n'existe pas encore de circonscription transnationale unique."
+  },
+  {
+    "id": "eu3_072",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Politique européenne de voisinage - détails",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'DCFTA (Deep and Comprehensive Free Trade Area) dans le contexte de la PEV ?",
+    "options": [
+      "Un accord de défense réciproque entre l'UE et les pays voisins",
+      "Un accord commercial approfondi incluant réformes réglementaires, accès au marché unique et normes UE",
+      "Un accord sur la libre circulation des personnes entre l'UE et ses voisins immédiats",
+      "Un mécanisme de financement du développement pour les pays de la PEV"
+    ],
+    "correct": 1,
+    "explanation": "La DCFTA (Zone de libre-échange approfondie et complète) est une forme avancée d'accord commercial qui va bien au-delà de la suppression des droits de douane. Elle implique l'adoption de normes et réglementations proches de celles de l'UE (sanitaires, phytosanitaires, droit des sociétés) et donne un accès partiel au marché unique. L'Ukraine, la Moldavie et la Géorgie ont signé des DCFTA en 2014."
+  },
+  {
+    "id": "eu3_073",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Justice et coopération pénale",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'espace de liberté, de sécurité et de justice (ELSJ) de l'UE ?",
+    "options": [
+      "L'espace géographique couvert par les opérations de maintien de la paix de l'UE",
+      "Un ensemble de politiques communes en matière d'asile, immigration, coopération policière et judiciaire",
+      "La zone Schengen étendue aux droits fondamentaux et à la liberté de conscience",
+      "Un mécanisme de protection des droits des citoyens contre les abus des institutions de l'UE"
+    ],
+    "correct": 1,
+    "explanation": "L'ELSJ (art. 67-89 TFUE) rassemble les politiques de contrôle des frontières, asile, immigration, coopération judiciaire civile et pénale, et coopération policière. Il vise à garantir la libre circulation des personnes dans un espace de sécurité. La méthode de décision y est mixte : certains domaines relèvent de la majorité qualifiée, d'autres de l'unanimité."
+  },
+  {
+    "id": "eu3_074",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Justice et coopération pénale",
+    "difficulty": 2,
+    "text": "Qu'est-ce que la reconnaissance mutuelle en droit pénal européen ?",
+    "options": [
+      "L'obligation pour tous les États membres d'adopter les mêmes codes pénaux",
+      "Le principe selon lequel une décision judiciaire prise dans un État est reconnue et exécutée",
+      "L'accord des États membres pour déléguer leurs compétences pénales à la CJUE",
+      "La reconnaissance par l'UE de la compétence de la Cour pénale internationale"
+    ],
+    "correct": 1,
+    "explanation": "La reconnaissance mutuelle est la 'pierre angulaire' de la coopération judiciaire pénale en Europe (Conseil européen de Tampere, 1999). Elle signifie qu'une décision judiciaire (condamnation, gel d'avoirs, mandat d'arrêt) prise dans un État membre est reconnue et exécutée automatiquement dans un autre, sans qu'un juge doive revoir le fond."
+  },
+  {
+    "id": "eu3_075",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Innovation et recherche",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le programme Horizon Europe et quel est son budget pour 2021-2027 ?",
+    "options": [
+      "Un programme d'aide aux PME innovantes avec un budget de 5 milliards",
+      "Le programme-cadre de recherche et d'innovation de l'UE avec un budget de 95,5 milliards",
+      "Un programme de formation aux technologies de pointe avec un budget de 30 milliards",
+      "Un plan d'investissement dans les start-ups européennes avec un budget de 50 milliards"
+    ],
+    "correct": 1,
+    "explanation": "Horizon Europe (2021-2027) est le plus grand programme de recherche et d'innovation de l'UE. Avec un budget de 95,5 milliards d'euros, il finance la recherche fondamentale (Conseil européen de la recherche / ERC), les partenariats public-privé, les missions (cancer, adaptation climatique, océans, villes intelligentes) et les innovations de rupture (EIC). Des pays tiers peuvent y être associés."
+  },
+  {
+    "id": "eu3_076",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Innovation et recherche",
+    "difficulty": 2,
+    "text": "Qu'est-ce que le Conseil européen de la recherche (ERC) dans le cadre d'Horizon Europe ?",
+    "options": [
+      "L'organe du Conseil européen chargé de définir les priorités de recherche de l'UE",
+      "Un organisme de financement de la recherche fondamentale d'excellence, sélectionnant les projets par",
+      "Un réseau d'universités d'excellence bénéficiant d'un financement prioritaire de l'UE",
+      "Un comité interinstitutionnel coordonnant les politiques de recherche des États membres"
+    ],
+    "correct": 1,
+    "explanation": "L'ERC (European Research Council), créé en 2007, finance la recherche fondamentale de pointe en Europe. Ses bourses sont attribuées par compétition scientifique internationale, sans orientation thématique imposée ('bottom-up'). C'est considéré comme l'équivalent européen du NIH américain pour la recherche fondamentale. Ses lauréats sont souvent liés à des Prix Nobel."
+  },
+  {
+    "id": "eu3_077",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Santé publique",
+    "difficulty": 2,
+    "text": "Quel mécanisme l'UE a-t-elle créé pour coordonner les achats groupés de vaccins lors de la crise Covid ?",
+    "options": [
+      "Le PEPP, programme d'urgence sanitaire de la Banque centrale européenne",
+      "La task-force vaccins de la Commission négociant des contrats groupés pour l'UE",
+      "L'EMA qui a procédé à des achats centralisés pour tous les États membres",
+      "Un mécanisme ad hoc du Conseil européen de la santé"
+    ],
+    "correct": 1,
+    "explanation": "La Commission européenne, via son Equipe de pilotage des vaccins (Vaccines Steering Board), a négocié en 2020-2021 des contrats d'achat anticipé (APA) de vaccins au nom de tous les États membres, leur garantissant un accès équitable. Elle a mobilisé 2,9 milliards d'euros du budget UE. En 2022, l'autorité HERA a été créée pour anticiper les futures crises sanitaires."
+  },
+  {
+    "id": "eu3_078",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Santé publique",
+    "difficulty": 2,
+    "text": "Qu'est-ce que l'ECDC (Centre européen de prévention et de contrôle des maladies) ?",
+    "options": [
+      "L'agence qui gère les stockages stratégiques de médicaments pour l'UE",
+      "Une agence européenne identifiant et évaluant les menaces infectieuses pour la santé",
+      "Le service d'urgence médical coordonné par la Commission européenne",
+      "L'autorité de contrôle des médicaments et dispositifs médicaux de l'UE"
+    ],
+    "correct": 1,
+    "explanation": "L'ECDC (siège à Stockholm) est une agence de l'UE qui surveille les maladies transmissibles, évalue les risques sanitaires et publie des alertes et recommandations scientifiques. Pendant la pandémie Covid, il a joué un rôle central de surveillance épidémiologique et de publication de données harmonisées. Il travaille en étroite coopération avec l'OMS."
+  },
+  {
+    "id": "eu3_079",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Dialogue social européen",
+    "difficulty": 2,
+    "text": "Quelles sont les principales organisations représentant les partenaires sociaux au niveau européen ?",
+    "options": [
+      "Le Conseil européen représente les employeurs ; le PE représente les syndicats",
+      "BusinessEurope pour les employeurs, ETUC pour les syndicats et CEEP pour les entreprises publiques",
+      "L'UE elle-même est le seul interlocuteur social reconnu par les traités",
+      "La Commission européenne et le Médiateur représentent les intérêts des travailleurs"
+    ],
+    "correct": 1,
+    "explanation": "Le dialogue social européen implique principalement : BusinessEurope (fédération patronale européenne), ETUC (Confédération européenne des syndicats) et CEEP (entreprises publiques). Ces partenaires sociaux peuvent négocier des accords-cadres européens qui peuvent ensuite être transposés en directives (ex : congé parental, temps partiel, contrats à durée déterminée)."
+  },
+  {
+    "id": "eu3_080",
+    "category": "eu",
+    "categoryLabel": "Connaissances UE",
+    "theme": "Mécanismes de contrôle démocratique",
+    "difficulty": 2,
+    "text": "Comment le Parlement européen exerce-t-il son contrôle sur le budget de l'UE ?",
+    "options": [
+      "Il vote le budget annuel conjointement avec le Conseil et approuve la décharge",
+      "Il supervise directement la Cour des comptes européenne dans ses missions d'audit",
+      "Il peut bloquer l'exécution du budget par une majorité simple des eurodéputés",
+      "Il délègue le contrôle budgétaire à la Commission, qui lui rend ensuite compte"
+    ],
+    "correct": 0,
+    "explanation": "Le PE exerce un double contrôle budgétaire : il co-décide du budget annuel avec le Conseil (et dispose d'un droit d'amendement et de rejet), et il vote la décharge (quitus) à la Commission sur l'exécution du budget. Le refus de décharge (1999, Commission Santer) peut entraîner la démission de la Commission, mais n'est pas contraignant juridiquement."
+  }
+]
