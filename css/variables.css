@@ -1,0 +1,22 @@
+/* ============================================================
+   VARIABLES & RESET
+   ============================================================ */
+:root {
+  --eu-blue: #003399; --eu-blue-dark: #001f66; --eu-blue-mid: #0044cc;
+  --eu-blue-light: #e8eeff; --eu-gold: #FFCC00; --eu-gold-dark: #cc9900;
+  --white: #ffffff; --gray-100: #f4f5f7; --gray-200: #e8e9ec;
+  --gray-400: #9ba3af; --gray-600: #5a6272; --gray-800: #2c3142;
+  --success: #1a7a4a; --success-bg: #e6f5ee;
+  --danger: #c0392b;  --danger-bg: #fdf0ee;
+  --warning: #b8860b; --warning-bg: #fffbec;
+  --radius: 6px; --shadow: 0 2px 8px rgba(0,51,153,.10);
+  --shadow-lg: 0 6px 24px rgba(0,51,153,.15);
+  --font-h: Georgia,'Times New Roman',serif;
+  --font-b: 'Trebuchet MS',Calibri,sans-serif;
+  --sidebar-w: 220px; --tr: .2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-b);background:var(--gray-100);color:var(--gray-800);min-height:100vh}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer;font-family:var(--font-b)}
+input,textarea,select{font-family:var(--font-b)}

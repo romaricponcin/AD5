@@ -1,0 +1,116 @@
+{
+  "profile": {
+    "uuid": "40e6ed52-f40d-4933-a242-510e546c25be",
+    "name": "Romaric",
+    "createdAt": "2026-03-20T05:34:03.770Z"
+  },
+  "userData": {
+    "version": 2,
+    "questionProgress": {
+      "n005": {
+        "tag": "review",
+        "timesCorrect": 0,
+        "timesWrong": 1,
+        "lastSeen": "2026-03-20T05:36:04.653Z"
+      },
+      "n009": {
+        "tag": "consolidate",
+        "timesCorrect": 1,
+        "timesWrong": 0,
+        "lastSeen": "2026-03-20T05:36:24.248Z"
+      },
+      "n007": {
+        "tag": "consolidate",
+        "timesCorrect": 1,
+        "timesWrong": 0,
+        "lastSeen": "2026-03-20T05:36:38.749Z"
+      },
+      "n011": {
+        "tag": "review",
+        "timesCorrect": 0,
+        "timesWrong": 1,
+        "lastSeen": "2026-03-20T05:36:51.952Z"
+      },
+      "n003": {
+        "tag": "consolidate",
+        "timesCorrect": 1,
+        "timesWrong": 0,
+        "lastSeen": "2026-03-20T05:37:08.044Z"
+      },
+      "n010": {
+        "tag": "consolidate",
+        "timesCorrect": 1,
+        "timesWrong": 0,
+        "lastSeen": "2026-03-20T05:37:26.528Z"
+      },
+      "n006": {
+        "tag": "review",
+        "timesCorrect": 0,
+        "timesWrong": 1,
+        "lastSeen": "2026-03-20T05:37:35.669Z"
+      },
+      "n012": {
+        "tag": "consolidate",
+        "timesCorrect": 1,
+        "timesWrong": 0,
+        "lastSeen": "2026-03-20T05:37:43.512Z"
+      },
+      "n001": {
+        "tag": "review",
+        "timesCorrect": 0,
+        "timesWrong": 1,
+        "lastSeen": "2026-03-20T05:38:10.000Z"
+      },
+      "n002": {
+        "tag": "review",
+        "timesCorrect": 0,
+        "timesWrong": 1,
+        "lastSeen": "2026-03-20T05:38:17.351Z"
+      }
+    },
+    "sessions": [
+      {
+        "id": "1773985098671",
+        "date": "2026-03-20T05:38:18.671Z",
+        "score": 50,
+        "correct": 5,
+        "total": 10,
+        "durationSec": 165,
+        "mode": "simulation",
+        "weaknesses": [
+          "Raisonnement Numérique"
+        ]
+      }
+    ],
+    "customQuestions": [],
+    "wikiEntries": [
+      {
+        "id": "w001",
+        "title": "Les 7 institutions de l'UE",
+        "content": "**Les 7 institutions officielles** (art. 13 TUE) :\n\n1. **Parlement européen** — Élu au suffrage universel (720 membres depuis 2024).\n2. **Conseil européen** — Chefs d'État. Donne les impulsions politiques.\n3. **Conseil de l'UE** — Ministres des États membres. Co-législateur.\n4. **Commission européenne** — 27 commissaires. Droit d'initiative législative.\n5. **CJUE** — Cour de justice + Tribunal.\n6. **BCE** — Politique monétaire zone euro.\n7. **Cour des comptes** — Contrôle financier.",
+        "tags": [
+          "institutions"
+        ],
+        "updatedAt": "2026-03-20T05:33:51.661Z"
+      },
+      {
+        "id": "w002",
+        "title": "Traités — Chronologie essentielle",
+        "content": "- **1957** : Traités de Rome → CEE + Euratom\n- **1992** : Maastricht → UE, citoyenneté, euro\n- **2009** : Lisbonne → Personnalité juridique, SEAE\n\n**Textes en vigueur** : TUE (55 articles) + TFUE (358 articles) + Charte des droits fondamentaux",
+        "tags": [
+          "traités"
+        ],
+        "updatedAt": "2026-03-20T05:33:51.661Z"
+      }
+    ],
+    "calendarStudied": {
+      "2026-03-20": true
+    },
+    "calendarNotes": {},
+    "goals": {
+      "dailyQuestions": 20
+    },
+    "streak": 1,
+    "lastStudiedDate": null
+  }
+}

@@ -1,0 +1,42 @@
+/* ============================================================
+   QUIZ — TEXT & SVG
+   ============================================================ */
+#quiz-area{max-width:720px;margin:0 auto}
+.question-card{background:var(--white);border-radius:8px;box-shadow:var(--shadow);padding:22px;animation:fadeIn .25s ease}
+.question-meta{display:flex;gap:8px;margin-bottom:12px;align-items:center;flex-wrap:wrap}
+.question-number{font-size:11px;color:var(--gray-400);font-weight:600;text-transform:uppercase;letter-spacing:1px}
+.question-text{font-size:15px;line-height:1.65;color:var(--gray-800);margin-bottom:18px;font-family:var(--font-h)}
+.options-list{display:flex;flex-direction:column;gap:9px}
+.option-btn{display:flex;align-items:flex-start;gap:11px;padding:11px 15px;border:2px solid var(--gray-200);border-radius:var(--radius);background:var(--white);text-align:left;font-size:13px;line-height:1.5;color:var(--gray-800);transition:all var(--tr);width:100%}
+.option-btn:hover:not(:disabled){border-color:var(--eu-blue);background:var(--eu-blue-light)}
+.option-btn .opt-letter{min-width:24px;height:24px;background:var(--gray-200);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--gray-600);flex-shrink:0;margin-top:1px}
+.option-btn.correct{border-color:var(--success);background:var(--success-bg)}
+.option-btn.correct .opt-letter{background:var(--success);color:var(--white)}
+.option-btn.incorrect{border-color:var(--danger);background:var(--danger-bg)}
+.option-btn.incorrect .opt-letter{background:var(--danger);color:var(--white)}
+.explanation-box{margin-top:14px;padding:12px;border-radius:var(--radius);font-size:13px;line-height:1.6;animation:fadeIn .2s ease}
+.timer-display{font-family:'Courier New',monospace;font-size:24px;font-weight:700;color:var(--eu-blue);text-align:center;padding:6px 0}
+.timer-display.urgent{color:var(--danger);animation:pulse .5s ease infinite alternate}
+@keyframes pulse{from{opacity:1}to{opacity:.6}}
+.quiz-progress{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.bar-mini{flex:1;background:var(--gray-200);border-radius:20px;height:7px;overflow:hidden}
+.bar-mini-fill{height:100%;background:var(--eu-gold);border-radius:20px;transition:width .4s}
+.result-circle{width:100px;height:100px;border-radius:50%;border:5px solid var(--eu-blue);display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 auto 14px}
+.result-circle .pct{font-family:var(--font-h);font-size:26px;font-weight:700;color:var(--eu-blue)}
+.result-circle .pct-label{font-size:10px;color:var(--gray-400)}
+
+/* SVG ABSTRACT REASONING */
+.svg-question-area{text-align:center;margin-bottom:20px}
+.svg-pattern-label{font-size:12px;color:var(--gray-400);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.svg-matrix-grid{display:inline-grid;grid-template-columns:repeat(3,84px);gap:3px;border:2px solid var(--gray-800);padding:3px;border-radius:4px;background:var(--gray-800)}
+.svg-sequence-row{display:inline-flex;gap:3px;align-items:center;border:2px solid var(--gray-800);padding:3px;border-radius:4px;background:var(--gray-800)}
+.svg-cell{width:84px;height:84px;background:var(--white);display:flex;align-items:center;justify-content:center}
+.svg-cell.missing{background:#f0f4ff;border:2px dashed var(--eu-blue)}
+.svg-cell.question-mark{font-size:28px;color:var(--eu-blue);font-weight:700}
+.svg-options-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:440px;margin:0 auto}
+.svg-opt-btn{display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 10px;border:2px solid var(--gray-200);border-radius:var(--radius);background:var(--white);cursor:pointer;transition:all var(--tr)}
+.svg-opt-btn:hover:not(:disabled){border-color:var(--eu-blue);background:var(--eu-blue-light)}
+.svg-opt-btn .opt-label{font-size:12px;font-weight:700;color:var(--gray-600)}
+.svg-opt-btn.correct{border-color:var(--success);background:var(--success-bg)}
+.svg-opt-btn.incorrect{border-color:var(--danger);background:var(--danger-bg)}
+.svg-opt-btn:disabled{opacity:.8}

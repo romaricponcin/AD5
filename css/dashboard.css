@@ -1,0 +1,42 @@
+/* ============================================================
+   DASHBOARD CHARTS
+   ============================================================ */
+#bar-chart-container{display:flex;align-items:flex-end;gap:7px;height:110px;padding:0 4px}
+.bar-group{display:flex;flex-direction:column;align-items:center;flex:1}
+.bar-wrap{flex:1;display:flex;align-items:flex-end;width:100%}
+.bar{width:100%;background:linear-gradient(180deg,var(--eu-blue-mid),var(--eu-blue));border-radius:3px 3px 0 0;transition:height .5s ease;min-height:0}
+.bar-label{font-size:10px;color:var(--gray-400);margin-top:4px}
+.bar-val{font-size:10px;color:var(--eu-blue);font-weight:700;margin-bottom:2px}
+.cat-progress-item{margin-bottom:12px}
+.cat-progress-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
+.cat-progress-name{font-size:12.5px;font-weight:600}
+.cat-progress-pct{font-size:11px;color:var(--gray-600)}
+.motivational-banner{background:linear-gradient(135deg,var(--eu-blue-dark),var(--eu-blue));color:var(--white);border-radius:var(--radius);padding:12px 18px;margin-bottom:18px;display:flex;align-items:center;gap:12px;box-shadow:var(--shadow)}
+.motivational-banner .motto{font-family:var(--font-h);font-style:italic;font-size:13.5px;color:rgba(255,255,255,.85)}
+
+/* WIKI */
+.wiki-item{display:flex;align-items:center;gap:11px;padding:10px 13px;border-radius:var(--radius);border:1px solid var(--gray-200);margin-bottom:7px;cursor:pointer;transition:all var(--tr);background:var(--white)}
+.wiki-item:hover{border-color:var(--eu-blue);background:var(--eu-blue-light)}
+.wiki-info{flex:1}
+.wiki-title{font-size:13.5px;font-weight:600;color:var(--gray-800)}
+.wiki-meta{font-size:11px;color:var(--gray-400);margin-top:2px}
+.wiki-content{line-height:1.75;font-size:13.5px;white-space:pre-wrap;word-break:break-word}
+
+/* CALENDAR */
+.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px}
+.cal-header{font-size:10.5px;font-weight:700;text-align:center;padding:5px 0;color:var(--eu-blue);text-transform:uppercase;letter-spacing:.5px}
+.cal-day{aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:var(--radius);font-size:11.5px;cursor:pointer;border:1.5px solid transparent;transition:all var(--tr);position:relative;background:var(--gray-100);color:var(--gray-600)}
+.cal-day:hover{border-color:var(--eu-blue);background:var(--eu-blue-light)}
+.cal-day.today{border-color:var(--eu-gold);background:#fffbec;font-weight:700;color:var(--eu-blue-dark)}
+.cal-day.studied{background:var(--success-bg);border-color:var(--success);color:var(--success);font-weight:700}
+.cal-day.studied::after{content:'✓';position:absolute;bottom:2px;font-size:9px}
+.cal-day.other-month{opacity:.3;cursor:default}
+.cal-day.has-note::before{content:'';position:absolute;top:3px;right:3px;width:5px;height:5px;background:var(--eu-blue);border-radius:50%}
+
+/* MISC */
+.session-score-high{color:var(--success);font-weight:700}
+.session-score-mid{color:var(--warning);font-weight:700}
+.session-score-low{color:var(--danger);font-weight:700}
+
+/* IMPORT/EXPORT */
+.link-copy-box{display:flex;gap:8px;align-items:center;padding:10px 14px;background:var(--gray-100);border-radius:var(--radius);border:1px solid var(--gray-200);font-size:12px;color:var(--gray-600);word-break:break-all;margin:12px 0}
