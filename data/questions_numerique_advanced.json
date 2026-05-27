@@ -11,8 +11,8 @@
     "id":"n102","category":"numerical","categoryLabel":"Raisonnement Numérique",
     "text":"TABLEAU — Consommation d'énergie par secteur industriel (en Mtep) :\n• Acier : 2002=62 | 2003=63 | 2004=65 | 2005=63 | 2006=63 | 2007=62\n• Total industrie : 2002=326 | 2003=332 | 2004=332 | 2005=326 | 2006=320 | 2007=323\n\nEn quelle année l'industrie de l'acier représentait-elle la plus forte proportion de la consommation d'énergie totale de l'industrie ?",
     "options":["2004","2005","2006","2007"],
-    "correct":0,
-    "explanation":"Calculons les ratios Acier/Total : 2004 : 65/332 = 19,6% | 2005 : 63/326 = 19,3% | 2006 : 63/320 = 19,7% | 2007 : 62/323 = 19,2%. Le maximum est en 2006 (19,7%). Attention : la question demande la PROPORTION, pas la valeur absolue. 2006 : 63/320 = 19,69% est le max.",
+    "correct":2,
+    "explanation":"Calculons les ratios Acier/Total : 2004 : 65/332 = 19,6% | 2005 : 63/326 = 19,3% | 2006 : 63/320 = 19,7% | 2007 : 62/323 = 19,2%. Le maximum est en 2006 (19,7%).",
     "difficulty":3
   },
   {

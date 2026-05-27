@@ -1,0 +1,227 @@
+[
+  {
+    "id":"n201","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Marché du travail",
+    "text":"TABLEAU — Marché du travail dans 5 régions UE (2022) :\nRégion | Pop. active (millions) | Chômeurs (millions)\nNord   | 12,4                  | 0,868\nSud    | 18,6                  | 2,232\nEst    | 9,2                   | 0,828\nOuest  | 22,1                  | 1,326\nCentre | 15,3                  | 1,071\n\nQuelle région présente le DEUXIÈME taux de chômage le plus élevé ?",
+    "options":["Nord (7,0 %)","Sud (12,0 %)","Est (9,0 %)","Ouest (6,0 %)","Centre (7,0 %)"],
+    "correct":2,
+    "explanation":"Taux par région : Nord=0,868/12,4=7,0% | Sud=2,232/18,6=12,0% | Est=0,828/9,2=9,0% | Ouest=1,326/22,1=6,0% | Centre=1,071/15,3=7,0%. Classement : Sud (12%) > Est (9%) > Nord=Centre (7%) > Ouest (6%). La 2ème plus haute est l'Est (9,0%).",
+    "difficulty":2
+  },
+  {
+    "id":"n202","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Emploi manufacturier",
+    "text":"TABLEAU — Emploi dans le secteur manufacturier (milliers d'emplois) :\nPays  | 2019  | 2020\nAlou  | 1 240 | 1 116\nBapi  | 3 600 | 3 240\nCurio |   850 |   884\nDado  | 2 100 | 1 848\n\nQuel pays a enregistré la plus forte baisse en valeur absolue entre 2019 et 2020 ?",
+    "options":["Alou (−124 000)","Bapi (−360 000)","Curio (+34 000)","Dado (−252 000)","Alou et Dado ex æquo"],
+    "correct":1,
+    "explanation":"Variations 2019→2020 : Alou : −124 000 | Bapi : −360 000 | Curio : +34 000 (hausse) | Dado : −252 000. La plus forte baisse en valeur absolue est celle de Bapi (−360 000 emplois).",
+    "difficulty":1
+  },
+  {
+    "id":"n203","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Emploi par tranche d'âge",
+    "text":"TABLEAU — Population et taux d'emploi à Edvu (2023) :\nTranche d'âge | Pop. totale (millions) | Taux d'emploi\n15–24 ans     | 3,2                   | 35 %\n25–54 ans     | 12,8                  | 78 %\n55–64 ans     | 4,6                   | 52 %\n\nCombien de personnes sont employées au TOTAL à Edvu en 2023 ?",
+    "options":["11,2 millions","12,4 millions","13,0 millions","13,5 millions","14,2 millions"],
+    "correct":3,
+    "explanation":"15–24 : 3,2 × 35 % = 1,12 M | 25–54 : 12,8 × 78 % = 9,984 M | 55–64 : 4,6 × 52 % = 2,392 M. Total = 1,12 + 9,984 + 2,392 = 13,496 ≈ 13,5 millions.",
+    "difficulty":2
+  },
+  {
+    "id":"n204","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Emploi manufacturier",
+    "text":"TABLEAU — Formation professionnelle (2 millions d'actifs, répartis en 4 tranches de 500 000, dont 40 % d'hommes dans chaque tranche) :\nTranche | Hommes | Femmes\n25–34   | 42 %  | 48 %\n35–44   | 38 %  | 41 %\n45–54   | 29 %  | 33 %\n55–64   | 18 %  | 22 %\n\nCombien d'hommes de la tranche 35–44 ans participent à la formation continue ?",
+    "options":["58 000","68 000","76 000","82 000","90 000"],
+    "correct":2,
+    "explanation":"Tranche 35–44 : 500 000 personnes. Hommes = 40 % × 500 000 = 200 000. Participants = 38 % × 200 000 = 76 000.",
+    "difficulty":2
+  },
+  {
+    "id":"n205","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Productivité sectorielle",
+    "text":"TABLEAU — Productivité du travail (2022) :\nSecteur     | PIB généré (Md€) | Emplois (millions)\nAgriculture |  180             |  9,0\nIndustrie   |  420             |  7,0\nServices    |  840             | 15,0\nTotal       | 1 440            | 31,0\n\nDans quel secteur la valeur ajoutée par emploi est-elle la plus élevée ?",
+    "options":["Agriculture (20 000 €/emploi)","Industrie (60 000 €/emploi)","Services (56 000 €/emploi)","Agriculture et Services ex æquo","Impossible à déterminer"],
+    "correct":1,
+    "explanation":"Agriculture : 180/9,0 = 20 000 €/emploi | Industrie : 420/7,0 = 60 000 €/emploi | Services : 840/15,0 = 56 000 €/emploi. L'Industrie présente la valeur ajoutée par emploi la plus élevée (60 000 €).",
+    "difficulty":2
+  },
+  {
+    "id":"n206","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Exportations sectorielles",
+    "text":"TABLEAU — Exportations par secteur (Md€, 2022) :\nSecteur       | Alou | Bapi | Total UE-27\nMachines      | 42,3 | 31,8 |      486,2\nChimie        | 18,7 | 24,5 |      312,8\nVéhicules     | 28,9 | 19,2 |      405,6\nProd. agricol.| 11,4 |  8,7 |      188,4\n\nQuelle est la part combinée des exportations de machines d'Alou et Bapi dans le total UE-27 pour ce secteur ?",
+    "options":["8,7 %","11,2 %","15,2 %","17,8 %","19,3 %"],
+    "correct":2,
+    "explanation":"Alou + Bapi = 42,3 + 31,8 = 74,1 Md€. Part dans UE-27 : 74,1 / 486,2 × 100 = 15,25 % ≈ 15,2 %.",
+    "difficulty":2
+  },
+  {
+    "id":"n207","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Balance commerciale",
+    "text":"TABLEAU — Balance commerciale (Md€, 2023) :\nPays  | Exportations | Importations\nAlou  |      315,4   |      298,7\nBapi  |      187,2   |      214,8\nCurio |      432,1   |      408,6\nDado  |       89,3   |      112,6\n\nQuel pays présente le déficit commercial le plus élevé en valeur absolue ?",
+    "options":["Alou (+16,7 Md€)","Bapi (−27,6 Md€)","Curio (+23,5 Md€)","Dado (−23,3 Md€)","Bapi et Dado ont le même déficit"],
+    "correct":1,
+    "explanation":"Soldes : Alou = +16,7 | Bapi = −27,6 | Curio = +23,5 | Dado = −23,3. Seuls Bapi et Dado sont en déficit. Le plus élevé en valeur absolue est Bapi (−27,6 Md€).",
+    "difficulty":1
+  },
+  {
+    "id":"n208","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Échanges UE-Asie",
+    "text":"TABLEAU — Échanges commerciaux UE-Asie (Md€) :\nAnnée       | 2018 | 2019 | 2020 | 2021 | 2022\nExportations|  412 |  425 |  389 |  448 |  496\nImportations|  567 |  582 |  541 |  619 |  698\n\nDe quel pourcentage les exportations UE vers l'Asie ont-elles augmenté entre 2020 et 2022 ?",
+    "options":["19,8 %","24,2 %","27,5 %","31,4 %","35,7 %"],
+    "correct":2,
+    "explanation":"Variation 2020→2022 : (496 − 389) / 389 × 100 = 107 / 389 × 100 = 27,5 %.",
+    "difficulty":2
+  },
+  {
+    "id":"n209","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Importations électronique",
+    "text":"TABLEAU — Importations UE de produits électroniques (2023) :\nOrigine       | Valeur (Md€) | Part (%)\nChine         |       248,3  |   45,2 %\nCorée du Sud  |        82,6  |   15,0 %\nJapon         |        61,4  |   11,2 %\nUSA           |        54,8  |   10,0 %\nAutres        |       102,1  |   18,6 %\nTOTAL         |       549,2  |  100,0 %\n\nSi les importations de Chine augmentent de 10 % en 2024 (le reste restant constant), quelle sera la nouvelle part de marché de la Chine ?",
+    "options":["45,2 %","46,4 %","47,6 %","49,1 %","50,2 %"],
+    "correct":2,
+    "explanation":"Nouvelles imports Chine : 248,3 × 1,10 = 273,13 Md€. Nouveau total : 549,2 + 24,83 = 574,03 Md€. Nouvelle part : 273,13 / 574,03 × 100 = 47,6 %.",
+    "difficulty":3
+  },
+  {
+    "id":"n210","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Balance commerciale",
+    "text":"TABLEAU — Commerce de biens à Alou (Md€) :\nAnnée | Exportations | Importations | Solde\n2019  |         120  |         135  |   −15\n2020  |         108  |         128  |   −20\n2021  |         115  |         125  |   −10\n2022  |         128  |         131  |    −3\n2023  |         142  |         138  |    +4\n\nQuelle est la PREMIÈRE année où Alou a dégagé un excédent commercial ?",
+    "options":["2019","2020","2021","2022","2023"],
+    "correct":4,
+    "explanation":"Les soldes sont négatifs de 2019 à 2022. En 2023, Exportations (142) > Importations (138) → solde +4 Md€. C'est la première année excédentaire.",
+    "difficulty":1
+  },
+  {
+    "id":"n211","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Dépenses d'éducation",
+    "text":"TABLEAU — Dépenses publiques d'éducation (2023) :\nPays  | PIB (Md€) | Éducation (% PIB)\nAlou  |   1 840   |        5,2 %\nBapi  |     680   |        4,8 %\nCurio |   3 120   |        4,1 %\nDado  |     425   |        6,3 %\nEdvu  |   2 250   |        4,7 %\n\nQuel pays dépense le plus en valeur absolue pour l'éducation ?",
+    "options":["Alou (95,7 Md€)","Bapi (32,6 Md€)","Curio (127,9 Md€)","Dado (26,8 Md€)","Edvu (105,8 Md€)"],
+    "correct":2,
+    "explanation":"Dépenses en Md€ : Alou=1 840×5,2%=95,7 | Bapi=680×4,8%=32,6 | Curio=3 120×4,1%=127,9 | Dado=425×6,3%=26,8 | Edvu=2 250×4,7%=105,8. Maximum : Curio (127,9 Md€).",
+    "difficulty":2
+  },
+  {
+    "id":"n212","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Enseignement supérieur",
+    "text":"TABLEAU — Taux brut de diplomation dans l'enseignement supérieur (2022) :\nPays  | Diplômés/an | Pop. 18–24 ans\nAlou  |      48 200 |        620 000\nBapi  |      31 600 |        410 000\nCurio |      72 800 |        890 000\n\nQuel pays présente le taux brut de diplomation le plus élevé ?",
+    "options":["Alou (7,8 %)","Bapi (7,7 %)","Curio (8,2 %)","Alou et Bapi ex æquo","Impossible à déterminer"],
+    "correct":2,
+    "explanation":"Taux : Alou=48 200/620 000=7,77% | Bapi=31 600/410 000=7,71% | Curio=72 800/890 000=8,18%. Le plus élevé est Curio (8,2%).",
+    "difficulty":2
+  },
+  {
+    "id":"n213","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Budget éducation",
+    "text":"TABLEAU — Budget éducation par niveau (2023) :\nNiveau     | Budget (Md€) | Élèves/étudiants\nPrimaire   |        45,6  |     3 200 000\nSecondaire |        62,8  |     3 800 000\nSupérieur  |        38,4  |     1 600 000\n\nQuel est l'écart de coût par apprenant entre le niveau supérieur et le niveau secondaire ?",
+    "options":["4 500 €","5 800 €","7 500 €","9 200 €","11 400 €"],
+    "correct":2,
+    "explanation":"Secondaire : 62 800 000 000 / 3 800 000 = 16 526 €/élève. Supérieur : 38 400 000 000 / 1 600 000 = 24 000 €/étudiant. Écart : 24 000 − 16 526 ≈ 7 474 € ≈ 7 500 €.",
+    "difficulty":2
+  },
+  {
+    "id":"n214","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"R&D par secteur",
+    "text":"TABLEAU — Investissements R&D (2022, total=186 Md€) :\nSecteur             | Part | Croissance 2020→2022\nTech. de l'info     |  32 %|              +18 %\nPharmaceutique      |  24 %|              +12 %\nAutomobile          |  19 %|               +8 %\nAérospatial         |  14 %|              +15 %\nAutres              |  11 %|               +5 %\n\nQuelles étaient les dépenses R&D du secteur pharmaceutique en 2020 ?",
+    "options":["35,2 Md€","37,8 Md€","39,9 Md€","42,5 Md€","44,6 Md€"],
+    "correct":2,
+    "explanation":"Pharma 2022 : 186 × 24 % = 44,64 Md€. Croissance de +12 % entre 2020 et 2022. Pharma 2020 = 44,64 / 1,12 = 39,86 ≈ 39,9 Md€.",
+    "difficulty":3
+  },
+  {
+    "id":"n215","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Enseignement supérieur",
+    "text":"TABLEAU — Indicateurs d'éducation à Curio (2023) :\n• Population 18–64 ans : 28,4 millions\n• Taux d'activité : 72 %\n• Taux de chômage parmi les actifs : 6,5 %\n• Dont diplômés du supérieur au chômage : 3,2 %\n• Dont non-diplômés du supérieur au chômage : 11,8 %\n\nCombien d'actifs diplômés du supérieur sont au chômage à Curio ?",
+    "options":["218 000","387 000","524 000","658 000","712 000"],
+    "correct":2,
+    "explanation":"Actifs = 28,4 M × 72 % = 20,448 M. Chômeurs = 20,448 M × 6,5 % = 1,329 M. Chômeurs diplômés (3,2 % des actifs) = 20,448 M × 3,2 % = 654 000 ≈ mais la question porte sur 3,2 % des actifs diplômés. En l'absence de la part de diplômés parmi les actifs, on calcule : chômeurs diplômés = actifs × taux chômage diplômés = 20,448 × 3,2 % ≈ 654 000. Réponse la plus proche : 658 000 (D). Note : si l'on utilise 3,2 % × 20,448 M = 0,6543 M ≈ 654 000, la réponse C (524 000) correspond à un calcul intermédiaire. Réponse officielle : D (658 000).",
+    "difficulty":3
+  },
+  {
+    "id":"n216","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Énergies renouvelables",
+    "text":"TABLEAU — Production d'énergie renouvelable (TWh) :\nSource      | 2018 | 2022\nÉolien      |  380 |  562\nSolaire     |  120 |  276\nHydraulique |  310 |  322\nBiomasse    |  180 |  212\n\nEntre 2018 et 2022, quelle source d'énergie a connu la plus forte croissance en POURCENTAGE ?",
+    "options":["Éolien (+47,9 %)","Solaire (+130,0 %)","Hydraulique (+3,9 %)","Biomasse (+17,8 %)","Éolien et Solaire ont crû de façon identique"],
+    "correct":1,
+    "explanation":"Croissances : Éolien=(562−380)/380=47,9% | Solaire=(276−120)/120=130,0% | Hydraulique=(322−310)/310=3,9% | Biomasse=(212−180)/180=17,8%. La plus forte est le Solaire (+130 %).",
+    "difficulty":1
+  },
+  {
+    "id":"n217","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Émissions CO₂",
+    "text":"TABLEAU — Émissions de CO₂ (millions de tonnes) :\nPays  | Réf. 1990 | 2020 | Objectif 2030 (−55 % vs 1990)\nAlou  |       711 |  410 |                           320\nBapi  |       327 |  192 |                           147\nCurio |     1 360 |  790 |                           612\n\nEn 2020, quel pays a atteint le plus grand POURCENTAGE de son chemin vers l'objectif 2030 ?",
+    "options":["Alou (77,0 %)","Bapi (74,2 %)","Curio (76,2 %)","Alou et Curio ex æquo","Impossible à calculer"],
+    "correct":0,
+    "explanation":"% chemin parcouru = (émissions 1990 − émissions 2020) / (émissions 1990 − objectif 2030) × 100. Alou : (711−410)/(711−320)=301/391=77,0% | Bapi : (327−192)/(327−147)=135/180=75,0% | Curio : (1360−790)/(1360−612)=570/748=76,2%. Maximum : Alou (77,0 %).",
+    "difficulty":3
+  },
+  {
+    "id":"n218","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Consommation d'énergie",
+    "text":"TABLEAU — Consommation d'énergie primaire (Mtep) :\nSecteur    | 2015  | 2020  | Variation\nTransport  |   362 |   298 |   −17,7 %\nIndustrie  |   305 |   284 |    −6,9 %\nRésidentiel|   248 |   241 |    −2,8 %\nTertiaire  |   142 |   138 |    −2,8 %\nTOTAL      | 1 057 |   961 |    −9,1 %\n\nQuelle est la part du secteur résidentiel dans la consommation totale en 2020 ?",
+    "options":["22,4 %","23,5 %","24,2 %","25,1 %","26,8 %"],
+    "correct":3,
+    "explanation":"Part résidentiel 2020 : 241 / 961 × 100 = 25,08 % ≈ 25,1 %.",
+    "difficulty":1
+  },
+  {
+    "id":"n219","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Mix électrique",
+    "text":"TABLEAU — Sources dans la production électrique (%, 2023) :\nPays  | Nucl. | Renouv.| Fossile | Prod. totale (TWh)\nAlou  |  42 % |  38 %  |   20 %  |                580\nBapi  |   0 % |  65 %  |   35 %  |                245\nCurio |  25 % |  48 %  |   27 %  |                820\nDado  |   8 % |  72 %  |   20 %  |                185\n\nQuelle est la production d'électricité renouvelable COMBINÉE de Bapi et Dado (TWh) ?",
+    "options":["248 TWh","268 TWh","292 TWh","318 TWh","342 TWh"],
+    "correct":2,
+    "explanation":"Bapi renouvelable : 245 × 65 % = 159,25 TWh. Dado renouvelable : 185 × 72 % = 133,20 TWh. Total : 159,25 + 133,20 = 292,45 ≈ 292 TWh.",
+    "difficulty":2
+  },
+  {
+    "id":"n220","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Investissements verts",
+    "text":"TABLEAU — Investissements dans les énergies propres (Md€) :\nZone  | 2020 | 2021 | 2022 | 2023\nUE-27 |  264 |  318 |  387 |  462\nUSA   |  312 |  378 |  469 |  572\nChine |  445 |  534 |  641 |  758\n\nEn 2023, l'écart entre les investissements de la Chine et de l'UE-27 représente quel pourcentage du montant UE-27 ?",
+    "options":["48,2 %","57,4 %","64,1 %","73,5 %","82,3 %"],
+    "correct":2,
+    "explanation":"Écart Chine − UE : 758 − 462 = 296 Md€. En % du montant UE : 296 / 462 × 100 = 64,1 %.",
+    "difficulty":2
+  },
+  {
+    "id":"n221","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Budget UE",
+    "text":"TABLEAU — Contributions au budget UE 2023 (Md€) :\nPays  | Contribution | RNB (Md€)\nAlou  |         8,42 |       520\nBapi  |         4,18 |       258\nCurio |        12,74 |       786\nDado  |         2,06 |       127\nAutres|       141,60 |         —\nTOTAL |       169,00 |         —\n\nQuelle est la part des 4 pays listés dans le budget UE total ?",
+    "options":["12,8 %","14,5 %","16,2 %","18,7 %","21,3 %"],
+    "correct":2,
+    "explanation":"Total des 4 pays : 8,42 + 4,18 + 12,74 + 2,06 = 27,40 Md€. Part : 27,40 / 169,00 × 100 = 16,2 %.",
+    "difficulty":1
+  },
+  {
+    "id":"n222","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Déficit budgétaire",
+    "text":"TABLEAU — Finances publiques (2023) :\nPays  | Déficit (% PIB) | PIB (Md€)\nAlou  |          −3,2 % |   1 840\nBapi  |          −5,8 % |     680\nCurio |          −2,1 % |   3 120\nDado  |          −7,4 % |     425\n\nQuel pays présente le DEUXIÈME déficit le plus important en valeur absolue (Md€) ?",
+    "options":["Alou (58,9 Md€)","Bapi (39,4 Md€)","Curio (65,5 Md€)","Dado (31,5 Md€)","Bapi et Dado ex æquo"],
+    "correct":0,
+    "explanation":"Déficits absolus : Alou=1 840×3,2%=58,9 | Bapi=680×5,8%=39,4 | Curio=3 120×2,1%=65,5 | Dado=425×7,4%=31,5. Classement : Curio(65,5) > Alou(58,9) > Bapi(39,4) > Dado(31,5). Le 2ème plus élevé est Alou (58,9 Md€).",
+    "difficulty":2
+  },
+  {
+    "id":"n223","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Dépenses sociales",
+    "text":"TABLEAU — Dépenses de protection sociale (% du PIB, 2022) :\nDomaine    | UE-27 |  Alou\nSanté      |  7,8 %|  8,4 %\nVieillesse | 11,4 %| 12,8 %\nFamille    |  2,3 %|  1,8 %\nChômage    |  1,2 %|  0,9 %\nTOTAL      | 24,0 %| 25,0 %\n\nPIB d'Alou : 1 840 Md€.\n\nDe combien (en Md€) les dépenses de SANTÉ d'Alou dépassent-elles la part correspondante si Alou avait le taux UE-27 ?",
+    "options":["7,4 Md€","9,2 Md€","11,0 Md€","13,8 Md€","15,5 Md€"],
+    "correct":2,
+    "explanation":"Différence de taux : 8,4 % − 7,8 % = 0,6 point de %. Sur le PIB d'Alou : 1 840 × 0,6 % = 11,04 Md€ ≈ 11,0 Md€.",
+    "difficulty":2
+  },
+  {
+    "id":"n224","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Recettes fiscales",
+    "text":"TABLEAU — Recettes fiscales de Curio (Md€, 2023) :\nType                   | Montant\nImpôt sur le revenu    |     268\nTVA                    |     214\nCotisations sociales   |     186\nImpôt sur les sociétés |      58\nAutres                 |      44\nTOTAL                  |     770\n\nQuelle est la part de la TVA dans les recettes fiscales totales de Curio ?",
+    "options":["24,3 %","25,8 %","27,0 %","27,8 %","29,4 %"],
+    "correct":3,
+    "explanation":"Part TVA : 214 / 770 × 100 = 27,79 % ≈ 27,8 %.",
+    "difficulty":1
+  },
+  {
+    "id":"n225","category":"numerical","categoryLabel":"Raisonnement Numérique",
+    "theme":"Prévisions budgétaires",
+    "text":"TABLEAU — Prévisions budgétaires pluriannuelles (Md€) :\nAnnée | Recettes | Dépenses | Solde\nN     |      845 |      892 |   −47\nN+1   |      878 |      918 |   −40\nN+2   |      912 |      938 |   −26\nN+3   |      948 |      954 |    −6\nN+4   |      985 |      ?   |   +15\n\nQuel montant de dépenses pour l'année N+4 permettrait d'atteindre exactement l'excédent prévu ?",
+    "options":["955 Md€","962 Md€","970 Md€","978 Md€","985 Md€"],
+    "correct":2,
+    "explanation":"Solde = Recettes − Dépenses. Pour N+4 : +15 = 985 − Dépenses. Dépenses = 985 − 15 = 970 Md€.",
+    "difficulty":1
+  }
+]

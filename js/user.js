@@ -14,22 +14,46 @@ function uuidv4() {
   });
 }
 
+function rememberLastUser(id) {
+  try { localStorage.setItem(CFG.LAST_USER_KEY, id); } catch(e) {}
+}
+
 export function createUser() {
-  const name = (document.getElementById('login-name').value||'').trim();
-  if (!name) {
-    document.getElementById('login-name').style.borderColor = 'var(--danger)';
-    return;
+  const sel = document.getElementById('login-select');
+  const selVal = sel ? sel.value : '';
+  let id, name;
+
+  if (selVal && selVal !== '__other__') {
+    // Utilisateur connu : slug stable
+    const known = CFG.KNOWN_USERS.find(u => u.id === selVal);
+    if (!known) { if (sel) sel.style.borderColor = 'var(--danger)'; return; }
+    id = known.id;
+    name = known.name;
+    if (!localStorage.getItem(CFG.USER_PREFIX + id)) {
+      try {
+        localStorage.setItem(CFG.USER_PREFIX + id, JSON.stringify({ uuid: id, name, createdAt: new Date().toISOString() }));
+      } catch(e) { alert("Erreur de stockage. Libérez de l'espace dans votre navigateur."); return; }
+    }
+  } else {
+    // Utilisateur libre : UUID aléatoire
+    name = (document.getElementById('login-name')?.value || '').trim();
+    if (!name) {
+      const inp = document.getElementById('login-name');
+      if (inp) inp.style.borderColor = 'var(--danger)';
+      else if (sel) sel.style.borderColor = 'var(--danger)';
+      return;
+    }
+    id = uuidv4();
+    try {
+      localStorage.setItem(CFG.USER_PREFIX + id, JSON.stringify({ uuid: id, name, createdAt: new Date().toISOString() }));
+    } catch(e) { alert("Erreur de stockage. Libérez de l'espace dans votre navigateur."); return; }
   }
-  const uuid = uuidv4();
-  const profile = { uuid, name, createdAt: new Date().toISOString() };
-  try {
-    localStorage.setItem(CFG.USER_PREFIX + uuid, JSON.stringify(profile));
-  } catch(e) { alert("Erreur de stockage. Libérez de l'espace dans votre navigateur."); return; }
-  loginUser(uuid, name);
+  loginUser(id, name);
 }
 
 export async function loginUser(uuid, name) {
   state.CURRENT_USER = uuid;
+  rememberLastUser(uuid);
   window.location.hash = 'u=' + uuid;
   document.getElementById('login-screen').classList.add('hidden');
   document.getElementById('app-shell').classList.remove('hidden');
@@ -51,7 +75,7 @@ export function updateUserUI(name) {
 }
 
 export function loadUserFromHash() {
-  const m = window.location.hash.match(/u=([a-f0-9-]+)/i);
+  const m = window.location.hash.match(/u=([a-zA-Z0-9_-]+)/);
   if (!m) return null;
   const uuid = m[1];
   try {
@@ -103,11 +127,17 @@ export function copyLink(url) {
 
 export function switchUser() {
   closeModal();
+  localStorage.removeItem(CFG.LAST_USER_KEY);
   state.CURRENT_USER = null;
   window.location.hash = '';
   document.getElementById('app-shell').classList.add('hidden');
   document.getElementById('login-screen').classList.remove('hidden');
-  document.getElementById('login-name').value = '';
+  const sel = document.getElementById('login-select');
+  if (sel) { sel.value = ''; sel.style.borderColor = ''; }
+  const inp = document.getElementById('login-name');
+  if (inp) { inp.value = ''; inp.classList.add('hidden'); inp.style.borderColor = ''; }
+  const btn = document.getElementById('btn-login');
+  if (btn) btn.textContent = 'Accéder à mon espace →';
 }
 
 export function exportProfile() {
@@ -162,4 +192,43 @@ export async function importFromURL() {
     showToast(`${newQs.length} question(s) importée(s) depuis l'URL ✓`);
     closeModal();
   } catch(e) { showAlert('Erreur : ' + e.message, 'danger'); }
+}
+
+export function populateLoginSelect() {
+  const sel = document.getElementById('login-select');
+  if (!sel) return;
+  const other = sel.querySelector('option[value="__other__"]');
+  sel.querySelectorAll('option:not([value=""]):not([value="__other__"])').forEach(o => o.remove());
+  CFG.KNOWN_USERS.forEach(u => {
+    const opt = document.createElement('option');
+    opt.value = u.id;
+    const hasData = !!localStorage.getItem(CFG.USER_PREFIX + u.id);
+    opt.textContent = u.name + (hasData ? ' ✓' : '');
+    if (hasData) opt.style.color = 'var(--success, #1a7a4a)';
+    if (other) sel.insertBefore(opt, other);
+    else sel.appendChild(opt);
+  });
+}
+
+export function onLoginSelectChange() {
+  const sel = document.getElementById('login-select');
+  const inp = document.getElementById('login-name');
+  if (!sel) return;
+  if (sel.value === '__other__') {
+    if (inp) { inp.classList.remove('hidden'); inp.focus(); }
+  } else {
+    if (inp) { inp.classList.add('hidden'); inp.value = ''; inp.style.borderColor = ''; }
+  }
+  _updateLoginBtn(sel.value);
+}
+
+function _updateLoginBtn(selVal) {
+  const btn = document.getElementById('btn-login');
+  if (!btn) return;
+  if (selVal && selVal !== '__other__') {
+    const hasData = !!localStorage.getItem(CFG.USER_PREFIX + selVal);
+    btn.textContent = hasData ? 'Reprendre ma session →' : 'Créer mon espace →';
+  } else {
+    btn.textContent = 'Accéder à mon espace →';
+  }
 }

@@ -12,7 +12,7 @@
       "Council of the EU",
       "European Council (EUCO)"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "The European Commission holds the near-exclusive right of legislative initiative under Article 17 TEU. The Parliament and Council can request proposals, but only the Commission can formally submit them."
   },
   {
@@ -103,8 +103,8 @@
     "difficulty": 2,
     "text": "How often does the European Council normally meet?",
     "options": [
-      "At least twice per",
-      "Monthly, 12 times per",
+      "At least twice per semester",
+      "Monthly, 12 times per year",
       "Once per semester",
       "Once per year minimum"
     ],
@@ -332,7 +332,7 @@
       "Customs union",
       "Education policy"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "The customs union is an exclusive EU competence (Article 3 TFEU): only the EU may act in this area. Environment and public health are shared or supporting competences. Education is a supporting competence where the EU may only coordinate."
   },
   {
@@ -364,7 +364,7 @@
       "Attribution principle",
       "Loyal cooperation"
     ],
-    "correct": 3,
+    "correct": 1,
     "explanation": "The subsidiarity principle (Article 5 TEU) applies to non-exclusive competences: the EU may only act if the objectives of the proposed action cannot be sufficiently achieved at national, regional or local level, but can be better achieved at Union level."
   },
   {
@@ -457,7 +457,7 @@
     "options": [
       "Cassis de Dijon (1979)",
       "Keck and Mithouard (1993)",
-      "Van Gend en",
+      "Van Gend en Loos (1963)",
       "Dassonville ruling (1974)"
     ],
     "correct": 3,
@@ -666,7 +666,7 @@
       "Licensing of digital services in the",
       "Digital skills training for public sector workers",
       "EU funding for broadband infrastructure",
-      "Obligations of platforms regarding illegal and"
+      "Obligations of platforms regarding illegal and harmful content"
     ],
     "correct": 3,
     "explanation": "The Digital Services Act (2022) establishes a new framework for online intermediary services. It introduces graduated obligations based on platform size, including enhanced duties for very large online platforms (VLOPs) on content moderation, transparency, and algorithmic accountability."
@@ -748,8 +748,8 @@
       "27",
       "29"
     ],
-    "correct": 2,
-    "explanation": "As of 2024, the Schengen Area has 27 members — including 25 EU Member States (Ireland is not a member) plus Iceland, Liechtenstein, Norway and Switzerland. Bulgaria and Romania fully joined in 2024."
+    "correct": 3,
+    "explanation": "As of 2024, the Schengen Area has 29 members — 25 EU Member States (Ireland and Cyprus are not full members) plus Iceland, Liechtenstein, Norway and Switzerland. Bulgaria and Romania fully joined in 2024 (air/sea borders March 2024, land borders January 2024)."
   },
   {
     "id": "eu4_048",
@@ -808,7 +808,7 @@
     "text": "Who holds the post of EU High Representative for Foreign Affairs and Security Policy?",
     "options": [
       "President of the European Commission",
-      "A dual-hatted VP of the",
+      "A dual-hatted VP of the Commission and chair of the FAC",
       "Rotating Presidency's Foreign Minister",
       "Secretary-General of the Council"
     ],
@@ -840,7 +840,7 @@
     "text": "What is the 'Strategic Compass' adopted by the EU in 2022?",
     "options": [
       "A common EU defence treaty replacing NATO",
-      "The EU's strategic framework on security and",
+      "The EU's strategic framework on security and defence to 2030",
       "An EU diplomatic strategy for the Eastern neighbourhood",
       "A rotating EU military command framework"
     ],

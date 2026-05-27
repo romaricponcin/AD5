@@ -113,7 +113,11 @@ export function setExamMode(category) {
 function buildQuizPool(category, count, quick) {
   if (category === 'abstract') {
     const n = count==='all' ? 10 : parseInt(count)||10;
-    return Array.from({length:n}, generateAbstractQuestion);
+    // Difficulté progressive : 1/3 facile, 1/3 moyen, 1/3 difficile
+    return Array.from({length:n}, (_,i) => {
+      const d = i < Math.ceil(n*0.3) ? 1 : i < Math.ceil(n*0.7) ? 2 : 3;
+      return generateAbstractQuestion(d);
+    });
   }
   let pool;
   if (quick || category === 'priority') {
@@ -141,7 +145,7 @@ function buildQuizPool(category, count, quick) {
 
 export function startAbstractOnly() {
   state.quizState = {
-    questions: Array.from({length:5}, generateAbstractQuestion),
+    questions: Array.from({length:5}, (_,i) => generateAbstractQuestion(i<2?1:i<4?2:3)),
     current:0, mode:'training', timerSec:0,
     startTime:Date.now(), answers:[], timer:null, questionStartTime:Date.now()
   };
@@ -232,7 +236,7 @@ function renderTextQuestion(q) {
 
 function renderSVGQuestion(q) {
   const patternHTML = q.patternType==='matrix' ? renderMatrixPattern(q) : renderSequencePattern(q);
-  const letters=['A','B','C','D'];
+  const letters=['A','B','C','D','E'];
   const cellSize=78;
 
   document.getElementById('quiz-runner').innerHTML=`
@@ -302,7 +306,7 @@ export function answerText(selected) {
   if (state.quizState.mode==='training') {
     document.getElementById('feedback-area').innerHTML=`
       <div class="explanation-box alert ${isCorrect?'alert-success':'alert-danger'}">
-        <strong>${isCorrect?'✓ Bonne réponse !':'✗ Incorrect. La bonne réponse était '+['A','B','C','D'][q.correct]+'.'}</strong>
+        <strong>${isCorrect?'✓ Bonne réponse !':'✗ Incorrect. La bonne réponse était '+['A','B','C','D','E'][q.correct]+'.'}</strong>
         <div style="margin-top:6px">${q.explanation}</div>
       </div>`;
   }

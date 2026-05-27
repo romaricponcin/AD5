@@ -293,15 +293,15 @@
     "categoryLabel": "Connaissances UE",
     "theme": "Groupes politiques PE",
     "difficulty": 2,
-    "text": "Combien de groupes politiques composent le Parlement européen ?",
+    "text": "Combien de groupes politiques composent le Parlement européen après les élections de juin 2024 ?",
     "options": [
-      "7 groupes politiques",
+      "8 groupes politiques",
       "5 groupes politiques",
       "9 groupes politiques",
       "12 groupes politiques"
     ],
     "correct": 0,
-    "explanation": "Le Parlement européen est composé de 7 groupes politiques, allant de l'extrême gauche à l'extrême droite : GUE/NGL (gauche), S&D (socialistes), Verts/ALE (écologistes), Renew (libéraux), PPE (droite/conservateurs), CRE (eurosceptiques conservateurs) et ID (identitaires). Les eurodéputés n'appartenant à aucun groupe sont 'non-inscrits'."
+    "explanation": "Depuis les élections de juin 2024, le Parlement européen compte 8 groupes politiques : GUE/NGL (gauche), S&D (socialistes), Verts/ALE (écologistes), Renew (libéraux), PPE (conservateurs), CRE (eurosceptiques), Patriots for Europe (droite nationale, nouveau groupe formé en juillet 2024 issu de la dissolution d'ID) et ESN (Europe des nations souveraines). Les eurodéputés n'appartenant à aucun groupe sont 'non-inscrits'."
   },
   {
     "id": "eu5_020",
@@ -501,15 +501,15 @@
     "categoryLabel": "Connaissances UE",
     "theme": "Recours en annulation",
     "difficulty": 2,
-    "text": "Qui sont les requérants 'privilégiés' dans le recours en annulation ?",
+    "text": "Qui sont les requérants 'privilégiés' dans le recours en annulation (art. 263 TFUE) ?",
     "options": [
       "Les citoyens européens résidant depuis plus de 5 ans",
-      "Le Parlement européen et le Conseil européen",
-      "Les États membres, la Commission et le Conseil",
+      "Le Parlement européen et le Conseil européen uniquement",
+      "Les États membres, le Parlement européen, le Conseil et la Commission",
       "Les associations de plus d'un million de membres"
     ],
     "correct": 2,
-    "explanation": "Les requérants privilégiés (États membres, Commission, Conseil et Parlement européen) peuvent attaquer tout acte dès qu'il produit des effets de droit, sans condition supplémentaire. Les requérants semi-privilégiés (BCE, Cour des comptes, Comité des régions) ne peuvent agir que pour la sauvegarde de leurs prérogatives."
+    "explanation": "Les requérants privilégiés (art. 263 al. 2 TFUE) sont : les États membres, le Parlement européen, le Conseil et la Commission. Ils peuvent attaquer tout acte sans avoir à démontrer un intérêt à agir particulier. Les requérants semi-privilégiés (BCE, Cour des comptes, Comité des régions) ne peuvent agir que pour la sauvegarde de leurs prérogatives institutionnelles."
   },
   {
     "id": "eu5_033",

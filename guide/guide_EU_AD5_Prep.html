@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide EU AD5 Prep</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Source+Serif+4:wght@400;700&display=swap');
+
+  :root {
+    --eu-blue: #003399;
+    --eu-dark: #001f66;
+    --eu-gold: #FFCC00;
+    --eu-light: #e8eeff;
+    --gray: #5a6272;
+    --gray-light: #f4f5f7;
+    --success: #1a7a4a;
+    --text: #1a1f36;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Source Sans 3', 'Trebuchet MS', sans-serif;
+    background: #dde2ed;
+    color: var(--text);
+    font-size: 11px;
+    line-height: 1.45;
+  }
+
+  /* PAGE LAYOUT — A4 */
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: white;
+    margin: 12mm auto;
+    padding: 12mm 13mm 10mm;
+    box-shadow: 0 4px 32px rgba(0,0,50,.18);
+    position: relative;
+    page-break-after: always;
+    overflow: hidden;
+  }
+
+  /* HEADER BANDE UE */
+  .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--eu-dark);
+    color: white;
+    padding: 9px 14px;
+    border-radius: 6px 6px 0 0;
+    margin: -12mm -13mm 0;
+    width: calc(100% + 26mm);
+  }
+  .header-left { display: flex; align-items: center; gap: 10px; }
+  .header-stars { display: flex; flex-wrap: wrap; gap: 2px; width: 40px; }
+  .header-stars span { color: var(--eu-gold); font-size: 7px; }
+  .header-title { font-family: 'Source Serif 4', Georgia, serif; }
+  .header-title h1 { font-size: 16px; font-weight: 700; letter-spacing: 0.3px; }
+  .header-title p { font-size: 9px; color: rgba(255,255,255,.55); text-transform: uppercase; letter-spacing: 1.2px; margin-top: 1px; }
+  .header-right { text-align: right; font-size: 9px; color: rgba(255,255,255,.5); line-height: 1.6; }
+  .header-right strong { color: var(--eu-gold); font-size: 10px; }
+
+  /* GOLD BORDER */
+  .gold-bar {
+    height: 3px;
+    background: var(--eu-gold);
+    margin: 0 -13mm;
+    width: calc(100% + 26mm);
+    margin-bottom: 11px;
+  }
+
+  /* SECTION TITLE */
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--eu-blue);
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid #e0e4f0;
+  }
+  .section-title .icon {
+    width: 22px; height: 22px;
+    background: var(--eu-blue);
+    color: white;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px;
+    flex-shrink: 0;
+  }
+
+  /* INTRO BOX */
+  .intro-box {
+    background: linear-gradient(135deg, var(--eu-dark) 0%, var(--eu-blue) 100%);
+    color: white;
+    border-radius: 6px;
+    padding: 10px 13px;
+    margin-bottom: 11px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .intro-box .big-icon { font-size: 28px; flex-shrink: 0; margin-top: 2px; }
+  .intro-box h2 { font-family: 'Source Serif 4', Georgia, serif; font-size: 14px; font-weight: 700; margin-bottom: 3px; }
+  .intro-box p { font-size: 10.5px; color: rgba(255,255,255,.85); line-height: 1.5; }
+  .intro-box .url-pill {
+    display: inline-block;
+    background: var(--eu-gold);
+    color: var(--eu-dark);
+    font-weight: 700;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-top: 5px;
+  }
+
+  /* GRIDS */
+  .col-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-bottom: 10px; }
+  .col-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+
+  /* CARDS */
+  .card {
+    background: var(--gray-light);
+    border-radius: 6px;
+    padding: 9px 10px;
+    border-left: 3px solid var(--eu-blue);
+  }
+  .card.gold { border-left-color: #cc9900; background: #fffbec; }
+  .card.green { border-left-color: var(--success); background: #edf7f2; }
+  .card.orange { border-left-color: #cc6600; background: #fff5ec; }
+  .card h3 { font-size: 10.5px; font-weight: 700; color: var(--eu-blue); margin-bottom: 5px; display: flex; align-items: center; gap: 5px; }
+  .card.gold h3 { color: #884400; }
+  .card.green h3 { color: var(--success); }
+  .card.orange h3 { color: #aa4400; }
+
+  /* STEPS — numbered boxes */
+  .steps { display: flex; flex-direction: column; gap: 6px; }
+  .step {
+    display: flex;
+    gap: 9px;
+    align-items: flex-start;
+    background: white;
+    border: 1px solid #dde2f0;
+    border-radius: 6px;
+    padding: 7px 10px;
+  }
+  .step-num {
+    width: 20px; height: 20px;
+    background: var(--eu-blue);
+    color: white;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700;
+    flex-shrink: 0; margin-top: 1px;
+  }
+  .step-content h4 { font-size: 10.5px; font-weight: 700; color: var(--text); margin-bottom: 2px; }
+  .step-content p { font-size: 10px; color: var(--gray); line-height: 1.45; }
+  .step-content .tag {
+    display: inline-block;
+    background: var(--eu-blue);
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 10px;
+    margin-top: 3px;
+  }
+  .step-content .tag.gold { background: #cc9900; }
+  .step-content .tag.green { background: var(--success); }
+
+  /* MOCKUP SCREENS */
+  .screen-mock {
+    background: #1a1f36;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(0,0,50,.25);
+  }
+  .screen-titlebar {
+    background: #001255;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .dot.r { background: #ff5f57; }
+  .dot.y { background: #febc2e; }
+  .dot.g { background: #28c840; }
+  .url-bar {
+    flex: 1;
+    background: rgba(255,255,255,.1);
+    border-radius: 3px;
+    padding: 2px 6px;
+    font-size: 8px;
+    color: rgba(255,255,255,.7);
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .url-bar .hash { color: var(--eu-gold); font-weight: 700; }
+  .screen-body { padding: 8px; background: #f4f5f7; }
+
+  /* SIDEBAR MINI */
+  .mini-app { display: flex; gap: 0; height: 70px; }
+  .mini-sidebar {
+    width: 60px;
+    background: #001f66;
+    border-radius: 0 0 0 6px;
+    padding: 5px 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .mini-nav-item {
+    font-size: 7px;
+    color: rgba(255,255,255,.6);
+    padding: 2px 3px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    white-space: nowrap;
+  }
+  .mini-nav-item.active {
+    background: rgba(255,204,0,.2);
+    color: #FFCC00;
+    font-weight: 700;
+    border-left: 2px solid #FFCC00;
+    padding-left: 2px;
+  }
+  .mini-content {
+    flex: 1;
+    background: white;
+    border-radius: 0 0 6px 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    overflow: hidden;
+  }
+  .mini-topbar {
+    background: white;
+    border-bottom: 2px solid var(--eu-gold);
+    padding: 2px 5px;
+    font-size: 7.5px;
+    font-weight: 700;
+    color: var(--eu-blue);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* ÉPREUVES PILLS */
+  .epreuves-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin: 6px 0;
+  }
+  .epreuve-pill {
+    background: var(--eu-dark);
+    color: white;
+    border-radius: 5px;
+    padding: 6px 4px;
+    text-align: center;
+    font-size: 8px;
+  }
+  .epreuve-pill .e-icon { font-size: 14px; display: block; margin-bottom: 3px; }
+  .epreuve-pill .e-name { font-weight: 700; color: var(--eu-gold); font-size: 7.5px; line-height: 1.3; display: block; }
+  .epreuve-pill .e-detail { color: rgba(255,255,255,.65); font-size: 7px; display: block; margin-top: 2px; }
+
+  /* URL FOCUS BOX */
+  .url-focus {
+    background: #fffbec;
+    border: 2px solid var(--eu-gold);
+    border-radius: 8px;
+    padding: 9px 12px;
+    margin-bottom: 10px;
+  }
+  .url-focus h3 {
+    color: #884400;
+    font-size: 11.5px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .url-example {
+    background: white;
+    border: 1.5px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: 9.5px;
+    color: var(--gray);
+    margin: 6px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .url-example .base { color: var(--gray); }
+  .url-example .param { color: var(--eu-blue); font-weight: 700; }
+  .url-example .value { color: #cc0000; font-weight: 700; }
+
+  /* DEVICE ICONS ROW */
+  .devices-row {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin: 7px 0;
+  }
+  .device-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-size: 8.5px;
+    color: var(--gray);
+    background: var(--gray-light);
+    border-radius: 6px;
+    padding: 7px 10px;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #dde2f0;
+  }
+  .device-item .d-icon { font-size: 18px; }
+  .device-item strong { color: var(--text); font-size: 9px; display: block; }
+
+  /* WARNING BOX */
+  .warning-box {
+    background: #fff0f0;
+    border: 1.5px solid #e05050;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 9.5px;
+    color: #8b1010;
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
+  }
+  .warning-box strong { display: block; margin-bottom: 2px; }
+
+  /* TIP BOX */
+  .tip-box {
+    background: #edf7f2;
+    border: 1.5px solid var(--success);
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 9.5px;
+    color: #0f5a30;
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
+    margin-bottom: 8px;
+  }
+
+  /* PHONE MOCKUP */
+  .phone-mock {
+    width: 56px;
+    background: #1a1a2e;
+    border-radius: 10px;
+    padding: 6px 4px;
+    box-shadow: 0 3px 10px rgba(0,0,50,.3);
+    flex-shrink: 0;
+  }
+  .phone-screen {
+    background: var(--eu-dark);
+    border-radius: 6px;
+    overflow: hidden;
+    aspect-ratio: 9/16;
+    position: relative;
+  }
+  .phone-nav {
+    display: flex;
+    background: var(--eu-dark);
+    border-top: 1px solid rgba(255,204,0,.3);
+  }
+  .phone-nav-item {
+    flex: 1;
+    padding: 2px 0;
+    text-align: center;
+    font-size: 5.5px;
+    color: rgba(255,255,255,.55);
+  }
+  .phone-nav-item.active { color: var(--eu-gold); }
+
+  /* FOOTER */
+  .page-footer {
+    position: absolute;
+    bottom: 7mm;
+    left: 13mm;
+    right: 13mm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #dde2f0;
+    padding-top: 5px;
+    font-size: 8px;
+    color: #9ba3af;
+  }
+  .page-footer .eu-stars { color: var(--eu-gold); letter-spacing: 2px; font-size: 9px; }
+
+  /* BADGE */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 8.5px;
+    font-weight: 700;
+  }
+  .badge-blue { background: var(--eu-blue); color: white; }
+  .badge-gold { background: var(--eu-gold); color: var(--eu-dark); }
+  .badge-green { background: var(--success); color: white; }
+
+  /* PRINT */
+  @media print {
+    body { background: white; }
+    .page { margin: 0; box-shadow: none; width: 210mm; min-height: 297mm; padding: 12mm 13mm 15mm; }
+    @page { size: A4; margin: 0; }
+    a { color: inherit; text-decoration: none; }
+  }
+
+  .header-link {
+    color: var(--eu-gold);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .header-link:hover { text-decoration: underline; }
+
+  hr.light { border: none; border-top: 1px solid #e8eaf0; margin: 8px 0; }
+
+  .bullet-list { list-style: none; display: flex; flex-direction: column; gap: 3px; }
+  .bullet-list li { display: flex; gap: 6px; align-items: flex-start; font-size: 10px; color: var(--gray); }
+  .bullet-list li::before { content: '▸'; color: var(--eu-blue); flex-shrink: 0; font-size: 9px; margin-top: 1px; }
+  .bullet-list li strong { color: var(--text); }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════ PAGE 1 ═══════════════════════════════ -->
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="page-header">
+    <div class="header-left">
+      <div class="header-stars">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+      <div class="header-title">
+        <h1>EU AD5 Prep — Guide d'utilisation</h1>
+        <p>Outil de préparation au Concours général · Grade AD5 · EPSO</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <a href="https://romaricponcin.github.io/AD5/" target="_blank" class="header-link">romaricponcin.github.io/AD5/</a><br>
+      Accès libre · Aucune installation
+    </div>
+  </div>
+  <div class="gold-bar"></div>
+
+  <!-- INTRO -->
+  <div class="intro-box">
+    <div class="big-icon">🎯</div>
+    <div>
+      <h2>Votre espace personnel de révision en ligne</h2>
+      <p>EU AD5 Prep est une application web qui fonctionne directement dans votre navigateur — sans installation, sans compte, sans abonnement. Vos scores, fiches et progression sont sauvegardés automatiquement sur votre appareil. Chaque utilisateur dispose d'un <strong style="color:white">espace personnel persistant</strong> : le navigateur vous reconnecte automatiquement à la prochaine visite.</p>
+      <div class="url-pill">👤 Tamina · Romaric · Julie · Milan — 4 espaces indépendants</div>
+    </div>
+  </div>
+
+  <!-- LES 5 ÉPREUVES -->
+  <div class="section-title">
+    <div class="icon">1</div> Les 5 épreuves entraînées — Format officiel EPSO AD5
+  </div>
+
+  <div class="epreuves-grid">
+    <div class="epreuve-pill">
+      <span class="e-icon">📝</span>
+      <span class="e-name">Verbal</span>
+      <span class="e-detail">20 Q · 35 min<br>105s/Q · 4 options</span>
+    </div>
+    <div class="epreuve-pill">
+      <span class="e-icon">🔢</span>
+      <span class="e-name">Numérique</span>
+      <span class="e-detail">10 Q · 12 min<br>72s/Q · tableaux</span>
+    </div>
+    <div class="epreuve-pill">
+      <span class="e-icon">🔷</span>
+      <span class="e-name">Abstrait</span>
+      <span class="e-detail">10 Q · 20 min<br>120s/Q · SVG</span>
+    </div>
+    <div class="epreuve-pill">
+      <span class="e-icon">🇪🇺</span>
+      <span class="e-name">Connais. UE</span>
+      <span class="e-detail">30 Q · 40 min<br>80s/Q · 4 options</span>
+    </div>
+    <div class="epreuve-pill" style="background:#0a3a1a">
+      <span class="e-icon">💻</span>
+      <span class="e-name" style="color:#4dff99">Compét. Num.</span>
+      <span class="e-detail">42 Q · 30 min<br>DigComp 3.0</span>
+    </div>
+  </div>
+
+  <div class="col-2" style="margin-bottom:10px">
+
+    <!-- PREMIERS PAS -->
+    <div>
+      <div class="section-title">
+        <div class="icon">2</div> Premiers pas
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <h4>Ouvrir l'application</h4>
+            <p>Tapez ou collez l'adresse dans votre navigateur :</p>
+            <div style="font-family:monospace;font-size:8.5px;background:#f0f2fa;padding:3px 6px;border-radius:3px;margin-top:3px;color:#003399;font-weight:700">romaricponcin.github.io/AD5/</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <h4>Choisir votre espace</h4>
+            <p>Dans la liste déroulante, sélectionnez votre nom : <strong>Tamina</strong>, Romaric, Julie ou Milan. Cliquez sur <strong>«&nbsp;Accéder à mon espace&nbsp;»</strong>.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background:#1a7a4a">✓</div>
+          <div class="step-content">
+            <h4>Reconnexion automatique</h4>
+            <p>À la prochaine ouverture, le navigateur vous reconnecte <strong>directement</strong> à votre espace sans aucune action. Ou via le lien : <code style="background:#f0f2fa;padding:1px 5px;border-radius:3px;font-size:8.5px">#u=Tamina</code></p>
+            <span class="tag green">Aucune action requise !</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <h4>Lancer une session</h4>
+            <p>Menu <strong>Entraînement</strong> → cliquez sur une épreuve dans le bandeau bleu → simulation dans les conditions du concours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LES MODULES -->
+    <div>
+      <div class="section-title">
+        <div class="icon">3</div> Les 6 modules de l'application
+      </div>
+      <div style="display:flex;flex-direction:column;gap:5px">
+        <div class="card" style="padding:6px 9px">
+          <h3>📊 Tableau de bord</h3>
+          <p style="font-size:9.5px;color:var(--gray)">Vue d'ensemble de votre progression, graphique des 7 derniers jours, questions prioritaires à retravailler.</p>
+        </div>
+        <div class="card" style="padding:6px 9px">
+          <h3>✏️ Entraînement</h3>
+          <p style="font-size:9.5px;color:var(--gray)">Mode <span class="badge badge-blue">📘 Entraînement</span> avec feedback immédiat, ou mode <span class="badge" style="background:#8b1010;color:white">⏱️ Simulation</span> avec chrono.</p>
+        </div>
+        <div class="card" style="padding:6px 9px">
+          <h3>📈 Progression</h3>
+          <p style="font-size:9.5px;color:var(--gray)">Historique complet de toutes vos sessions, tags par question (À revoir / Consolider / Maîtrisé).</p>
+        </div>
+        <div class="card" style="padding:6px 9px">
+          <h3>📚 Fiches UE</h3>
+          <p style="font-size:9.5px;color:var(--gray)">Créez vos propres fiches de révision en Markdown. Recherche instantanée par mot-clé.</p>
+        </div>
+        <div class="card" style="padding:6px 9px">
+          <h3>📅 Planificateur</h3>
+          <p style="font-size:9.5px;color:var(--gray)">Calendrier de révision, suivi de votre série de jours consécutifs 🔥, objectifs quotidiens.</p>
+        </div>
+        <div class="card" style="padding:6px 9px">
+          <h3>⚙️ Gérer les questions</h3>
+          <p style="font-size:9.5px;color:var(--gray)">Ajoutez vos propres QCM, importez des fichiers JSON ou depuis une URL GitHub.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER P1 -->
+  <div class="page-footer">
+    <div>EU AD5 Prep — Guide d'utilisation — Page 1/2</div>
+    <div class="eu-stars">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+    <div>Taux de réussite AD5 &lt; 1 % — Préparez-vous sérieusement</div>
+  </div>
+
+</div><!-- /page 1 -->
+
+
+<!-- ═══════════════════════════════ PAGE 2 ═══════════════════════════════ -->
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="page-header">
+    <div class="header-left">
+      <div class="header-stars">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+      <div class="header-title">
+        <h1>Reconnexion automatique &amp; accès multi-appareils</h1>
+        <p>Votre espace personnel persistant — Identifiant stable par utilisateur</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <strong>Page 2 / 2</strong><br>
+      romaricponcin.github.io/AD5/
+    </div>
+  </div>
+  <div class="gold-bar"></div>
+
+  <!-- URL EXPLANATION -->
+  <div class="url-focus">
+    <h3>🔑 Votre identifiant stable — simple et mémorisé automatiquement</h3>
+    <p style="font-size:10px;color:#884400;margin-bottom:5px">Chaque utilisateur possède un identifiant stable basé sur son prénom. Le navigateur mémorise le dernier utilisateur connecté et le reconnecte automatiquement à la prochaine visite.</p>
+    <div class="url-example">
+      <span style="font-size:13px">🔗</span>
+      <span><span class="base">romaricponcin.github.io/AD5/</span><span class="param">#u=</span><span class="value">Tamina</span></span>
+    </div>
+    <div style="display:flex;gap:8px;margin-top:5px;font-size:9px;color:#884400">
+      <div style="flex:2">📌 <strong>La partie bleue</strong> = adresse commune à tous les utilisateurs</div>
+      <div style="flex:3">🟢 <strong>La partie verte</strong> = votre prénom — identifiant stable, lisible, partageable entre appareils</div>
+    </div>
+    <div style="margin-top:6px;font-size:9px;color:#884400;display:flex;gap:12px">
+      <div>👤 <strong>Tamina</strong> → <code style="background:white;padding:1px 4px;border-radius:2px">#u=Tamina</code></div>
+      <div>👤 <strong>Romaric</strong> → <code style="background:white;padding:1px 4px;border-radius:2px">#u=Romaric</code></div>
+      <div>👤 <strong>Julie</strong> → <code style="background:white;padding:1px 4px;border-radius:2px">#u=Julie</code></div>
+      <div>👤 <strong>Milan</strong> → <code style="background:white;padding:1px 4px;border-radius:2px">#u=Milan</code></div>
+    </div>
+  </div>
+
+  <!-- DEVICE ACCESS -->
+  <div class="section-title">
+    <div class="icon">4</div> Accéder depuis n'importe quel appareil — 3 méthodes
+  </div>
+
+
+  <div class="col-3" style="margin-bottom:10px">
+
+    <!-- PC -->
+    <div class="card" style="padding:9px 10px">
+      <h3><span style="font-size:14px">🖥️</span> Ordinateur — même navigateur</h3>
+      <div class="steps">
+        <div class="step" style="padding:5px 8px">
+          <div class="step-num" style="width:16px;height:16px;font-size:9px;background:#1a7a4a">✓</div>
+          <div class="step-content">
+            <p style="font-size:9px"><strong>Reconnexion automatique</strong> — rouvrez simplement l'URL de base. L'application vous reconnecte à votre dernier espace sans aucune action.</p>
+          </div>
+        </div>
+        <div class="step" style="padding:5px 8px">
+          <div class="step-num" style="width:16px;height:16px;font-size:9px">2</div>
+          <div class="step-content">
+            <p style="font-size:9px">Pour changer d'utilisateur : bouton <strong>«&nbsp;Changer d'utilisateur&nbsp;»</strong> → liste déroulante → sélectionnez un autre nom</p>
+          </div>
+        </div>
+        <div class="step" style="padding:5px 8px">
+          <div class="step-num" style="width:16px;height:16px;font-size:9px;background:#cc9900">★</div>
+          <div class="step-content">
+            <p style="font-size:9px"><strong>Favori recommandé :</strong> <code style="font-size:8px">…/AD5/#u=Tamina</code> — <strong>Ctrl+D</strong> pour l'enregistrer</p>
+          </div>
+        </div>
+      </div>
+      <div class="tip-box" style="margin-top:6px;margin-bottom:0;padding:4px 7px">
+        <span>💡</span>
+        <span style="font-size:8.5px">Chaque utilisateur a son propre favori avec son identifiant dans l'URL.</span>
+      </div>
+    </div>
+
+    <!-- TÉLÉPHONE -->
+    <div class="card" style="padding:9px 10px">
+      <h3><span style="font-size:14px">📱</span> Smartphone</h3>
+      <div style="display:flex;gap:7px;align-items:flex-start">
+        <div style="flex:1">
+          <p style="font-size:8.5px;color:var(--gray);margin-bottom:5px"><strong>Ajout à l'écran d'accueil</strong> — fonctionne comme une vraie appli :</p>
+          <div class="steps" style="gap:4px">
+            <div class="step" style="padding:4px 7px">
+              <div class="step-num" style="width:14px;height:14px;font-size:8px">1</div>
+              <div class="step-content"><p style="font-size:8.5px">Ouvrez le <strong>lien complet</strong> dans Safari (iPhone) ou Chrome (Android)</p></div>
+            </div>
+            <div class="step" style="padding:4px 7px">
+              <div class="step-num" style="width:14px;height:14px;font-size:8px">2</div>
+              <div class="step-content">
+                <p style="font-size:8.5px"><strong>iPhone :</strong> icône partager <span style="font-size:10px">⬆️</span> → «&nbsp;Sur l'écran d'accueil&nbsp;»</p>
+                <p style="font-size:8.5px;margin-top:2px"><strong>Android :</strong> menu ⋮ → «&nbsp;Ajouter à l'écran d'accueil&nbsp;»</p>
+              </div>
+            </div>
+            <div class="step" style="padding:4px 7px">
+              <div class="step-num" style="width:14px;height:14px;font-size:8px">3</div>
+              <div class="step-content"><p style="font-size:8.5px">Une icône 🇪🇺 apparaît sur votre écran — comme une vraie application !</p></div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <!-- Phone mockup -->
+          <div class="phone-mock">
+            <div class="phone-screen">
+              <div style="background:var(--eu-dark);height:100%;display:flex;flex-direction:column;padding:3px 3px 0">
+                <div style="font-size:5px;color:rgba(255,255,255,.5);text-align:center;margin-bottom:3px">AD5 Prep</div>
+                <div style="display:flex;flex-direction:column;gap:2px;flex:1">
+                  <div style="background:rgba(255,255,255,.08);border-radius:2px;height:10px;display:flex;align-items:center;padding:0 3px;gap:2px"><span style="font-size:6px">📊</span><span style="font-size:5px;color:rgba(255,255,255,.7)">Tableau</span></div>
+                  <div style="background:rgba(255,204,0,.15);border-left:2px solid #FFCC00;border-radius:2px;height:10px;display:flex;align-items:center;padding:0 3px;gap:2px"><span style="font-size:6px">✏️</span><span style="font-size:5px;color:#FFCC00;font-weight:700">Quiz</span></div>
+                  <div style="background:rgba(255,255,255,.05);border-radius:2px;height:10px;display:flex;align-items:center;padding:0 3px;gap:2px"><span style="font-size:6px">📈</span><span style="font-size:5px;color:rgba(255,255,255,.6)">Progrès</span></div>
+                </div>
+                <div style="background:var(--eu-dark);border-top:1px solid rgba(255,204,0,.25);display:flex;padding:2px 0;margin:0 -3px">
+                  <div style="flex:1;text-align:center;font-size:6px;color:#FFCC00">📊</div>
+                  <div style="flex:1;text-align:center;font-size:6px;color:rgba(255,255,255,.4)">✏️</div>
+                  <div style="flex:1;text-align:center;font-size:6px;color:rgba(255,255,255,.4)">📈</div>
+                  <div style="flex:1;text-align:center;font-size:6px;color:rgba(255,255,255,.4)">📚</div>
+                  <div style="flex:1;text-align:center;font-size:6px;color:rgba(255,255,255,.4)">📅</div>
+                </div>
+              </div>
+            </div>
+            <div style="text-align:center;font-size:6px;color:rgba(255,255,255,.4);padding:3px 0">Navigation bas</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOUVEL APPAREIL -->
+    <div class="card" style="padding:9px 10px">
+      <h3><span style="font-size:14px">🔄</span> Nouvel appareil / cache vidé</h3>
+      <p style="font-size:9px;color:var(--gray);margin-bottom:6px">La progression est stockée localement. Pour la transférer :</p>
+      <div class="steps" style="gap:4px">
+        <div class="step" style="padding:5px 8px">
+          <div class="step-num" style="width:16px;height:16px;font-size:9px">1</div>
+          <div class="step-content"><p style="font-size:9px"><strong>Option A — URL :</strong> ouvrez <code style="font-size:8px">#u=Tamina</code> sur le nouvel appareil → l'espace s'affiche mais <em>vide</em> (le localStorage est propre)</p></div>
+        </div>
+        <div class="step" style="padding:5px 8px">
+          <div class="step-num" style="width:16px;height:16px;font-size:9px">2</div>
+          <div class="step-content"><p style="font-size:9px"><strong>Option B — Export JSON :</strong> sur l'ancien appareil → <strong>📥 Export profil</strong> → envoyez-vous le fichier → importez-le sur le nouvel appareil ✅</p></div>
+        </div>
+      </div>
+      <div class="warning-box" style="margin-top:6px">
+        <span>⚠️</span>
+        <div style="font-size:8.5px"><strong>À retenir :</strong> l'URL <code>#u=Tamina</code> identifie votre espace mais ne contient pas vos données. Seul l'export JSON transfère votre progression complète entre appareils.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPORT BACKUP -->
+  <div class="section-title" style="margin-top:2px">
+    <div class="icon">5</div> Sauvegarder sa progression — Export / Import JSON
+  </div>
+
+  <div class="col-2" style="margin-bottom:10px">
+    <div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num" style="background:#1a7a4a">↓</div>
+          <div class="step-content">
+            <h4>Exporter sa progression (sauvegarde)</h4>
+            <p>Menu <strong>⚙️ Gérer questions</strong> → bouton <strong>📥 Export profil</strong> → un fichier <code style="background:#f0f2fa;padding:1px 4px;border-radius:2px;font-size:9px">eu_ad5_profil_Marie_2026.json</code> se télécharge sur votre appareil.</p>
+            <span class="tag green">Recommandé : toutes les semaines</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num" style="background:#1a7a4a">↑</div>
+          <div class="step-content">
+            <h4>Importer sur un autre appareil</h4>
+            <p>Sur l'écran d'accueil → bouton <strong>📥 Importer un profil existant</strong> → sélectionnez votre fichier JSON. Toute votre progression est restaurée.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TIPS -->
+    <div>
+      <div class="section-title" style="margin-bottom:6px">
+        <div class="icon" style="background:#cc9900">💡</div> Conseils pour progresser
+      </div>
+      <ul class="bullet-list">
+        <li><strong>Chaque jour :</strong> 10 Q entraînement + 5 Q simulation sur la catégorie du jour</li>
+        <li><strong>Mode simulation :</strong> respectez le chrono pour s'habituer à la pression du concours</li>
+        <li><strong>Tags de révision :</strong> après chaque réponse, taguez 🔴/🟡/🟢 pour cibler vos révisions</li>
+        <li><strong>Session rapide ⚡ :</strong> bouton dédié aux 5 questions où vous avez le plus d'erreurs</li>
+        <li><strong>Fiches UE :</strong> créez une fiche après chaque thème étudié pour ancrer les connaissances</li>
+        <li><strong>Calendrier :</strong> cochez chaque jour de révision pour maintenir votre série 🔥</li>
+        <li><strong>Export hebdomadaire :</strong> sauvegardez votre profil JSON chaque vendredi soir</li>
+      </ul>
+
+      <div class="tip-box" style="margin-top:7px">
+        <span>🎯</span>
+        <div style="font-size:9px"><strong>Pour importer de nouvelles questions :</strong> Menu «&nbsp;Mon profil&nbsp;» → champ «&nbsp;Importer questions depuis URL&nbsp;» → collez une URL GitHub Gist. Vos scores existants ne sont jamais effacés.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM STAT ROW -->
+  <div style="background:var(--eu-dark);border-radius:6px;padding:9px 12px;display:flex;gap:0;align-items:center">
+    <div style="flex:1;text-align:center;border-right:1px solid rgba(255,255,255,.15);padding:0 8px">
+      <div style="color:var(--eu-gold);font-size:18px;font-weight:700;font-family:Georgia,serif">267+</div>
+      <div style="color:rgba(255,255,255,.65);font-size:8px;text-transform:uppercase;letter-spacing:.8px">Questions DigComp 3.0</div>
+    </div>
+    <div style="flex:1;text-align:center;border-right:1px solid rgba(255,255,255,.15);padding:0 8px">
+      <div style="color:var(--eu-gold);font-size:18px;font-weight:700;font-family:Georgia,serif">5</div>
+      <div style="color:rgba(255,255,255,.65);font-size:8px;text-transform:uppercase;letter-spacing:.8px">Épreuves simulées</div>
+    </div>
+    <div style="flex:1;text-align:center;border-right:1px solid rgba(255,255,255,.15);padding:0 8px">
+      <div style="color:var(--eu-gold);font-size:18px;font-weight:700;font-family:Georgia,serif">SVG</div>
+      <div style="color:rgba(255,255,255,.65);font-size:8px;text-transform:uppercase;letter-spacing:.8px">Abstrait visuel</div>
+    </div>
+    <div style="flex:1;text-align:center;border-right:1px solid rgba(255,255,255,.15);padding:0 8px">
+      <div style="color:var(--eu-gold);font-size:18px;font-weight:700;font-family:Georgia,serif">4</div>
+      <div style="color:rgba(255,255,255,.65);font-size:8px;text-transform:uppercase;letter-spacing:.8px">Espaces utilisateurs</div>
+    </div>
+    <div style="flex:2;padding:0 12px">
+      <div style="font-family:Georgia,serif;font-style:italic;color:rgba(255,255,255,.85);font-size:9.5px;line-height:1.5">«&nbsp;La constance est la vertu des grands concours.&nbsp;»<br><span style="font-size:8.5px;color:rgba(255,255,255,.5)">In varietate concordia — Unie dans la diversité</span></div>
+    </div>
+  </div>
+
+  <!-- FOOTER P2 -->
+  <div class="page-footer">
+    <div>EU AD5 Prep — Guide d'utilisation — Page 2/2</div>
+    <div class="eu-stars">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+    <div>Taux de réussite AD5 &lt; 1 % — 1 490 lauréats sur ~170 000 candidats</div>
+  </div>
+
+</div><!-- /page 2 -->
+
+</body>
+</html>

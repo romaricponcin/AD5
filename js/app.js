@@ -2,6 +2,7 @@
    APP — Point d'entrée ES Module
    Importe tous les modules et initialise l'application.
    ============================================================ */
+import { CFG } from './config.js';
 import { state } from './state.js';
 import { loadAllData } from './data.js';
 import { navigate, updateBadges, registerView } from './router.js';
@@ -9,7 +10,8 @@ import { closeModal } from './ui.js';
 import {
   createUser, loginUser, updateUserUI, loadUserFromHash,
   showUserPanel, copyLink, switchUser, exportProfile,
-  triggerImportProfile, importFromURL
+  triggerImportProfile, importFromURL,
+  populateLoginSelect, onLoginSelectChange
 } from './user.js';
 
 import { renderDashboard } from './views/dashboard.js';
@@ -45,6 +47,7 @@ window._ad5 = {
   // User
   createUser, showUserPanel, copyLink, switchUser,
   exportProfile, triggerImportProfile, importFromURL,
+  onLoginSelectChange,
   // UI
   closeModal,
   // Quiz
@@ -61,6 +64,24 @@ window._ad5 = {
   deleteQuestion, importQuestionsFromFile, resetData
 };
 
+/* ── Tentative d'auto-reconnexion via LAST_USER_KEY ── */
+async function tryAutoLogin() {
+  const lastId = localStorage.getItem(CFG.LAST_USER_KEY);
+  if (!lastId) return false;
+  try {
+    const raw = localStorage.getItem(CFG.USER_PREFIX + lastId);
+    if (!raw) return false;
+    const profile = JSON.parse(raw);
+    state.CURRENT_USER = lastId;
+    document.getElementById('login-screen').classList.add('hidden');
+    document.getElementById('app-shell').classList.remove('hidden');
+    updateUserUI(profile.name);
+    window.location.hash = 'u=' + lastId;
+    await loadAllData();
+    return true;
+  } catch(e) { return false; }
+}
+
 /* ── Décorer le fond login ── */
 function decorateLoginBg() {
   const container = document.getElementById('bg-stars');
@@ -76,8 +97,9 @@ function decorateLoginBg() {
 /* ── Initialisation ── */
 document.addEventListener('DOMContentLoaded', async () => {
   decorateLoginBg();
+  populateLoginSelect();
 
-  // Auto-login si UUID présent dans le hash
+  // Priorité 1 : hash #u=xxx dans l'URL
   const userFromHash = loadUserFromHash();
   if (userFromHash) {
     state.CURRENT_USER = userFromHash.uuid;
@@ -87,9 +109,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadAllData();
     updateBadges();
     navigate('dashboard');
+  } else {
+    // Priorité 2 : dernier utilisateur mémorisé
+    const autoLogged = await tryAutoLogin();
+    if (autoLogged) {
+      updateBadges();
+      navigate('dashboard');
+    }
   }
 
-  // Gérer l'événement login déclenché depuis user.js
+  // Gérer l'événement login déclenché depuis user.js (createUser)
   document.addEventListener('user:login', () => {
     updateBadges();
     navigate('dashboard');

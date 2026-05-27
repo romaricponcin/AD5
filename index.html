@@ -26,10 +26,14 @@
     </div>
     <h1>EU AD5 Prep</h1>
     <div class="tagline">Concours général · Grade AD5 · Votre espace personnel</div>
-    <label class="form-label">Votre prénom ou pseudo</label>
-    <input type="text" id="login-name" placeholder="Ex : Marie, Candidat42…" maxlength="30"
+    <label class="form-label">Sélectionnez votre compte</label>
+    <select id="login-select" class="form-control" onchange="window._ad5.onLoginSelectChange()">
+      <option value="">— Choisissez —</option>
+      <option value="__other__">✏️ Autre utilisateur...</option>
+    </select>
+    <input type="text" id="login-name" class="hidden" placeholder="Votre prénom ou pseudo…" maxlength="30"
       onkeydown="if(event.key==='Enter')window._ad5.createUser()">
-    <button class="btn-login" onclick="window._ad5.createUser()">Accéder à mon espace →</button>
+    <button class="btn-login" id="btn-login" onclick="window._ad5.createUser()">Accéder à mon espace →</button>
     <div class="login-sep">— ou —</div>
     <button class="btn-import-profile" onclick="window._ad5.triggerImportProfile()">📥 Importer un profil existant</button>
     <div class="login-disclaimer">

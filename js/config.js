@@ -5,12 +5,24 @@
 export const CFG = {
   USER_PREFIX: 'eu_ad5_user_',
   DATA_SUFFIX: '_data',
+  LAST_USER_KEY: 'eu_ad5_last_user',
   VERSION: 2,
+
+  /* ── Liste des utilisateurs connus (personnaliser ici) ──
+     id    : clé de stockage stable (minuscules, sans espace)
+     name  : nom affiché dans l'interface                    */
+  KNOWN_USERS: [
+    { id: 'Tamina', name: 'Tamina' },
+    { id: 'Romaric', name: 'Romaric' },
+    { id: 'Julie', name: 'Julie' },
+	{ id: 'Milan', name: 'Milan' },
+  ],
   JSON_SOURCES: [
     'data/questions_verbal.json',
     'data/questions_verbal_advanced.json',
     'data/questions_numerique.json',
     'data/questions_numerique_advanced.json',
+    'data/questions_numerique_batch1.json',
     'data/questions_eu.json',
     'data/questions_eu_avance.json',
     'data/questions_eu_batch1.json',
@@ -29,17 +41,17 @@ export const CFG = {
   /* Paramètres officiels du concours AD5 par épreuve */
   EXAM_PARAMS: {
     verbal:      { questions: 20, minutes: 35, secPerQ: 105, options: 4, label: 'Raisonnement Verbal' },
-    numerical:   { questions: 10, minutes: 20, secPerQ: 120, options: 5, label: 'Raisonnement Numérique' },
-    abstract:    { questions: 10, minutes: 10, secPerQ:  60, options: 5, label: 'Raisonnement Abstrait' },
+    numerical:   { questions: 10, minutes: 12, secPerQ:  72, options: 5, label: 'Raisonnement Numérique' },
+    abstract:    { questions: 10, minutes: 20, secPerQ: 120, options: 5, label: 'Raisonnement Abstrait' },
     eu_knowledge:{ questions: 30, minutes: 40, secPerQ:  80, options: 4, label: 'Connaissances UE' },
-    digital:     { questions: 40, minutes: 30, secPerQ:  45, options: 4, label: 'Compétences Numériques' }
+    digital:     { questions: 42, minutes: 30, secPerQ:  43, options: 4, label: 'Compétences Numériques' }
   },
   IMPORT_URL_KEY: 'eu_ad5_import_url'
 };
 
 // SVG Engine constants
 export const SVG_CONST = {
-  SHAPES: ['circle','square','triangle','diamond','cross','star'],
+  SHAPES: ['circle','square','triangle','diamond','cross','star','pentagon','hexagon','arrow'],
   COLORS: ['#003399','#cc2222','#1a7a4a','#cc8800','#666666'],
   COLOR_NAMES: ['bleu','rouge','vert','orange','gris'],
   FILLS: ['filled','outline'],
