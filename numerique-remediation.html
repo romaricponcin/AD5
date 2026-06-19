@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Remédiation Numérique — EU AD5 Prep</title>
+<style>
+:root {
+  --bg: #f0f4ff;
+  --bg-calm: #f0f7f2;
+  --blue: #003399;
+  --blue-dark: #001f66;
+  --blue-light: #e8eeff;
+  --gold: #FFCC00;
+  --green: #1a7a4a;
+  --green-bg: #e6f5ee;
+  --orange: #cc8800;
+  --orange-bg: #fff5ec;
+  --text: #1a1f36;
+  --gray: #5a6272;
+  --gray-light: #f4f5f7;
+  --white: #ffffff;
+  --radius: 8px;
+  --shadow: 0 2px 12px rgba(0,51,153,.08);
+  --font: 'Trebuchet MS', Calibri, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+body.calm {
+  background: var(--bg-calm);
+  font-size: 17px;
+}
+body.calm .decorative { display: none; }
+body.calm .exercise-card { padding: 28px 24px; }
+
+/* HEADER */
+.header {
+  background: var(--blue-dark);
+  color: var(--white);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-left { display: flex; align-items: center; gap: 12px; }
+.header-left a {
+  color: rgba(255,255,255,.7);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 4px 10px;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 4px;
+}
+.header-left a:hover { background: rgba(255,255,255,.1); }
+.header-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gold);
+}
+.header-right { display: flex; align-items: center; gap: 10px; }
+.btn-calm {
+  background: none;
+  border: 1px solid rgba(255,255,255,.3);
+  color: rgba(255,255,255,.8);
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.btn-calm:hover { background: rgba(255,255,255,.1); }
+.btn-calm.active { background: rgba(26,122,74,.3); border-color: var(--green); color: #8fdfb0; }
+.btn-pause {
+  background: none;
+  border: 1px solid rgba(255,255,255,.3);
+  color: rgba(255,255,255,.8);
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px 16px 60px;
+}
+
+/* LEVEL SELECT */
+.welcome-msg {
+  text-align: center;
+  padding: 30px 20px 20px;
+}
+.welcome-msg h1 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  color: var(--blue);
+  margin-bottom: 8px;
+}
+.welcome-msg p {
+  color: var(--gray);
+  font-size: 14px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+.level-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 18px 14px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: .2s;
+}
+.level-card:hover:not(.locked) { border-color: var(--blue); transform: translateY(-2px); }
+.level-card.locked { opacity: .45; cursor: not-allowed; filter: grayscale(.5); }
+.level-card.current { border-color: var(--gold); background: #fffbec; }
+.level-card .icon { font-size: 28px; display: block; margin-bottom: 6px; }
+.level-card .name { font-weight: 700; font-size: 13px; color: var(--blue); }
+.level-card .desc { font-size: 11px; color: var(--gray); margin-top: 4px; }
+.level-card .badge-done {
+  display: inline-block;
+  background: var(--green);
+  color: var(--white);
+  font-size: 10px;
+  padding: 1px 8px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+/* EXERCISE AREA */
+.exercise-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 22px 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+.exercise-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 12px;
+  color: var(--gray);
+}
+.level-indicator {
+  background: var(--blue-light);
+  color: var(--blue);
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 11px;
+}
+.scene-text {
+  background: var(--gray-light);
+  border-left: 3px solid var(--blue);
+  padding: 14px 16px;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.question-text {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: var(--text);
+}
+.options-list { display: flex; flex-direction: column; gap: 8px; }
+.opt-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  border: 2px solid #dde2f0;
+  border-radius: var(--radius);
+  background: var(--white);
+  cursor: pointer;
+  font-size: 14px;
+  font-family: var(--font);
+  color: var(--text);
+  transition: .15s;
+}
+.opt-btn:hover:not(:disabled) { border-color: var(--blue); background: var(--blue-light); }
+.opt-btn.correct { border-color: var(--green); background: var(--green-bg); }
+.opt-btn.incorrect { border-color: var(--orange); background: var(--orange-bg); }
+.opt-btn:disabled { cursor: default; }
+
+/* FEEDBACK */
+.feedback-box {
+  margin-top: 14px;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  font-size: 14px;
+  display: none;
+}
+.feedback-box.show { display: block; }
+.feedback-box.positive { background: var(--green-bg); border-left: 3px solid var(--green); color: #0f5a30; }
+.feedback-box.neutral { background: var(--orange-bg); border-left: 3px solid var(--orange); color: #7a4a00; }
+
+/* STEP-BY-STEP (level 2) */
+.step-container { margin: 12px 0; }
+.calc-step {
+  background: var(--gray-light);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-left: 3px solid var(--blue);
+}
+.calc-step.active { border-left-color: var(--gold); background: #fffbec; }
+.calc-step.done { border-left-color: var(--green); background: var(--green-bg); }
+.calc-step .step-label { font-size: 11px; color: var(--gray); text-transform: uppercase; letter-spacing: .5px; }
+.calc-step .step-text { font-size: 14px; margin-top: 4px; }
+.step-input {
+  display: inline-block;
+  width: 100px;
+  padding: 6px 10px;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: var(--font);
+  text-align: center;
+  margin: 0 4px;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--radius);
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .15s;
+}
+.btn-primary { background: var(--blue); color: var(--white); }
+.btn-primary:hover { background: var(--blue-dark); }
+.btn-gold { background: var(--gold); color: var(--blue-dark); }
+.btn-outline { background: none; border: 1.5px solid var(--blue); color: var(--blue); }
+.btn-outline:hover { background: var(--blue-light); }
+.btn-help {
+  background: none;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* PROGRESS BAR */
+.progress-bar {
+  height: 6px;
+  background: #e0e4f0;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--blue);
+  border-radius: 3px;
+  transition: width .3s;
+}
+
+/* TABLE (levels 1-4) */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 13px;
+}
+.data-table th {
+  background: var(--blue);
+  color: var(--white);
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 12px;
+}
+.data-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid #e0e4f0;
+}
+.data-table tr:nth-child(even) td { background: var(--gray-light); }
+
+/* SVG BAR CHART */
+.bar-chart { margin: 12px 0; }
+
+/* BADGE POPUP */
+.badge-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  background: var(--white);
+  border: 3px solid var(--gold);
+  border-radius: 16px;
+  padding: 30px 40px;
+  text-align: center;
+  box-shadow: 0 8px 40px rgba(0,0,0,.2);
+  z-index: 200;
+  transition: transform .3s ease;
+}
+.badge-popup.show { transform: translate(-50%, -50%) scale(1); }
+.badge-popup .badge-icon { font-size: 48px; display: block; margin-bottom: 10px; }
+.badge-popup .badge-text { font-size: 16px; font-weight: 700; color: var(--blue); }
+.badge-popup .badge-sub { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+/* TIMER BAR (non stressant) */
+.timer-bar {
+  height: 4px;
+  background: #e0e4f0;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+.timer-fill {
+  height: 100%;
+  background: var(--blue);
+  border-radius: 2px;
+  transition: width 1s linear;
+}
+.timer-label {
+  font-size: 11px;
+  color: var(--gray);
+  text-align: right;
+  margin-bottom: 4px;
+}
+
+/* PAUSE OVERLAY */
+.pause-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,31,102,.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 150;
+}
+.pause-overlay.show { display: flex; }
+.pause-box {
+  background: var(--white);
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  max-width: 400px;
+}
+.pause-box h2 { color: var(--blue); margin-bottom: 10px; }
+.pause-box p { color: var(--gray); margin-bottom: 20px; font-size: 14px; }
+
+/* RESULT SCREEN */
+.result-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 30px 24px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.result-card h2 { color: var(--blue); margin-bottom: 6px; }
+.result-card .result-big {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--green);
+  font-family: Georgia, serif;
+  margin: 12px 0;
+}
+.result-card .result-msg { color: var(--gray); font-size: 14px; margin-bottom: 20px; }
+
+/* RESPONSIVE */
+@media(max-width:700px) {
+  .level-grid { grid-template-columns: repeat(2, 1fr); }
+  .container { padding: 12px 10px 40px; }
+  .exercise-card { padding: 16px 14px; }
+  .data-table { font-size: 12px; display: block; overflow-x: auto; }
+  .header-title { font-size: 13px; }
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-left">
+    <a href="index.html">← Retour</a>
+    <span class="header-title">Remédiation Numérique</span>
+  </div>
+  <div class="header-right">
+    <button class="btn-calm" onclick="toggleCalm()" title="Mode calme">🌿 Mode calme</button>
+    <button class="btn-pause" onclick="togglePause()">⏸ Pause</button>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container" id="main"></div>
+
+<!-- BADGE POPUP -->
+<div class="badge-popup" id="badge-popup">
+  <span class="badge-icon" id="badge-icon"></span>
+  <div class="badge-text" id="badge-text"></div>
+  <div class="badge-sub" id="badge-sub"></div>
+  <button class="btn btn-primary" style="margin-top:16px" onclick="closeBadge()">Continuer</button>
+</div>
+
+<!-- PAUSE OVERLAY -->
+<div class="pause-overlay" id="pause-overlay">
+  <div class="pause-box">
+    <h2>Pause</h2>
+    <p>Prends le temps qu'il faut. Il n'y a pas d'urgence ici.</p>
+    <button class="btn btn-primary" onclick="togglePause()">Reprendre</button>
+    <br><br>
+    <button class="btn btn-outline" onclick="goHome()">Revenir au menu</button>
+  </div>
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════
+   DONNÉES — 50 questions réparties sur 5 niveaux
+   ═══════════════════════════════════════════════════════ */
+
+const LEVELS = [
+  {
+    id:0, name:'Respirer', icon:'🌿',
+    desc:'Observer les chiffres sans stress',
+    badge:'Observateur', badgeIcon:'👁️',
+    questions:[
+      {scene:"Un ticket de caisse affiche : Café — 2,50 €", q:"Quel est le prix du café ?", opts:["2,50 €","3,00 €","1,80 €"], correct:0},
+      {scene:"L'horloge de la gare indique 14 h 35.", q:"Quelle heure est-il ?", opts:["14 h 35","15 h 25","14 h 55"], correct:0},
+      {scene:"Le thermomètre affiche 22 °C.", q:"Quelle est la température ?", opts:["32 °C","22 °C","12 °C"], correct:1},
+      {scene:"Le panneau indique : Paris — 340 km.", q:"Combien de kilomètres jusqu'à Paris ?", opts:["340 km","430 km","304 km"], correct:0},
+      {scene:"Sur l'étiquette du pull, tu lis : Taille 42.", q:"Quelle est la taille du pull ?", opts:["42","24","44"], correct:0},
+      {scene:"Le bus n° 7 arrive dans 3 minutes.", q:"Quel est le numéro du bus ?", opts:["3","7","73"], correct:1},
+      {scene:"Le reçu indique : Total — 18,90 €.", q:"Quel est le montant total ?", opts:["19,80 €","18,90 €","18,09 €"], correct:1},
+      {scene:"Ta carte d'identité indique : née en 1995.", q:"Quelle est l'année de naissance ?", opts:["1959","1995","1999"], correct:1},
+      {scene:"L'ascenseur affiche : Étage 5.", q:"À quel étage es-tu ?", opts:["3","5","15"], correct:1},
+      {scene:"Le GPS indique : arrivée à 16 h 10, trajet de 45 min.", q:"Quelle est la durée du trajet ?", opts:["45 min","1 h 10","10 min"], correct:0}
+    ]
+  },
+  {
+    id:1, name:'Apprivoiser', icon:'📊',
+    desc:'Lire un tableau ou un graphique',
+    badge:'Lecteur de tableaux', badgeIcon:'📊',
+    questions:[
+      {type:'table', title:'Population (millions)', headers:['Pays','Population'], rows:[['France','67'],['Belgique','11'],['Allemagne','83']], q:"Quel pays a la population la plus élevée ?", opts:["France","Belgique","Allemagne"], correct:2},
+      {type:'table', title:'Superficie (km²)', headers:['Pays','Superficie'], rows:[['Italie','301 000'],['Espagne','505 000'],['Portugal','92 000']], q:"Quel pays est le plus grand ?", opts:["Italie","Espagne","Portugal"], correct:1},
+      {type:'bar', title:'Budget UE par poste (milliards €)', bars:[{label:'Agriculture',value:55,color:'#1a7a4a'},{label:'Cohésion',value:47,color:'#003399'},{label:'Recherche',value:25,color:'#cc8800'}], q:"Quel poste a le budget le plus important ?", opts:["Agriculture","Cohésion","Recherche"], correct:0},
+      {type:'table', title:'Chômage 2023 (%)', headers:['Pays','Taux'], rows:[['Grèce','12,1'],['Pays-Bas','3,5'],['France','7,3'],['Espagne','11,7']], q:"Quel pays a le taux de chômage le plus bas ?", opts:["France","Pays-Bas","Espagne","Grèce"], correct:1},
+      {type:'bar', title:'Exportations (milliards €)', bars:[{label:'France',value:520,color:'#003399'},{label:'Italie',value:580,color:'#1a7a4a'},{label:'Pays-Bas',value:640,color:'#cc8800'}], q:"Quel pays exporte le plus ?", opts:["France","Italie","Pays-Bas"], correct:2},
+      {type:'table', title:'Nombre de sièges au Parlement européen', headers:['Pays','Sièges'], rows:[['Malte','6'],['Luxembourg','6'],['Chypre','6'],['Allemagne','96']], q:"Quel pays a le plus de sièges ?", opts:["Malte","Luxembourg","Allemagne"], correct:2},
+      {type:'bar', title:'Dépenses R&D (% du PIB)', bars:[{label:'Suède',value:34,color:'#003399'},{label:'Roumanie',value:5,color:'#cc8800'},{label:'Moyenne UE',value:22,color:'#1a7a4a'}], q:"Quel pays investit le plus en R&D ?", opts:["Suède","Roumanie","Moyenne UE"], correct:0},
+      {type:'table', title:'Salaire minimum brut mensuel (€)', headers:['Pays','Montant'], rows:[['Luxembourg','2 571'],['France','1 747'],['Bulgarie','399']], q:"Dans quel pays le salaire minimum est-il le plus bas ?", opts:["Luxembourg","France","Bulgarie"], correct:2},
+      {type:'bar', title:'Production d\'énergie renouvelable (TWh)', bars:[{label:'2019',value:40,color:'#003399'},{label:'2021',value:55,color:'#1a7a4a'},{label:'2023',value:70,color:'#cc8800'}], q:"En quelle année la production est-elle la plus élevée ?", opts:["2019","2021","2023"], correct:2},
+      {type:'table', title:'Espérance de vie (années)', headers:['Pays','Femmes','Hommes'], rows:[['Espagne','86','80'],['Lettonie','79','70'],['France','85','79']], q:"Dans quel pays les femmes vivent-elles le plus longtemps ?", opts:["France","Espagne","Lettonie"], correct:1}
+    ]
+  },
+  {
+    id:2, name:'Comprendre', icon:'🧩',
+    desc:'Calculer pas à pas, ensemble',
+    badge:'Calculateur guidé', badgeIcon:'🧩',
+    questions:[
+      {context:"Un département comptait 120 000 habitants en 2020 et 126 000 en 2023.", q:"Quelle est l'augmentation de population ?", steps:[{text:"Calcule la différence : 126 000 − 120 000 = ?", answer:"6000", hint:"Nouvelle valeur moins ancienne valeur"},{text:"L'augmentation est de 6 000 habitants.", final:true}]},
+      {context:"Un budget de 500 000 € est réduit de 10 %.", q:"Quel est le nouveau budget ?", steps:[{text:"10 % de 500 000 = 500 000 ÷ 10 = ?", answer:"50000", hint:"Pour trouver 10 %, on divise par 10"},{text:"Nouveau budget : 500 000 − 50 000 = ?", answer:"450000", hint:"On retire la réduction"},{text:"Le nouveau budget est de 450 000 €.", final:true}]},
+      {context:"Dans une classe de 30 élèves, 60 % sont des filles.", q:"Combien y a-t-il de filles ?", steps:[{text:"60 % signifie 60 pour 100. Sur 30 élèves : 30 × 60 ÷ 100 = ?", answer:"18", hint:"Multiplie par le pourcentage puis divise par 100"},{text:"Il y a 18 filles dans la classe.", final:true}]},
+      {context:"Un produit coûtait 80 € et passe à 100 €.", q:"Quel est le pourcentage d'augmentation ?", steps:[{text:"Étape 1 — La différence de prix : 100 − 80 = ?", answer:"20", hint:"Nouveau prix moins ancien prix"},{text:"Étape 2 — Rapporter à l'ancien prix : 20 ÷ 80 = ?", answer:"0.25", hint:"Différence divisée par l'ancien prix"},{text:"Étape 3 — Convertir en % : 0,25 × 100 = ?", answer:"25", hint:"On multiplie par 100 pour avoir le pourcentage"},{text:"L'augmentation est de 25 %.", final:true}]},
+      {context:"L'UE a un budget de 170 milliards €. La PAC représente 35 %.", q:"Combien pour la PAC ?", steps:[{text:"35 % de 170 = 170 × 35 ÷ 100 = ?", answer:"59.5", hint:"Multiplie le total par le pourcentage, divise par 100"},{text:"Le budget PAC est d'environ 59,5 milliards €.", final:true}]},
+      {context:"Une entreprise produit 400 pièces/jour avec 8 employés.", q:"Combien de pièces par employé ?", steps:[{text:"Division : 400 ÷ 8 = ?", answer:"50", hint:"On divise la production totale par le nombre d'employés"},{text:"Chaque employé produit 50 pièces par jour.", final:true}]},
+      {context:"Le PIB de la Belgique est de 530 milliards € pour 11 millions d'habitants.", q:"Quel est le PIB par habitant (arrondi) ?", steps:[{text:"530 milliards ÷ 11 millions = 530 000 ÷ 11 = ?", answer:"48182", hint:"On divise le PIB total par la population (en mêmes unités)"},{text:"Le PIB par habitant est d'environ 48 000 €.", final:true}]},
+      {context:"En 2022, le taux de chômage était de 8 %. En 2023, il est de 6 %.", q:"De combien de points le chômage a-t-il baissé ?", steps:[{text:"Différence : 8 − 6 = ?", answer:"2", hint:"Ancien taux moins nouveau taux"},{text:"Le chômage a baissé de 2 points de pourcentage.", final:true}]},
+      {context:"Un train parcourt 240 km en 3 heures.", q:"Quelle est sa vitesse moyenne ?", steps:[{text:"Vitesse = Distance ÷ Temps : 240 ÷ 3 = ?", answer:"80", hint:"Distance divisée par le temps"},{text:"La vitesse moyenne est de 80 km/h.", final:true}]},
+      {context:"Sur 500 candidats, 15 sont admis.", q:"Quel est le taux de réussite ?", steps:[{text:"Étape 1 — Diviser : 15 ÷ 500 = ?", answer:"0.03", hint:"Nombre d'admis divisé par le nombre total"},{text:"Étape 2 — Convertir en % : 0,03 × 100 = ?", answer:"3", hint:"On multiplie par 100"},{text:"Le taux de réussite est de 3 %.", final:true}]}
+    ]
+  },
+  {
+    id:3, name:'Pratiquer', icon:'📝',
+    desc:'Questions style EPSO simplifiées',
+    badge:'Apprenti EPSO', badgeIcon:'📝',
+    questions:[
+      {table:{title:"Dépenses de formation par secteur (2022)",headers:["Secteur","Nb employés","Budget formation (M€)"],rows:[["Industrie","120 000","36"],["Services","200 000","50"],["Agriculture","40 000","8"]]}, q:"Quel secteur a le plus grand budget de formation ?", opts:["Industrie","Services","Agriculture","Industrie et Services à égalité","Données insuffisantes"], correct:1, method:"Compare directement les montants de la colonne 'Budget formation'. Services = 50 M€, le plus élevé.", explanation:"Il suffit de comparer les valeurs de la dernière colonne : 50 > 36 > 8."},
+      {table:{title:"Émissions de CO₂ (tonnes/habitant)",headers:["Pays","2018","2020","2022"],rows:[["Allemagne","9,1","7,8","7,2"],["France","5,2","4,6","4,3"],["Pologne","8,5","7,9","7,5"]]}, q:"Quel pays a le plus réduit ses émissions entre 2018 et 2022 ?", opts:["Allemagne (−1,9)","France (−0,9)","Pologne (−1,0)","Les trois ont réduit à parts égales","Aucun n'a réduit"], correct:0, method:"Calcule la différence 2018−2022 pour chaque pays. Allemagne : 9,1 − 7,2 = 1,9.", explanation:"Allemagne : −1,9 | France : −0,9 | Pologne : −1,0. L'Allemagne a la plus forte baisse."},
+      {table:{title:"Taux d'emploi des 20-64 ans (%, 2023)",headers:["Pays","Femmes","Hommes"],rows:[["Suède","78","82"],["Italie","52","70"],["Pays-Bas","76","85"]]}, q:"Dans quel pays l'écart entre hommes et femmes est-il le plus grand ?", opts:["Suède (4 pts)","Italie (18 pts)","Pays-Bas (9 pts)","Tous ont le même écart","Données insuffisantes"], correct:1, method:"Calcule Hommes − Femmes pour chaque pays. Italie : 70 − 52 = 18 points.", explanation:"Suède : 82−78 = 4 | Italie : 70−52 = 18 | Pays-Bas : 85−76 = 9. L'Italie a le plus grand écart."},
+      {table:{title:"Production céréalière (millions de tonnes)",headers:["Pays","2021","2022"],rows:[["France","64","68"],["Allemagne","42","39"],["Espagne","24","22"]]}, q:"Quel pays a vu sa production augmenter ?", opts:["France","Allemagne","Espagne","Tous ont augmenté","Aucun n'a augmenté"], correct:0, method:"Compare 2022 vs 2021 pour chaque pays. France : 68 > 64, donc en hausse.", explanation:"France : 64→68 (+4) | Allemagne : 42→39 (−3) | Espagne : 24→22 (−2). Seule la France augmente."},
+      {table:{title:"Budget annuel d'un service (€)",headers:["Poste","Montant"],rows:[["Salaires","180 000"],["Loyers","45 000"],["Matériel","25 000"],["Formation","15 000"]]}, q:"Quelle part du budget représentent les salaires (arrondi) ?", opts:["55 %","68 %","72 %","80 %","45 %"], correct:1, method:"Total = 180+45+25+15 = 265 k€. Part salaires = 180/265 ≈ 0,68 = 68 %.", explanation:"Total : 265 000 €. Salaires : 180 000 ÷ 265 000 ≈ 0,679 → environ 68 %."},
+      {table:{title:"Touristes internationaux (millions)",headers:["Destination","2019","2023"],rows:[["France","90","82"],["Espagne","84","78"],["Italie","65","60"]]}, q:"Quel pays a perdu le plus de touristes entre 2019 et 2023 ?", opts:["France (−8 M)","Espagne (−6 M)","Italie (−5 M)","Tous ont perdu la même chose","Aucun n'a perdu"], correct:0, method:"Calcule 2019−2023 pour chaque pays.", explanation:"France : −8M | Espagne : −6M | Italie : −5M. La France a la plus forte baisse en volume."},
+      {table:{title:"Répartition du personnel d'une agence UE",headers:["Grade","Effectif"],rows:[["AD","45"],["AST","30"],["Contract agents","25"]]}, q:"Les AD représentent quel pourcentage de l'effectif total ?", opts:["30 %","40 %","45 %","50 %","55 %"], correct:2, method:"Total = 45+30+25 = 100. AD = 45/100 = 45 %.", explanation:"Total : 100 agents. AD : 45 sur 100 = 45 %. Ici le total tombe juste, ce qui simplifie le calcul."},
+      {table:{title:"Consommation d'énergie (Mtep)",headers:["Source","2020","2025 (prév.)"],rows:[["Fossile","900","820"],["Nucléaire","220","200"],["Renouvelable","250","350"]]}, q:"Quelle source d'énergie est la seule à augmenter ?", opts:["Fossile","Nucléaire","Renouvelable","Toutes augmentent","Aucune n'augmente"], correct:2, method:"Compare 2025 vs 2020 pour chaque source.", explanation:"Fossile : 900→820 (−80) | Nucléaire : 220→200 (−20) | Renouvelable : 250→350 (+100). Seule le renouvelable augmente."},
+      {table:{title:"Investissements étrangers (milliards €)",headers:["Pays","Entrants","Sortants"],rows:[["Irlande","85","72"],["Pays-Bas","78","95"],["Belgique","45","40"]]}, q:"Quel pays a un solde d'investissement négatif (sort plus qu'il ne reçoit) ?", opts:["Irlande","Pays-Bas","Belgique","Tous positifs","Tous négatifs"], correct:1, method:"Solde = Entrants − Sortants. Pays-Bas : 78 − 95 = −17.", explanation:"Irlande : +13 | Pays-Bas : −17 | Belgique : +5. Seuls les Pays-Bas ont un solde négatif."},
+      {table:{title:"Dette publique (% du PIB, 2023)",headers:["Pays","Dette"],rows:[["Grèce","161"],["Italie","140"],["Allemagne","64"],["Pays-Bas","47"]]}, q:"Combien de pays ont une dette supérieure à 100 % du PIB ?", opts:["1","2","3","4","Aucun"], correct:1, method:"Compte les pays avec dette > 100 : Grèce (161) et Italie (140).", explanation:"Grèce : 161 % et Italie : 140 % sont au-dessus de 100 %. Allemagne et Pays-Bas sont en dessous."}
+    ]
+  },
+  {
+    id:4, name:'Performer', icon:'🎯',
+    desc:'Questions EPSO authentiques',
+    badge:'Prêt pour le concours', badgeIcon:'🎯',
+    questions:[
+      {table:{title:"Commerce extérieur (milliards €, 2023)",headers:["Pays","Export","Import","Solde"],rows:[["Allemagne","1 560","1 370","190"],["France","580","710","−130"],["Italie","620","560","60"],["Espagne","390","420","−30"]]}, q:"Quel est le ratio export/import de la France (arrondi au centième) ?", opts:["0,82","0,92","1,08","0,72","0,78"], correct:0, explanation:"Export/Import = 580/710 ≈ 0,817 → arrondi 0,82. La France importe plus qu'elle n'exporte."},
+      {table:{title:"Effectifs d'une DG de la Commission (2020-2023)",headers:["Année","AD","AST","CA","Total"],rows:[["2020","120","80","50","250"],["2021","115","75","60","250"],["2022","130","70","55","255"],["2023","140","65","50","255"]]}, q:"Quelle catégorie a connu la plus forte croissance entre 2020 et 2023 ?", opts:["AD (+20)","AST (−15)","CA (0)","Le total (+5)","AD et CA à égalité"], correct:0, explanation:"AD : 140−120 = +20 | AST : 65−80 = −15 | CA : 50−50 = 0 | Total : 255−250 = +5. AD a la plus forte hausse."},
+      {table:{title:"Taux d'inflation annuel (%)",headers:["Pays","2021","2022","2023"],rows:[["Zone euro","2,6","8,4","5,4"],["Estonie","4,5","19,4","9,1"],["France","2,1","5,9","4,9"],["Malte","0,7","6,1","5,6"]]}, q:"Dans quel pays l'inflation a-t-elle le plus augmenté entre 2021 et 2022 ?", opts:["Zone euro (+5,8)","Estonie (+14,9)","France (+3,8)","Malte (+5,4)","Tous ont augmenté de la même manière"], correct:1, explanation:"Estonie : 19,4 − 4,5 = +14,9 points, la plus forte augmentation."},
+      {table:{title:"Fonds structurels versés (millions €)",headers:["Région","Dotation","Versé","Taux absorption"],rows:[["Sud","800","640","80 %"],["Nord","450","405","90 %"],["Est","600","390","65 %"],["Ouest","350","315","90 %"]]}, q:"Combien reste-t-il à verser pour la région Est ?", opts:["210 M€","390 M€","150 M€","240 M€","60 M€"], correct:0, explanation:"Dotation − Versé = 600 − 390 = 210 M€ restant pour la région Est."},
+      {table:{title:"PIB par habitant (€, 2023)",headers:["Pays","PIB total (Md€)","Population (M)","PIB/hab"],rows:[["Luxembourg","82","0,66","?"],["Irlande","530","5,1","?"],["Bulgarie","100","6,5","?"]]}, q:"Quel pays a le PIB par habitant le plus élevé ?", opts:["Luxembourg (~124 000 €)","Irlande (~104 000 €)","Bulgarie (~15 000 €)","Irlande et Luxembourg à égalité","Données insuffisantes"], correct:0, explanation:"Lux : 82/0,66 ≈ 124 000 | Irl : 530/5,1 ≈ 104 000 | Bul : 100/6,5 ≈ 15 000. Luxembourg est le plus élevé."},
+      {table:{title:"Dépenses de santé (% du PIB)",headers:["Pays","2015","2019","2023"],rows:[["France","11,5","11,2","12,1"],["Allemagne","11,2","11,7","12,7"],["Moyenne UE","9,9","9,9","10,9"]]}, q:"Quel est le taux de croissance des dépenses de santé en Allemagne entre 2015 et 2023 ?", opts:["1,5 pts","13,4 %","12,7 %","0,15 %","11,5 pts"], correct:1, explanation:"Variation en % : (12,7−11,2)/11,2 × 100 = 1,5/11,2 × 100 ≈ 13,4 %. Attention : ne pas confondre points de % et taux de variation."},
+      {table:{title:"Répartition budgétaire d'un programme (k€)",headers:["Ligne","2022","2023","Variation"],rows:[["Personnel","1 200","1 320","?"],["Fonctionnement","800","720","?"],["Investissement","500","600","?"]]}, q:"Quelle ligne a la plus forte variation en pourcentage ?", opts:["Personnel (+10 %)","Fonctionnement (−10 %)","Investissement (+20 %)","Toutes identiques","Personnel et Fonctionnement"], correct:2, explanation:"Personnel : +120/1200 = +10% | Fonctionnement : −80/800 = −10% | Investissement : +100/500 = +20%. Investissement a la plus forte variation."},
+      {table:{title:"Résultats d'un concours EPSO",headers:["Épreuve","Inscrits","Présents","Admis"],rows:[["Verbal","12 000","8 400","2 520"],["Numérique","12 000","8 400","1 680"],["Abstrait","12 000","8 400","3 360"]]}, q:"Quel est le taux de réussite au Numérique parmi les présents ?", opts:["14 %","20 %","25 %","30 %","40 %"], correct:1, explanation:"1 680 admis / 8 400 présents = 0,20 = 20 %."},
+      {table:{title:"Subventions agricoles (M€) par type d'exploitation",headers:["Type","Nb exploit.","Total subv.","Moy/exploit."],rows:[["Grandes cultures","45 000","900","?"],["Élevage","30 000","750","?"],["Viticulture","15 000","225","?"]]}, q:"Quel type d'exploitation reçoit la plus forte subvention moyenne ?", opts:["Grandes cultures (20 k€)","Élevage (25 k€)","Viticulture (15 k€)","Toutes identiques","Grandes cultures et Élevage"], correct:1, explanation:"GC : 900M/45k = 20k€ | Élev : 750M/30k = 25k€ | Viti : 225M/15k = 15k€. L'élevage a la moyenne la plus élevée."},
+      {table:{title:"Évolution du trafic aérien (millions de passagers)",headers:["Aéroport","2019","2023","Variation %"],rows:[["CDG","76","68","?"],["Schiphol","72","62","?"],["Frankfurt","70","59","?"]]}, q:"Quel aéroport a le plus faible taux de récupération par rapport à 2019 ?", opts:["CDG (89 %)","Schiphol (86 %)","Frankfurt (84 %)","Tous identiques","CDG et Schiphol"], correct:2, explanation:"CDG : 68/76 = 89,5% | Schiphol : 62/72 = 86,1% | Frankfurt : 59/70 = 84,3%. Frankfurt a le plus faible taux de récupération."}
+    ]
+  },
+  {
+    id:5, name:'Confiance', icon:'🏆',
+    desc:'Simulation concours (10 Q / 20 min)',
+    badge:'Champion', badgeIcon:'🏆',
+    questions:[]
+  }
+];
+
+/* ═══════════════════════════════════════════════════════
+   ÉTAT & PERSISTENCE
+   ═══════════════════════════════════════════════════════ */
+
+const STORAGE_KEY = 'eu_ad5_remediation';
+let S = {
+  screen: 'home',
+  level: 0,
+  step: 0,
+  answers: [],
+  maxUnlocked: 0,
+  calmMode: false,
+  sessions: [],
+  currentStepIndex: 0,
+  timerStart: null,
+  timerInterval: null
+};
+
+function save() {
+  const d = { maxUnlocked: S.maxUnlocked, calmMode: S.calmMode, sessions: S.sessions.slice(-50) };
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(d));
+}
+function load() {
+  try {
+    const d = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if (d) {
+      S.maxUnlocked = d.maxUnlocked || 0;
+      S.calmMode = d.calmMode || false;
+      S.sessions = d.sessions || [];
+    }
+  } catch(e) {}
+  if (S.calmMode) document.body.classList.add('calm');
+}
+
+/* ═══════════════════════════════════════════════════════
+   NAVIGATION
+   ═══════════════════════════════════════════════════════ */
+
+function goHome() {
+  clearTimer();
+  S.screen = 'home';
+  S.step = 0;
+  S.answers = [];
+  S.currentStepIndex = 0;
+  document.getElementById('pause-overlay').classList.remove('show');
+  renderHome();
+}
+
+function startLevel(id) {
+  if (id > S.maxUnlocked && id !== 5) return;
+  if (id === 5 && S.maxUnlocked < 4) return;
+  S.level = id;
+  S.step = 0;
+  S.answers = [];
+  S.currentStepIndex = 0;
+  S.screen = 'exercise';
+  if (id === 5) {
+    const pool = [...LEVELS[3].questions, ...LEVELS[4].questions];
+    LEVELS[5].questions = shuffle(pool).slice(0, 10);
+  }
+  renderExercise();
+}
+
+function shuffle(arr) { return [...arr].sort(() => Math.random() - .5); }
+
+/* ═══════════════════════════════════════════════════════
+   RENDER — HOME
+   ═══════════════════════════════════════════════════════ */
+
+function renderHome() {
+  const main = document.getElementById('main');
+  const returnMsg = S.sessions.length > 0
+    ? `<p style="margin-top:8px;color:var(--green);font-weight:600">Bon retour ! Tu en étais au Niveau ${S.maxUnlocked}.</p>`
+    : '';
+  main.innerHTML = `
+    <div class="welcome-msg">
+      <h1>Remédiation Numérique</h1>
+      <p>Ce module n'est pas un test. Tu ne peux pas échouer ici.<br>
+      Chaque étape est conçue pour t'aider à avancer à ton rythme.</p>
+      ${returnMsg}
+    </div>
+    <div class="level-grid">
+      ${LEVELS.map(lv => {
+        const locked = lv.id > S.maxUnlocked && !(lv.id === 5 && S.maxUnlocked >= 4);
+        const done = S.sessions.some(s => s.level === lv.id);
+        const cls = locked ? 'locked' : (lv.id === S.maxUnlocked && !done ? 'current' : '');
+        return `<div class="level-card ${cls}" onclick="${locked ? '' : `startLevel(${lv.id})`}">
+          <span class="icon">${lv.icon}</span>
+          <div class="name">Niveau ${lv.id}</div>
+          <div class="desc">${lv.name}</div>
+          <div class="desc">${lv.desc}</div>
+          ${done ? `<span class="badge-done">Complété</span>` : ''}
+          ${locked ? '<div class="desc" style="margin-top:4px">🔒</div>' : ''}
+        </div>`;
+      }).join('')}
+    </div>
+    ${S.sessions.length > 0 ? renderProgressChart() : ''}
+  `;
+}
+
+function renderProgressChart() {
+  const last = S.sessions.slice(-10);
+  if (last.length < 2) return '';
+  const max = Math.max(...last.map(s => s.score));
+  const w = 100 / last.length;
+  const bars = last.map((s, i) =>
+    `<rect x="${i * w + w * 0.15}%" y="${100 - (s.score / max) * 80}%" width="${w * 0.7}%" height="${(s.score / max) * 80}%" fill="var(--blue)" rx="2"/>`
+  ).join('');
+  return `
+    <div class="exercise-card" style="margin-top:20px">
+      <div style="font-weight:700;color:var(--blue);margin-bottom:8px">Ta progression</div>
+      <svg viewBox="0 0 100 100" style="width:100%;height:80px;background:var(--gray-light);border-radius:var(--radius)">
+        <line x1="0" y1="98%" x2="100%" y2="98%" stroke="#dde2f0" stroke-width="0.5"/>
+        ${bars}
+      </svg>
+      <div style="font-size:11px;color:var(--gray);margin-top:4px">${last.length} dernières sessions</div>
+    </div>`;
+}
+
+/* ═══════════════════════════════════════════════════════
+   RENDER — EXERCISE DISPATCHER
+   ═══════════════════════════════════════════════════════ */
+
+function renderExercise() {
+  const lv = LEVELS[S.level];
+  const q = lv.questions[S.step];
+  if (!q) { finishLevel(); return; }
+  const total = lv.questions.length;
+  const pct = (S.step / total) * 100;
+
+  let content = '';
+  if (S.level === 0) content = renderQ_level0(q);
+  else if (S.level === 1) content = renderQ_level1(q);
+  else if (S.level === 2) content = renderQ_level2(q);
+  else if (S.level === 3) content = renderQ_level3(q);
+  else if (S.level >= 4) content = renderQ_level4(q);
+
+  const showTimer = (S.level === 4 || S.level === 5);
+  const timerHTML = showTimer ? `<div class="timer-label" id="timer-label"></div><div class="timer-bar"><div class="timer-fill" id="timer-fill" style="width:100%"></div></div>` : '';
+
+  document.getElementById('main').innerHTML = `
+    <div class="exercise-card">
+      <div class="exercise-header">
+        <span class="level-indicator">${lv.icon} Niveau ${lv.id} · ${lv.name}</span>
+        <span>Question ${S.step + 1} / ${total}</span>
+      </div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+      ${timerHTML}
+      ${content}
+      <div class="feedback-box" id="feedback"></div>
+      <div class="action-bar" id="actions" style="display:none">
+        <button class="btn btn-outline" onclick="goHome()">Menu</button>
+        <button class="btn btn-primary" onclick="nextStep()">Continuer →</button>
+      </div>
+    </div>`;
+
+  if (showTimer && !S.timerStart) startTimer();
+}
+
+/* ═══════════════════════════════════════════════════════
+   RENDER — LEVEL 0 (observation)
+   ═══════════════════════════════════════════════════════ */
+
+function renderQ_level0(q) {
+  return `
+    <div class="scene-text">${q.scene}</div>
+    <div class="question-text">${q.q}</div>
+    <div class="options-list">
+      ${q.opts.map((o, i) => `<button class="opt-btn" onclick="answer(${i})">${o}</button>`).join('')}
+    </div>`;
+}
+
+/* ═══════════════════════════════════════════════════════
+   RENDER — LEVEL 1 (tables & bars)
+   ═══════════════════════════════════════════════════════ */
+
+function renderQ_level1(q) {
+  let visual = '';
+  if (q.type === 'table') {
+    visual = renderTable({title: q.title, headers: q.headers, rows: q.rows});
+  } else if (q.type === 'bar') {
+    const maxVal = Math.max(...q.bars.map(b => b.value));
+    const barsSVG = q.bars.map((b, i) => {
+      const h = (b.value / maxVal) * 120;
+      const x = 30 + i * 80;
+      return `<rect x="${x}" y="${150 - h}" width="50" height="${h}" fill="${b.color}" rx="3"/>
+              <text x="${x + 25}" y="${165}" text-anchor="middle" font-size="10" fill="var(--gray)">${b.label}</text>
+              <text x="${x + 25}" y="${145 - h}" text-anchor="middle" font-size="10" fill="var(--text)" font-weight="600">${b.value}</text>`;
+    }).join('');
+    visual = `<div class="bar-chart"><svg viewBox="0 0 ${30 + q.bars.length * 80 + 20} 180" style="width:100%;max-height:160px">
+      <text x="10" y="14" font-size="11" fill="var(--blue)" font-weight="700">${q.title}</text>
+      <line x1="25" y1="150" x2="${25 + q.bars.length * 80 + 10}" y2="150" stroke="#dde2f0"/>
+      ${barsSVG}
+    </svg></div>`;
+  }
+  return `
+    ${visual}
+    <div class="question-text">${q.q}</div>
+    <div class="options-list">
+      ${q.opts.map((o, i) => `<button class="opt-btn" onclick="answer(${i})">${o}</button>`).join('')}
+    </div>`;
+}
+
+/* ═══════════════════════════════════════════════════════
+   RENDER — LEVEL 2 (step by step)
+   ═══════════════════════════════════════════════════════ */
+
+function renderQ_level2(q) {
+  S.currentStepIndex = 0;
+  return `
+    <div class="scene-text">${q.context}</div>
+    <div class="question-text">${q.q}</div>
+    <div class="step-container" id="steps-container">
+      ${renderSteps(q)}
+    </div>`;
+}
+
+function renderSteps(q) {
+  return q.steps.map((st, i) => {
+    if (st.final) {
+      return `<div class="calc-step ${i <= S.currentStepIndex ? '' : 'hidden'}" id="step-${i}" style="${i > S.currentStepIndex ? 'display:none' : ''}">
+        <div class="step-label">Résultat</div>
+        <div class="step-text" style="color:var(--green);font-weight:700">${st.text}</div>
+      </div>`;
+    }
+    const active = i === S.currentStepIndex;
+    return `<div class="calc-step ${active ? 'active' : (i < S.currentStepIndex ? 'done' : '')}" id="step-${i}" style="${i > S.currentStepIndex ? 'display:none' : ''}">
+      <div class="step-label">Étape ${i + 1}</div>
+      <div class="step-text">${st.text.replace('?', `<input type="text" class="step-input" id="input-${i}" placeholder="?" ${active ? '' : 'disabled'}>`)}</div>
+      ${st.hint ? `<div style="font-size:11px;color:var(--gray);margin-top:4px;cursor:pointer" onclick="this.innerHTML='💡 '+this.dataset.hint" data-hint="${st.hint}">💡 Besoin d'un indice ?</div>` : ''}
+      ${active ? `<button class="btn btn-primary" style="margin-top:8px;padding:6px 14px;font-size:13px" onclick="checkStep(${i})">Valider cette étape</button>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function checkStep(i) {
+  const q = LEVELS[S.level].questions[S.step];
+  const st = q.steps[i];
+  const input = document.getElementById('input-' + i);
+  const val = input.value.replace(/\s/g, '').replace(',', '.');
+  const expected = String(st.answer).replace(',', '.');
+  if (Math.abs(parseFloat(val) - parseFloat(expected)) < 0.1 || val === expected) {
+    document.getElementById('step-' + i).classList.remove('active');
+    document.getElementById('step-' + i).classList.add('done');
+    input.disabled = true;
+    input.style.borderColor = 'var(--green)';
+    input.style.background = 'var(--green-bg)';
+    S.currentStepIndex = i + 1;
+    const nextStep = q.steps[S.currentStepIndex];
+    if (nextStep) {
+      document.getElementById('step-' + S.currentStepIndex).style.display = '';
+      if (nextStep.final) {
+        document.getElementById('step-' + S.currentStepIndex).style.display = '';
+        S.answers.push(true);
+        showFeedback(true, "Bravo, tu as trouvé en décomposant le calcul !");
+      } else {
+        document.getElementById('step-' + S.currentStepIndex).classList.add('active');
+        document.getElementById('steps-container').innerHTML = renderSteps(q);
+      }
+    }
+  } else {
+    input.style.borderColor = 'var(--orange)';
+    input.style.background = 'var(--orange-bg)';
+    showInlineFeedback('Pas tout à fait — réessaie ! ' + (st.hint || ''));
+    setTimeout(() => { input.style.borderColor = 'var(--blue)'; input.style.background = ''; input.value = ''; input.focus(); }, 1500);
+  }
+}
+
+function showInlineFeedback(msg) {
+  const fb = document.getElementById('feedback');
+  fb.className = 'feedback-box show neutral';
+  fb.innerHTML = msg;
+  setTimeout(() => fb.classList.remove('show'), 2000);
+}
+
+/* ═══════════════════════════════════════════════════════
+   RENDER — LEVEL 3 (EPSO simplifié + aide)
+   ═══════════════════════════════════════════════════════ */
+
+function renderQ_level3(q) {
+  const tableHTML = q.table ? renderTable(q.table) : '';
+  return `
+    ${tableHTML}
+    <div class="question-text">${q.q}</div>
+    <div style="margin-bottom:10px">
+      <button class="btn-help" onclick="showMethod(this)" data-method="${encodeURIComponent(q.method)}">💡 Montre-moi la méthode</button>
+    </div>
+    <div id="method-box" style="display:none;background:var(--blue-light);border-radius:var(--radius);padding:10px 14px;margin-bottom:12px;font-size:13px;color:var(--blue)"></div>
+    <div class="options-list">
+      ${q.opts.map((o, i) => `<button class="opt-btn" onclick="answer(${i})">${o}</button>`).join('')}
+    </div>`;
+}
+
+function showMethod(btn) {
+  const box = document.getElementById('method-box');
+  box.style.display = 'block';
+  box.innerHTML = '💡 ' + decodeURIComponent(btn.dataset.method);
+  btn.disabled = true;
+  btn.style.opacity = '.5';
+}
+
+/* ═══════════════════════════════════════════════════════
+   RENDER — LEVEL 4 & 5 (EPSO authentique)
+   ═══════════════════════════════════════════════════════ */
+
+function renderQ_level4(q) {
+  const tableHTML = q.table ? renderTable(q.table) : '';
+  const safetyBtn = S.level === 5
+    ? `<button class="btn-help" onclick="showMethod(this)" data-method="${encodeURIComponent(q.explanation || '')}">🛟 Méthode rapide</button>`
+    : '';
+  return `
+    ${tableHTML}
+    <div class="question-text">${q.q}</div>
+    ${safetyBtn ? `<div style="margin-bottom:10px">${safetyBtn}</div><div id="method-box" style="display:none;background:var(--blue-light);border-radius:var(--radius);padding:10px 14px;margin-bottom:12px;font-size:13px;color:var(--blue)"></div>` : ''}
+    <div class="options-list">
+      ${q.opts.map((o, i) => `<button class="opt-btn" onclick="answer(${i})">${o}</button>`).join('')}
+    </div>`;
+}
+
+/* ═══════════════════════════════════════════════════════
+   SHARED — TABLE RENDERER
+   ═══════════════════════════════════════════════════════ */
+
+function renderTable(t) {
+  return `<div style="font-weight:700;color:var(--blue);font-size:13px;margin-bottom:4px">${t.title}</div>
+    <table class="data-table">
+      <thead><tr>${t.headers.map(h => `<th>${h}</th>`).join('')}</tr></thead>
+      <tbody>${t.rows.map(r => `<tr>${(Array.isArray(r) ? r : Object.values(r)).map(c => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>
+    </table>`;
+}
+
+/* ═══════════════════════════════════════════════════════
+   ANSWER & FEEDBACK
+   ═══════════════════════════════════════════════════════ */
+
+function answer(selected) {
+  const q = LEVELS[S.level].questions[S.step];
+  const correct = selected === q.correct;
+  S.answers.push(correct);
+
+  document.querySelectorAll('.opt-btn').forEach((btn, i) => {
+    btn.disabled = true;
+    if (i === q.correct) btn.classList.add('correct');
+    else if (i === selected && !correct) btn.classList.add('incorrect');
+  });
+
+  const messages = {
+    positive: ['Bien vu !', 'Exactement !', 'Bravo !', 'Parfait !', 'Tu as trouvé !'],
+    neutral: ['Pas tout à fait — regarde ici :', 'Presque ! La bonne réponse est :', 'Pas cette fois — voici la réponse :']
+  };
+
+  const msg = correct
+    ? messages.positive[Math.floor(Math.random() * messages.positive.length)]
+    : messages.neutral[Math.floor(Math.random() * messages.neutral.length)];
+
+  const explanation = q.explanation
+    ? `<div style="margin-top:6px;font-size:13px">${q.explanation}</div>`
+    : '';
+
+  showFeedback(correct, msg + (correct ? '' : ` <strong>${q.opts[q.correct]}</strong>`) + explanation);
+}
+
+function showFeedback(correct, msg) {
+  const fb = document.getElementById('feedback');
+  fb.className = `feedback-box show ${correct ? 'positive' : 'neutral'}`;
+  fb.innerHTML = msg;
+  document.getElementById('actions').style.display = 'flex';
+}
+
+function nextStep() {
+  S.step++;
+  if (S.step >= LEVELS[S.level].questions.length) {
+    finishLevel();
+  } else {
+    renderExercise();
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   FINISH LEVEL
+   ═══════════════════════════════════════════════════════ */
+
+function finishLevel() {
+  clearTimer();
+  const lv = LEVELS[S.level];
+  const correct = S.answers.filter(Boolean).length;
+  const total = S.answers.length;
+  const good = correct >= Math.ceil(total * 0.7);
+
+  S.sessions.push({ level: S.level, score: correct, total, date: new Date().toISOString() });
+
+  if (good && S.level === S.maxUnlocked && S.level < 5) {
+    S.maxUnlocked = S.level + 1;
+  }
+  save();
+
+  const resultMsg = good
+    ? `Tu as réussi ${correct} questions sur ${total}. Le niveau suivant est débloqué !`
+    : `Tu as réussi ${correct} questions sur ${total}. Continue à t'entraîner sur ce niveau, tu progresses !`;
+
+  document.getElementById('main').innerHTML = `
+    <div class="result-card">
+      <h2>${lv.icon} ${lv.name} — Terminé</h2>
+      <div class="result-big">${correct} sur ${total}</div>
+      <div class="result-msg">${resultMsg}</div>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <button class="btn btn-outline" onclick="startLevel(${S.level})">Refaire ce niveau</button>
+        ${good && S.level < 5 ? `<button class="btn btn-primary" onclick="startLevel(${S.level + 1})">Niveau suivant →</button>` : ''}
+        <button class="btn btn-outline" onclick="goHome()">Menu</button>
+      </div>
+    </div>`;
+
+  if (good && lv.badge) {
+    setTimeout(() => showBadge(lv.badgeIcon, lv.badge, `Niveau ${lv.id} complété !`), 500);
+  }
+}
+
+/* ═══════════════════════════════════════════════════════
+   TIMER (niveaux 4-5)
+   ═══════════════════════════════════════════════════════ */
+
+function startTimer() {
+  S.timerStart = Date.now();
+  const total = S.level === 5 ? 20 * 60 * 1000 : 2 * 60 * 1000;
+  S.timerInterval = setInterval(() => {
+    const elapsed = Date.now() - S.timerStart;
+    const pct = Math.max(0, 100 - (elapsed / total) * 100);
+    const remaining = Math.max(0, Math.ceil((total - elapsed) / 60000));
+    const fill = document.getElementById('timer-fill');
+    const label = document.getElementById('timer-label');
+    if (fill) fill.style.width = pct + '%';
+    if (label) label.textContent = remaining > 0 ? `Environ ${remaining} min restantes` : '';
+    if (pct <= 0) {
+      clearTimer();
+      if (label) label.textContent = 'On fait une pause ?';
+    }
+  }, 1000);
+}
+
+function clearTimer() {
+  if (S.timerInterval) { clearInterval(S.timerInterval); S.timerInterval = null; }
+  S.timerStart = null;
+}
+
+/* ═══════════════════════════════════════════════════════
+   UX — BADGE, CALM, PAUSE
+   ═══════════════════════════════════════════════════════ */
+
+function showBadge(icon, text, sub) {
+  document.getElementById('badge-icon').textContent = icon;
+  document.getElementById('badge-text').textContent = text;
+  document.getElementById('badge-sub').textContent = sub;
+  document.getElementById('badge-popup').classList.add('show');
+}
+function closeBadge() { document.getElementById('badge-popup').classList.remove('show'); }
+
+function toggleCalm() {
+  S.calmMode = !S.calmMode;
+  document.body.classList.toggle('calm', S.calmMode);
+  document.querySelector('.btn-calm').classList.toggle('active', S.calmMode);
+  save();
+}
+
+function togglePause() {
+  document.getElementById('pause-overlay').classList.toggle('show');
+}
+
+/* ═══════════════════════════════════════════════════════
+   INIT
+   ═══════════════════════════════════════════════════════ */
+
+load();
+goHome();
+
+</script>
+</body>
+</html>

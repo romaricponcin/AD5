@@ -35,7 +35,8 @@ export const CFG = {
     'data/questions_digital_batch2.json',
     'data/questions_digital_batch3.json',
     'data/questions_digital_batch4.json',
-    'data/questions_digital_batch5.json'
+    'data/questions_digital_batch5.json',
+    'data/questions_verbal_batch1.json'
   ],
 
   /* Paramètres officiels du concours AD5 par épreuve */
