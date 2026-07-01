@@ -1,0 +1,152 @@
+[
+  {
+    "id": "v316",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "En forêt de Taï, le rôle disséminateur de l'éléphant apparaît essentiel puisque tant par le nombre d'espèces que par le nombre d'individus, la loxodontochorie est le mode de dissémination le plus fréquent des arbres de la strate dominante : près de 30 % des espèces et plus de 40% des individus de notre relevé. La dissémination étant indispensable à la régénération des espèces, c'est dire le rôle important de l'éléphant dans le maintien de la richesse floristique de cette forêt. Le rôle de l'éléphant dans la régénération de la forêt est donc important et il est possible que sa disparition entraîne la raréfaction des espèces qui lui sont étroitement inféodées.\n\nLaquelle de ces affirmations est correcte ?",
+    "options": [
+      "L'éléphant participe activement au maintien de la biodiversité.",
+      "La richesse de la biodiversité florale est généralement assurée par la loxodontochorie dans la forêt de Taï.",
+      "La dissémination permet la sauvegarde des espèces.",
+      "La disparition des éléphants menacerait la biodiversité."
+    ],
+    "correct": 1,
+    "explanation": "La loxodontochorie (dissémination par l'éléphant) est le mode le plus fréquent pour les arbres dominants (30% des espèces, 40% des individus). Option A : le texte parle de richesse floristique, pas de biodiversité au sens large. Option C : 'régénération' ≠ 'sauvegarde'. Option D : le texte évoque une hypothèse limitée à certaines espèces, pas la biodiversité globale.",
+    "difficulty": 2
+  },
+  {
+    "id": "v317",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "La politique monétaire unique s'est semble-t-il accompagnée d'une importante accélération de la transmission des impulsions de politique monétaire aux taux bancaires dans la zone euro : le délai moyen d'ajustement s'est ainsi fortement réduit entre les deux périodes considérées (janvier 1986-décembre 1998, d'une part, et janvier 1999-septembre 2003, d'autre part), passant selon le taux considéré d'un intervalle de 6 à 12 mois sur la période 1986-1998 à un intervalle de 2 à 8 mois sur la période 1999-2003. Dans la zone euro, cette accélération de la transmission des impulsions de politique monétaire aux taux débiteurs et créditeurs semble d'abord concerner le crédit à l'immobilier, pour lequel le délai moyen d'ajustement se réduit de plus de 7 mois, puis le crédit à long terme aux entreprises et enfin le crédit à la consommation, le crédit à court terme aux entreprises et les dépôts d'épargne (réduction de 2 à 3 mois).\n\nParmi les propositions suivantes, laquelle est correcte ?",
+    "options": [
+      "Le crédit immobilier est le premier crédit impacté par les changements de taux bancaires.",
+      "Entre janvier 1986 et décembre 1998, le taux bancaire a changé plus de douze fois.",
+      "Le taux des dépôts d'épargne a diminué au moins deux fois.",
+      "Depuis janvier 1986, les taux bancaires dans la zone euro ont été réduits deux fois."
+    ],
+    "correct": 1,
+    "explanation": "Sur 12-13 ans (1986-1998) avec un délai de 6 à 12 mois par ajustement, on obtient au minimum 12 changements (un par an) et davantage avec les délais plus courts. Le texte ne précise ni la direction des variations ni leur nombre exact, rendant C et D infondées. A confond 'vitesse d'ajustement la plus forte' avec 'premier impacté en absolu'.",
+    "difficulty": 3
+  },
+  {
+    "id": "v318",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Vouloir donner des limites à l'Europe est un projet scientifiquement risqué et politiquement sensible. Il existe pourtant une abondante littérature sur la définition de l'Europe, sur son identité et, ce faisant, sur la recherche de ses limites. Cette question se pose avec acuité avec l'élargissement de l'Union européenne (UE). Celui-ci soulève le problème d'une définition géographique de l'Europe, surtout depuis que le référentiel « occidental » face au bloc soviétique n'a plus de raison d'être. L'absence de définition officielle de l'Europe est un problème pour l'Union européenne, notamment dans la gestion des candidatures d'adhésion. Ainsi, si l'on s'en tient à l'article 237 du traité de Rome, « tout État européen peut demander à devenir membre de la Communauté ». Or le terme « européen » n'est nulle part défini, ce qui laisse place à toutes les interprétations comme l'a montré la candidature du Maroc dans les années 1990.\n\nLaquelle de ces affirmations est correcte ?",
+    "options": [
+      "L'absence de définition géographique de l'Europe n'a pas empêché la candidature du Maroc à l'adhésion à l'Union européenne.",
+      "Le bloc soviétique permettait de définir l'Europe d'un point de vue géographique.",
+      "L'élargissement de l'Union européenne est freiné par l'absence de définition de l'Europe.",
+      "L'article 237 permet la gestion des candidatures d'adhésion à l'Union européenne."
+    ],
+    "correct": 0,
+    "explanation": "Le texte cite la candidature du Maroc comme exemple illustrant que l'absence de définition du terme 'européen' n'a pas bloqué cette démarche. B : le texte dit seulement que le référentiel soviétique 'n'a plus de raison d'être', pas qu'il définissait l'Europe. C : le texte parle d'un 'problème' dans la gestion, pas d'un frein à l'élargissement. D : l'article 237 pose une condition d'éligibilité, non un mécanisme de gestion.",
+    "difficulty": 2
+  },
+  {
+    "id": "v319",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Les comètes de Kreutz ont toutes des orbites qui leur font frôler le soleil. On pense qu'elles proviennent de la fragmentation, il y a plusieurs siècles, d'une très grande comète et elles portent le nom de l'astronome Heinrich Kreutz, qui a été le premier à démontrer qu'il existait un lien entre ces comètes. La plus récemment découverte est Ikeya-Seki, observée en 1965, qui est peut-être une des comètes les plus lumineuses du dernier millénaire et certainement la plus lumineuse identifiée depuis le début de la classification il y a plus d'un siècle. Plusieurs centaines de petites comètes de la même famille ont été découvertes depuis le lancement du satellite SOHO en 1995. Certaines n'ont que quelques mètres de diamètre et ne persistent donc que rarement car leur orbite est trop proche du soleil.\n\nParmi les propositions suivantes, laquelle est correcte ?",
+    "options": [
+      "Ikeya-Seki est la comète de Kreutz la plus lumineuse jamais recensée.",
+      "Heinrich Kreutz a découvert toutes les comètes de Kreutz il y a plusieurs siècles.",
+      "Une comète est classée dans la catégorie des comètes de Kreutz si son orbite lui fait frôler le soleil.",
+      "Les plus petites comètes de Kreutz ne pourraient jamais persister sur une orbite proche du soleil."
+    ],
+    "correct": 0,
+    "explanation": "Le texte indique qu'Ikeya-Seki est 'certainement la plus lumineuse identifiée depuis le début de la classification', ce qui correspond à 'la plus lumineuse jamais recensée'. B : Kreutz a démontré un lien, il n'a pas découvert les comètes. C : frôler le soleil est une propriété descriptive, pas le critère de classification. D : le texte dit 'ne persistent que rarement', non 'jamais'.",
+    "difficulty": 2
+  },
+  {
+    "id": "v320",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "L'objectif déclaré de l'approche communicative est l'acquisition de la part des apprenants d'une maîtrise quasi-native de la langue cible. Cela implique qu'ils puissent manier divers niveaux de langue et divers registres et qu'ils soient capables d'identifier certains traits caractéristiques des diverses variétés de la langue et de connaître les conséquences pragmatiques de l'utilisation de ces traits. Cet objectif relativement ambitieux ne peut pas être atteint si l'on se réfère uniquement à une norme monolithique - dénommée français standard (FS) qui, de surcroît, s'appuie sur une vision idéalisée du comportement langagier d'un groupe particulier de locuteurs, en l'occurrence les membres cultivés de la bourgeoisie parisienne ainsi que les Français ayant des liens sociaux étroits avec ce groupe.\n\nParmi les propositions suivantes, laquelle est correcte ?",
+    "options": [
+      "La pratique de niveaux de langue variés est peu présente dans des approches non-communicatives.",
+      "Le français standard (FS) est la variété de français parlé à Paris.",
+      "L'utilisation du français standard est incompatible avec l'approche communicative.",
+      "Le français standard (FS) pourrait être parlé à Paris."
+    ],
+    "correct": 3,
+    "explanation": "Le FS est une norme idéalisée du comportement langagier de la bourgeoisie parisienne, donc il 'pourrait' être parlé à Paris — la formulation conditionnelle est bien justifiée. A : le texte ne compare pas avec d'autres approches. B : le FS est une norme idéalisée, non une variété réellement parlée. C : l'objectif ne peut être atteint 'si l'on se réfère uniquement' au FS, ce n'est pas une incompatibilité totale.",
+    "difficulty": 3
+  },
+  {
+    "id": "v321",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Existait-il l'équivalent d'une classe moyenne à Rome et peut-on seulement parler de classes sociales à propos d'une société divisée en ordines ? On en discute. Il est pourtant évident que, dans le cadre des « ordres », la plèbe ne formait pas un tout uniforme et, qu'aux yeux des intéressés, la richesse avait son importance. En effet, les plébéiens fortunés formaient un groupe différent du reste de leur ordre ; ils avaient leurs idées politiques et une « idéologie », de type sapiential, ils représentaient, du moins dans l'Urbs, le peuple romain, et ils étaient conscients d'appartenir à une classe moyenne.\n\nLaquelle de ces affirmations est correcte ?",
+    "options": [
+      "La notion de classe sociale remonte à l'Empire romain.",
+      "La stratification sociale à Rome repose sur la richesse.",
+      "La plèbe constitue un ordre complexe.",
+      "L'idée de classe sociale n'est pas pertinente dans une société divisée en ordines."
+    ],
+    "correct": 2,
+    "explanation": "Le texte affirme explicitement que la plèbe 'ne formait pas un tout uniforme' et que les plébéiens fortunés formaient un groupe distinct : c'est la définition d'un ordre hétérogène, donc complexe. A : le texte évoque une conscience de classe chez certains plébéiens, non une origine historique du concept. B : les ordres structurent la société, la richesse n'est qu'un facteur secondaire. D : le texte débat de la pertinence sans la nier.",
+    "difficulty": 2
+  },
+  {
+    "id": "v322",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Les visites de travail font partie intégrante de l'emploi du temps quotidien de tout membre du Parlement européen, même lors des vacances parlementaires. Malgré tout, les travaux doivent avancer ; c'est pourquoi le parlementaire X n'accepte pas les qualificatifs tels que « fainéant ». « La pression de travail est énorme. Je tiens un décompte depuis début novembre et j'arrive à 70-80 heures par semaine. A cela s'ajoute le fait que le Parlement européen siège 46 semaines par an. C'est beaucoup par comparaison avec la Chambre basse des Pays-Bas qui ne siège pas plus de 34 semaines par an ». Beaucoup trop même, selon X : « Nous n'arrivons jamais à rien dans les Etats membres si nous devons être si souvent à Bruxelles ».\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Tous les MPE travaillent 70 à 80 heures par semaine, d'après le MPE X.",
+      "Chaque année, le Parlement européen se réunit près de trois mois de plus que la Chambre basse néerlandaise.",
+      "Pendant les vacances parlementaires, le MPE X ne fait rien d'autre que des visites de travail.",
+      "De l'avis du parlementaire X, le Parlement européen n'arrivera jamais à rien dans les États membres en raison des visites de travail."
+    ],
+    "correct": 1,
+    "explanation": "46 − 34 = 12 semaines de différence, soit environ 3 mois. A : les 70-80h/semaine sont l'expérience personnelle de X, non une généralisation à tous les MPE. C : les visites 'font partie' de l'emploi du temps, elles ne constituent pas l'unique activité. D : X critique la fréquence des sessions à Bruxelles, non les visites de travail.",
+    "difficulty": 1
+  },
+  {
+    "id": "v323",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "En se refermant sur ces phrases, l'écriture mime la rupture de l'illusion cinématographique propre à la fin d'une projection et renforce du même coup l'aspect fantastique, le mirage de la modernité que constitue New York. Morand, en organisant ainsi son texte, opte pour le récit d'une illusion humaine et lui donne la forme cinématographique de l'illusion. Parallèlement, cette clôture projective permet d'arrêter par un artifice d'écriture une réalité urbaine en perpétuel devenir. Grâce à cette structure en boucle qui ouvre et referme le livre sur une même image, en encerclant la ville dans son devenir, l'écrivain nous fait don d'un objet maîtrisé, conquis parce qu'hypothétiquement détruit. Par ce bouclage, Morand reproduit un schéma narratif traditionnel (situation initiale et situation finale stables) et tente de mettre en intrigue un objet qu'il construit par ailleurs, comme une donnée spatiale.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Le roman de Morand appartient au genre fantastique.",
+      "La structure en boucle du roman de Morand renvoie à un schéma narratif traditionnel.",
+      "Un schéma narratif traditionnel se définit par une situation initiale et une situation finale.",
+      "Tant le fond que la forme du récit de Morand sont fondés sur l'illusion."
+    ],
+    "correct": 3,
+    "explanation": "Le texte indique que Morand 'opte pour le récit d'une illusion humaine' (le fond) 'et lui donne la forme cinématographique de l'illusion' (la forme). L'illusion est donc présente à deux niveaux. A : l''aspect fantastique' est évoqué, non le genre littéraire. B : partiellement vrai mais incomplet par rapport à D. C : définition partielle tirée du texte, mais pas exhaustive.",
+    "difficulty": 3
+  },
+  {
+    "id": "v324",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "L'intérêt d'une familiarisation précoce avec les propriétés de la matière, les phénomènes physiques et les concepts des sciences physiques à partir de l'âge préscolaire semble être aujourd'hui généralement admis. Une grande partie de la recherche effectuée dans le cadre de la psychologie éducative et cognitive, de la didactique des sciences et de la pédagogie préscolaire est orientée vers la construction des connaissances chez l'enfant. Elle nous montre clairement que même à la petite enfance, la pensée approche le monde physique d'une façon intensive. Le jeune enfant élabore spontanément ou dans des situations d'interaction les éléments de l'environnement physique. Il produit ainsi les outils cognitifs qui permettent la construction du savoir.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "La majorité des recherches en psychologie cognitive et éducative concerne la construction des connaissances chez l'enfant.",
+      "C'est lors de la petite enfance que l'esprit approche le mieux le monde physique.",
+      "L'intérêt des sciences physiques à partir de l'âge préscolaire fait consensus.",
+      "La construction du savoir repose sur la maîtrise du monde physique."
+    ],
+    "correct": 2,
+    "explanation": "'Généralement admis' exprime un consensus large. A : 'une grande partie' ≠ 'la majorité'. B : le texte dit que l'enfant approche le monde physique de façon intensive, sans comparer avec d'autres âges. D : l'enfant élabore des outils cognitifs via l'interaction avec le monde physique, mais ce n'est pas une maîtrise préalable requise.",
+    "difficulty": 1
+  },
+  {
+    "id": "v325",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Dans ses différentes configurations, le phénomène de renaissance nationale s'appuie largement sur l'affirmation d'appartenances identitaires ethniques, linguistiques, religieuses. Les ruptures politiques, en Europe comme ailleurs, exercent une influence directe sur l'enseignement de l'histoire, discipline contribuant à la construction de l'identité nationale et de la mémoire collective, et s'accompagnent de révisions plus ou moins spectaculaires des perspectives. Dans les États de l'est européen, la rupture avec le matérialisme historique amène les historiens à repenser l'historiographie par un retour réflexif sur la période pré-marxiste. Dans les États de l'ouest européen, les ruptures sont plus anciennes ; elles concernent principalement la liquidation de l'héritage fasciste (Allemagne, Italie, Portugal et Espagne).\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "En Europe de l'Ouest, les ruptures concernent les anciens pays fascistes.",
+      "Avant la rupture, le matérialisme historique dominait en Europe de l'Est.",
+      "C'est en Europe que les ruptures politiques influencent l'enseignement de l'histoire.",
+      "L'identité nationale repose notamment sur l'affirmation d'appartenance linguistique."
+    ],
+    "correct": 3,
+    "explanation": "Le texte dit explicitement que la renaissance nationale 's'appuie largement sur l'affirmation d'appartenances identitaires ethniques, linguistiques, religieuses'. A : le texte dit 'principalement' et cite des pays, mais ne les qualifie pas tous d''anciens pays fascistes'. B : inférence plausible mais non formulée explicitement. C : le texte dit 'en Europe comme ailleurs', donc pas uniquement en Europe.",
+    "difficulty": 2
+  }
+]

@@ -214,6 +214,9 @@ body.calm .exercise-card { padding: 28px 24px; }
   font-family: var(--font);
   color: var(--text);
   transition: .15s;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 .opt-btn:hover:not(:disabled) { border-color: var(--blue); background: var(--blue-light); }
 .opt-btn.correct { border-color: var(--green); background: var(--green-bg); }
@@ -231,6 +234,9 @@ body.calm .exercise-card { padding: 28px 24px; }
 .feedback-box.show { display: block; }
 .feedback-box.positive { background: var(--green-bg); border-left: 3px solid var(--green); color: #0f5a30; }
 .feedback-box.neutral { background: var(--orange-bg); border-left: 3px solid var(--orange); color: #7a4a00; }
+.fb-expl  { margin-top: 10px; padding: 8px 12px; background: rgba(0,51,153,0.06); border-radius: 6px; font-size: 13px; line-height: 1.55; }
+.fb-method{ margin-top: 8px; padding: 8px 12px; background: rgba(26,122,74,0.07); border-radius: 6px; font-size: 13px; line-height: 1.55; }
+.fb-label { font-weight: 700; display: block; margin-bottom: 3px; }
 
 /* STEP-BY-STEP (level 2) */
 .step-container { margin: 12px 0; }
@@ -901,20 +907,19 @@ function answer(selected) {
     else if (i === selected && !correct) btn.classList.add('incorrect');
   });
 
-  const messages = {
-    positive: ['Bien vu !', 'Exactement !', 'Bravo !', 'Parfait !', 'Tu as trouvé !'],
-    neutral: ['Pas tout à fait — regarde ici :', 'Presque ! La bonne réponse est :', 'Pas cette fois — voici la réponse :']
-  };
+  let html = '';
+  if (correct) {
+    const positives = ['Bien vu !', 'Exactement !', 'Bravo !', 'Parfait !', 'Tu as trouvé !'];
+    html = `<strong>${positives[Math.floor(Math.random() * positives.length)]}</strong>`;
+    if (q.explanation) html += `<div class="fb-expl"><span class="fb-label">Pourquoi c'est juste :</span>${q.explanation}</div>`;
+    if (q.method)      html += `<div class="fb-method"><span class="fb-label">Méthode :</span>${q.method}</div>`;
+  } else {
+    html = `<strong>Pas tout à fait.</strong> La bonne réponse était : <strong>${q.opts[q.correct]}</strong>`;
+    if (q.explanation) html += `<div class="fb-expl"><span class="fb-label">Pourquoi :</span>${q.explanation}</div>`;
+    if (q.method)      html += `<div class="fb-method"><span class="fb-label">Méthode :</span>${q.method}</div>`;
+  }
 
-  const msg = correct
-    ? messages.positive[Math.floor(Math.random() * messages.positive.length)]
-    : messages.neutral[Math.floor(Math.random() * messages.neutral.length)];
-
-  const explanation = q.explanation
-    ? `<div style="margin-top:6px;font-size:13px">${q.explanation}</div>`
-    : '';
-
-  showFeedback(correct, msg + (correct ? '' : ` <strong>${q.opts[q.correct]}</strong>`) + explanation);
+  showFeedback(correct, html);
 }
 
 function showFeedback(correct, msg) {
