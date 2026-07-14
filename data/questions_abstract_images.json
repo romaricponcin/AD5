@@ -1,0 +1,102 @@
+[
+  {
+    "id": "abs_pdf4_q1",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-1.png",
+    "correct": 0,
+    "explanation": "Cercle noir : déplacement linéaire droite→gauche avec taille progressive (grande→moyenne→petite→petite→moyenne→grande) → D6 : grand, à gauche. Rectangle : séquence positionnelle (centre-droite-centre-centre-gauche) + alternance couleur → D6 : centre, noir. L'étoile est aléatoire.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q2",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-2.png",
+    "correct": 2,
+    "explanation": "Symétrie par paires : D1 est le miroir de D4 (toutes les flèches inversées), D2 est le miroir de D5. Le diagramme symétrique à D3 est donc C.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q3",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-3.png",
+    "correct": 3,
+    "explanation": "4 lignes avec vitesses de rotation différentes : ligne verticale +1 angle (sens horaire) → haut-droite. Ligne horizontale +2 angles → bas-gauche. Slash inversé +3 angles → haut-droite. Slash droit reste fixe. Seul D satisfait toutes ces conditions.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q4",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-3.png",
+    "correct": 1,
+    "explanation": "Symétrie verticale par paires consécutives : D1 est le miroir de D2, D3 de D4, donc D5 de D6. Le D6 symétrique de D5 est la réponse B.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q5",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-4.png",
+    "correct": 2,
+    "explanation": "2 mini-séries de 3 diagrammes (D1-D2-D3 puis D4-D5-D6). Sur les 3 premiers, l'ensemble bascule d'un quart de tour vers la gauche. Ce mouvement se reproduit sur les 3 suivants → réponse C.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q6",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-4.png",
+    "correct": 1,
+    "explanation": "3 règles d'alternance indépendantes : forme du haut → motif 2 noirs/2 blancs/2 noirs (élimine C) ; triangle bas-gauche → 3 noirs puis 3 blancs (élimine A et E) ; triangle bas-droite → 3 blancs puis 3 noirs (élimine A et C). La progression de la forme noire élimine D. → B.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q7",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-5.png",
+    "correct": 2,
+    "explanation": "Cercle extérieur : 7 traits sur 2 diagrammes, puis 6, puis 5 → élimine B, D, E. Cercle du milieu : 5 puis 6 traits confirme les éliminations. Cercle centre : alternance 1/2 traits → élimine A. → C.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q8",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-5.png",
+    "correct": 1,
+    "explanation": "Symétrie des grandes formes contenantes (D1↔D6, D2↔D5, D3↔D4) → élimine A et C. Les 2 formes du centre s'inversent dans chaque paire → élimine D. La couleur extérieure devient celle du centre → élimine E. → B.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q9",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-6.png",
+    "correct": 2,
+    "explanation": "2 séries de 3 diagrammes. Alternance carrés/ronds à l'intérieur (élimine B). La flèche du diagramme en cours indique le sens de déplacement des formes dans le diagramme suivant. Seul C correspond.",
+    "difficulty": 3
+  },
+  {
+    "id": "abs_pdf4_q10",
+    "category": "abstract",
+    "categoryLabel": "Raisonnement Abstrait",
+    "type": "image",
+    "src": "assets/abstract/pdf4/page-7.png",
+    "correct": 2,
+    "explanation": "5 règles simultanées : rond fixe pendant 3 diagrammes (élimine A, D) ; carrés décalent +1 case à droite en tournant (élimine B, D, E) ; croix présente 1 fois sur 2 (élimine D, E) ; lignes décalent tous les 2 diagrammes (élimine A) ; triangle décale -1 case à gauche en tournant (élimine B, E). → C.",
+    "difficulty": 3
+  }
+]

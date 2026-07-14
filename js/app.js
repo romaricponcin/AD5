@@ -17,7 +17,7 @@ import {
 import { renderDashboard } from './views/dashboard.js';
 import {
   renderQuiz, startQuiz, startAbstractOnly, setExamMode,
-  updateQuizDefaults, answerText, answerSVG, tagQ, nextQuestion
+  updateQuizDefaults, answerText, answerSVG, answerImage, tagQ, nextQuestion
 } from './views/quiz.js';
 import { renderProgress, changeTag } from './views/progress.js';
 import { renderWiki, filterWiki, viewWiki, openWikiEditor, saveWiki, deleteWiki } from './views/wiki.js';
@@ -52,7 +52,7 @@ window._ad5 = {
   closeModal,
   // Quiz
   renderQuiz, startQuiz, startAbstractOnly, setExamMode,
-  updateQuizDefaults, answerText, answerSVG, tagQ, nextQuestion,
+  updateQuizDefaults, answerText, answerSVG, answerImage, tagQ, nextQuestion,
   // Progress
   changeTag,
   // Wiki

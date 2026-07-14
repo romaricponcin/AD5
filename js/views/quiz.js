@@ -112,12 +112,15 @@ export function setExamMode(category) {
 
 function buildQuizPool(category, count, quick) {
   if (category === 'abstract') {
-    const n = count==='all' ? 10 : parseInt(count)||10;
-    // Difficulté progressive : 1/3 facile, 1/3 moyen, 1/3 difficile
-    return Array.from({length:n}, (_,i) => {
-      const d = i < Math.ceil(n*0.3) ? 1 : i < Math.ceil(n*0.7) ? 2 : 3;
+    const imagePool = shuffle(state.QUESTION_BANK.filter(q => q.type === 'image' && q.category === 'abstract'));
+    const n = count === 'all' ? Math.max(10, imagePool.length) : parseInt(count) || 10;
+    if (imagePool.length >= n) return imagePool.slice(0, n);
+    const nSvg = n - imagePool.length;
+    const svgQs = Array.from({length: nSvg}, (_, i) => {
+      const d = i < Math.ceil(nSvg * 0.3) ? 1 : i < Math.ceil(nSvg * 0.7) ? 2 : 3;
       return generateAbstractQuestion(d);
     });
+    return shuffle([...imagePool, ...svgQs]);
   }
   let pool;
   if (quick || category === 'priority') {
@@ -188,6 +191,8 @@ function renderQuestion() {
 
   if (q.type==='svg') {
     renderSVGQuestion(q);
+  } else if (q.type==='image') {
+    renderImageQuestion(q);
   } else {
     renderTextQuestion(q);
   }
@@ -270,6 +275,44 @@ function renderSVGQuestion(q) {
     </div>`;
 }
 
+function renderImageQuestion(q) {
+  const letters = ['A','B','C','D','E'];
+  document.getElementById('quiz-runner').innerHTML=`
+    ${renderProgressBar()}
+    <div class="question-card" id="q-card">
+      <div class="question-meta">
+        <span class="tag tag-category">${q.categoryLabel}</span>
+        <span class="tag tag-neutral">🔷 EPSO authentique</span>
+      </div>
+      <div class="question-text" style="font-size:13px;margin-bottom:12px">
+        Quelle figure (A à E) complète la séquence ?
+      </div>
+      <div id="img-wrap" style="position:relative;overflow:hidden;max-height:500px;border-radius:8px;border:1px solid var(--border);margin-bottom:16px;transition:max-height .4s ease">
+        <img src="${q.src}" style="width:100%;display:block" alt="Question de raisonnement abstrait">
+        <div id="img-fade" style="position:absolute;bottom:0;left:0;right:0;height:80px;background:linear-gradient(transparent,#f4f6fb);pointer-events:none"></div>
+      </div>
+      <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:4px" id="img-opts">
+        ${letters.map((l,i)=>`
+          <button id="imgopt-${i}" onclick="window._ad5.answerImage(${i})"
+            style="width:54px;height:54px;border-radius:8px;border:2px solid #dde2f0;background:white;
+            font-size:18px;font-weight:700;cursor:pointer;transition:.15s;color:#003399;font-family:inherit">
+            ${l}
+          </button>`).join('')}
+      </div>
+      <div id="feedback-area"></div>
+      <div id="action-area" class="hidden" style="margin-top:14px;display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap">
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <button class="btn btn-xs btn-outline" onclick="window._ad5.tagQ('review')">🔴 À revoir</button>
+          <button class="btn btn-xs btn-outline" onclick="window._ad5.tagQ('consolidate')">🟡 Consolider</button>
+          <button class="btn btn-xs btn-outline" onclick="window._ad5.tagQ('mastered')">🟢 Maîtrisé</button>
+        </div>
+        <button class="btn btn-primary" onclick="window._ad5.nextQuestion()">
+          ${state.quizState.current+1<state.quizState.questions.length?'Suivant →':'Résultats ✓'}
+        </button>
+      </div>
+    </div>`;
+}
+
 function renderMatrixPattern(q) {
   const cellSize=78;
   const cells = q.cells.map((c,i) => {
@@ -335,17 +378,63 @@ export function answerSVG(selected) {
   document.getElementById('action-area').classList.remove('hidden');
 }
 
+export function answerImage(selected) {
+  if (!state.quizState) return;
+  if (state.quizState.timer) clearInterval(state.quizState.timer);
+  const q = state.quizState.questions[state.quizState.current];
+  const isCorrect = selected === q.correct;
+  const timeSpent = Math.round((Date.now()-state.quizState.questionStartTime)/1000);
+  state.quizState.answers.push({questionId:q.id, selected, correct:isCorrect, timeSpent});
+  updateProgress(q.id, isCorrect);
+
+  const wrap = document.getElementById('img-wrap');
+  const fade = document.getElementById('img-fade');
+  if (wrap) wrap.style.maxHeight = '9999px';
+  if (fade) fade.style.display = 'none';
+
+  const letters = ['A','B','C','D','E'];
+  for (let i = 0; i < 5; i++) {
+    const btn = document.getElementById('imgopt-'+i);
+    if (!btn) continue;
+    btn.disabled = true;
+    if (i === q.correct) { btn.style.background='#d4edda'; btn.style.borderColor='#1a7a4a'; btn.style.color='#1a7a4a'; }
+    else if (i === selected && !isCorrect) { btn.style.background='#fff3cd'; btn.style.borderColor='#cc8800'; btn.style.color='#cc8800'; }
+  }
+
+  if (state.quizState.mode==='training') {
+    document.getElementById('feedback-area').innerHTML=`
+      <div class="explanation-box alert ${isCorrect?'alert-success':'alert-danger'}" style="margin-top:12px">
+        <strong>${isCorrect?'✓ Bonne réponse !':'✗ Incorrect. La bonne réponse était '+letters[q.correct]+'.'}</strong>
+        ${q.explanation?`<div style="margin-top:6px">${q.explanation}</div>`:''}
+      </div>`;
+  }
+  document.getElementById('action-area').classList.remove('hidden');
+}
+
 function autoAnswer() {
   const q = state.quizState.questions[state.quizState.current];
   state.quizState.answers.push({questionId:q.id, selected:-1, correct:false, timeSpent:state.quizState.timerSec});
-  if (q.type !== 'svg') {
+  if (q.type === 'svg') {
+    document.querySelectorAll('.svg-opt-btn').forEach(b=>b.disabled=true);
+    document.getElementById('svgopt-'+q.correct)?.classList.add('correct');
+  } else if (q.type === 'image') {
+    const wrap = document.getElementById('img-wrap');
+    const fade = document.getElementById('img-fade');
+    if (wrap) wrap.style.maxHeight = '9999px';
+    if (fade) fade.style.display = 'none';
+    for (let i = 0; i < 5; i++) {
+      const btn = document.getElementById('imgopt-'+i);
+      if (!btn) continue;
+      btn.disabled = true;
+      if (i === q.correct) { btn.style.background='#d4edda'; btn.style.borderColor='#1a7a4a'; btn.style.color='#1a7a4a'; }
+    }
+    if (state.quizState.mode==='training')
+      document.getElementById('feedback-area').innerHTML=`<div class="explanation-box alert alert-danger"><strong>⏱ Temps écoulé !</strong>${q.explanation?`<div style="margin-top:6px">${q.explanation}</div>`:''}</div>`;
+  } else {
     updateProgress(q.id, false);
     document.querySelectorAll('.option-btn').forEach((b,i)=>{ b.disabled=true; if(i===q.correct)b.classList.add('correct'); });
     if (state.quizState.mode==='training')
       document.getElementById('feedback-area').innerHTML=`<div class="explanation-box alert alert-danger"><strong>⏱ Temps écoulé !</strong><div style="margin-top:6px">${q.explanation}</div></div>`;
-  } else {
-    document.querySelectorAll('.svg-opt-btn').forEach(b=>b.disabled=true);
-    document.getElementById('svgopt-'+q.correct)?.classList.add('correct');
   }
   document.getElementById('action-area')?.classList.remove('hidden');
 }
@@ -403,7 +492,7 @@ function finishQuiz() {
             const q=state.quizState.questions[i];
             return `<div style="display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:4px;background:${a.correct?'var(--success-bg)':'var(--danger-bg)'}">
               <span style="font-size:14px">${a.correct?'✓':'✗'}</span>
-              <span style="flex:1;font-size:11.5px">${q.type==='svg'?'[SVG Abstrait]':q.text.substring(0,55)+'…'}</span>
+              <span style="flex:1;font-size:11.5px">${q.type==='svg'?'[SVG Abstrait]':q.type==='image'?`[Image EPSO] → ${['A','B','C','D','E'][q.correct]}`:q.text.substring(0,55)+'…'}</span>
               <span class="tag tag-category" style="font-size:10px">${q.categoryLabel}</span>
             </div>`;
           }).join('')}
