@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raisonnement Abstrait — Fiches Méthode EPSO</title>
+<style>
+:root {
+  --blue: #003399;
+  --gold: #FFCC00;
+  --green: #1a7a4a;
+  --bg: #f4f6fb;
+  --card: #ffffff;
+  --text: #1a1f36;
+  --gray: #6b7280;
+  --border: #dde2f0;
+  --radius: 10px;
+  --shadow: 0 2px 12px rgba(0,51,153,.08);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+  background: var(--blue);
+  color: white;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.header-left { display: flex; align-items: center; gap: 14px; }
+.header-stars { font-size: 10px; letter-spacing: 2px; opacity: .7; }
+.header-title { font-size: 18px; font-weight: 700; }
+.header-sub { font-size: 12px; opacity: .75; margin-top: 2px; }
+.btn-back {
+  background: rgba(255,255,255,.15);
+  border: 1px solid rgba(255,255,255,.3);
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.btn-back:hover { background: rgba(255,255,255,.25); }
+
+/* INTRO */
+.intro {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 14px 24px;
+  font-size: 13px;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.intro strong { color: var(--text); }
+.tip {
+  background: rgba(0,51,153,.06);
+  border-left: 3px solid var(--blue);
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  gap: 0;
+  background: white;
+  border-bottom: 2px solid var(--border);
+  padding: 0 24px;
+  overflow-x: auto;
+}
+.tab {
+  padding: 12px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray);
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  white-space: nowrap;
+  transition: .15s;
+}
+.tab.active { color: var(--blue); border-bottom-color: var(--blue); }
+.tab:hover:not(.active) { color: var(--text); }
+
+/* CONTENT */
+.content { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* PAGE CARD */
+.page-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 24px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: #f8f9ff;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.page-label { font-size: 12px; color: var(--gray); font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+.q-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.q-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #eef0ff;
+  color: var(--blue);
+}
+.q-badge .ans {
+  background: var(--blue);
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+.q-badge .pattern-tag {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--gray);
+  margin-left: 2px;
+}
+
+.page-img-wrap { padding: 12px; }
+.page-img-wrap img {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  display: block;
+}
+
+/* RULE PILL */
+.rules { padding: 0 18px 14px; display: flex; flex-direction: column; gap: 8px; }
+.rule {
+  font-size: 13px;
+  line-height: 1.55;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border-left: 3px solid;
+}
+.rule.sequence { border-color: #6366f1; background: #f5f3ff; }
+.rule.symmetry { border-color: #0891b2; background: #f0fdfe; }
+.rule.rotation { border-color: #d97706; background: #fffbeb; }
+.rule.count    { border-color: var(--green); background: #f0fdf4; }
+.rule.multi    { border-color: #dc2626; background: #fef2f2; }
+.rule-title { font-weight: 700; display: block; margin-bottom: 2px; font-size: 11px; text-transform: uppercase; letter-spacing: .4px; opacity: .7; }
+
+/* SECTION TITLE */
+.section-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* LEGEND */
+.legend {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .header { padding: 12px 16px; }
+  .content { padding: 16px 10px; }
+  .tab { padding: 10px 14px; font-size: 13px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div>
+      <div class="header-stars">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
+      <div class="header-title">Raisonnement Abstrait — Fiches Méthode</div>
+      <div class="header-sub">Questions EPSO authentiques avec corrections</div>
+    </div>
+  </div>
+  <a href="index.html" class="btn-back">← Retour à l'app</a>
+</div>
+
+<div class="intro">
+  <div class="tip">💡 Chaque page contient la <strong>question + la correction</strong> — c'est voulu. Lis d'abord la question, essaie de répondre, puis regarde la règle.</div>
+  <span>Les badges <strong style="color:var(--blue)">Q·n → X</strong> indiquent le numéro de question et la bonne réponse sur cette page.</span>
+</div>
+
+<div class="tabs">
+  <button class="tab active" onclick="showTab('t4')">Test 4 — 10 questions</button>
+  <button class="tab" onclick="showTab('t1')">Test 1 — 5 questions</button>
+  <button class="tab" onclick="showTab('t2')">Test 2 — 5 questions</button>
+</div>
+
+<!-- ═══════════════════════════════════════════════════
+     TEST 4 — 10 QUESTIONS ABSTRAITES (PDF 4)
+═══════════════════════════════════════════════════ -->
+<div class="content">
+<div id="t4" class="tab-panel active">
+
+  <div class="legend">
+    <span style="font-size:12px;font-weight:600;margin-right:4px">Patterns :</span>
+    <div class="legend-item"><div class="legend-dot" style="background:#6366f1"></div> Séquence multi-règles</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#0891b2"></div> Symétrie / Paires</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#d97706"></div> Rotation</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#1a7a4a"></div> Comptage décroissant</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#dc2626"></div> Règles multiples simultanées</div>
+  </div>
+
+  <!-- PAGE 1 — Q1 -->
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 1 / 7</span>
+      <div class="q-badges">
+        <span class="q-badge">Q1 <span class="ans">A</span> <span class="pattern-tag">Séquence multi-règles</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf4/page-1.png" alt="Q1"></div>
+    <div class="rules">
+      <div class="rule sequence">
+        <span class="rule-title">Séquence multi-règles indépendantes</span>
+        <strong>Cercle noir :</strong> se déplace de droite à gauche sur l'axe en changeant de taille (grande→moyenne→petite→petite→moyenne→grande). Pour D6 : grand, à gauche.<br>
+        <strong>Rectangle :</strong> suit une séquence de positions (centre→droite→centre→centre→gauche) en alternant noir/blanc. Pour D6 : centre, noir.<br>
+        <strong>Étoile :</strong> aléatoire — pas de règle à déduire.
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 2 — Q2 + Q3 -->
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 2 / 7</span>
+      <div class="q-badges">
+        <span class="q-badge">Q2 <span class="ans">C</span> <span class="pattern-tag">Symétrie paires</span></span>
+        <span class="q-badge">Q3 <span class="ans">D</span> <span class="pattern-tag">Rotation multi-vitesse</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf4/page-2.png" alt="Q2 et Q3"></div>
+    <div class="rules">
+      <div class="rule symmetry">
+        <span class="rule-title">Q2 — Symétrie par paires (flèches)</span>
+        D1 est symétrique à D4 (toutes les flèches inversées), D2 est symétrique à D5. Le diagramme symétrique à D3 est donc la réponse C.
+      </div>
+      <div class="rule rotation">
+        <span class="rule-title">Q3 — Rotation à vitesses différentes (4 lignes)</span>
+        Ligne verticale : +1 angle/tour sens horaire → haut-droite. Ligne horizontale : +2 angles → bas-gauche. Slash inversé : +3 angles → haut-droite. Slash droit : reste en place. Seul D satisfait toutes les conditions.
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 3 — Q3 fin + Q4 + Q5 début -->
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 3 / 7</span>
+      <div class="q-badges">
+        <span class="q-badge">Q4 <span class="ans">B</span> <span class="pattern-tag">Symétrie verticale paires</span></span>
+        <span class="q-badge">Q5 <span class="ans">C</span> <span class="pattern-tag">2 mini-séries</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf4/page-3.png" alt="Q4 et Q5"></div>
+    <div class="rules">
+      <div class="rule symmetry">
+        <span class="rule-title">Q4 — Symétrie verticale par paires (formes en L)</span>
+        D1 est symétrique à D2 par rapport à un axe vertical. Idem D3↔D4, D5↔D6. En suivant cette logique, D6 est le miroir de D5 → réponse B.
+      </div>
+      <div class="rule sequence">
+        <span class="rule-title">Q5 — 2 mini-séries de 3 diagrammes</span>
+        Sur les 3 premiers diagrammes, l'ensemble bascule d'¼ de tour vers la gauche. Ce mouvement se reproduit sur les 3 diagrammes suivants → réponse C.
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 4 — Q5 fin + Q6 -->
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 4 / 7</span>
+      <div class="q-badges">
+        <span class="q-badge">Q6 <span class="ans">B</span> <span class="pattern-tag">Alternance noir/blanc multi-niveaux</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf4/page-4.png" alt="Q6"></div>
+    <div class="rules">
+      <div class="rule multi">
+        <span class="rule-title">Q6 — Alternance noir/blanc sur 3 parties indépendantes</span>
+        Forme du haut : motif 2 noirs, 2 blancs, 2 noirs → élimine C.<br>
+        Triangle bas-gauche : 3 noirs puis 3 blancs → élimine A et E.<br>
+        Triangle bas-droite (partie haute) : 3 blancs puis 3 noirs → élimine A et C.<br>
+        Évolution de la forme noire dans le grand triangle : progression → élimine D.<br>
+        → Seul B satisfait toutes les conditions.
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 5 — Q7 + Q8 -->
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 5 / 7</span>
+      <div class="q-badges">
+        <span class="q-badge">Q7 <span class="ans">C</span> <span class="pattern-tag">Comptage décroissant</span></span>
+        <span class="q-badge">Q8 <span class="ans">B</span> <span class="pattern-tag">Symétrie paires + inversion couleur</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf4/page-5.png" alt="Q7 et Q8"></div>
+    <div class="rules">
+      <div class="rule count">
+        <span class="rule-title">Q7 — Cercles concentriques, segments décroissants</span>
+        Cercle extérieur : 7 traits sur 2 diagrammes → 6 sur 2 → 5 sur 2 → élimine B, D, E.<br>
+        Cercle du milieu : 5 traits sur 3 diagrammes → 6 traits → confirme l'élimination.<br>
+        Cercle centre : alternance 1 / 2 traits → élimine A. → C est correct.
+      </div>
+      <div class="rule symmetry">
+        <span class="rule-title">Q8 — Symétrie paires + inversion couleur</span>
+        Symétrie des grandes formes : D1↔D6, D2↔D5, D3↔D4 → élimine A et C.<br>
+        Les 2 formes centrales s'inversent dans chaque paire → élimine D.<br>
+        La couleur extérieure devient celle du centre → élimine E. → B est correct.
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 6 — Q9 -->
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 6 / 7</span>
+      <div class="q-badges">
+        <span class="q-badge">Q9 <span class="ans">C</span> <span class="pattern-tag">Flèche = direction de déplacement</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf4/page-6.png" alt="Q9"></div>
+    <div class="rules">
+      <div class="rule sequence">
+        <span class="rule-title">Q9 — La flèche indique le sens de déplacement</span>
+        2 séries de 3 diagrammes. Les formes à l'intérieur (carrés ou ronds — ils alternent) se déplacent dans le sens indiqué par la flèche du diagramme suivant. Si la flèche pointe à droite → les formes se décalent à droite. Seul C correspond.
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 7 — Q10 -->
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 7 / 7</span>
+      <div class="q-badges">
+        <span class="q-badge">Q10 <span class="ans">C</span> <span class="pattern-tag">5 règles simultanées</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf4/page-7.png" alt="Q10"></div>
+    <div class="rules">
+      <div class="rule multi">
+        <span class="rule-title">Q10 — Élimination par 5 règles indépendantes</span>
+        <strong>Rond :</strong> reste en place 3 diagrammes → élimine A et D.<br>
+        <strong>Carrés :</strong> se déplacent d'1 case à droite en tournant → élimine B, D et E.<br>
+        <strong>Croix :</strong> présente 1 fois sur 2 → élimine D et E.<br>
+        <strong>Lignes :</strong> se déplacent tous les 2 diagrammes d'1 case en tournant → élimine A.<br>
+        <strong>Triangle :</strong> se déplace d'1 case à gauche en tournant → élimine B et E.<br>
+        → Seul C satisfait toutes les règles.
+      </div>
+    </div>
+  </div>
+
+</div><!-- /t4 -->
+
+<!-- ═══════════════════════════════════════════════════
+     TEST 1 — 5 QUESTIONS ABSTRAITES (PDF 1, pages 30-35)
+═══════════════════════════════════════════════════ -->
+<div id="t1" class="tab-panel">
+  <p style="font-size:13px;color:var(--gray);margin-bottom:20px">Section abstraite du test 1 — 5 questions sur 6 pages. Les corrections sont incluses dans les images.</p>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 1/6 (p.30 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q16 <span class="ans">D</span> <span class="pattern-tag">Symétrie paires</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf1/page-30.png" alt="PDF1 p30"></div>
+    <div class="rules">
+      <div class="rule symmetry">
+        <span class="rule-title">Symétrie par paires (formes en L)</span>
+        Symétrie par paire par rapport à un axe vertical entre les diagrammes 1&amp;3, 2&amp;4, 3&amp;5, 4&amp;6. → D
+      </div>
+    </div>
+  </div>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 2/6 (p.31 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q16 fin</span>
+        <span class="q-badge">Q17 <span class="ans">A</span> <span class="pattern-tag">Rotation 45°</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf1/page-31.png" alt="PDF1 p31"></div>
+    <div class="rules">
+      <div class="rule rotation">
+        <span class="rule-title">Q17 — Rotation de 45° par diagramme</span>
+        Les 2 carrés font une rotation de 45° dans le sens horaire à chaque diagramme. Appliquer au D5 → D6 = A. Alternative : D1 et D5 sont identiques → D6 = D2 = A.
+      </div>
+    </div>
+  </div>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Pages 3-4/6 (p.32-33 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q18 <span class="ans">C</span></span>
+        <span class="q-badge">Q19 <span class="ans">C</span> <span class="pattern-tag">Suite linéaire</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf1/page-32.png" alt="PDF1 p32"></div>
+    <div class="page-img-wrap" style="margin-top:8px"><img src="assets/abstract/pdf1/page-33.png" alt="PDF1 p33"></div>
+    <div class="rules">
+      <div class="rule symmetry">
+        <span class="rule-title">Q18 — Quadrilatères + cercles en opposition</span>
+        Les quadrilatères noirs/gris se déplacent dans le sens horaire d'un cran. Les 4 cercles ont toujours en opposition diagonale un cercle rempli noir et un rempli d'une croix. → C
+      </div>
+      <div class="rule sequence">
+        <span class="rule-title">Q19 — Suite linéaire (portion noire croissante)</span>
+        La portion noire du cercle augmente progressivement selon une suite linéaire régulière. → C
+      </div>
+    </div>
+  </div>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Pages 5-6/6 (p.34-35 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q20 <span class="ans">B</span> <span class="pattern-tag">Point noir + décalage formes</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf1/page-34.png" alt="PDF1 p34"></div>
+    <div class="page-img-wrap" style="margin-top:8px"><img src="assets/abstract/pdf1/page-35.png" alt="PDF1 p35"></div>
+    <div class="rules">
+      <div class="rule multi">
+        <span class="rule-title">Q20 — 2 règles : point noir + décalage de formes</span>
+        <strong>Point noir :</strong> se déplace verticalement dans la col. 1 (ligne 1→2→3→4→1...) → doit être en ligne 2, col. 1.<br>
+        <strong>Formes ligne 1 :</strong> décalage progressif → D6 doit avoir : carré, cercle, triangle, triangle en ligne 1.<br>
+        Seul B respecte les deux contraintes simultanément.
+      </div>
+    </div>
+  </div>
+
+</div><!-- /t1 -->
+
+<!-- ═══════════════════════════════════════════════════
+     TEST 2 — 5 QUESTIONS ABSTRAITES (PDF 2, pages 31-37)
+═══════════════════════════════════════════════════ -->
+<div id="t2" class="tab-panel">
+  <p style="font-size:13px;color:var(--gray);margin-bottom:20px">Section abstraite du test 2 — 5 questions sur 7 pages. Les corrections sont incluses dans les images.</p>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Page 1/7 (p.31 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q16 <span class="ans">B</span> <span class="pattern-tag">Cercle extérieur alternant</span></span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf2/page-31.png" alt="PDF2 p31"></div>
+    <div class="rules">
+      <div class="rule sequence">
+        <span class="rule-title">Q16 — Cercle extérieur alternant + contenu</span>
+        Le cercle extérieur alterne blanc/noir. Le contenu (points/triangles) alterne aussi. Les parenthèses du cercle intérieur apparaissent alternativement Est/Ouest. → B
+      </div>
+    </div>
+  </div>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Pages 2-3/7 (p.32-33 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q17 <span class="ans">A</span> <span class="pattern-tag">Camembert rotation</span></span>
+        <span class="q-badge">Q18</span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf2/page-32.png" alt="PDF2 p32"></div>
+    <div class="page-img-wrap" style="margin-top:8px"><img src="assets/abstract/pdf2/page-33.png" alt="PDF2 p33"></div>
+    <div class="rules">
+      <div class="rule rotation">
+        <span class="rule-title">Q17 — Camembert : 2 parts en rotation indépendante</span>
+        Imaginer un camembert divisé en 12 parts. La part du haut se déplace de 3 parts dans le sens antihoraire (toujours suivie d'un cercle noir). La part du bas se déplace d'1 part dans le sens horaire (toujours suivie d'un cercle blanc). → A
+      </div>
+    </div>
+  </div>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Pages 4-5/7 (p.34-35 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q18 à Q19</span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf2/page-34.png" alt="PDF2 p34"></div>
+    <div class="page-img-wrap" style="margin-top:8px"><img src="assets/abstract/pdf2/page-35.png" alt="PDF2 p35"></div>
+  </div>
+
+  <div class="page-card">
+    <div class="page-header">
+      <span class="page-label">Pages 6-7/7 (p.36-37 du PDF)</span>
+      <div class="q-badges">
+        <span class="q-badge">Q19 à Q20</span>
+      </div>
+    </div>
+    <div class="page-img-wrap"><img src="assets/abstract/pdf2/page-36.png" alt="PDF2 p36"></div>
+    <div class="page-img-wrap" style="margin-top:8px"><img src="assets/abstract/pdf2/page-37.png" alt="PDF2 p37"></div>
+  </div>
+
+</div><!-- /t2 -->
+</div><!-- /content -->
+
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
