@@ -1,0 +1,162 @@
+[
+  {
+    "id": "nb2_q1",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "Un histogramme montre le nombre de chèques déposés en une matinée dans une banque :\n• [0 ; 50[ euros : 27 chèques\n• [50 ; 100[ euros : 109 chèques\n• [100 ; 150[ euros : 41 chèques\n• [150 ; 200[ euros : 23 chèques\n\nCette banque encaisse 10 % de chèques en moins l'après-midi. Quelle est la moyenne du montant des chèques déposés l'après-midi, sachant qu'elle représente les 7/5èmes de la moyenne du montant des chèques encaissés le matin ?",
+    "options": [
+      "126 €",
+      "140 €",
+      "81 €",
+      "161 €",
+      "92 €"
+    ],
+    "correct": 0,
+    "explanation": "Utiliser le point milieu de chaque intervalle : 25, 75, 125, 175. Moyenne matin = (27×25 + 109×75 + 41×125 + 23×175) / (27+109+41+23) = (675 + 8175 + 5125 + 4025) / 200 = 18 000 / 200 = 90 €. Moyenne après-midi = (7/5) × 90 = 126 €. (Le nombre de chèques n'intervient pas dans le calcul de la moyenne.)",
+    "difficulty": 3
+  },
+  {
+    "id": "nb2_q2",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "Frais journaliers moyens de déplacement (en euros, 2021, entreprise X) :\n• Asie : 75 €/jour  •  Océanie : 97 €/jour  •  Amérique du Sud : 91 €/jour\n\nEn 2021, un représentant de l'entreprise X a travaillé 210 jours, dont les 2/3 en Asie, les 2/7èmes du reste en Océanie et le reste en Amérique du Sud. Quel est le montant annuel des frais de déplacement de ce représentant, sachant que s'y rajoute un supplément de 0,5 % du montant total pour frais divers ?",
+    "options": [
+      "17 316,15 €",
+      "17 074,95 €",
+      "17 839,50 €",
+      "18 091,50 €",
+      "18 541,10 €"
+    ],
+    "correct": 1,
+    "explanation": "Répartition : Asie = 2/3 × 210 = 140 j. Reste = 70 j. Océanie = 2/7 × 70 = 20 j. Amérique du Sud = 50 j. Frais : 140×75 + 20×97 + 50×91 = 10 500 + 1 940 + 4 550 = 16 990 €. Avec supplément : 16 990 × 1,005 = 17 074,95 €.",
+    "difficulty": 3
+  },
+  {
+    "id": "nb2_q3",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "En juin 2019, le montant des ventes de romans de la Librairie Pollin était de 3 750 €.\n\nEn juillet 2019, le montant des ventes de romans a augmenté de 4 %, en août il a augmenté de 10 % mais en septembre il a baissé de 4 %. Quelle est la moyenne des ventes de romans au troisième trimestre (juillet, août, septembre) ?",
+    "options": [
+      "4 118,40 €",
+      "4 102,80 €",
+      "3 850,80 €",
+      "4 125,10 €",
+      "3 992,80 €"
+    ],
+    "correct": 1,
+    "explanation": "Juillet = 3 750 × 1,04 = 3 900 €. Août = 3 900 × 1,10 = 4 290 €. Septembre = 4 290 × 0,96 = 4 118,40 €. Moyenne T3 = (3 900 + 4 290 + 4 118,40) / 3 = 12 308,40 / 3 = 4 102,80 €.",
+    "difficulty": 3
+  },
+  {
+    "id": "nb2_q4",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "Effectifs des classes préparatoires scientifiques (garçons) :\n• Année scolaire 2012-2013 : 32 518 garçons\n• Année scolaire 2019-2020 : 34 662 garçons\n\nProportionnellement, de combien le nombre de garçons des classes préparatoires scientifiques de l'année scolaire 2019-2020 dépasse-t-il celui de l'année scolaire 2012-2013 ?",
+    "options": [
+      "2,7 %",
+      "6,6 %",
+      "6,2 %",
+      "3,2 %",
+      "5,8 %"
+    ],
+    "correct": 1,
+    "explanation": "Différence = 34 662 - 32 518 = 2 144. Pourcentage d'augmentation = (2 144 / 32 518) × 100 ≈ 6,59 % ≈ 6,6 %.",
+    "difficulty": 2
+  },
+  {
+    "id": "nb2_q5",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "En 2017 (données agricoles) :\n• Nombre d'exploitations viticoles : 40 (en milliers)\n• Surface agricole utilisée (SAU) pour la viticulture : 1 040 (en milliers d'hectares)\n\nEn 2018, la surface agricole utilisée pour la viticulture augmente de 10 %, alors que la surface agricole utilisée par exploitation viticole baisse de 12 %. Quel est le nombre d'exploitations viticoles en 2018 ?",
+    "options": [
+      "44",
+      "32",
+      "50",
+      "55",
+      "38"
+    ],
+    "correct": 2,
+    "explanation": "SAU totale 2018 = 1 040 × 1,10 = 1 144. SAU par exploitation 2017 = 1 040 / 40 = 26 ha. SAU par exploitation 2018 = 26 × 0,88 = 22,88 ha. Nombre d'exploitations 2018 = 1 144 / 22,88 ≈ 50.",
+    "difficulty": 3
+  },
+  {
+    "id": "nb2_q6",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "En 2018 (industrie alimentaire) :\n• Fabrication de boissons : 2 750 entreprises, chiffre d'affaires HT = 24 750 millions d'euros\n\nEn 2019, alors que le secteur de la fabrication de boissons compte 2 % d'entreprises en plus, la moyenne de son chiffre d'affaires HT par entreprise baisse de 10 %. Calculer le chiffre d'affaires HT des entreprises de fabrication de boissons en 2019.",
+    "options": [
+      "22 720,5 millions d'euros",
+      "26 730 millions d'euros",
+      "22 275 millions d'euros",
+      "26 680,5 millions d'euros",
+      "24 562 millions d'euros"
+    ],
+    "correct": 0,
+    "explanation": "Entreprises 2019 = 2 750 × 1,02 = 2 805. CA moyen/entreprise 2018 = 24 750 / 2 750 = 9 M€. CA moyen/entreprise 2019 = 9 × 0,90 = 8,1 M€. CA total 2019 = 2 805 × 8,1 = 22 720,5 millions d'euros.",
+    "difficulty": 3
+  },
+  {
+    "id": "nb2_q7",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "Victimes d'accidents de la route dans l'UE en 2021 (en nombre de tués par million d'habitants) :\n• Hongrie : 64 tués par million d'habitants\n\nLa densité de population de la Hongrie est de 107 habitants par km². La superficie de la Hongrie est de 93 030 km². Quel a été le nombre de victimes d'accidents de la route en 2021 en Hongrie ?",
+    "options": [
+      "637",
+      "6 848",
+      "875",
+      "3 245",
+      "984"
+    ],
+    "correct": 0,
+    "explanation": "Population Hongrie = 107 × 93 030 = 9 954 210 habitants. Victimes = 64 × (9 954 210 / 1 000 000) = 64 × 9,954 ≈ 637.",
+    "difficulty": 3
+  },
+  {
+    "id": "nb2_q8",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "Zones boisées, herbages et surface sous eau dans quatre provinces de Brotie (en km²) :\n\n• Kwalsin  : boisées 240 · herbages 160 · sous eau 160\n• Webstaf  : boisées 320 · herbages  80 · sous eau  80\n• Florok   : boisées 160 · herbages 240 · sous eau  80\n• Drevis   : boisées  80 · herbages 400 · sous eau 160\n\nQuelle est la province de Brotie où la surface sous eau est comparativement la plus grande ?",
+    "options": [
+      "Kwalsin",
+      "Webstaf",
+      "Florok",
+      "Drevis",
+      "Aucune"
+    ],
+    "correct": 0,
+    "explanation": "Surface totale : Kwalsin 560 · Webstaf 480 · Florok 480 · Drevis 640. Proportion sous eau : Kwalsin 160/560 ≈ 28,6 % · Webstaf 80/480 ≈ 16,7 % · Florok 80/480 ≈ 16,7 % · Drevis 160/640 = 25 %. Kwalsin a la proportion la plus élevée.",
+    "difficulty": 2
+  },
+  {
+    "id": "nb2_q9",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "Distances par la route entre quatre villes de Kwarash (en km) :\n\n• Kramor ↔ Vindton : 200  •  Kramor ↔ Blikes : 160  •  Kramor ↔ Dravey : 90\n• Vindton ↔ Blikes : 240  •  Vindton ↔ Dravey : 180  •  Blikes ↔ Dravey : 100\n\nLa route Dravey-Blikes est fermée pour cause de travaux. Quel est le trajet aller-retour le plus court entre ces deux villes en empruntant un chemin différent dans chaque sens ?",
+    "options": [
+      "620 km",
+      "640 km",
+      "670 km",
+      "690 km",
+      "650 km"
+    ],
+    "correct": 2,
+    "explanation": "Sans passer par Dravey-Blikes directement. Option via Kramor : Aller Dravey→Kramor→Blikes = 90+160 = 250 km. Retour Blikes→Vindton→Dravey = 240+180 = 420 km. Total = 670 km. Option inverse donne aussi 670 km. Les deux trajets A/R différents donnent le même total minimum de 670 km.",
+    "difficulty": 3
+  },
+  {
+    "id": "nb2_q10",
+    "category": "numerical",
+    "categoryLabel": "Raisonnement Numérique",
+    "text": "Si un homme travaille deux fois plus vite qu'un garçon et que deux hommes et un garçon creusent deux fossés longs de 10 mètres en 5 heures, combien de temps faudra-t-il à trois garçons et un homme réunis pour creuser trois fossés longs de 20 mètres chacun ?",
+    "options": [
+      "0,8 heure",
+      "9 heures",
+      "12 heures",
+      "15 heures",
+      "20 heures"
+    ],
+    "correct": 3,
+    "explanation": "Un homme = 2 garçons en vitesse. 2H + 1G = 4G + 1G = 5G. Ils creusent 2×10 = 20 m en 5h → débit : 20/5 = 4 m/h pour 5G. 3G + 1H = 3G + 2G = 5G (même équipe !). Travail = 3×20 = 60 m. Temps = 60/4 = 15 heures.",
+    "difficulty": 3
+  }
+]

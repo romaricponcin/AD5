@@ -1,0 +1,302 @@
+[
+  {
+    "id": "v326",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Le budget européen a été jusqu'ici largement consacré à deux grandes politiques communautaires : la politique agricole commune (PAC) (50 % des dépenses), et la politique de cohésion (environ 30 % des dépenses). S'y ajoutent les politiques internes (transports, recherche, énergie...) pour 7 % ; et, pour 8 %, les dépenses de pré-adhésion pour les pays candidats et les aides extérieures. Avant 2004, les 10 % des régions les plus pauvres de l'UE à 15 avaient un revenu représentant 60 % de la moyenne européenne. Aujourd'hui ces mêmes 10 % n'atteignent que 30 % de cette moyenne. Or, l'élargissement ne s'accompagne pas de nouvelles perspectives financières.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "La PAC représente près de la moitié des dépenses du budget européen.",
+      "Avant 2004, la majorité des régions de l'UE avait un revenu inférieur aux deux tiers de la moyenne européenne.",
+      "L'élargissement ne modifie pas les perspectives budgétaires européennes.",
+      "Les dépenses de pré-adhésion sont supérieures aux dépenses des politiques internes."
+    ],
+    "correct": 0,
+    "explanation": "La PAC représente 50 % des dépenses, soit « près de la moitié ». B : seuls les 10 % des régions les plus pauvres sont mentionnés, pas la majorité. C : le texte dit que l'élargissement ne s'accompagne pas de nouvelles perspectives — ce n'est pas la même chose qu'une absence de modification générale. D : 8 % vs 7 %, mais les valeurs sont approximatives (« environ ») et la comparaison catégorique dépasse le texte.",
+    "difficulty": 2
+  },
+  {
+    "id": "v327",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Les pouvoirs du Parlement européen ont augmenté considérablement depuis sa création en 1958. Ce qui n'était au départ qu'un organe consultatif est devenu en l'espace d'un peu plus de soixante ans une institution influente que le Conseil de ministres ne peut plus négliger.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Les pouvoirs du Parlement européen ont augmenté considérablement en 1958.",
+      "Le Parlement européen fait fonction d'organe consultatif auprès du Conseil de ministres.",
+      "L'influence du Parlement européen a augmenté considérablement en l'espace d'un peu plus de quarante ans.",
+      "Le Conseil de ministres doit demander l'avis du Parlement européen."
+    ],
+    "correct": 2,
+    "explanation": "L'option C reprend l'idée centrale : forte augmentation de l'influence dans le temps (malgré l'approximation « quarante ans » au lieu de soixante). A : les pouvoirs ont augmenté « depuis » 1958, pas « en » 1958. B : rôle consultatif décrit comme situation passée et dépassée. D : le texte dit que le PE ne peut plus être négligé, pas que le Conseil doit obligatoirement demander son avis.",
+    "difficulty": 2
+  },
+  {
+    "id": "v328",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "« Aucun être ne naît au monde sans la mort d'un autre », écrivait le poète romain Lucrèce. Alors que les bourgeons s'apprêtent à éclore une nouvelle fois, la vérité de cette affirmation nous apparaît clairement. En effet, en dépit de toute sa gaieté, avril est le plus cruel des mois : la vie nouvelle jaillit de la mort de l'hiver et finira par y retourner. Quiconque contemple ce frémissement grouillant verra dans le printemps l'emblème de la transition et de la mort.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Le poète romain Lucrèce a décrit le contraste entre l'hiver et le printemps.",
+      "Le frémissement d'avril cache le caractère cruel de ce mois au cours duquel une grande partie de la nature bourgeonnante se fane et se meurt.",
+      "L'éclosion des bourgeons au printemps représente un emblème certain de la transition.",
+      "Même à l'époque romaine, les poètes se rendaient compte que la nature ne donne rien sans rien."
+    ],
+    "correct": 2,
+    "explanation": "Le texte affirme que « le printemps » est « l'emblème de la transition et de la mort » — l'option C reformule fidèlement cette idée. A : c'est l'auteur du passage qui décrit ce contraste, pas Lucrèce. B : inverse le contenu — le texte insiste sur la naissance de la vie, pas sur la nature qui se fane. D : généralisation philosophique non formulée dans le texte.",
+    "difficulty": 2
+  },
+  {
+    "id": "v329",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "On compare souvent le système linguistique mondial au système astronomique. Les plus petits corps célestes sont représentés par des milliers de langues locales, qui orbitent autour d'une centaine de planètes, des grandes langues. Celles-ci ont un alphabet et une forme écrite et sont souvent des langues nationales. À leur tour, cette centaine de grandes langues orbitent autour d'une douzaine de langues centrales : le chinois, le hindi, le japonais, le malais, le swahili, l'arabe et — plus près de nous — l'allemand, l'anglais, le français, l'espagnol, le portugais et le russe.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Les langues pouvant être comparées à des corps célestes, elles peuvent aussi parfois s'attirer ou se repousser les unes les autres.",
+      "Dans la comparaison du système linguistique au système astronomique, le français est une planète et le japonais, un soleil.",
+      "Les langues importantes ont toujours une forme écrite et sont toujours des langues nationales.",
+      "Dans la comparaison du système linguistique mondial au système astronomique, il est question de langues mineures, de grandes langues et de langues centrales."
+    ],
+    "correct": 3,
+    "explanation": "L'option D reprend fidèlement la structure tripartite du texte : langues locales (petits corps), grandes langues (planètes) et langues centrales. A : l'analogie astronomique (orbites) n'implique pas d'attraction/répulsion. B : le français et le japonais sont tous deux des « langues centrales », pas des planètes ni des soleils. C : le texte dit « souvent », pas « toujours ».",
+    "difficulty": 2
+  },
+  {
+    "id": "v330",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "La vitesse des vagues montantes étant supérieure à celle des vagues descendantes, les coquillages et autres objets sont rejetés sur le rivage. Une fois le coquillage déposé sur la plage, la vague descendante moins puissante n'aura plus assez d'énergie pour l'entraîner à nouveau vers la mer. Plus les objets rejetés sont lourds, moins ils auront de probabilité de retourner dans la mer avec le reflux de l'eau. C'est la raison pour laquelle les grands objets restent abandonnés sur la ligne où la marée s'inverse, qu'on appelle « la laisse de haute mer ».\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Plus la vitesse des vagues est élevée, plus nombreux sont les objets déposés sur la plage.",
+      "Les objets lourds ont plus de chances d'être abandonnés sur la plage.",
+      "La majeure partie des coquillages se trouvent le long de la laisse de haute mer.",
+      "Si les vagues sont grandes, il y aura plus d'objets rejetés sur le rivage."
+    ],
+    "correct": 1,
+    "explanation": "Le texte dit explicitement : « Plus les objets rejetés sont lourds, moins ils auront de probabilité de retourner dans la mer. » L'option B reformule correctement cette idée. A : le texte ne met pas en relation la vitesse des vagues avec la quantité d'objets. C : « la majeure partie » n'est pas mentionnée. D : la taille des vagues n'est pas évoquée, seulement leur vitesse relative.",
+    "difficulty": 2
+  },
+  {
+    "id": "v331",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "La politique agricole commune a été victime de son succès. Il a fallu élaborer une nouvelle approche pour limiter une croissance de la production (2 % par an de 1973 à 1988) qui dépassait largement celle de la consommation (0,5 % par an). Les excédents de la production épuisaient les ressources de la Communauté, compromettant le développement des autres politiques. Les objectifs essentiels de la réforme consistaient à rompre le lien entre les aides et le volume de la production et à mettre l'accent sur la qualité, afin de réaliser une meilleure correspondance entre la production et la demande ainsi qu'à décourager la production intensive qui a notamment des effets dommageables pour l'environnement.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Entre 1973 et 1988, la production a augmenté, mais la consommation pas.",
+      "Le développement des autres politiques était compromis par le lien entre aides et quantités.",
+      "La politique agricole commune réformée aurait pour effet d'accroître la demande.",
+      "Avant la réforme, la qualité n'était pas suffisamment mise en valeur dans la politique agricole commune."
+    ],
+    "correct": 3,
+    "explanation": "La réforme visait à « mettre l'accent sur la qualité » — ce qui implique qu'avant la réforme, la qualité était insuffisamment valorisée (option D). A : la consommation augmentait aussi, mais à 0,5 %. B : les excédents compromettaient les autres politiques, pas « le lien entre aides et quantités » directement. C : le texte parle d'une meilleure correspondance avec la demande, pas d'une augmentation de celle-ci.",
+    "difficulty": 2
+  },
+  {
+    "id": "v332",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "En juillet 2002, les autorités grecques ont informé la Commission de leur intention d'accorder une aide financière à la construction d'un oléoduc destiné à alimenter en kérosène le nouvel aéroport d'Athènes. De l'avis de la Commission, l'oléoduc constitue un moyen écologiquement valable de transporter le kérosène et évite la pollution associée au transport par la route. L'oléoduc contribue également à atténuer les encombrements de circulation à l'intérieur et autour de la ville d'Athènes. Le taux de l'aide, qui s'élève à un équivalent-subvention net d'environ 25 %, est sensiblement inférieur à l'intensité maximum de l'aide de 35 % autorisée. La Commission n'ayant pu établir d'effets défavorables sur les échanges et la concurrence, l'aide a été approuvée.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "La Commission est contre le transport de kérosène par la route.",
+      "Le transport de kérosène par la route a un impact sur les encombrements de circulation à l'intérieur et autour de la ville d'Athènes.",
+      "Avec le nouvel oléoduc, les échanges et la concurrence se stabiliseront.",
+      "La construction de l'oléoduc a commencé en juillet 2002."
+    ],
+    "correct": 1,
+    "explanation": "Si l'oléoduc réduit les encombrements, c'est nécessairement que le transport routier les aggravait (option B). A : la Commission préfère l'oléoduc mais n'est pas explicitement « contre » la route. C : la Commission n'a pas constaté d'effets défavorables — cela ne signifie pas une stabilisation garantie. D : juillet 2002 est la date de la notification d'intention, pas du début des travaux.",
+    "difficulty": 2
+  },
+  {
+    "id": "v333",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Les premiers résultats détaillés d'une enquête européenne sur la santé, le vieillissement et la retraite en Europe (SHARE) ont été présentés à Bruxelles. Cette enquête a permis de récolter des informations sur les conditions de vie d'environ 22 000 citoyens européens âgés de cinquante ans et plus, dans onze pays. L'Europe possède en effet la plus forte proportion de citoyens âgés, et la moyenne d'âge des Européens va continuer à s'élever pendant de nombreuses années encore. Les promoteurs de l'enquête mettront gratuitement les données à la disposition d'autres chercheurs. En apportant des données fiables sur la manière dont les populations vont évoluer, elle devrait permettre aux gouvernements et aux responsables des systèmes de sécurité sociale d'adapter leurs politiques sociales et économiques.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "La proportion de citoyens âgés en Europe va se stabiliser dans les années à venir.",
+      "Les chercheurs mettront gratuitement les conclusions de l'enquête à la disposition de tout citoyen européen.",
+      "Les résultats de l'étude vont avoir un impact social et économique direct dans les pays de l'UE.",
+      "Les résultats de l'enquête indiquent la manière dont les populations européennes vont évoluer."
+    ],
+    "correct": 3,
+    "explanation": "Le texte dit : « données fiables sur la manière dont les populations vont évoluer » — l'option D reformule fidèlement. A : la moyenne d'âge va continuer à « s'élever », pas à se stabiliser. B : les données sont accessibles aux « autres chercheurs », pas à tous les citoyens. C : l'enquête « devrait permettre » d'adapter les politiques — impact potentiel, pas direct et garanti.",
+    "difficulty": 2
+  },
+  {
+    "id": "v334",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Si l'éducation est l'une des principales préoccupations des gouvernements de tous les pays d'Europe, les structures des systèmes éducatifs varient considérablement. Les responsabilités sont très diversement réparties en Europe en ce qui concerne le financement, la gestion et l'évaluation. Les différents pays et les différents secteurs ne possèdent pas de terminologie commune pour décrire les compétences et les qualifications professionnelles. En outre, l'acquisition de compétences et de connaissances devient de plus en plus une affaire de responsabilité individuelle. L'Union européenne est un forum qui permet l'échange d'idées et de bonnes pratiques. Chaque État membre conserve la responsabilité du contenu et de l'organisation de ses systèmes d'éducation et de formation.\n\nLaquelle de ces propositions est INCORRECTE ?",
+    "options": [
+      "Les différents pays utilisent la même terminologie pour décrire les qualifications.",
+      "La manière dont les connaissances sont acquises dépend de plus en plus de la responsabilité personnelle.",
+      "Chaque pays européen se charge de l'organisation de son système éducatif.",
+      "Dans l'ensemble des pays européens, les compétences en matière de financement sont très différentes."
+    ],
+    "correct": 0,
+    "explanation": "L'option A est directement contredite : « Les différents pays ne possèdent pas de terminologie commune. » B est vraie (« responsabilité individuelle »). C est vraie (« chaque État membre conserve la responsabilité »). D est vraie (« très diversement réparties en ce qui concerne le financement »).",
+    "difficulty": 2
+  },
+  {
+    "id": "v335",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "À l'origine, les communications par satellite avaient été conçues pour couvrir des zones limitées et desservir un nombre restreint d'utilisateurs professionnels, alors qu'actuellement elles se développent pour atteindre un taux de couverture à l'échelle des grandes régions ou du monde. À l'avenir, il est envisagé que ces systèmes permettront un accès à des millions d'utilisateurs dans le monde entier, à l'aide de terminaux interactifs à large bande peu coûteux. Cette évolution est particulièrement perceptible dans le domaine de la télévision, où les systèmes Eutelsat ou SES-Astra desservent directement 20 millions d'antennes en Europe et tendent en même temps à conquérir l'Asie et les États-Unis.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Aujourd'hui, les systèmes de communication par satellite desservent un nombre limité d'utilisateurs professionnels.",
+      "Aujourd'hui, les systèmes de communication par satellite connaissent une expansion croissante.",
+      "À l'avenir, les systèmes de communication par satellite permettront un accès à des millions d'utilisateurs dans la seule UE.",
+      "En moyenne, Eutelsat et SES-Astra desservent chacun directement quelque 20 millions d'antennes en Europe."
+    ],
+    "correct": 1,
+    "explanation": "Le texte décrit une dynamique d'expansion continue : « actuellement elles se développent » (option B). A : l'usage limité à des professionnels décrit l'état d'origine, pas le présent. C : l'accès futur est prévu pour « le monde entier », pas uniquement l'UE. D : les 20 millions d'antennes sont desservies ensemble par Eutelsat et SES-Astra, pas chacun séparément.",
+    "difficulty": 2
+  },
+  {
+    "id": "v336",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "L'UE est explicitement fondée sur le respect de la liberté, de la démocratie et de l'État de droit, principes qui sont communs aux États membres. Concrètement, si le Conseil de l'UE, réuni au niveau des chefs d'État ou de gouvernement sur proposition d'un tiers des États membres ou de la Commission et après avis conforme du Parlement européen, constate l'existence d'une violation grave et persistante de principes de l'Union, il peut décider, à la majorité qualifiée, de suspendre certains des droits à l'État membre en question, y compris les droits de vote de son représentant au sein du Conseil.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Certains droits des États membres peuvent être suspendus par le Conseil statuant à la majorité qualifiée et avec l'accord du Parlement européen.",
+      "Les chefs d'État ou de gouvernement peuvent priver un État membre de ses droits de vote au Conseil s'ils statuent à la majorité qualifiée.",
+      "Un tiers des États membres ont la faculté de décider de la suspension des droits d'un État membre.",
+      "Aucune des affirmations qui précèdent n'est correcte."
+    ],
+    "correct": 0,
+    "explanation": "L'option A reprend fidèlement les deux conditions cumulatives : majorité qualifiée du Conseil + avis conforme du Parlement européen. B : omet la condition de l'avis du PE et simplifie la procédure. C : un tiers des États membres peuvent proposer la procédure, mais la décision appartient au Conseil — confusion entre initiative et décision. D : l'option A est correcte.",
+    "difficulty": 2
+  },
+  {
+    "id": "v337",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "L'essor sans précédent des échanges, et de la richesse mondiale, observé depuis vingt ans s'est accompagné d'un maintien, voire d'une aggravation, de la pauvreté. Les échanges mondiaux ont triplé sur la période tandis que le produit intérieur brut (PIB) mondial doublait (taux de croissance moyen annuel de 6 % et 3 % respectivement). Les exportations représentent aujourd'hui près de 20 % du PIB mondial. Le ratio export/PIB a augmenté dans toutes les régions du monde, à la seule exception du Moyen-Orient. Pourtant, ce sont 1,2 milliard d'individus qui vivent avec moins de 1 dollar par jour. Près de la moitié de l'humanité, sous le seuil de 2 dollars par jour, vit hors des circuits économiques formels.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "À la fin du XXème siècle, la pauvreté a augmenté.",
+      "Le Moyen-Orient a vu son ratio export/PIB diminuer.",
+      "La majorité de la population vit avec un dollar par jour.",
+      "En 20 ans, le PIB mondial a augmenté de plus de 3%."
+    ],
+    "correct": 3,
+    "explanation": "Le PIB mondial a doublé sur 20 ans à un taux de 3 % annuel — option D correcte. A : le texte dit « maintien, voire aggravation » mais sans mesure précise d'augmentation globale. B : le Moyen-Orient est l'exception à l'augmentation, mais « exception » ne signifie pas nécessairement diminution. C : 1,2 milliard (soit ~15 % de l'humanité), pas la majorité.",
+    "difficulty": 2
+  },
+  {
+    "id": "v338",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Le déficit démocratique est une notion principalement invoquée pour faire valoir que l'Union européenne souffre d'un manque de démocratie et qu'elle semble inaccessible au citoyen du fait de la complexité de son fonctionnement. Elle traduit une perception selon laquelle le système institutionnel communautaire serait dominé par une institution cumulant des pouvoirs législatifs et gouvernementaux, le Conseil, et par une institution sans réelle légitimité démocratique, la Commission.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Certaines personnes estiment que l'Union européenne souffre d'un manque de démocratie.",
+      "L'UE devient inaccessible au citoyen.",
+      "La Commission européenne n'a pas de réelle légitimité démocratique.",
+      "Aucune des affirmations qui précèdent n'est correcte."
+    ],
+    "correct": 0,
+    "explanation": "Le texte présente le déficit démocratique comme une « notion invoquée » et une « perception » — donc une opinion de certains (option A). B : le texte dit que l'UE « semble » inaccessible, pas qu'elle « devient » inaccessible. C : l'absence de légitimité démocratique de la Commission est présentée comme une perception dans le débat, pas un fait objectif. D : l'option A est correcte.",
+    "difficulty": 2
+  },
+  {
+    "id": "v339",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "La frontière entre les deux États allemands a marqué pendant quarante années les espaces l'entourant. Leur recomposition depuis l'ouverture de la frontière s'opère notamment en fonction de ses héritages socio-économiques et démographiques. La réorganisation spatiale du marché de l'emploi et celle du chômage se réalisent selon une combinaison de processus : trajectoire démographique défavorable, dynamique de front d'intégration sélective d'Ouest en Est, émergence de nouvelles centralités et forte hétérogénéité des espaces. Des systèmes régionaux se forment à travers les migrations liées au travail et les rapports renouvelés des aires d'influence des pôles urbains. Les espaces de cette « zone de mouvance » participent à leur transformation mutuelle dans le même temps que les fonctions de la frontière se renouvellent.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "La frontière entre les deux États allemands est une zone en redéfinition.",
+      "Le chômage est lié à une trajectoire démographique défavorable.",
+      "Les systèmes régionaux sont dus au marché du travail et à l'attraction de pôles urbains.",
+      "La décroissance de la population allemande a des conséquences sur le marché du travail."
+    ],
+    "correct": 0,
+    "explanation": "Le texte insiste sur la transformation continue : « recomposition », « zone de mouvance », « fonctions de la frontière se renouvellent » — option A correcte. B : la trajectoire démographique est un facteur parmi d'autres, sans lien causal direct et exclusif avec le chômage. C : simplification d'une description complexe multi-facteurs. D : le texte évoque une trajectoire démographique « défavorable » sans mentionner explicitement une décroissance ni ses conséquences directes.",
+    "difficulty": 2
+  },
+  {
+    "id": "v340",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "À l'image du sida et d'autres pathologies à l'évolution chronique, la maladie d'Alzheimer suscite intérêts mais aussi inquiétudes. Le prolongement de la vie modifie notre rapport à la vieillesse et aux pathologies qu'elle véhicule. En s'intercalant dans l'appréhension du vieillissement, cette pathologie, dont le diagnostic se multiplie, transforme de manière durable l'image de l'ancien. Il y a donc plus d'un siècle, Aloïs Alzheimer mettait en correspondance des troubles psychiques et des désordres anatomopathologiques. L'association entre plaques amyloïdes au niveau de la substance cérébrale et troubles psychiques variés tels que les troubles du comportement ou les troubles mnésiques, lui permit d'affirmer l'existence d'une cause organique aux désordres mentaux de certaines personnes âgées.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Les plaques amyloïdes sont la cause organique de la maladie d'Alzheimer.",
+      "Le prolongement de la vie entraîne une augmentation des cas de maladie d'Alzheimer.",
+      "C'est avec la maladie d'Alzheimer qu'interviennent des troubles mnésiques.",
+      "Les chercheurs s'intéressent particulièrement aux pathologies à l'évolution chronique."
+    ],
+    "correct": 0,
+    "explanation": "Le texte établit un lien causal entre plaques amyloïdes et troubles psychiques, identifiées comme « cause organique » — option A correcte. B : le prolongement de la vie modifie le rapport à la vieillesse, mais le texte n'affirme pas une augmentation des cas. C : les troubles mnésiques sont associés à Alzheimer mais pas exclusivement. D : le texte ne parle pas de l'intérêt général des chercheurs pour les pathologies chroniques.",
+    "difficulty": 2
+  },
+  {
+    "id": "v341",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Depuis le milieu des années 1990, la question des plantes génétiquement modifiées (PGM) taraude la compétition économique entre les États-Unis et l'Europe. L'Afrique apparaît comme le terrain de cette opposition. Les promoteurs des OGM tentent de s'appuyer sur les problèmes de développement et de faim pour développer les biotechnologies végétales ; les opposants dénoncent cette prétention des PGM à régler les questions de la faim dans les PVD. Dans cette compétition mondiale, la mise en place dans ces pays, à l'instigation des États-Unis, de réseaux appuyés sur les instituts de recherche nationaux, plaidant pour une « nouvelle révolution verte génétique », ne semble pas véritablement permettre une appropriation de ces nouvelles biotechnologies par les PVD.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Les OGM ne permettent pas de régler les questions de la faim et du développement dans les PVD.",
+      "Les PVD ne sont pas en mesure de maîtriser les OGM.",
+      "Les États-Unis, l'Afrique et l'Europe sont en compétition dans le domaine des PGM.",
+      "L'introduction de PGM dans les PVD répondrait avant tout à des attentes économiques."
+    ],
+    "correct": 3,
+    "explanation": "Le texte insiste sur la compétition économique entre États-Unis et Europe — l'introduction des PGM dans les PVD est liée à des enjeux économiques et stratégiques plutôt qu'humanitaires (option D). A : les opposants dénoncent la prétention des OGM à régler la faim, mais le texte ne tranche pas. B : le texte dit « ne semble pas permettre une appropriation » — nuance plus faible qu'une incapacité générale. C : l'Afrique est un terrain d'enjeu, pas un acteur en compétition.",
+    "difficulty": 2
+  },
+  {
+    "id": "v342",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "Les séparations conjugales sont devenues une expérience de plus en plus fréquente et de plus en plus précoce. Les démographes ont abordé les écarts entre hommes et femmes dans l'intensité et les délais de la remise en couple. Une étude fait apparaître qu'un homme a, toutes choses égales par ailleurs, 23 % de chances de plus de « refaire sa vie » qu'une femme. L'âge auquel intervient la rupture est la variable majeure : avant 35 ans, les femmes et les hommes s'engagent beaucoup plus fréquemment dans de nouvelles unions qu'après. Toutes choses égales par ailleurs, le fait de ne pas avoir de jeune enfant n'augmente que légèrement la probabilité pour les femmes de se remettre en couple (7 %) par rapport au fait d'avoir un ou des enfants jeunes.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "35 ans est un âge décisif concernant la probabilité de remise en couple.",
+      "Avoir des enfants jeunes n'est pas un obstacle majeur à la remise en couple.",
+      "Actuellement, les séparations conjugales interviennent souvent avant 35 ans.",
+      "Les femmes ont des difficultés à se remettre en couple."
+    ],
+    "correct": 1,
+    "explanation": "L'absence d'enfants jeunes n'augmente la probabilité de remise en couple que de 7 % — donc avoir des enfants n'est pas un frein majeur (option B). A : 35 ans est une variable importante mais pas présentée comme un seuil « décisif » catégorique. C : le texte parle de l'âge de remise en couple, pas de l'âge des séparations. D : les femmes ont 23 % de moins de chances que les hommes, mais le texte ne conclut pas à une « difficulté » générale.",
+    "difficulty": 2
+  },
+  {
+    "id": "v343",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "En ce qui concerne le maïs, l'introduction de la culture motorisée a provoqué un véritable bouleversement, avec un très spectaculaire accroissement des rendements (3,3 tonnes en culture motorisée contre 2 tonnes en culture à traction animale, à peine plus d'une tonne en culture manuelle). Les causes n'en sont pas encore très clairement élucidées ; sans doute, un meilleur calendrier de semis, une plus grande maîtrise du temps sont-ils des facteurs d'importance ; des ressources plus considérables permettent d'autre part d'acheter des produits chimiques facilitant la lutte contre l'herbe. Mais, très probablement, le point essentiel est une amélioration du travail du sol, assurant un meilleur lit de semences. Les tractoristes sont tout autant, voire davantage, gros vendeurs de maïs que gros producteurs de coton.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "L'utilisation d'un meilleur lit de semence a permis un accroissement des rendements.",
+      "Grâce à la culture motorisée, la culture du coton a été remplacée par la culture du maïs.",
+      "L'amélioration du travail au sol ne serait pas un facteur secondaire dans l'accroissement des rendements.",
+      "Le rendement de la culture manuelle est trois fois plus faible que celui de la culture motorisée."
+    ],
+    "correct": 2,
+    "explanation": "Le texte présente l'amélioration du travail du sol comme « le point essentiel » — donc pas un facteur secondaire (option C, avec le conditionnel « ne serait pas » fidèle à la modalité du texte). A : le lien de causalité directe est présenté comme hypothèse probable, non comme certitude. B : les tractoristes sont à la fois producteurs de coton et vendeurs de maïs — pas de substitution. D : 3,3 contre « à peine plus d'une tonne » — la proportion n'est pas exactement trois fois et le texte ne le formule pas ainsi.",
+    "difficulty": 2
+  },
+  {
+    "id": "v344",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "En 1999, environ 6,3 millions de salariés travaillent dans des groupes d'entreprises, soit pratiquement 50 % des salariés des entreprises du secteur privé. Ces entreprises appartiennent essentiellement aux secteurs de l'automobile, de l'énergie et de la production de biens intermédiaires. Deux tiers des entreprises de plus de 100 salariés appartiennent à une structure de groupe. Au-delà de 500 salariés, il ne reste d'ailleurs plus aucune entreprise indépendante. Un des phénomènes observés sur la décennie 1990 est l'augmentation massive des microgroupes, c'est-à-dire ceux de moins de 500 salariés. Deux raisons au moins les incitent à s'organiser en groupe : les stratégies d'implantation locale et la transmission de patrimoine.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Les entreprises de moins de 500 salariés sont indépendantes.",
+      "Les entreprises indépendantes emploient moins de 500 salariés.",
+      "Les stratégies de transmission du patrimoine poussent les petites entreprises à se regrouper.",
+      "La majorité des entreprises du secteur automobile sont regroupées en groupe d'entreprises."
+    ],
+    "correct": 1,
+    "explanation": "« Au-delà de 500 salariés, il ne reste plus aucune entreprise indépendante » — donc toute entreprise indépendante a moins de 500 salariés (option B). A : inverse la logique — certaines entreprises de moins de 500 salariés peuvent appartenir à des groupes. C : la transmission de patrimoine est une raison citée mais pas réservée aux seules petites entreprises, et ce n'est pas la seule cause. D : aucune proportion n'est donnée pour le secteur automobile spécifiquement.",
+    "difficulty": 2
+  },
+  {
+    "id": "v345",
+    "category": "verbal",
+    "categoryLabel": "Raisonnement Verbal",
+    "text": "En France depuis la fin des années 1960, le salaire moyen des femmes s'est notablement rapproché de celui des hommes. Ce mouvement de resserrement semble toutefois presque en panne depuis les années 1990 : l'écart des salaires mensuels moyens entre les femmes et les hommes s'établit à 25,3 % en 2002, soit à peine un point de moins que son niveau de 1990. On constate le phénomène dans la plupart des autres pays d'Europe, y compris ceux qui étaient le plus « en avance » dans le domaine, ainsi qu'aux États-Unis. Dans quelques pays, l'écart s'est réduit dans les années 1990 ; c'est le cas notamment de l'Espagne, du Portugal, de l'Irlande (20 à 25 %) mais aussi de la Norvège, où l'écart était déjà resserré, de l'ordre de 15 %.\n\nLaquelle de ces propositions est correcte ?",
+    "options": [
+      "Entre 1990 et 2002, l'écart des salaires mensuels moyens entre hommes et femmes s'est réduit.",
+      "C'est en Norvège que la différence de salaire entre les sexes est la plus resserrée.",
+      "En France, en 1990, l'écart moyen entre les salaires est supérieur à 26%.",
+      "Entre 1960 et 1990, le salaire des femmes a constamment augmenté."
+    ],
+    "correct": 0,
+    "explanation": "En 2002 l'écart est de 25,3 %, « à peine un point de moins » qu'en 1990 — donc légère réduction, option A correcte. B : la Norvège a 15 % d'écart, mais le texte ne compare pas avec tous les autres pays. C : l'écart de 1990 est autour de 26,3 %, mais « à peine un point de moins » ne garantit pas strictement plus de 26 %. D : le texte ne mentionne ni augmentation constante ni absence de fluctuations entre 1960 et 1990.",
+    "difficulty": 2
+  }
+]

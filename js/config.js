@@ -38,6 +38,8 @@ export const CFG = {
     'data/questions_digital_batch5.json',
     'data/questions_verbal_batch1.json',
     'data/questions_verbal_batch2.json',
+    'data/questions_verbal_batch3.json',
+    'data/questions_numerique_batch2.json',
     'data/questions_abstract_images.json'
   ],
 
